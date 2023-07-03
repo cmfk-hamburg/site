@@ -1,0 +1,22 @@
+---
+import { languages } from '../i18n/ui';
+---
+
+<ul class="language-picker">
+  {Object.entries(languages).map(([lang, label]) => (
+    <li class="language-picker__item">
+      <a href={`/${lang}/`}>{label}</a>
+    </li>
+  ))}
+</ul>
+
+<style lang="scss">
+    .language-picker {
+        list-style: none;
+        display: flex;
+    }
+
+    .language-picker__item {
+        margin-inline: 6px;
+    }
+</style>

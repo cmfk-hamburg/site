@@ -1,0 +1,44 @@
+<footer class="footer">
+    <h2 class="footer__heading">
+        CMFK
+    </h2>
+    <div class="footer__detail">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+    </div>
+    <div class="footer__contact">
+        <h3 class="footer__contact-heading">
+            Contact
+        </h3>
+        <a href="mailto:info@cmfk-hamburg.com">
+            info@cmfk-hamburg.com
+        </a>
+    </div>
+</footer>
+
+<style lang="scss">
+	.footer {
+        display: grid;
+        grid-template-areas: 
+            'heading heading'
+            'detail contact';
+        grid-template-columns: 6fr 6fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        place-items: start;
+        color: white;
+        background-color: black;
+        padding: 12px 36px;
+    }
+
+    .footer__heading {
+        grid-area: heading;
+    }
+
+    .footer__detail {
+        grid-area: detail;
+    }
+
+    .footer__contact {
+        grid-area: contact;
+    }
+</style>
