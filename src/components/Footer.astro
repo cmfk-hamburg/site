@@ -1,44 +1,155 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
 <footer class="footer">
-    <h2 class="footer__heading">
-        CMFK
-    </h2>
-    <div class="footer__detail">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-    </div>
-    <div class="footer__contact">
-        <h3 class="footer__contact-heading">
-            Contact
-        </h3>
-        <a href="mailto:info@cmfk-hamburg.com">
-            info@cmfk-hamburg.com
-        </a>
-    </div>
+	<div class="footer__content-wrapper">
+		<div class="footer__newsletter">
+			<div class="footer__newsletter-detail">
+				Subscribe our newsletter and never miss our latest activities.
+			</div>
+			<form class="footer__newsletter-form">
+				<input type="email" />
+				<button type="submit" class="btn btn--primary">Subscribe</button>
+			</form>
+		</div>
+		<div class="footer__sponsor">
+			<a href="#" class="link link--with-chevron">Become a sponsor</a>
+		</div>
+	</div>
+	<div class="footer__nav-wrapper">
+		<div class="footer__nav-headline">Menu</div>
+		<ul class="footer__nav-list">
+			<li class="footer__nav-item">
+				<a href={`/${lang}/`} class="footer__nav-link" title={t("nav.home")}>
+					<span class="footer__nav-link-text">{t("nav.home")}</span>
+				</a>
+			</li>
+			<li class="footer__nav-item">
+				<a
+					href={`/${lang}/call-for-film/`}
+					class="footer__nav-link"
+					title={t("nav.callForFilm")}
+				>
+					<span class="footer__nav-link-text">
+						{t("nav.callForFilm")}
+					</span>
+				</a>
+			</li>
+			<li class="footer__nav-item">
+				<a
+					href={`/${lang}/about/`}
+					class="footer__nav-link"
+					title={t("nav.about")}
+				>
+					<span class="footer__nav-link-text">
+						{t("nav.about")}
+					</span>
+				</a>
+			</li>
+			<li class="footer__nav-item">
+				<a
+					href={`/${lang}/partner/`}
+					class="footer__nav-link"
+					title={t("nav.partner")}
+				>
+					<span class="footer__nav-link-text">
+						{t("nav.partner")}
+					</span>
+				</a>
+			</li>
+			<li class="footer__nav-item">
+				<a
+					href={`/${lang}/volunteer/`}
+					class="footer__nav-link"
+					title={t("nav.volunteer")}
+				>
+					<span class="footer__nav-link-text">
+						{t("nav.volunteer")}
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="footer__nav-wrapper">
+		<div class="footer__nav-headline">Contact</div>
+		<ul class="footer__nav-list">
+			<li class="footer__nav-item">
+				<a class="footer__nav-link" href="mailto:info@cmfk.com">
+					<span class="footer__nav-link-text"> info@cmfk.com</span>
+				</a>
+			</li>
+			<li class="footer__nav-item">
+				<a href="https://cmfk-hamburg.com/" class="footer__nav-link">
+					<span class="footer__nav-link-text"> cmfk-hamburg.com</span>
+				</a>
+			</li>
+		</ul>
+	</div>
 </footer>
 
 <style lang="scss">
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
 	.footer {
-        display: grid;
-        grid-template-areas: 
-            'heading heading'
-            'detail contact';
-        grid-template-columns: 6fr 6fr;
-        grid-column-gap: 24px;
-        grid-row-gap: 24px;
-        place-items: start;
-        color: white;
-        background-color: black;
-        padding: 12px 36px;
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		padding: pxToRem(48px) 5%;
+		background: black;
+		color: white;
+	}
+
+	.footer__newsletter-detail {
+		@include f-body-1;
+	}
+
+	.footer__newsletter-form {
+		display: flex;
+		margin-top: pxToRem(18px);
+
+		input[type="email"] {
+			display: block;
+			width: 50%;
+			box-sizing: border-box;
+			padding: 0.2em;
+			background: #000;
+			color: #fff;
+			font-size: inherit;
+			font-family: inherit;
+			border: 0;
+			border-bottom: 1px solid #fff;
+		}
+	}
+
+    .footer__sponsor {
+        margin-top: pxToRem(36px);
     }
 
-    .footer__heading {
-        grid-area: heading;
-    }
+	.footer__nav-headline {
+		@include f-body-2;
+		margin: 0;
+	}
 
-    .footer__detail {
-        grid-area: detail;
-    }
+	.footer__nav-list {
+		list-style: none;
+		margin-top: pxToRem(16px);
+		padding: 0;
+	}
 
-    .footer__contact {
-        grid-area: contact;
-    }
+	.footer__nav-item {
+		margin: pxToRem(8px) 0;
+	}
+
+	.footer__nav-link {
+		color: $c-white;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 </style>

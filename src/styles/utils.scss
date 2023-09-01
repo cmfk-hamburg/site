@@ -1,0 +1,137 @@
+$break-start: 0;
+$break-mobile: 576px;
+$break-tablet: 768px;
+$break-desktop: 1024px;
+$break-desktop-lg: 1444px;
+
+/**
+ *  Breakpoints for exclusive media queries
+ *  @params $media: xs-sm | md | lg | xl | xs-md | md-xl
+ */
+@mixin breakpoint($media) {
+	@if $media == xs-sm {
+		@media only screen and (width < $break-tablet) {
+			@content;
+		}
+	} @else if $media == md {
+		@media only screen and ($break-tablet <= width < $break-desktop) {
+			@content;
+		}
+	} @else if $media == lg {
+		@media print, screen and ($break-desktop < width) {
+			@content;
+		}
+	} @else if $media == sm-md {
+		@media only screen and (width < $break-desktop) {
+			@content;
+		}
+	} @else if $media == md-xl {
+		@media print, screen and ($break-tablet <= width) {
+			@content;
+		}
+	}
+}
+
+@function pxToRem($px: 12px, $base: 16px) {
+	@return calc($px / $base * 1rem);
+}
+
+@function column($col, $base) {
+	$value: (100% / $base * $col);
+	@return $value;
+}
+
+.no-transition * {
+	transition: none !important;
+}
+
+@mixin scrollbar($margin: 0) {
+	scrollbar-width: thin;
+	scrollbar-color: var(--color-thumb-bg) var(--color-scrollbar-bg);
+
+	&::-webkit-scrollbar {
+		width: pxToRem(12px);
+	}
+
+	&::-webkit-scrollbar-thumb {
+		border-radius: pxToRem(6px);
+		background-color: var(--color-scrollbar-bg);
+		border: 1px solid var(--color-thumb-bg);
+	}
+
+	&::-webkit-scrollbar-track {
+		background: var(--color-thumb-bg);
+	}
+
+	&::-webkit-scrollbar-track-piece:start {
+		margin-top: $margin;
+	}
+
+	&::-webkit-scrollbar-track-piece:end {
+		margin-bottom: $margin;
+	}
+}
+
+.btn {
+	display: block;
+  box-sizing: border-box;
+  border-radius: pxToRem(90px);
+	transition: all $d-anim;
+  font-weight: $fw-bold;
+
+	@include breakpoint(xs-sm) {
+		padding: pxToRem(8px) pxToRem(16px);
+		font-size: pxToRem(13px);
+    line-height: pxToRem(22px);
+	}
+  @include breakpoint(md) {
+		padding: pxToRem(8px) pxToRem(16px);
+		font-size: pxToRem(14px);
+    line-height: pxToRem(24px);
+	}
+	@include breakpoint(lg) {
+		padding: pxToRem(8px) pxToRem(16px);
+		font-size: pxToRem(15px);
+    line-height: pxToRem(26px);
+	}
+}
+
+.btn--primary {
+	background-color: $c-white;
+	border: 1px solid $c-white;
+	color: $c-black;
+
+	&:hover {
+		background-color: $c-black;
+		color: $c-white;
+    border: 1px solid $c-black;
+	}
+}
+
+.btn--secondary {
+	box-shadow: 0 0 pxToRem(16px) 0 rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.15);
+	color: $c-white;
+
+  &:hover {
+		background-color: $c-white;
+		color: $c-black;
+	}
+}
+
+.link {
+  @include f-body-2;
+  color: $c-white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link--with-chevron {
+  &::after {
+    content: '>';
+    margin-left: pxToRem(6px);
+  }
+}

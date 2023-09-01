@@ -2,30 +2,27 @@
 import Layout from "../../layouts/Layout.astro";
 import Nav from "../../components/Nav.astro";
 import MetaFooter from "../../components/MetaFooter.astro";
-import Hero from "../../components/Hero.astro";
 import Footer from "../../components/Footer.astro";
 import LanguagePicker from "../../components/LanguagePicker.astro";
 ---
 
 <Layout title="CMFK">
-	<div class="page">
-		<Nav />
-		<LanguagePicker />
-		<main>
-			<div class="page">
-				<Hero />
-				<Footer />
-			</div>
-		</main>
-	</div>
+	<Nav />
+	<LanguagePicker />
+	<main>
+		<div class="page">	
+			<Footer />
+		</div>
+	</main>
 	<MetaFooter />
 </Layout>
 
 <style lang="scss">
-	@import "@fontsource/roboto/400.css";
-	@import "@fontsource/roboto/500.css";
-	@import "@fontsource/roboto/700.css";
+	
+	@import '@fontsource/roboto/400.css';
+	@import '@fontsource/roboto/700.css';
+	@import '@fontsource/roboto/900.css';
 	body {
-		font-family: "Roboto", sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 </style>

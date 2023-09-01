@@ -1,0 +1,80 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<div class="meta-footer">
+	<div class="meta-footer__item">2023 @ cino knio</div>
+	<div class="meta-footer__item">
+		<a href={`/${lang}/imprint/`} class="nav__link" title={t("nav.imprint")}>
+			{t("nav.imprint")}
+		</a>
+	</div>
+	<div class="meta-footer__item">
+		<a
+			href={`/${lang}/data-privacy/`}
+			class="nav__link"
+			title={t("nav.dataPrivacy")}
+		>
+			{t("nav.dataPrivacy")}
+		</a>
+	</div>
+	<ul class="meta-footer__social-list">
+		<li class="meta-footer__social-item">
+			<a href="#">
+				<i class="bi bi-instagram" aria-hidden="true"></i>
+			</a>
+		</li>
+		<li class="meta-footer__social-item">
+			<a href="#">
+				<i class="bi bi-wechat" aria-hidden="true"></i>
+			</a>
+		</li>
+		<li class="meta-footer__social-item">
+			<a href="#">
+				<i class="bi bi-telegram" aria-hidden="true"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+
+<style lang="scss">
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
+	.meta-footer {
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 12px 24px;
+		width: 100%;
+		background: white;
+
+		a {
+			color: black;
+		}
+	}
+
+	.meta-footer__item {
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.meta-footer__social-list {
+		list-style: none;
+		display: flex;
+	}
+
+	.meta-footer__social-item {
+		margin-left: 12px;
+	}
+
+	.bi {
+		font-size: 22px;
+	}
+</style>

@@ -1,0 +1,118 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const itemClass = function (path: string) {
+	const pathname = new URL(Astro.request.url).pathname;
+
+	return pathname === path ? "nav__item is-active" : "nav__item";
+};
+---
+
+<nav role="navigation" class="nav">
+	<ul class="nav__list">
+		<li class={itemClass(`/${lang}/`)}>
+			<a href={`/${lang}/`} class="nav__link" title={t("nav.home")}>
+				<span class="nav__link-text">{t("nav.home")}</span>
+			</a>
+		</li>
+		<li class={itemClass(`/${lang}/call-for-film/`)}>
+			<a
+				href={`/${lang}/call-for-film/`}
+				class="nav__link"
+				title={t("nav.callForFilm")}
+			>
+				<span class="nav__link-text">
+					{t("nav.callForFilm")}
+				</span>
+			</a>
+		</li>
+		<li class={itemClass(`/${lang}/about/`)}>
+			<a href={`/${lang}/about/`} class="nav__link" title={t("nav.about")}>
+				<span class="nav__link-text">
+					{t("nav.about")}
+				</span>
+			</a>
+		</li>
+		<li class={itemClass(`/${lang}/partner/`)}>
+			<a href={`/${lang}/partner/`} class="nav__link" title={t("nav.partner")}>
+				<span class="nav__link-text">
+					{t("nav.partner")}
+				</span>
+			</a>
+		</li>
+		<li class={itemClass(`/${lang}/volunteer/`)}>
+			<a
+				href={`/${lang}/volunteer/`}
+				class="nav__link"
+				title={t("nav.volunteer")}
+			>
+				<span class="nav__link-text">
+					{t("nav.volunteer")}
+				</span>
+			</a>
+		</li>
+	</ul>
+	<div></div>
+</nav>
+
+<style lang="scss">
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
+	.nav {
+		position: fixed;
+		z-index: 100;
+		left: 0;
+		right: 0;
+		bottom: 8vh;
+		display: flex;
+		justify-content: center;
+		padding: 0.25rem 0.3125rem;
+	}
+
+	.nav__list {
+		box-sizing: border-box;
+		display: inline-flex;
+		flex-wrap: nowrap;
+		list-style: none;
+		margin: 0;
+		padding: 6px;
+		border-radius: 1.5rem;
+		overflow: hidden;
+		pointer-events: all;
+		box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+		background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(5px);
+	}
+
+	.nav__item {
+		font-weight: 600;
+		font-size: 1.125rem;
+		line-height: 1.3125rem;
+
+		&.is-active {
+			background-color: white;
+			border-radius: 1.5rem;
+		}
+	}
+
+	.nav__link {
+		display: flex;
+		align-items: center;
+		padding: 0px 1rem;
+		height: 2.5rem;
+		border-radius: 1.25rem;
+		transition: color 0.1s ease-in-out 0s;
+		color: white;
+		background-color: transparent;
+		text-decoration: none;
+
+		.is-active & {
+			color: black;
+		}
+	}
+</style>

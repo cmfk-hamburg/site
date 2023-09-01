@@ -1,22 +1,67 @@
 ---
-import { languages } from '../i18n/ui';
+import { languages } from "../i18n/ui";
+
+const itemClass = function (path: string) {
+	const pathname = new URL(Astro.request.url).pathname;
+
+	return pathname.startsWith(path)
+		? "language-picker__item is-active"
+		: "language-picker__item";
+};
 ---
 
-<ul class="language-picker">
-  {Object.entries(languages).map(([lang, label]) => (
-    <li class="language-picker__item">
-      <a href={`/${lang}/`}>{label}</a>
-    </li>
-  ))}
-</ul>
+<div class="language-picker">
+	<ul class="language-picker__list">
+		{
+			Object.entries(languages).map(([lang, label]) => (
+				<li class={itemClass(`/${lang}/`)}>
+					<a class="language-picker__link" href={`/${lang}/`}>
+						{label}
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</div>
 
 <style lang="scss">
-    .language-picker {
-        list-style: none;
-        display: flex;
-    }
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
 
-    .language-picker__item {
-        margin-inline: 6px;
-    }
+	.language-picker {
+		position: absolute;
+		top: pxToRem(24px);
+		right: 5%;
+		display: block;
+		z-index: 100;
+	}
+	.language-picker__list {
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		pointer-events: auto;
+		border: 1px solid #fff;
+		border-radius: pxToRem(90px);
+		box-sizing: border-box;
+		overflow: hidden;
+		transition: border-color 0.5s;
+	}
+
+	.language-picker__item {
+		padding: pxToRem(6px) pxToRem(8px);
+
+		&.is-active {
+			background-color: $c-white;
+		}
+	}
+
+	.language-picker__link {
+		color: $c-white;
+
+		.is-active & {
+			color: $c-black;
+		}
+	}
 </style>
