@@ -1,0 +1,56 @@
+<section class="text-module">
+	<h2 class="text-module__headline">
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+	</h2>
+	<div class="text-module__intro">
+		<p>
+			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+		</p>
+	</div>
+	<div class="text-module__detail">
+		<p>
+			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+		</p>
+	</div>
+</section>
+
+<style lang="scss">
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
+	.text-module {
+		margin-top: pxToRem(80px);
+		color: $c-white;
+		
+		@include breakpoint(md) {
+			width: column(10, 12);
+		}
+		@include breakpoint(lg) {
+			width: column(8, 12);
+		}
+	}
+
+	.text-module__headline {
+		@include f-headline-h2;
+	}
+
+	.text-module__intro {
+		@include f-body-2;
+	}
+
+	p {
+		@include breakpoint(sm-md) {
+			margin-block: pxToRem(24px);
+		}
+		@include breakpoint(lg) {
+			margin-block: pxToRem(28px);
+		}
+	}
+</style>

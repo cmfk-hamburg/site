@@ -72,6 +72,19 @@ $break-desktop-lg: 1444px;
 	}
 }
 
+@mixin container {
+  margin-inline: auto;
+  max-width: pxToRem($break-desktop-lg);
+
+  @include breakpoint(sm-md) {
+    padding-inline: pxToRem(24px);
+  }
+
+  @include breakpoint(lg) {
+    padding-inline: pxToRem(36px);
+  }
+}
+
 .btn {
 	display: block;
   box-sizing: border-box;

@@ -37,21 +37,17 @@ const lang = getLangFromUrl(Astro.url);
 	}
 
 	main {
+		@include container;
 		z-index: 1;
 		position: relative;
 		display: block;
-		min-height: 100vh;
-		background: white;
+		margin: 0 auto;
+		background: black;
+		overflow: hidden;
 	}
 
 	a {
 		text-decoration: none;
 	}
 
-	.page {
-		border-bottom-left-radius: 2rem;
-		border-bottom-right-radius: 2rem;
-		background: black;
-		overflow: hidden;
-	}
 </style>

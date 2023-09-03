@@ -1,14 +1,26 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
 <section class="hero">
 	<div class="hero__content">
-		<div class="hero__overline">23-29 October</div>
-		<h1 class="hero__title">Call For Film 2024 Chinese Filmfestival</h1>
+		<div class="hero__text-wrapper">
+			<div class="hero__overline">{t("hero.overline")}</div>
+		<h1 class="hero__title">
+			<p>{t("hero.title1")}</p>
+			<p>{t("hero.title2")}</p>
+		</h1>
 		<div class="hero__detail-text">
-			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-			eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-			voluptua.
+			{t("hero.detail")}
+		</div>
 		</div>
 		<div class="hero__cta-wrapper">
-			<a class="btn btn--primary" href="#">See more</a>
+			<a class="btn btn--primary" href="#">
+				{t("hero.cta")}
+			</a>
 		</div>
 	</div>
 </section>
@@ -35,19 +47,30 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-end;
-		margin: 10% 25% 0 10%;
+		margin: 10% 20% 0 10%;
 		max-width: pxToRem(1024px);
-		width: 65%;
+		width: 70%;
 		color: $c-white;
+	}
+
+	.hero__text-wrapper {
+		display: flex;
+		flex-direction: column;
 	}
 
 	.hero__overline {
 		@include f-body-2;
+		display: block;
 	}
 
 	.hero__title {
 		@include f-hero;
+		display: block;
 		margin: pxToRem(24px) 0;
+
+		p {
+			margin: 0;
+		}
 	}
 
 	.hero__detail-text {

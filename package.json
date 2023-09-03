@@ -10,10 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@fontsource-variable/roboto-mono": "^5.0.9",
     "@fontsource/noto-sans-sc": "^5.0.10",
     "@fontsource/roboto": "^5.0.8",
-    "astro": "^2.4.1",
+    "astro": "^2.10.15",
     "bootstrap-icons": "^1.10.5",
     "locomotive-scroll": "^4.1.4",
     "normalize.css": "^8.0.1",

@@ -5,17 +5,17 @@ import MetaFooter from "../../components/MetaFooter.astro";
 import Footer from "../../components/Footer.astro";
 import LanguagePicker from "../../components/LanguagePicker.astro";
 import Stage from "../../components/Stage.astro";
+import TextModule from "../../components/TextModule.astro";
 ---
 
 <Layout title="CMFK">
 	<Nav />
 	<LanguagePicker />
+	<Stage />
 	<main>
-		<div class="page">	
-            <Stage />
-			<Footer />
-		</div>
+		<TextModule />
 	</main>
+	<Footer />
 	<MetaFooter />
 </Layout>
 
