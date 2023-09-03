@@ -17,5 +17,8 @@
     "locomotive-scroll": "^4.1.4",
     "normalize.css": "^8.0.1",
     "sass": "^1.66.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }

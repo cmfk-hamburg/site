@@ -1,0 +1,120 @@
+---
+import { getLangFromUrl } from "../i18n/utils";
+import "normalize.css/normalize.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import Footer from "../components/Footer.astro";
+import LanguagePicker from "../components/LanguagePicker.astro";
+import MetaFooter from "../components/MetaFooter.astro";
+import Nav from "../components/Nav.astro";
+import Stage from "../components/Stage.astro";
+
+export interface Props {
+	title: string;
+	article: any;
+}
+
+const { title, article } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+---
+
+
+<!DOCTYPE html>
+<html lang={lang}>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="CMFK Hamburg" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<Nav />
+	    <LanguagePicker />
+	    <Stage headline={article.frontmatter.headline} overline={article.frontmatter.overline} />
+	    <main>
+		    <section class="text-module">
+				<slot />
+			</section>
+        </main>
+        <Footer />
+        <MetaFooter />
+	</body>
+</html>
+
+<style lang="scss" is:global>
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
+	html,
+	body {
+		background: black;
+	}
+
+	main {
+		@include container;
+		z-index: 1;
+		position: relative;
+		display: block;
+		margin: 0 auto;
+		background: black;
+		overflow: hidden;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.text-module {
+		margin-top: pxToRem(80px);
+		color: $c-white;
+		
+		@include breakpoint(md) {
+			width: column(10, 12);
+		}
+		@include breakpoint(lg) {
+			width: column(8, 12);
+		}
+
+		h1 {
+			@include f-headline-h1;
+		}
+
+		h2 {
+			@include f-headline-h2;
+		}
+
+		h3 {
+			@include f-headline-h3;
+		}
+
+		h4 {
+			@include f-headline-h4;
+		}
+
+		h5 {
+			@include f-headline-h5;
+		}
+
+		h6 {
+			@include f-headline-h6;
+		}
+
+		a {
+			color: $c-white;
+		}
+
+		p,
+		ol,
+		ul {
+			@include f-body-1;
+			@include breakpoint(sm-md) {
+				margin-block: pxToRem(24px);
+			}
+			@include breakpoint(lg) {
+				margin-block: pxToRem(28px);
+			}
+		}
+	}
+</style>

@@ -76,8 +76,12 @@ $break-desktop-lg: 1444px;
   margin-inline: auto;
   max-width: pxToRem($break-desktop-lg);
 
-  @include breakpoint(sm-md) {
+  @include breakpoint(xs-sm) {
     padding-inline: pxToRem(24px);
+  }
+
+  @include breakpoint(md) {
+    padding-inline: pxToRem(36px);
   }
 
   @include breakpoint(lg) {

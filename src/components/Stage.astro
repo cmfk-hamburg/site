@@ -1,8 +1,12 @@
+---
+const {headline, overline} = Astro.props;
+---
+
 <div class="stage">
     <div class="stage__content-wrapper">
         <div class="stage__content">
-            <div class="stage__overline">Overline</div>
-            <h1 class="stage__headline">Headline</h1>
+            <div class="stage__overline">{overline}</div>
+            <h1 class="stage__headline">{headline}</h1>
         </div>
     </div>
 	<div class="stage__image-container">

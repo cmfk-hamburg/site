@@ -1,28 +1,10 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import Nav from "../../components/Nav.astro";
-import MetaFooter from "../../components/MetaFooter.astro";
-import Footer from "../../components/Footer.astro";
-import LanguagePicker from "../../components/LanguagePicker.astro";
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as imprint from "../../content/en/imprint.md";
+
+const Content = imprint.Content;
 ---
 
-<Layout title="CMFK">
-	<Nav />
-	<LanguagePicker />
-	<main>
-		<div class="page">	
-			<Footer />
-		</div>
-	</main>
-	<MetaFooter />
-</Layout>
-
-<style lang="scss">
-	
-	@import '@fontsource/roboto/400.css';
-	@import '@fontsource/roboto/700.css';
-	@import '@fontsource/roboto/900.css';
-	body {
-		font-family: 'Roboto', sans-serif;
-	}
-</style>
+<ArticleLayout title={imprint.frontmatter.headline} article={imprint}>
+	<Content />
+</ArticleLayout>

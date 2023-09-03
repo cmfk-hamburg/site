@@ -1,16 +1,16 @@
 import { defineCollection, z } from "astro:content";
 
-const heroCollection = defineCollection({
+const aboutCollection = defineCollection({
 	type: "content",
 	schema: z.object({
-		title1: z.string(),
-        title2: z.string(),
+        stageHeadline: z.string(),
         overline: z.string(),
+        headline: z.string(),
+        intro: z.string(),
         detail: z.string(),
-        cta: z.string(),
 	}),
 });
 
 export const collections = {
-	hero: heroCollection,
+	about: aboutCollection,
 };
