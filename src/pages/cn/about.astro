@@ -1,0 +1,10 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as about from "../../content/cn/about.md";
+
+const Content = about.Content;
+---
+
+<ArticleLayout title={about.frontmatter.headline} article={about}>
+	<Content />
+</ArticleLayout>

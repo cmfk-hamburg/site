@@ -1,0 +1,10 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as dataPrivacy from "../../content/cn/data-privacy.md";
+
+const Content = dataPrivacy.Content;
+---
+
+<ArticleLayout title={dataPrivacy.frontmatter.headline} article={dataPrivacy}>
+	<Content />
+</ArticleLayout>

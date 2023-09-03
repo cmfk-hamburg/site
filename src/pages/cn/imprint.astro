@@ -1,0 +1,10 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as imprint from "../../content/cn/imprint.md";
+
+const Content = imprint.Content;
+---
+
+<ArticleLayout title={imprint.frontmatter.headline} article={imprint}>
+	<Content />
+</ArticleLayout>

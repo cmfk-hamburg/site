@@ -1,0 +1,10 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as callForFilm from "../../content/cn/call-for-film.md";
+
+const Content = callForFilm.Content;
+---
+
+<ArticleLayout title={callForFilm.frontmatter.headline} article={callForFilm}>
+	<Content />
+</ArticleLayout>
