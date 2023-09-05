@@ -11,17 +11,19 @@ const itemClass = function (path: string) {
 ---
 
 <div class="language-picker">
-	<ul class="language-picker__list">
-		{
-			Object.entries(languages).map(([lang, label]) => (
-				<li class={itemClass(`/${lang}/`)}>
-					<a class="language-picker__link" href={`/${lang}/`}>
-						{label}
-					</a>
-				</li>
-			))
-		}
-	</ul>
+	<div class="language-picker__wrapper">
+		<ul class="language-picker__list">
+			{
+				Object.entries(languages).map(([lang, label]) => (
+					<li class={itemClass(`/${lang}/`)}>
+						<a class="language-picker__link" href={`/${lang}/`}>
+							{label}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</div>
 </div>
 
 <style lang="scss">
@@ -30,12 +32,20 @@ const itemClass = function (path: string) {
 	@import "../styles/utils.scss";
 
 	.language-picker {
+		@include container;
 		position: absolute;
-		top: pxToRem(24px);
-		right: 5%;
-		display: block;
+		top: 0;
+		left: 0;
+		right: 0;
 		z-index: 100;
 	}
+
+	.language-picker__wrapper {
+		display: inline-block;
+		float: right;
+		margin-block: pxToRem(24px);
+	}
+
 	.language-picker__list {
 		display: flex;
 		list-style: none;

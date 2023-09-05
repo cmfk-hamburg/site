@@ -27,8 +27,17 @@ const {headline, overline} = Astro.props;
 		background-size: cover;
 		object-fit: cover;
 		object-position: center;
-		height: 30vh;
 		width: 100%;
+
+        @include breakpoint(xs-sm) {
+            height: pxToRem(300px);
+        }
+        @include breakpoint(md) {
+            height: pxToRem(360px);
+        }
+        @include breakpoint(lg) {
+            height: pxToRem(400px);
+        }
 	}
 
 	.stage__content-wrapper {

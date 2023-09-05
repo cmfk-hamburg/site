@@ -47,19 +47,33 @@ const t = useTranslations(lang);
 
 	.meta-footer {
 		box-sizing: border-box;
-		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		padding: 12px 24px;
+		padding: pxToRem(12px) pxToRem(24px);
 		width: 100%;
-		background: white;
+		color: $c-white;
+		background: rgb(29, 29, 29);
+
+		@include breakpoint(xs-sm) {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			justify-content: center; 
+		}
+
+		@include breakpoint(md-xl) {
+			display: flex;
+			justify-content: space-between;
+		}
 
 		a {
-			color: black;
+			color: $c-white;
 		}
 	}
 
 	.meta-footer__item {
+		@include breakpoint(xs-sm) {
+			text-align: center;
+		}
+
 		a:hover {
 			text-decoration: underline;
 		}
@@ -68,10 +82,21 @@ const t = useTranslations(lang);
 	.meta-footer__social-list {
 		list-style: none;
 		display: flex;
+
+		@include breakpoint(xs-sm) {
+			grid-column: 1 / 4;
+			justify-content: center;
+			padding: 0;
+		}
 	}
 
 	.meta-footer__social-item {
-		margin-left: 12px;
+		margin-left: pxToRem(12px);
+
+		&:first-child {
+			margin-left: 0;
+		}
+
 	}
 
 	.bi {

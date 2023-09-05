@@ -30,14 +30,16 @@ const lang = getLangFromUrl(Astro.url);
 	</head>
 	<body>
 		<Nav />
-	    <LanguagePicker />
-	    <Stage headline={article.frontmatter.headline} overline={article.frontmatter.overline} />
-	    <main>
-		    <section class="text-module">
-				<slot />
-			</section>
-        </main>
-        <Footer />
+	    <div class="page-wrapper">
+			<LanguagePicker />
+			<Stage headline={article.frontmatter.headline} overline={article.frontmatter.overline} />
+			<main>
+				<section class="text-module">
+					<slot />
+				</section>
+			</main>
+			<Footer />
+		</div>
         <MetaFooter />
 	</body>
 </html>
@@ -49,7 +51,10 @@ const lang = getLangFromUrl(Astro.url);
 
 	html,
 	body {
-		background: black;
+		background: rgb(29, 29, 29);
+		font-family: "Roboto", sans-serif;
+		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
 	}
 
 	main {
@@ -58,8 +63,16 @@ const lang = getLangFromUrl(Astro.url);
 		position: relative;
 		display: block;
 		margin: 0 auto;
-		background: black;
+		background: $c-black;;
 		overflow: hidden;
+	}
+
+	.page-wrapper {
+		background: $c-black;
+		border-bottom-left-radius: pxToRem(24px);
+		border-bottom-right-radius: pxToRem(24px);
+		overflow: hidden;
+		transform: scale(0.99, 1.0);
 	}
 
 	a {
@@ -68,6 +81,7 @@ const lang = getLangFromUrl(Astro.url);
 
 	.text-module {
 		margin-top: pxToRem(80px);
+		background-color: $c-black;
 		color: $c-white;
 		
 		@include breakpoint(md) {

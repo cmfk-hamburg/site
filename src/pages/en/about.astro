@@ -1,10 +1,13 @@
 ---
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import Staff from "../../components/Staff.astro";
 import * as about from "../../content/en/about.md";
+const staffs = await Astro.glob("../../content/en/staff/*.md");
 
 const Content = about.Content;
 ---
 
 <ArticleLayout title={about.frontmatter.headline} article={about}>
 	<Content />
+	<Staff headline="The Team" staffs={staffs} />
 </ArticleLayout>

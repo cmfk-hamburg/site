@@ -1,0 +1,81 @@
+---
+export interface Props {
+    headline: string;
+	staffs: any;
+}
+
+const { headline, staffs } = Astro.props;
+---
+
+<div class="staff-collection">
+    <h2 class="staff-collection__headline">
+        {headline}
+    </h2>
+    <div class="staff-collection__teaser-wrapper">
+        {staffs.map((s) => (
+            <div class="staff-collection__teaser">
+            <img class="staff-collection__teaser-image" src={s.frontmatter.image} />
+            <div class="staff-collection__teaser-text">
+                <div class="staff-collection__teaser-title">
+                    {s.frontmatter.name}
+                </div>
+                <div class="staff-collection__teaser-detail">
+                    <s.Content />
+                </div>
+            </div>
+        </div>
+          ))}
+    </div>
+</div>
+
+
+<style lang="scss">
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
+    .staff-collection__headline {
+        @include f-headline-h2;
+    }
+
+    .staff-collection__teaser-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .staff-collection__teaser {
+        display: flex;
+        margin-bottom: pxToRem(40px);
+
+        @include breakpoint(xs-sm) {
+            flex-direction: column;
+        }
+    }
+
+    .staff-collection__teaser-title {
+        @include f-subtitle-1;
+        margin-bottom: pxToRem(12px);
+        text-transform: uppercase;
+    }
+
+    .staff-collection__teaser-detail {
+        @include f-body-2;
+    }
+
+    .staff-collection__teaser-image {
+        aspect-ratio: 1 / 1;
+        height: fit-content;
+
+        @include breakpoint(xs-sm) {
+            max-width: 100%;
+            margin-bottom: pxToRem(24px);
+        }
+
+        @include breakpoint(md-xl) {
+            margin-right: pxToRem(36px);
+            width: column(4, 12);
+            max-width: pxToRem(180px);
+        }
+    }
+
+</style>

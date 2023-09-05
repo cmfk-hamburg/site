@@ -173,7 +173,7 @@ $fw-bold: 700;
         line-height: pxToRem(22px);
 	}
 	@include breakpoint(lg) {
-		font-size: pxToRem(24px);
+		font-size: pxToRem(14px);
         line-height: pxToRem(22px);
 	}
 }

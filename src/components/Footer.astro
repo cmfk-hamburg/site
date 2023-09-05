@@ -101,6 +101,7 @@ const t = useTranslations(lang);
 		display: grid;
         margin-top: pxToRem(80px);
 		padding: pxToRem(48px) 5%;
+        border-radius: pxToRem(90px);
 		background: black;
 		color: white;
 
@@ -134,8 +135,14 @@ const t = useTranslations(lang);
         padding-left: pxToRem(12px);
         border-radius: pxToRem(90px);
         background-color: rgba(255, 255, 255, 0.15);
-        width: 75%;
-    
+        max-width: pxToRem(360px);
+
+        @include breakpoint(xs-sm) {
+            width: 100%;
+        }
+        @include breakpoint(md-xl) {
+            width: 75%;
+        }
 
 		input[type="email"] {
             border: 0;
