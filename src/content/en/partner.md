@@ -1,6 +1,6 @@
 ---
-headline: 'Partner'
-overline: ''
+headline: "Partner"
+overline: ""
 ---
 
 ## Our Partner

@@ -1,13 +1,9 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-    vite: {
-      ssr: {
-        noExternal: [
-          'normalize.css',
-          'bootstrap-icons',
-        ],
-      }
-    }
-  })
-  
+  vite: {
+    ssr: {
+      noExternal: ["normalize.css", "bootstrap-icons"],
+    },
+  },
+});

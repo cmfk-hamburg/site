@@ -1,9 +1,12 @@
 ---
-headline: '数据隐私'
-overline: ''
+headline: "数据隐私"
+overline: ""
 ---
+
 ## DATENSCHUTZ AUF EINEN BLICK
+
 ### ALLGEMEINE HINWEISE
+
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
 
 ### DATENERFASSUNG AUF DIESER WEBSITE
@@ -32,7 +35,9 @@ Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werde
 Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
 
 ### HOSTING
+
 #### EXTERNES HOSTING
+
 Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln.
 
 Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).
@@ -44,4 +49,3 @@ Wir setzen folgenden Hoster ein:
 IONOS SE
 Elgendorfer Str. 57
 56410 Montabaur
-

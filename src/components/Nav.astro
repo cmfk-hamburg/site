@@ -82,7 +82,7 @@ const itemClass = function (path: string) {
 		list-style: none;
 		margin: 0;
 		padding: pxToRem(4px);
-		border-radius: pxToRem(90px);
+		border-radius: 100vmax;
 		overflow: hidden;
 		pointer-events: all;
 		@include blur-background;
@@ -93,7 +93,7 @@ const itemClass = function (path: string) {
 
 		&.is-active {
 			background-color: $c-white;;
-			border-radius: pxToRem(90px);
+			border-radius: 100vmax;
 		}
 	}
 
@@ -106,10 +106,10 @@ const itemClass = function (path: string) {
 		transition: all $d-anim ease-in-out;
 		color: $c-white;;
 		background-color: transparent;
-		text-decoration: none;
+		// text-decoration: none;
 
 		.is-active & {
-			color: black;
+			color: $c-black;
 		}
 	}
 </style>
