@@ -134,8 +134,8 @@ const t = useTranslations(lang);
 		margin-top: pxToRem(18px);
         padding-left: pxToRem(12px);
         border-radius: pxToRem(90px);
-        background-color: rgba(255, 255, 255, 0.15);
         max-width: pxToRem(360px);
+        @include blur-background;
 
         @include breakpoint(xs-sm) {
             width: 100%;

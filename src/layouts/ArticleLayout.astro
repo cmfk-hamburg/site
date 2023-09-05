@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import { getLangFromUrl } from "../i18n/utils";
 import "normalize.css/normalize.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -27,6 +28,7 @@ const lang = getLangFromUrl(Astro.url);
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<ViewTransitions />
 	</head>
 	<body>
 		<Nav />
@@ -48,87 +50,5 @@ const lang = getLangFromUrl(Astro.url);
 	@import "../styles/variables.scss";
 	@import "../styles/fonts.scss";
 	@import "../styles/utils.scss";
-
-	html,
-	body {
-		background: rgb(29, 29, 29);
-		font-family: "Roboto", sans-serif;
-		-webkit-font-smoothing: antialiased;
-  		-moz-osx-font-smoothing: grayscale;
-	}
-
-	main {
-		@include container;
-		z-index: 1;
-		position: relative;
-		display: block;
-		margin: 0 auto;
-		background: $c-black;;
-		overflow: hidden;
-	}
-
-	.page-wrapper {
-		background: $c-black;
-		border-bottom-left-radius: pxToRem(24px);
-		border-bottom-right-radius: pxToRem(24px);
-		overflow: hidden;
-		transform: scale(0.99, 1.0);
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-	.text-module {
-		margin-top: pxToRem(80px);
-		background-color: $c-black;
-		color: $c-white;
-		
-		@include breakpoint(md) {
-			width: column(10, 12);
-		}
-		@include breakpoint(lg) {
-			width: column(8, 12);
-		}
-
-		h1 {
-			@include f-headline-h1;
-		}
-
-		h2 {
-			@include f-headline-h2;
-		}
-
-		h3 {
-			@include f-headline-h3;
-		}
-
-		h4 {
-			@include f-headline-h4;
-		}
-
-		h5 {
-			@include f-headline-h5;
-		}
-
-		h6 {
-			@include f-headline-h6;
-		}
-
-		a {
-			color: $c-white;
-		}
-
-		p,
-		ol,
-		ul {
-			@include f-body-1;
-			@include breakpoint(sm-md) {
-				margin-block: pxToRem(24px);
-			}
-			@include breakpoint(lg) {
-				margin-block: pxToRem(28px);
-			}
-		}
-	}
+	@import "../styles/global.scss";
 </style>

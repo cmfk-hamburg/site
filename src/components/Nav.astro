@@ -9,6 +9,7 @@ const itemClass = function (path: string) {
 
 	return pathname === path ? "nav__item is-active" : "nav__item";
 };
+
 ---
 
 <nav role="navigation" class="nav">
@@ -71,7 +72,7 @@ const itemClass = function (path: string) {
 		bottom: 8vh;
 		display: flex;
 		justify-content: center;
-		padding: 0.25rem 0.3125rem;
+		padding: pxToRem(6px);
 	}
 
 	.nav__list {
@@ -80,34 +81,30 @@ const itemClass = function (path: string) {
 		flex-wrap: nowrap;
 		list-style: none;
 		margin: 0;
-		padding: 6px;
-		border-radius: 1.5rem;
+		padding: pxToRem(4px);
+		border-radius: pxToRem(90px);
 		overflow: hidden;
 		pointer-events: all;
-		box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-		background-color: rgba(255, 255, 255, 0.15);
-		backdrop-filter: blur(5px);
+		@include blur-background;
 	}
 
 	.nav__item {
-		font-weight: 600;
-		font-size: 1.125rem;
-		line-height: 1.3125rem;
+		@include f-subtitle-1;
 
 		&.is-active {
-			background-color: white;
-			border-radius: 1.5rem;
+			background-color: $c-white;;
+			border-radius: pxToRem(90px);
 		}
 	}
 
 	.nav__link {
 		display: flex;
 		align-items: center;
-		padding: 0px 1rem;
-		height: 2.5rem;
-		border-radius: 1.25rem;
-		transition: color 0.1s ease-in-out 0s;
-		color: white;
+		padding-inline: pxToRem(12px);
+		height: pxToRem(40px);
+		border-radius: pxToRem(90px);
+		transition: all $d-anim ease-in-out;
+		color: $c-white;;
 		background-color: transparent;
 		text-decoration: none;
 

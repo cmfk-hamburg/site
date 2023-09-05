@@ -89,6 +89,12 @@ $break-desktop-lg: 1444px;
   }
 }
 
+@mixin blur-background {
+    background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(6px);
+    box-shadow: 0 0 pxToRem(12px) 0 rgba(0, 0, 0, 0.2);
+}
+
 .btn {
 	display: block;
   box-sizing: border-box;
@@ -111,44 +117,4 @@ $break-desktop-lg: 1444px;
 		font-size: pxToRem(15px);
     line-height: pxToRem(26px);
 	}
-}
-
-.btn--primary {
-	background-color: $c-white;
-	border: 1px solid $c-white;
-	color: $c-black;
-
-	&:hover {
-		background-color: $c-black;
-		color: $c-white;
-    border: 1px solid $c-black;
-	}
-}
-
-.btn--secondary {
-	box-shadow: 0 0 pxToRem(16px) 0 rgba(0, 0, 0, 0.2);
-	background-color: rgba(255, 255, 255, 0.15);
-	color: $c-white;
-
-  &:hover {
-		background-color: $c-white;
-		color: $c-black;
-	}
-}
-
-.link {
-  @include f-body-2;
-  color: $c-white;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.link--with-chevron {
-  &::after {
-    content: '>';
-    margin-left: pxToRem(6px);
-  }
 }

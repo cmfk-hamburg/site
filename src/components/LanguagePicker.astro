@@ -48,15 +48,15 @@ const itemClass = function (path: string) {
 
 	.language-picker__list {
 		display: flex;
+		overflow: hidden;
 		list-style: none;
 		margin: 0;
 		padding: 0;
 		pointer-events: auto;
-		border: 1px solid #fff;
+		border: 1px solid $c-white;
 		border-radius: pxToRem(90px);
 		box-sizing: border-box;
-		overflow: hidden;
-		transition: border-color 0.5s;
+		transition: border-color $d-anim;
 	}
 
 	.language-picker__item {
@@ -68,6 +68,7 @@ const itemClass = function (path: string) {
 	}
 
 	.language-picker__link {
+		@include f-body-1;
 		color: $c-white;
 
 		.is-active & {

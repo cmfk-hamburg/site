@@ -9,12 +9,11 @@ import LanguagePicker from "../../components/LanguagePicker.astro";
 
 <Layout title="CMFK">
 	<Nav />
-	<LanguagePicker />
-	<Hero />
-	<!-- <main>
-
-	</main> -->
-	<Footer />
+	<div class="page-wrapper">
+		<LanguagePicker />
+		<Hero />
+		<Footer />
+	</div>
 	<MetaFooter />
 </Layout>
 
@@ -22,6 +21,7 @@ import LanguagePicker from "../../components/LanguagePicker.astro";
 	@import "@fontsource/roboto/400.css";
 	@import "@fontsource/roboto/500.css";
 	@import "@fontsource/roboto/700.css";
+	
 	body {
 		font-family: "Roboto", sans-serif;
 	}
