@@ -32,7 +32,7 @@ const lang = getLangFromUrl(Astro.url);
 		<Nav />
 	    <div class="page-wrapper">
 			<LanguagePicker />
-			<Stage headline={article.frontmatter.headline} overline={article.frontmatter.overline} />
+			<Stage headline={article.frontmatter.headline} overline={article.frontmatter.overline} imageSrc={article.frontmatter.imageSrc}/>
 			<main>
 				<section class="text-module">
 					<slot />

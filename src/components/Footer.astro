@@ -1,4 +1,5 @@
 ---
+import LinkWithIcon from "./LinkWithIcon.astro";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -17,7 +18,7 @@ const t = useTranslations(lang);
 			</form>
 		</div> -->
 		<div class="footer__sponsor">
-			<a href="#" class="link link--with-chevron">{t("footer.sponsors")}</a>
+            <LinkWithIcon text={t("footer.sponsors")} url={`/${lang}/partner/`} />
 		</div>
 	</div>
 	<div class="footer__nav-wrapper">
@@ -114,7 +115,7 @@ const t = useTranslations(lang);
         }
 
         @include breakpoint(lg) {
-            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
 	}
 
@@ -128,45 +129,13 @@ const t = useTranslations(lang);
 		@include f-body-1;
 	}
 
-	.footer__newsletter-form {
-		display: flex;
-        justify-content: space-between;
-		margin-top: pxToRem(18px);
-        padding-left: pxToRem(12px);
-        max-width: pxToRem(360px);
-        @include blur-background;
-        @include rounded-border;
+	.footer__nav-headline {
+		@include f-headline-h5;
+		margin: 0;
 
         @include breakpoint(xs-sm) {
-            width: 100%;
+            margin-top: pxToRem(24px);
         }
-        @include breakpoint(md-xl) {
-            width: 75%;
-        }
-
-		input[type="email"] {
-            border: 0;
-			background-color: transparent;
-            color: $c-white;
-            width: 100%;
-
-            &:focus {
-                outline: none;
-            }
-		}
-
-        .btn {
-            white-space: nowrap;
-            cursor: pointer;
-        }
-	}
-
-    .footer__sponsor {
-    }
-
-	.footer__nav-headline {
-		@include f-body-2;
-		margin: 0;
 	}
 
 	.footer__nav-list {

@@ -6,7 +6,10 @@ const t = useTranslations(lang);
 ---
 
 <div class="meta-footer">
-	<div class="meta-footer__item">2023 @ cino knio</div>
+	<div class="meta-footer__item">
+		<div>2023 @ cino knio</div>
+		<!-- <div>Designe by Di He | Dev by <a class="link" href="https://fanxu.de/" target="_blank">Fan Xu</a></div> -->
+	</div>
 	<div class="meta-footer__item">
 		<a href={`/${lang}/imprint/`} class="nav__link" title={t("nav.imprint")}>
 			{t("nav.imprint")}
@@ -23,7 +26,7 @@ const t = useTranslations(lang);
 	</div>
 	<ul class="meta-footer__social-list">
 		<li class="meta-footer__social-item">
-			<a href="#">
+			<a href="https://www.instagram.com/riparian.showcase/" target="_blank">
 				<i class="bi bi-instagram" aria-hidden="true"></i>
 			</a>
 		</li>
@@ -48,7 +51,6 @@ const t = useTranslations(lang);
 	.meta-footer {
 		@include f-btn;
 		box-sizing: border-box;
-		align-items: center;
 		padding: pxToRem(12px) pxToRem(24px);
 		width: 100%;
 		color: $c-white;
@@ -58,6 +60,7 @@ const t = useTranslations(lang);
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
 			justify-content: center; 
+			align-items: center;
 			margin-top: pxToRem(12px);
 			margin-bottom: pxToRem(80px);
 		}
@@ -65,7 +68,8 @@ const t = useTranslations(lang);
 		@include breakpoint(md-xl) {
 			display: flex;
 			justify-content: space-between;
-			margin-top: pxToRem(36px);
+			align-items: end;
+			margin-top: pxToRem(28px);
 		}
 
 		a {
@@ -86,10 +90,12 @@ const t = useTranslations(lang);
 	.meta-footer__social-list {
 		list-style: none;
 		display: flex;
+		margin: 0;
 
 		@include breakpoint(xs-sm) {
 			grid-column: 1 / 4;
 			justify-content: center;
+			margin: pxToRem(20px);
 			padding: 0;
 		}
 	}

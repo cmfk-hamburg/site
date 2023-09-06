@@ -1,0 +1,39 @@
+<form class="form-field">
+    <input type="email" />
+    <button type="submit" class="btn btn--primary">Submit</button>
+</form>
+
+<style>
+    .form-field {
+		display: flex;
+        justify-content: space-between;
+		margin-top: pxToRem(18px);
+        padding-left: pxToRem(12px);
+        max-width: pxToRem(360px);
+        @include blur-background;
+        @include rounded-border;
+
+        @include breakpoint(xs-sm) {
+            width: 100%;
+        }
+        @include breakpoint(md-xl) {
+            width: 75%;
+        }
+
+		input[type="email"] {
+            border: 0;
+			background-color: transparent;
+            color: $c-white;
+            width: 100%;
+
+            &:focus {
+                outline: none;
+            }
+		}
+
+        .btn {
+            white-space: nowrap;
+            cursor: pointer;
+        }
+	}
+</style>

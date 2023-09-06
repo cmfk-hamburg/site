@@ -1,5 +1,5 @@
 ---
-const {headline, overline} = Astro.props;
+const {headline, overline, imageSrc} = Astro.props;
 ---
 
 <div class="stage">
@@ -9,12 +9,9 @@ const {headline, overline} = Astro.props;
             <h1 class="stage__headline">{headline}</h1>
         </div>
     </div>
-	<div class="stage__image-container">
-		<div class="stage__image-background" aria-hidden="true"></div>
-	</div>
 </div>
 
-<style lang="scss">
+<style lang="scss" define:vars={{imageSrc}}>
 	@import "../styles/variables.scss";
 	@import "../styles/fonts.scss";
 	@import "../styles/utils.scss";
@@ -22,7 +19,7 @@ const {headline, overline} = Astro.props;
 	.stage {
 		position: relative;
 		overflow: hidden;
-		background-image: url("https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2650&q=80");
+        background-image: var(--imageSrc);
 		background-repeat: no-repeat;
 		background-size: cover;
 		object-fit: cover;
@@ -59,4 +56,9 @@ const {headline, overline} = Astro.props;
     .stage__overline {
         @include f-body-2;
     }
+
+    // .stage__image-background {
+    //     width: 100%;
+    //     height: auto;
+    // }
 </style>

@@ -19,14 +19,14 @@ main {
   background: $c-black;
   border-bottom-left-radius: pxToRem(24px);
   border-bottom-right-radius: pxToRem(24px);
-  transition: all $d-anim ease-in-out;
+  transition: transform $d-anim ease-in-out;
   overflow: hidden;
 
   &.shrink {
     opacity: 0.8;
     transform: translate3d(0px, 0vh, 0px) scale(0.96);
     transform-origin: center calc(100% - 500px);
-    }
+  }
 }
 
 a {
@@ -34,7 +34,7 @@ a {
 }
 
 .btn {
-    @include f-btn;
+  @include f-btn;
   display: block;
   box-sizing: border-box;
   border-radius: 100vmax;
@@ -128,6 +128,11 @@ a {
 
   a {
     color: $c-white;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
   }
 
   p,
@@ -140,5 +145,17 @@ a {
     @include breakpoint(lg) {
       margin-block: pxToRem(28px);
     }
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  em {
+    @include f-caption;
+    display: block;
+    text-align: center;
+    font-style: normal;
   }
 }

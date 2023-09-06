@@ -1,6 +1,7 @@
 ---
 headline: "Partner"
 overline: ""
+imageSrc: url("../../../public/images/cinema.png")
 ---
 
 ## Our Partner
