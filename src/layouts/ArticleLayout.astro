@@ -1,5 +1,4 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
 import { getLangFromUrl } from "../i18n/utils";
 import "normalize.css/normalize.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -28,7 +27,6 @@ const lang = getLangFromUrl(Astro.url);
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<ViewTransitions />
 	</head>
 	<body>
 		<Nav />
@@ -52,3 +50,22 @@ const lang = getLangFromUrl(Astro.url);
 	@import "../styles/utils.scss";
 	@import "../styles/global.scss";
 </style>
+
+<script type="text/javascript">
+
+	const $pageWrapper = document.querySelector('.page-wrapper');
+	const $metaFooter = document.querySelector('.meta-footer');
+	
+
+	const onIntersect = (entries) => {
+		if (entries[0].isIntersecting) {
+			$pageWrapper.classList.add('shrink');
+
+		} else {
+			$pageWrapper.classList.remove('shrink');
+		}
+	};
+
+	const observer = new window.IntersectionObserver(onIntersect);
+	observer.observe($metaFooter);
+</script>

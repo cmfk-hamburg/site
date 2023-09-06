@@ -7,7 +7,7 @@ const t = useTranslations(lang);
 
 <footer class="footer">
 	<div class="footer__content-wrapper">
-		<div class="footer__newsletter">
+		<!-- <div class="footer__newsletter">
 			<div class="footer__newsletter-detail">
 				{t("footer.newsletter")}
 			</div>
@@ -15,7 +15,7 @@ const t = useTranslations(lang);
 				<input type="email" />
 				<button type="submit" class="btn btn--primary">{t("footer.subscribe")}</button>
 			</form>
-		</div>
+		</div> -->
 		<div class="footer__sponsor">
 			<a href="#" class="link link--with-chevron">{t("footer.sponsors")}</a>
 		</div>
@@ -99,18 +99,18 @@ const t = useTranslations(lang);
 	.footer {
         @include container;
 		display: grid;
-        margin-top: pxToRem(80px);
 		padding: pxToRem(48px) 5%;
-        border-radius: pxToRem(90px);
 		background: black;
 		color: white;
 
         @include breakpoint(xs-sm) {
             grid-template-columns: 1fr;
+            margin-top: pxToRem(40px);
         }
 
         @include breakpoint(md) {
             grid-template-columns: 1fr 1fr;
+            margin-top: pxToRem(80px);
         }
 
         @include breakpoint(lg) {
@@ -133,9 +133,9 @@ const t = useTranslations(lang);
         justify-content: space-between;
 		margin-top: pxToRem(18px);
         padding-left: pxToRem(12px);
-        border-radius: pxToRem(90px);
         max-width: pxToRem(360px);
         @include blur-background;
+        @include rounded-border;
 
         @include breakpoint(xs-sm) {
             width: 100%;
@@ -162,7 +162,6 @@ const t = useTranslations(lang);
 	}
 
     .footer__sponsor {
-        margin-top: pxToRem(36px);
     }
 
 	.footer__nav-headline {

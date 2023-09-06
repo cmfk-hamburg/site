@@ -46,6 +46,7 @@ const t = useTranslations(lang);
 	@import "../styles/utils.scss";
 
 	.meta-footer {
+		@include f-btn;
 		box-sizing: border-box;
 		align-items: center;
 		padding: pxToRem(12px) pxToRem(24px);
@@ -57,11 +58,14 @@ const t = useTranslations(lang);
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
 			justify-content: center; 
+			margin-top: pxToRem(12px);
+			margin-bottom: pxToRem(80px);
 		}
 
 		@include breakpoint(md-xl) {
 			display: flex;
 			justify-content: space-between;
+			margin-top: pxToRem(36px);
 		}
 
 		a {

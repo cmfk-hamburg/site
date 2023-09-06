@@ -19,7 +19,14 @@ main {
   background: $c-black;
   border-bottom-left-radius: pxToRem(24px);
   border-bottom-right-radius: pxToRem(24px);
+  transition: all $d-anim ease-in-out;
   overflow: hidden;
+
+  &.shrink {
+    opacity: 0.8;
+    transform: translate3d(0px, 0vh, 0px) scale(0.96);
+    transform-origin: center calc(100% - 500px);
+    }
 }
 
 a {
@@ -27,6 +34,7 @@ a {
 }
 
 .btn {
+    @include f-btn;
   display: block;
   box-sizing: border-box;
   border-radius: 100vmax;
@@ -35,18 +43,12 @@ a {
 
   @include breakpoint(xs-sm) {
     padding: pxToRem(8px) pxToRem(16px);
-    font-size: pxToRem(13px);
-    line-height: pxToRem(22px);
   }
   @include breakpoint(md) {
     padding: pxToRem(8px) pxToRem(16px);
-    font-size: pxToRem(14px);
-    line-height: pxToRem(24px);
   }
   @include breakpoint(lg) {
     padding: pxToRem(8px) pxToRem(16px);
-    font-size: pxToRem(15px);
-    line-height: pxToRem(26px);
   }
 }
 

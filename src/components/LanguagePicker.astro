@@ -47,6 +47,7 @@ const itemClass = function (path: string) {
 	}
 
 	.language-picker__list {
+		@include rounded-border;
 		display: flex;
 		overflow: hidden;
 		list-style: none;
@@ -54,13 +55,13 @@ const itemClass = function (path: string) {
 		padding: 0;
 		pointer-events: auto;
 		border: 1px solid $c-white;
-		border-radius: pxToRem(90px);
 		box-sizing: border-box;
 		transition: border-color $d-anim;
 	}
 
 	.language-picker__item {
-		padding: pxToRem(6px) pxToRem(8px);
+		@include blur-background;
+		padding: pxToRem(4px) pxToRem(8px);
 
 		&.is-active {
 			background-color: $c-white;
@@ -68,7 +69,7 @@ const itemClass = function (path: string) {
 	}
 
 	.language-picker__link {
-		@include f-body-1;
+		@include f-btn;
 		color: $c-white;
 
 		.is-active & {

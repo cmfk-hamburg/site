@@ -16,7 +16,10 @@ const itemClass = function (path: string) {
 	<ul class="nav__list">
 		<li class={itemClass(`/${lang}/`)}>
 			<a href={`/${lang}/`} class="nav__link" title={t("nav.home")}>
-				<span class="nav__link-text">{t("nav.home")}</span>
+				<span class="nav__link-text">
+					#
+					<!-- {t("nav.home")} -->
+				</span>
 			</a>
 		</li>
 		<li class={itemClass(`/${lang}/call-for-film/`)}>
@@ -69,47 +72,62 @@ const itemClass = function (path: string) {
 		z-index: 100;
 		left: 0;
 		right: 0;
-		bottom: 8vh;
 		display: flex;
 		justify-content: center;
 		padding: pxToRem(6px);
+		height: fit-content;
+
+		@include breakpoint(xs-sm) {
+			bottom: pxToRem(24px);
+		}
+
+		@include breakpoint(md-xl) {
+			bottom: 8vh;
+		}
+
+		&.is-sticky {
+			position: sticky;
+		}
 	}
 
 	.nav__list {
+		@include blur-background;
+		@include rounded-border;
 		box-sizing: border-box;
 		display: inline-flex;
 		flex-wrap: nowrap;
 		list-style: none;
 		margin: 0;
 		padding: pxToRem(4px);
-		border-radius: 100vmax;
 		overflow: hidden;
 		pointer-events: all;
-		@include blur-background;
 	}
 
 	.nav__item {
-		@include f-subtitle-1;
+		@include f-btn;
 
 		&.is-active {
+			@include rounded-border;
 			background-color: $c-white;;
-			border-radius: 100vmax;
 		}
 	}
 
 	.nav__link {
+		@include rounded-border;
 		display: flex;
 		align-items: center;
 		padding-inline: pxToRem(12px);
 		height: pxToRem(40px);
-		border-radius: pxToRem(90px);
 		transition: all $d-anim ease-in-out;
 		color: $c-white;;
 		background-color: transparent;
-		// text-decoration: none;
 
 		.is-active & {
 			color: $c-black;
+		}
+
+		&:hover {
+			cursor: pointer;
 		}
 	}
 </style>

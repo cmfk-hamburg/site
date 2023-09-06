@@ -94,3 +94,7 @@ $break-desktop-lg: 1444px;
   backdrop-filter: blur(6px);
   box-shadow: 0 0 pxToRem(12px) 0 rgba(0, 0, 0, 0.2);
 }
+
+@mixin rounded-border {
+  border-radius: 100vmax;
+}
