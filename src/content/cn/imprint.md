@@ -1,6 +1,7 @@
 ---
 headline: "Imprint"
 overline: ""
+imageSrc: url("/images/cinema.png")
 ---
 
 ## Chinesische Medien-und Filmkunst e.V

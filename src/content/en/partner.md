@@ -1,7 +1,7 @@
 ---
 headline: "Partner"
 overline: ""
-imageSrc: url("../../../public/images/cinema.png")
+imageSrc: url("/images/cinema.png")
 ---
 
 ## Our Partner

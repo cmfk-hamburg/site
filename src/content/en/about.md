@@ -1,7 +1,7 @@
 ---
 headline: "About"
 overline: "Overline"
-imageSrc: url("../../../public/images/cinema.png")
+imageSrc: url("/images/cinema.png")
 ---
 
 ## Chinesische Medien-und Filmkunst e.V

@@ -8,6 +8,14 @@ const itemClass = function (path: string) {
 		? "language-picker__item is-active"
 		: "language-picker__item";
 };
+
+const newPath = function(lang: string) {
+	const pathname = new URL(Astro.request.url).pathname;
+
+	const segments = pathname.split('/');
+	segments[1] = lang;
+	return segments.join('/');
+}
 ---
 
 <div class="language-picker">
@@ -16,7 +24,7 @@ const itemClass = function (path: string) {
 			{
 				Object.entries(languages).map(([lang, label]) => (
 					<li class={itemClass(`/${lang}/`)}>
-						<a class="language-picker__link" href={`/${lang}/`}>
+						<a class="language-picker__link" href={`${newPath(lang)}`}>
 							{label}
 						</a>
 					</li>
@@ -47,24 +55,23 @@ const itemClass = function (path: string) {
 	}
 
 	.language-picker__list {
-		// @include rounded-border;
 		display: flex;
 		overflow: hidden;
 		list-style: none;
 		margin: 0;
 		padding: 0;
 		pointer-events: auto;
-		border: 1px solid $c-white;
+		// border: 1px solid $c-white;
 		box-sizing: border-box;
-		// transition: border-color $d-anim;
 	}
 
 	.language-picker__item {
-		@include blur-background;
-		padding: pxToRem(4px) pxToRem(8px);
+		// @include blur-background;
+		margin: pxToRem(4px);
 
 		&.is-active {
-			background-color: $c-white;
+			// background-color: $c-white;
+			border-bottom: 1px solid $c-white;
 		}
 	}
 
@@ -73,7 +80,8 @@ const itemClass = function (path: string) {
 		color: $c-white;
 
 		.is-active & {
-			color: $c-black;
+			// color: $c-black;
+			font-weight: $fw-semibold;
 		}
 	}
 </style>

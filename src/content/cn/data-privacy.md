@@ -1,6 +1,7 @@
 ---
 headline: "数据隐私"
 overline: ""
+imageSrc: url("/images/cinema.png")
 ---
 
 ## DATENSCHUTZ AUF EINEN BLICK

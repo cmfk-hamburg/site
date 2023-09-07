@@ -1,7 +1,7 @@
 ---
 headline: "Data Privacy"
 overline: ""
-imageSrc: url("../../../public/images/cinema.png")
+imageSrc: url("/images/cinema.png")
 ---
 
 ## DATENSCHUTZ AUF EINEN BLICK

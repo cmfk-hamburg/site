@@ -28,13 +28,13 @@ const { text, url } = Astro.props;
         &:hover {
             .link-with-icon__text {
                 margin-right: pxToRem(8px);
+                text-decoration: underline;
             } 
         }
     }
 
     .link-with-icon__text {
         margin-right: pxToRem(4px);
-        // border-bottom: 1px solid $c-white;
         transition: all $d-anim ease-in-out;
     }
 </style>
