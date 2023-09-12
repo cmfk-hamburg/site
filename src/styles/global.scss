@@ -1,6 +1,6 @@
 html,
 body {
-  background: rgb(29, 29, 29);
+  background: $c-lightgray;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,7 +39,6 @@ a {
   box-sizing: border-box;
   border-radius: 100vmax;
   transition: all $d-anim;
-  font-weight: $fw-bold;
 
   @include breakpoint(xs-sm) {
     padding: pxToRem(8px) pxToRem(16px);
@@ -53,9 +52,9 @@ a {
 }
 
 .btn--primary {
-  background-color: $c-white;
+  background-color: transparent;
   border: 1px solid $c-white;
-  color: $c-black;
+  color: $c-white;
 
   &:hover {
     @include blur-background;
@@ -74,7 +73,7 @@ a {
 }
 
 .link {
-  @include f-body-2;
+  @include f-copy;
   color: $c-white;
   text-decoration: none;
 
@@ -94,6 +93,30 @@ a {
   margin-top: pxToRem(80px);
   background-color: $c-black;
   color: $c-white;
+}
+
+.text-module__head {
+  display: grid;
+
+  @include breakpoint(lg) {
+    grid-template-columns: 8fr 4fr;
+  }
+}
+
+.text-module__headline {
+  @include f-subtitle-1;
+}
+
+.text-module__cta {
+  justify-self: end;
+  margin: pxToRem(36px) 0;
+  height: fit-content;
+}
+
+.text-module__content {
+  margin-top: pxToRem(80px);
+  background-color: $c-black;
+  color: $c-white;
 
   @include breakpoint(md) {
     width: column(10, 12);
@@ -102,29 +125,15 @@ a {
     width: column(8, 12);
   }
 
-  h1 {
-    @include f-headline-h1;
-  }
-
   h2 {
     @include f-headline-h2;
+    margin: pxToRem(36px) 0;
   }
 
   h3 {
     @include f-headline-h3;
-  }
-
-  h4 {
-    @include f-headline-h4;
-  }
-
-  h5 {
-    @include f-headline-h5;
-  }
-
-  h6 {
-    @include f-headline-h6;
-  }
+    margin: pxToRem(36px) 0;
+  } 
 
   a {
     color: $c-white;
@@ -138,7 +147,7 @@ a {
   p,
   ol,
   ul {
-    @include f-body-1;
+    @include f-copy;
     @include breakpoint(sm-md) {
       margin-block: pxToRem(24px);
     }

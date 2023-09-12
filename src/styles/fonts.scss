@@ -1,8 +1,9 @@
 /**
  * Font-weight
  */
-$fw-light: 200;
-$fw-regular: 500;
+$fw-light: 100;
+$fw-regular: 300;
+$fw-regular-bold: 300;
 $fw-semibold: 600;
 $fw-bold: 700;
 
@@ -11,40 +12,38 @@ $fw-bold: 700;
  */
 @mixin f-headline-h1 {
   font-weight: $fw-semibold;
+  line-height: 1.2;
+  text-transform: uppercase;
 
   @include breakpoint(xs-sm) {
-    font-size: pxToRem(64px);
-    line-height: pxToRem(80px);
+    font-size: pxToRem(32px);
   }
   @include breakpoint(md) {
-    font-size: pxToRem(64px);
-    line-height: pxToRem(80px);
+    font-size: pxToRem(48px);
   }
   @include breakpoint(lg) {
     font-size: pxToRem(64px);
-    line-height: pxToRem(80px);
   }
 }
 
 @mixin f-headline-h2 {
-  font-weight: $fw-semibold;
+  font-weight: $fw-light;
+  line-height: 1.2;
 
   @include breakpoint(xs-sm) {
-    font-size: pxToRem(48px);
-    line-height: pxToRem(60px);
+    font-size: pxToRem(30px);
   }
   @include breakpoint(md) {
-    font-size: pxToRem(48px);
-    line-height: pxToRem(60px);
+    font-size: pxToRem(32px);
   }
   @include breakpoint(lg) {
-    font-size: pxToRem(48px);
-    line-height: pxToRem(60px);
+    font-size: pxToRem(40px);
   }
 }
 
 @mixin f-headline-h3 {
   font-weight: $fw-semibold;
+  line-height: 1.2;
 
   @include breakpoint(xs-sm) {
     font-size: pxToRem(32px);
@@ -57,126 +56,62 @@ $fw-bold: 700;
   @include breakpoint(lg) {
     font-size: pxToRem(32px);
     line-height: pxToRem(48px);
-  }
-}
-
-@mixin f-headline-h4 {
-  font-weight: $fw-semibold;
-
-  @include breakpoint(xs-sm) {
-    font-size: pxToRem(24px);
-    line-height: pxToRem(36px);
-  }
-  @include breakpoint(md) {
-    font-size: pxToRem(24px);
-    line-height: pxToRem(36px);
-  }
-  @include breakpoint(lg) {
-    font-size: pxToRem(24px);
-    line-height: pxToRem(36px);
-  }
-}
-
-@mixin f-headline-h5 {
-  font-weight: $fw-semibold;
-
-  @include breakpoint(xs-sm) {
-    font-size: pxToRem(20px);
-    line-height: pxToRem(30px);
-  }
-  @include breakpoint(md) {
-    font-size: pxToRem(20px);
-    line-height: pxToRem(30px);
-  }
-  @include breakpoint(lg) {
-    font-size: pxToRem(20px);
-    line-height: pxToRem(30px);
-  }
-}
-
-@mixin f-headline-h6 {
-  font-weight: $fw-semibold;
-
-  @include breakpoint(xs-sm) {
-    font-size: pxToRem(18px);
-    line-height: pxToRem(28px);
-  }
-  @include breakpoint(md) {
-    font-size: pxToRem(18px);
-    line-height: pxToRem(28px);
-  }
-  @include breakpoint(lg) {
-    font-size: pxToRem(18px);
-    line-height: pxToRem(28px);
   }
 }
 
 @mixin f-hero {
   font-weight: $fw-semibold;
+  line-height: 1.2;
+  text-transform: uppercase;
 
   @include breakpoint(xs-sm) {
-    font-size: pxToRem(48px);
-    line-height: pxToRem(56px);
+    font-size: pxToRem(32px);
   }
   @include breakpoint(md) {
-    font-size: pxToRem(80px);
-    line-height: pxToRem(88px);
+    font-size: pxToRem(48px);
   }
   @include breakpoint(lg) {
-    font-size: pxToRem(108px);
-    line-height: pxToRem(120px);
+    font-size: pxToRem(80px);
   }
 }
 
 @mixin f-subtitle-1 {
-  font-weight: $fw-semibold;
+  font-weight: $fw-light;
+  line-height: 1.2;
+  text-transform: uppercase;
 
-  @include breakpoint(sm-md) {
-    font-size: pxToRem(16px);
-    line-height: pxToRem(24px);
-  }
-  @include breakpoint(lg) {
-    font-size: pxToRem(16px);
-    line-height: pxToRem(24px);
-  }
-}
-
-@mixin f-subtitle-2 {
-  font-weight: $fw-semibold;
-
-  @include breakpoint(sm-md) {
-    font-size: pxToRem(14px);
-    line-height: pxToRem(22px);
-  }
-  @include breakpoint(lg) {
+  @include breakpoint(xs-sm) {
     font-size: pxToRem(24px);
-    line-height: pxToRem(22px);
+  }
+  @include breakpoint(md) {
+    font-size: pxToRem(32px);
+  }
+  @include breakpoint(lg) {
+    font-size: pxToRem(40px);
   }
 }
 
-@mixin f-body-1 {
+@mixin f-copy {
   font-weight: $fw-regular;
+  line-height: 1.5;
 
-  @include breakpoint(sm-md) {
+  @include breakpoint(xs-sm) {
     font-size: pxToRem(16px);
-    line-height: pxToRem(24px);
   }
-  @include breakpoint(lg) {
-    font-size: pxToRem(16px);
-    line-height: pxToRem(24px);
+  @include breakpoint(md-xl) {
+    font-size: pxToRem(18px);
   }
 }
 
-@mixin f-body-2 {
+@mixin f-blockquote {
   font-weight: $fw-regular;
+  line-height: 1.4;
 
   @include breakpoint(sm-md) {
-    font-size: pxToRem(14px);
-    line-height: pxToRem(22px);
+    font-size: pxToRem(16px);
   }
   @include breakpoint(lg) {
     font-size: pxToRem(16px);
-    line-height: pxToRem(24px);
   }
 }
 
@@ -193,31 +128,31 @@ $fw-bold: 700;
   }
 }
 
-@mixin f-overline {
-  font-weight: $fw-bold;
-  letter-spacing: 1.2;
+@mixin f-footer-1 {
+  font-weight: $fw-semibold;
+  font-size: pxToRem(16px);
+  line-height: 1.2;
+  color: $c-white;
+}
 
-  @include breakpoint(sm-md) {
-    font-size: pxToRem(12px);
-    line-height: pxToRem(18px);
-  }
-  @include breakpoint(lg) {
-    font-size: pxToRem(14px);
-    line-height: pxToRem(22px);
-  }
+@mixin f-footer-2 {
+  font-weight: $fw-regular-bold;
+  font-size: pxToRem(16px);
+  line-height: 1.2;
+  color: $c-gray;
 }
 
 @mixin f-btn {
+  font-weight: $fw-regular;
+  line-height: 1.1;
+
   @include breakpoint(xs-sm) {
-    font-size: pxToRem(13px);
-    line-height: pxToRem(22px);
+    font-size: pxToRem(14px);
   }
   @include breakpoint(md) {
-    font-size: pxToRem(14px);
-    line-height: pxToRem(24px);
+    font-size: pxToRem(18px);
   }
   @include breakpoint(lg) {
-    font-size: pxToRem(15px);
-    line-height: pxToRem(26px);
+    font-size: pxToRem(28px);
   }
 }

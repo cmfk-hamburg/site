@@ -35,7 +35,7 @@ const { headline, staffs } = Astro.props;
 	@import "../styles/utils.scss";
 
     .staff-collection__headline {
-        @include f-headline-h2;
+        // @include f-headline-h2;
     }
 
     .staff-collection__teaser-wrapper {
@@ -53,13 +53,13 @@ const { headline, staffs } = Astro.props;
     }
 
     .staff-collection__teaser-title {
-        @include f-subtitle-1;
+        // @include f-subtitle-1;
         margin-bottom: pxToRem(12px);
         text-transform: uppercase;
     }
 
     .staff-collection__teaser-detail {
-        @include f-body-2;
+        @include f-copy;
     }
 
     .staff-collection__teaser-image {

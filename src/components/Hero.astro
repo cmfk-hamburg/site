@@ -10,18 +10,15 @@ const t = useTranslations(lang);
 		<div class="hero__content">
 			<div class="hero__text-wrapper">
 				<div class="hero__overline">{t("hero.overline")}</div>
-			<h1 class="hero__title">
-				<p>{t("hero.title1")}</p>
-				<p>{t("hero.title2")}</p>
-			</h1>
-			<div class="hero__detail-text">
-				{t("hero.detail")}
-			</div>
-			</div>
-			<div class="hero__cta-wrapper">
-				<a class="btn btn--primary" href="#">
-					{t("hero.cta")}
-				</a>
+				<h1 class="hero__title">
+					<p>{t("hero.title1")}</p>
+					<p>{t("hero.title2")}</p>
+				</h1>
+				<div class="hero__cta-wrapper">
+					<a class="btn btn--primary" href="#">
+						{t("hero.cta")}
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -35,7 +32,7 @@ const t = useTranslations(lang);
 	.hero {
 		position: relative;
 		overflow: hidden;
-		background-image:  url("../images/auditorium-stadium.jpeg");
+		background-image:  url("../images/cinestill.jpeg");
 		background-position: 50% 50%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -47,8 +44,8 @@ const t = useTranslations(lang);
 	.hero__content-wrapper {
 		@include container;
 		display: flex;
-		height: 90vh;
 		align-items: center;
+		height: 90vh;
 	}
 
 	.hero__content {
@@ -62,10 +59,11 @@ const t = useTranslations(lang);
 	.hero__text-wrapper {
 		display: flex;
 		flex-direction: column;
+		width: 100%;
 	}
 
 	.hero__overline {
-		@include f-body-2;
+		@include f-btn;
 		display: block;
 	}
 
@@ -73,21 +71,29 @@ const t = useTranslations(lang);
 		@include f-hero;
 		display: block;
 		margin: pxToRem(24px) 0;
+		
+		@include breakpoint(md) {
+			width: column(10, 12);
+		}
+		@include breakpoint(lg) {
+			width: column(9, 12);
+		}
+
 
 		p {
 			margin: 0;
 		}
 	}
 
-	.hero__detail-text {
-		@include f-body-1;
-		width: column(8, 12);
-	}
-
 	.hero__cta-wrapper {
 		display: block;
 		margin-top: pxToRem(36px);
 		width: 100%;
+
+
+		@include breakpoint(md-xl) {
+			margin-top: 0;
+		}
 
 		.btn {
 			display: inline-block;

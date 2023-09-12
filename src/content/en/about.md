@@ -1,7 +1,8 @@
 ---
 headline: "About"
 overline: "Overline"
-imageSrc: url("/images/cinema.png")
+imageSrc: url("/images/marco-mons.jpg")
+
 ---
 
 ## Chinesische Medien-und Filmkunst e.V

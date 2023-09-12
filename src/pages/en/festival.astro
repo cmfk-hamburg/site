@@ -1,0 +1,30 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as festival from "../../content/en/festival.md";
+
+const Content = festival.Content;
+---
+
+<ArticleLayout title={festival.frontmatter.headline} article={festival}>
+	<div class="text-module__head">
+		<h2 class="text-module__headline">
+			{festival.frontmatter.headline2}
+		</h2>
+		<a class="text-module__cta btn btn--primary" href={festival.frontmatter.buttonLink} download>
+			{festival.frontmatter.buttonText}
+		</a>
+	</div>
+	<div class="text-module__content">
+		<Content />
+	</div>
+</ArticleLayout>
+
+<style lang="scss">
+	@import "@fontsource/roboto/400.css";
+	@import "@fontsource/roboto/500.css";
+	@import "@fontsource/roboto/700.css";
+	
+	body {
+		font-family: "Roboto", sans-serif;
+	}
+</style>

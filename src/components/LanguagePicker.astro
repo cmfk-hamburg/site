@@ -46,6 +46,7 @@ const newPath = function(lang: string) {
 		left: 0;
 		right: 0;
 		z-index: 100;
+		font-family: "Roboto", sans-serif;
 	}
 
 	.language-picker__wrapper {
@@ -61,16 +62,13 @@ const newPath = function(lang: string) {
 		margin: 0;
 		padding: 0;
 		pointer-events: auto;
-		// border: 1px solid $c-white;
 		box-sizing: border-box;
 	}
 
 	.language-picker__item {
-		// @include blur-background;
 		margin: pxToRem(4px);
 
 		&.is-active {
-			// background-color: $c-white;
 			border-bottom: 1px solid $c-white;
 		}
 	}
@@ -80,7 +78,6 @@ const newPath = function(lang: string) {
 		color: $c-white;
 
 		.is-active & {
-			// color: $c-black;
 			font-weight: $fw-semibold;
 		}
 	}

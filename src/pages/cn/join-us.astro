@@ -1,0 +1,20 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as joinUs from "../../content/cn/join-us.md";
+
+const Content = joinUs.Content;
+---
+
+<ArticleLayout title={joinUs.frontmatter.headline} article={joinUs}>
+	<Content />
+</ArticleLayout>
+
+<style lang="scss">
+	@import "@fontsource/noto-sans-sc/500.css";
+	@import "@fontsource/noto-sans-sc/600.css";
+	@import "@fontsource/noto-sans-sc/700.css";
+
+	body {
+		font-family: 'Noto Sans SC', sans-serif;
+	}
+</style>

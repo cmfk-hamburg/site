@@ -2,7 +2,7 @@ $break-start: 0;
 $break-mobile: 576px;
 $break-tablet: 768px;
 $break-desktop: 1024px;
-$break-desktop-lg: 1444px;
+$break-desktop-lg: 1228px;
 
 /**
  *  Breakpoints for exclusive media queries
@@ -81,7 +81,7 @@ $break-desktop-lg: 1444px;
   }
 
   @include breakpoint(md) {
-    padding-inline: pxToRem(36px);
+    padding-inline: pxToRem(84px);
   }
 
   @include breakpoint(lg) {

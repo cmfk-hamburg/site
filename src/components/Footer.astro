@@ -7,88 +7,58 @@ const t = useTranslations(lang);
 ---
 
 <footer class="footer">
-	<div class="footer__content-wrapper">
-		<!-- <div class="footer__newsletter">
-			<div class="footer__newsletter-detail">
-				{t("footer.newsletter")}
-			</div>
-			<form class="footer__newsletter-form">
-				<input type="email" />
-				<button type="submit" class="btn btn--primary">{t("footer.subscribe")}</button>
-			</form>
-		</div> -->
-		<div class="footer__sponsor">
-            <LinkWithIcon text={t("footer.sponsors")} url={`/${lang}/partner/`} />
+	<div class="footer__container">
+		<div class="footer__nav-wrapper">
+			<div class="footer__nav-headline">{t("footer.contact")}</div>
+			<ul class="footer__nav-list">
+				<li class="footer__nav-item">
+					<a class="footer__nav-link" href="mailto:info@cmfk.com">
+						<span class="footer__nav-link-text"> info@cmfk.com</span>
+					</a>
+				</li>
+				<li class="footer__nav-item">
+					<a href="https://cmfk-hamburg.com/" class="footer__nav-link">
+						<span class="footer__nav-link-text"> cmfk-hamburg.com</span>
+					</a>
+				</li>
+			</ul>
 		</div>
-	</div>
-	<div class="footer__nav-wrapper">
-		<div class="footer__nav-headline">{t("footer.menu")}</div>
-		<ul class="footer__nav-list">
-			<li class="footer__nav-item">
-				<a href={`/${lang}/`} class="footer__nav-link" title={t("nav.home")}>
-					<span class="footer__nav-link-text">{t("nav.home")}</span>
-				</a>
-			</li>
-			<li class="footer__nav-item">
-				<a
-					href={`/${lang}/call-for-film/`}
-					class="footer__nav-link"
-					title={t("nav.callForFilm")}
-				>
-					<span class="footer__nav-link-text">
-						{t("nav.callForFilm")}
-					</span>
-				</a>
-			</li>
-			<li class="footer__nav-item">
-				<a
-					href={`/${lang}/about/`}
-					class="footer__nav-link"
-					title={t("nav.about")}
-				>
-					<span class="footer__nav-link-text">
-						{t("nav.about")}
-					</span>
-				</a>
-			</li>
-			<li class="footer__nav-item">
-				<a
-					href={`/${lang}/partner/`}
-					class="footer__nav-link"
-					title={t("nav.partner")}
-				>
-					<span class="footer__nav-link-text">
-						{t("nav.partner")}
-					</span>
-				</a>
-			</li>
-			<li class="footer__nav-item">
-				<a
-					href={`/${lang}/volunteer/`}
-					class="footer__nav-link"
-					title={t("nav.volunteer")}
-				>
-					<span class="footer__nav-link-text">
-						{t("nav.volunteer")}
-					</span>
-				</a>
-			</li>
-		</ul>
-	</div>
-	<div class="footer__nav-wrapper">
-		<div class="footer__nav-headline">{t("footer.contact")}</div>
-		<ul class="footer__nav-list">
-			<li class="footer__nav-item">
-				<a class="footer__nav-link" href="mailto:info@cmfk.com">
-					<span class="footer__nav-link-text"> info@cmfk.com</span>
-				</a>
-			</li>
-			<li class="footer__nav-item">
-				<a href="https://cmfk-hamburg.com/" class="footer__nav-link">
-					<span class="footer__nav-link-text"> cmfk-hamburg.com</span>
-				</a>
-			</li>
-		</ul>
+		<div class="footer__nav-wrapper">
+			<div class="footer__nav-headline">{t("footer.getInTouch")}</div>
+			<ul class="footer__nav-list">
+				<li class="footer__nav-item">
+					<a class="footer__nav-link" href="https://www.instagram.com/riparian.showcase/" target="_blank">
+						<span class="footer__nav-link-text">Ins | @riparian.showcase</span>
+					</a>
+				</li>
+				<li class="footer__nav-item">
+					<span class="footer__nav-link-text"> Wechat | riparian_showcase</span>
+				</li>
+				<li class="footer__nav-item">
+					<a href="https://cmfk-hamburg.com/" class="footer__nav-link">
+						<span class="footer__nav-link-text"> Telegram</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer__nav-wrapper">
+			<div class="footer__nav-headline">{t("footer.parting")}</div>
+			<ul class="footer__nav-list">
+				<li class="footer__nav-item">
+					<a class="footer__nav-link" href="https://www.instagram.com/riparian.showcase/" target="_blank">
+						<span class="footer__nav-link-text">Ins | @riparian.showcase</span>
+					</a>
+				</li>
+				<li class="footer__nav-item">
+					<span class="footer__nav-link-text"> Wechat | riparian_showcase</span>
+				</li>
+				<li class="footer__nav-item">
+					<a href="https://cmfk-hamburg.com/" class="footer__nav-link">
+						<span class="footer__nav-link-text"> Telegram</span>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </footer>
 
@@ -99,19 +69,29 @@ const t = useTranslations(lang);
 
 	.footer {
         @include container;
-		display: grid;
-		padding: pxToRem(48px) 5%;
-		background: black;
-		color: white;
 
         @include breakpoint(xs-sm) {
-            grid-template-columns: 1fr;
             margin-top: pxToRem(40px);
+        }
+
+        @include breakpoint(md-xl) {
+            margin-top: pxToRem(80px);
+        }
+	}
+
+	.footer__container {
+		display: grid;
+		padding: pxToRem(48px) 5%;
+		border-top: 1px solid $c-white;
+		background: $c-black;
+		color: $c-white;
+
+		@include breakpoint(xs-sm) {
+            grid-template-columns: 1fr;
         }
 
         @include breakpoint(md) {
             grid-template-columns: 1fr 1fr;
-            margin-top: pxToRem(80px);
         }
 
         @include breakpoint(lg) {
@@ -126,12 +106,13 @@ const t = useTranslations(lang);
     }
 
 	.footer__newsletter-detail {
-		@include f-body-1;
+		@include f-footer-1;
 	}
 
 	.footer__nav-headline {
-		@include f-headline-h5;
+		@include f-footer-2;
 		margin: 0;
+		color: $c-gray;
 
         @include breakpoint(xs-sm) {
             margin-top: pxToRem(24px);

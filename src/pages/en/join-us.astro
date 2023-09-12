@@ -1,0 +1,20 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as joinUs from "../../content/en/join-us.md";
+
+const Content = joinUs.Content;
+---
+
+<ArticleLayout title={joinUs.frontmatter.headline} article={joinUs}>
+	<Content />
+</ArticleLayout>
+
+<style lang="scss">
+	@import "@fontsource/roboto/400.css";
+	@import "@fontsource/roboto/500.css";
+	@import "@fontsource/roboto/700.css";
+	
+	body {
+		font-family: "Roboto", sans-serif;
+	}
+</style>

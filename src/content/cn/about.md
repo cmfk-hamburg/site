@@ -1,7 +1,7 @@
 ---
 headline: "关于我们"
 overline: ""
-imageSrc: url("/images/cinema.png")
+imageSrc: url("/images/cinestill.jpg")
 ---
 
 这是一个网页版的发光字生成工具，用于在浏览器中观看网页时展现特殊的文字渲染效果。实现的原理是给网页中的文字添加一段代码，浏览器解析这段代码会给相应的文字添加滤镜效果，从而产生类似文字发光的视觉样式。

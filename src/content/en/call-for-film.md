@@ -1,22 +1,21 @@
 ---
-headline: "Call For Film"
+headline: "Call For Entries"
 overline: "23-29 October 2023"
-imageSrc: url("/images/cinema.png")
+imageSrc: url("/images/cole-parrant.jpg")
+headline2: "2nd Annual Submissions"
+buttonImage: "/images/filmfreeway-logo-hires-white.png"
+buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
 ---
 
-We thank our partners, supporters and sponsors:
+The Chinese Film Festival Hamburg, now in its second edition, is a humble yet mesmerising celebration of contemporary Chinese art house cinema in Hamburg, Germany. 
 
-The decade that brought us Star Trek and Doctor Who also resurrected Cicero—or at least what used to be Cicero—in an attempt to make the days before computerized design a little less painstaking.
+We welcome all films and videos, including but not limited to: feature films, documentaries, short films, animations, experiments, etc. 
 
-The French lettering company Letraset manufactured a set of dry-transfer sheets which included the lorem ipsum filler text in a variety of fonts, sizes, and layouts. These sheets of lettering could be rubbed on anywhere and were quickly adopted by graphic artists, printers, architects, and advertisers for their professional look and ease of use.
+Emerging directors who have just embarked on their filmmaking journey are very welcome!
 
-Aldus Corporation, which later merged with Adobe Systems, ushered lorem ipsum into the information age with its desktop publishing software Aldus PageMaker. The program came bundled with lorem ipsum dummy text for laying out page content, and other word processors like Microsoft Word followed suit. More recently the growth of web design has helped proliferate lorem ipsum across the internet as a placeholder for future text—and in some cases the final content (this is why we proofread, kids).
-
-It probably isn't styled much, but Markdown does support:
-- **bold**
-- lists
-- [links](https://astro.build)
-- and more!
-
-![A starry night sky.](../../../public/images/auditorium-stadium.jpeg)
-*image_caption*
+Deadlines:
+- Opening Date: September 15, 2023
+- Earlybird Deadline: November 16, 2023
+- Regular Deadline: January 16, 2024
+- Final Deadline: February 8, 2024
+- Notification Date: April 15, 2024
