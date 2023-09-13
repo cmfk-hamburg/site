@@ -21,6 +21,8 @@ const { headline, staffs } = Astro.props;
                 </div>
                 <div class="staff-collection__teaser-detail">
                     {s.frontmatter.role}
+                    {s.frontmatter.role2 && <br>}
+                    {s.frontmatter.role2}
                 </div>
             </div>
         </div>
@@ -36,14 +38,26 @@ const { headline, staffs } = Astro.props;
 
     .staff-collection__headline {
         @include f-subtitle-1;
-        margin: pxToRem(36px) 0;
+        margin-top: pxToRem(60px);
     }
 
     .staff-collection__teaser-wrapper {
+        margin-top: pxToRem(40px);
+        margin-bottom: pxToRem(60px);
+        border-bottom: 1px solid $c-white;
+
         @include breakpoint(md-xl) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-column-gap: pxToRem(48px);
+        }
+
+        .staff-collection:first-of-type & {
+            padding-bottom: pxToRem(60px);
+        }
+
+        .staff-collection:last-of-type & {
+            border-bottom: 0;
         }
     }
 
@@ -54,6 +68,7 @@ const { headline, staffs } = Astro.props;
             display: flex;
             flex-direction: column;
             align-items: center;
+            text-align: center;
         }
 
         @include breakpoint(lg) {

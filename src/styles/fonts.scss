@@ -48,24 +48,6 @@ $fw-bold: 700;
   }
 }
 
-@mixin f-headline-h3 {
-  font-weight: $fw-semibold;
-  line-height: 1.2;
-
-  @include breakpoint(xs-sm) {
-    font-size: pxToRem(32px);
-    line-height: pxToRem(48px);
-  }
-  @include breakpoint(md) {
-    font-size: pxToRem(32px);
-    line-height: pxToRem(48px);
-  }
-  @include breakpoint(lg) {
-    font-size: pxToRem(32px);
-    line-height: pxToRem(48px);
-  }
-}
-
 @mixin f-hero {
   font-weight: $fw-semibold;
   line-height: 1.2;
@@ -135,7 +117,7 @@ $fw-bold: 700;
 
 
 @mixin f-footer-1 {
-  font-weight: $fw-semibold;
+  font-weight: $fw-regular;
   font-size: pxToRem(16px);
   line-height: 1.2;
   color: $c-white;

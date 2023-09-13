@@ -7,12 +7,25 @@ buttonText: "Program 2023"
 buttonLink: "/assets/program-chinese-film-2023.pdf"
 ---
 
-The Chinese Film Festival Hamburg, now in its second edition, is a mesmerising celebration of contemporary Chinese art house cinema. Organised by the non-profit "Chinesische Medien- und Filmkunst e.V" (Chinese Film and Media Art Association), founded in 2022 by filmmaker Hanqi Sheng and artist Zhichao Zhu, this festival goes beyond being just an event. 
+From May 9th to 12th, 2024, the Chinese Film Festival Hamburg (CFFH), now in its second edition, celebrating the charm of Chinese films and offering a multilayered cinematic experience to the city. 
 
-It's a vibrant platform that shines a spotlight on emerging talents in Chinese independent filmmaking, offering an authentic portrayal of China's cinematic artistry.
+### Our Cinematic Journey
+In May 2022, the filmmakers Hanqi Sheng and the artist Zhichao Zhu initiated the Chinese-language independent film screening project "ShowcaseRiparian (河岸放映)” in Hamburg. By the end of 2022, the non-profit organization Hamburg Chinese Film and Media Art Association (Chinesische Medien- und Filmkunst e.V.) was established. As it developed, a dedicated team of film enthusiasts came together, bound by our shared passion for the project.
 
-Our festival is a testament to the diversity of cinematic genres, from intricate narratives to impactful shorts, revealing documentaries, imaginative animations, and bold experimental works. We take pride in being a cultural bridge that connects China and Germany, fostering intercultural dialogue and enriching Hamburg's diversity.
+We were also fortunate to receive significant support and encouragement from the Hamburg Academy of Fine Arts, the Department of Culture and Media in Hamburg, the iconic local cultural institutions B-Movie, and Metropolis Kino. This support led to the creation of the first edition of the film festival.
 
-In our first film festival, which took place from January 10th to 15th, 2023, under the name of "Chinese Film+." Our Events at Chinese Film+ were met with enthusiastic responses, often selling out to both Chinese and non-Chinese audiences, film critics, and creators in Hamburg and its surrounding areas. Many of the films had their German premiere at our festival, and we even had the privilege of bringing two world premieres to our local audiences.
+The inaugural festival, held from January 10th to 15th in 2023 under the name "Chinese Film+," received overwhelming acclaim. Its events witnessed sold-out shows attended by diverse audiences, film critics, and creators from Hamburg and beyond. The festival proudly introduced several Chinese art-house films to German audiences and even hosted two global premieres.
 
-Join us for this exciting cinematic journey and be part of this remarkable cultural exchange between China and Germany.
+### Our Mission
+
+This year, as the Chinese Film Festival Hamburg (CFFH), we continue our mission with pride. It's not just a festival; it's a multidimensional platform advocating and showcasing contemporary Chinese art cinema and visual arts.
+
+While industry standards matter, what we truly crave are films bursting with original “écriture” and authentic expression. And we firmly believe that the spirit of experimentation is the cornerstone of filmic art innovation. Our goal is to provide a space for filmmakers and their works, characterized by innovative and diverse filmic narratives, aesthetics, and concepts, to be shared and exchanged across time zones and cultures.
+
+While industry standards matter, what we truly crave are films bursting with original “écriture” and authentic expression.
+
+Through our festival, we endeavort to offer a realistic portrayal of contemporary Chinese cinematic art to the German audience, fostering cultural exchange and enriching Hamburg's local diversity.
+
+You can click here to download last year's film festival program booklet.
+
+Download the last year's film festival program booklet.

@@ -81,11 +81,11 @@ $break-desktop-lg: 1228px;
   }
 
   @include breakpoint(md) {
-    padding-inline: pxToRem(84px);
+    padding-inline: column(1, 12);
   }
 
   @include breakpoint(lg) {
-    padding-inline: pxToRem(36px);
+    padding-inline: column(1, 12);
   }
 }
 

@@ -27,21 +27,27 @@ const {headline, overline, imageSrc} = Astro.props;
 		width: 100%;
 
         @include breakpoint(xs-sm) {
-            height: pxToRem(300px);
+            height: pxToRem(220px);
         }
         @include breakpoint(md) {
-            height: pxToRem(360px);
+            height: pxToRem(220px);
         }
         @include breakpoint(lg) {
-            height: pxToRem(400px);
+            height: pxToRem(300px);
         }
 	}
 
 	.stage__content-wrapper {
         position: absolute;
-        bottom: pxToRem(24px);
 		color: $c-white;
         width: 100%;
+
+        @include breakpoint(sm-md) {
+            bottom: pxToRem(28px);
+        }
+        @include breakpoint(lg) {
+            bottom: pxToRem(24px);
+        }
 	}
 
     .stage__content {
