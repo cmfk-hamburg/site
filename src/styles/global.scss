@@ -98,6 +98,9 @@ a {
 .text-module__head {
   display: grid;
 
+  @include breakpoint(md) {
+    grid-template-row: 1fr;
+  }
   @include breakpoint(lg) {
     grid-template-columns: 8fr 4fr;
   }
@@ -105,23 +108,69 @@ a {
 
 .text-module__headline {
   @include f-subtitle-1;
-}
-
-.text-module__cta {
-  justify-self: end;
   margin: pxToRem(36px) 0;
-  height: fit-content;
-}
-
-.text-module__content {
-  margin-top: pxToRem(80px);
-  background-color: $c-black;
-  color: $c-white;
 
   @include breakpoint(md) {
     width: column(10, 12);
   }
+
+  p {
+    @include f-btn;
+    margin-top: pxToRem(24px);
+    text-align: right;
+    margin-left: column(4, 12);
+  }
+}
+
+.text-module__cta {
+  margin: pxToRem(18px) 0;
+  height: fit-content;
+  width: fit-content;
+
   @include breakpoint(lg) {
+    justify-self: end;
+    margin: pxToRem(36px) 0;
+  }
+
+  img {
+    max-width: pxToRem(150px);
+  }
+}
+
+.text-module__tabs {
+  @include f-btn-bold;
+  list-style: none;
+
+  .text-module__tab {
+    margin-bottom: pxToRem(18px);
+    text-align: right;
+  }
+
+  .text-module__tab-link {
+    border-bottom: 2px solid transparent;
+    padding-bottom: pxToRem(4px);
+    color: $c-white;
+
+    &:hover,
+    &.is-active {
+      border-bottom: 2px solid $c-white;
+    }
+  }
+}
+
+.text-module__content {
+  background-color: $c-black;
+  color: $c-white;
+
+  @include breakpoint(xs-sm) {
+    margin-top: pxToRem(40px);
+  }
+  @include breakpoint(md) {
+    margin-top: pxToRem(60px);
+    width: column(10, 12);
+  }
+  @include breakpoint(lg) {
+    margin-top: pxToRem(80px);
     width: column(8, 12);
   }
 
@@ -162,7 +211,6 @@ a {
   }
 
   em {
-    @include f-caption;
     display: block;
     text-align: center;
     font-style: normal;

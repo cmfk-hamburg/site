@@ -2,7 +2,7 @@
 headline: "Join Us"
 overline: ""
 imageSrc: url("/images/buse-doga.jpg")
-headline2: ""
+headline2: "\"This film festival not only possesses exceptional uniqueness within the Hamburg cultural landscape but also exerts a profound and far-reaching influence.\""
 buttonText: ""
 buttonLink: ""
 ---

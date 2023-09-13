@@ -7,15 +7,14 @@ const t = useTranslations(lang);
 
 <div class="meta-footer">
 	<div class="meta-footer__item">
-		<div>2023 @ cino knio</div>
-		<!-- <div>Designe by Di He | Dev by <a class="link" href="https://fanxu.de/" target="_blank">Fan Xu</a></div> -->
+		<div>2023 @ Chinese Film Festival Hamburg</div>
 	</div>
 	<div class="meta-footer__item">
 		<a href={`/${lang}/imprint/`} class="nav__link" title={t("nav.imprint")}>
 			{t("nav.imprint")}
 		</a>
 	</div>
-	<div class="meta-footer__item">
+	<!-- <div class="meta-footer__item">
 		<a
 			href={`/${lang}/data-privacy/`}
 			class="nav__link"
@@ -23,8 +22,8 @@ const t = useTranslations(lang);
 		>
 			{t("nav.dataPrivacy")}
 		</a>
-	</div>
-	<ul class="meta-footer__social-list">
+	</div> -->
+	<!-- <ul class="meta-footer__social-list">
 		<li class="meta-footer__social-item">
 			<a href="https://www.instagram.com/riparian.showcase/" target="_blank">
 				<i class="bi bi-instagram" aria-hidden="true"></i>
@@ -40,7 +39,7 @@ const t = useTranslations(lang);
 				<i class="bi bi-telegram" aria-hidden="true"></i>
 			</a>
 		</li>
-	</ul>
+	</ul> -->
 </div>
 
 <style lang="scss">
@@ -51,34 +50,35 @@ const t = useTranslations(lang);
 	.meta-footer {
 		@include f-footer-1;
 		box-sizing: border-box;
+		display: flex;
 		padding: pxToRem(12px) pxToRem(24px);
 		width: 100%;
-		color: $c-white;
+		color: $c-black;
 		background: $c-lightgray;
 
 		@include breakpoint(xs-sm) {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			flex-direction: column;
 			justify-content: center; 
 			align-items: center;
 			margin-top: pxToRem(12px);
-			margin-bottom: pxToRem(80px);
+			margin-bottom: pxToRem(100px);
 		}
 
 		@include breakpoint(md-xl) {
-			display: flex;
-			justify-content: space-between;
+			justify-content: space-evenly;
 			align-items: end;
 			margin-top: pxToRem(28px);
+			margin-bottom: pxToRem(20px);
 		}
 
 		a {
-			color: $c-white;
+			color: $c-black;
 		}
 	}
 
 	.meta-footer__item {
 		@include breakpoint(xs-sm) {
+			margin-bottom: pxToRem(12px);
 			text-align: center;
 		}
 

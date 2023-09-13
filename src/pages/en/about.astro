@@ -2,21 +2,18 @@
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 import Staff from "../../components/Staff.astro";
 import * as about from "../../content/en/about.md";
-const staffs = await Astro.glob("../../content/en/staff/*.md");
+const staffFounder = await Astro.glob("../../content/en/staff-founder/*.md");
+const staffTeam = await Astro.glob("../../content/en/staff-team/*.md");
 
-const Content = about.Content;
+// const Content = about.Content;
 ---
 
 <ArticleLayout title={about.frontmatter.headline} article={about}>
-	<Content />
-	<Staff headline="The Team" staffs={staffs} />
+	<Staff headline="Festival Derector / Founder" staffs={staffFounder} />
+	<Staff headline="Program" staffs={staffTeam} />
 </ArticleLayout>
 
 <style lang="scss">
-	@import "@fontsource/roboto/400.css";
-	@import "@fontsource/roboto/500.css";
-	@import "@fontsource/roboto/700.css";
-	
 	body {
 		font-family: "Roboto", sans-serif;
 	}

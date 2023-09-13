@@ -11,7 +11,7 @@ const Content = callForFilm.Content;
 			{callForFilm.frontmatter.headline2}
 		</h2>
 		<a class="text-module__cta" href={callForFilm.frontmatter.buttonLink} target="_blank">
-			<img src={callForFilm.frontmatter.buttonImage} alt="FilmFreeway" width="200px"/>
+			<img src={callForFilm.frontmatter.buttonImage} alt="FilmFreeway" />
 		</a>
 	</div>
 	<div class="text-module__content">
@@ -20,10 +20,6 @@ const Content = callForFilm.Content;
 </ArticleLayout>
 
 <style lang="scss">
-	@import "@fontsource/roboto/400.css";
-	@import "@fontsource/roboto/500.css";
-	@import "@fontsource/roboto/700.css";
-	
 	body {
 		font-family: "Roboto", sans-serif;
 	}
