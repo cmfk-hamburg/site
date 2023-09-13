@@ -1,19 +1,20 @@
 ---
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import Staff from "../../components/Staff.astro";
 import * as about from "../../content/cn/about.md";
+const staffFounder = await Astro.glob("../../content/cn/staff-founder/*.md");
+const staffTeam = await Astro.glob("../../content/cn/staff-team/*.md");
 
-const Content = about.Content;
+// const Content = about.Content;
 ---
 
 <ArticleLayout title={about.frontmatter.headline} article={about}>
-	<Content />
+	<Staff headline="电影节主席 / 创办人" staffs={staffFounder} />
+	<Staff headline="团队成员" staffs={staffTeam} />
 </ArticleLayout>
 
-<style lang="scss">
-	@import "@fontsource/noto-sans-sc/500.css";
-	@import "@fontsource/noto-sans-sc/600.css";
-	@import "@fontsource/noto-sans-sc/700.css";
 
+<style lang="scss">
 	body {
 		font-family: 'Noto Sans SC', sans-serif;
 	}

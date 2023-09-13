@@ -1,17 +1,21 @@
 ---
-headline: "合作伙伴"
+headline: "Join Us"
 overline: ""
-imageSrc: url("/images/cinema.png")
+imageSrcS: url("/images/stage/joinus-s.png")
+imageSrcM: url("/images/stage/joinus-m.png")
+imageSrcL: url("/images/stage/joinus-l.png")
+headline2: "\"This film festival not only possesses exceptional uniqueness within the Hamburg cultural landscape but also exerts a profound and far-reaching influence.\""
+buttonText: ""
+buttonLink: ""
+footer: "------Professor Robert Bramkamp, Film Department, HFBK Hamburg."
 ---
 
-这是一个网页版的发光字生成工具，用于在浏览器中观看网页时展现特殊的文字渲染效果。实现的原理是给网页中的文字添加一段代码，浏览器解析这段代码会给相应的文字添加滤镜效果，从而产生类似文字发光的视觉样式。
+The Chinese Film Festival Hamburg (CFFH) is organized by the non-profit organisation "Chinese Media and Film Art Association." As a non-profit event, our festival relies on the generous support of individuals like you. Your contributions will enable us to uphold our dedication to bringing unparalleled cinematic experiences to audiences in Hamburg and the surrounding regions, all while championing the talents of Chinese-language filmmakers.
 
-在网页中实现发光字效果，这里使用了两个参数：text-shadow和filter:glow，前者适用于非IE浏览器，后者仅适用于IE浏览器。对这两个参数有所了解的网友在发布网页文字时可以自行加入，本页面工具只是提供一个便捷的方式。
+Our screenings and events offer sponsorship opportunities at various levels, each with a unique set of benefits.
 
-要添加发光字效果，你所发布的网页必须能够输入HTML代码，即输入文字时的编辑器有HTML模式。在HTML模式下贴入生成的发光字代码即可。
+For general sponsorship information for 2023/2024, please download the PDF here.
 
-颜色选择是发光字效果好坏的重要一步，在预览窗口可以实时查看选定颜色的展示效果。你还可以切换黑白两色背景以预想将要发布到的网页中情境，注意此处的预览背景色不会带到你的网页中。
+To become a sponsor for 2024, please send an email to info@chinesefilmfest.de.
 
-发光强度可设定15个等级，根据字体大小自行设定。字体基于访问端系统字体，不给出过多选择。由于部分网友希望使用英文发光字，所以添加有几款常见英文字体。字体大小根据需要选择，比如你要写一个标题或者一段正文。
-
-好了，发挥你的创意，制作出漂亮的发光字吧！
+CFFH extends its heartfelt thanks to its sponsors and partners from the 1st Film Festival held in January 2023, including:

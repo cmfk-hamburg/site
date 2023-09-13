@@ -14,7 +14,7 @@ export const ui = {
     "nav.joinUs": "Join Us",
     "nav.partner": "Partner",
     "nav.sponsor": "Sponsor",
-    "nav.volunteer": "Be our volunteer",
+    "nav.volunteer": "Be A Volenteer",
     "nav.dataPrivacy": "Data Privacy",
     "nav.imprint": "Imprint",
     "hero.overline": "May 9-15, 2024",

@@ -1,7 +1,9 @@
 ---
 headline: "Festival"
 overline: ""
-imageSrc: url("/images/annie-spratt.jpg")
+imageSrcS: url("/images/stage/festival-s.png")
+imageSrcM: url("/images/stage/festival-m.png")
+imageSrcL: url("/images/stage/festival-l.png")
 headline2: "Dive into the Essence of Chinese Art-House Cinema at the 2nd \"Chinese Film Festival Hamburg\" (CFFH)"
 buttonText: "Program 2023"
 buttonLink: "/assets/program-chinese-film-2023.pdf"

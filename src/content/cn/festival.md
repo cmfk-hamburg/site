@@ -1,17 +1,31 @@
 ---
-headline: "志愿者"
+headline: "Festival"
 overline: ""
-imageSrc: url("/images/cinema.png")
+imageSrc: url("/images/annie-spratt.jpg")
+headline2: "Dive into the Essence of Chinese Art-House Cinema at the 2nd \"Chinese Film Festival Hamburg\" (CFFH)"
+buttonText: "Program 2023"
+buttonLink: "/assets/program-chinese-film-2023.pdf"
 ---
 
-这是一个网页版的发光字生成工具，用于在浏览器中观看网页时展现特殊的文字渲染效果。实现的原理是给网页中的文字添加一段代码，浏览器解析这段代码会给相应的文字添加滤镜效果，从而产生类似文字发光的视觉样式。
+From May 9th to 12th, 2024, the Chinese Film Festival Hamburg (CFFH), now in its second edition, celebrating the charm of Chinese films and offering a multilayered cinematic experience to the city. 
 
-在网页中实现发光字效果，这里使用了两个参数：text-shadow和filter:glow，前者适用于非IE浏览器，后者仅适用于IE浏览器。对这两个参数有所了解的网友在发布网页文字时可以自行加入，本页面工具只是提供一个便捷的方式。
+### Our Cinematic Journey
+In May 2022, the filmmakers Hanqi Sheng and the artist Zhichao Zhu initiated the Chinese-language independent film screening project "ShowcaseRiparian (河岸放映)” in Hamburg. By the end of 2022, the non-profit organization Hamburg Chinese Film and Media Art Association (Chinesische Medien- und Filmkunst e.V.) was established. As it developed, a dedicated team of film enthusiasts came together, bound by our shared passion for the project.
 
-要添加发光字效果，你所发布的网页必须能够输入HTML代码，即输入文字时的编辑器有HTML模式。在HTML模式下贴入生成的发光字代码即可。
+We were also fortunate to receive significant support and encouragement from the Hamburg Academy of Fine Arts, the Department of Culture and Media in Hamburg, the iconic local cultural institutions B-Movie, and Metropolis Kino. This support led to the creation of the first edition of the film festival.
 
-颜色选择是发光字效果好坏的重要一步，在预览窗口可以实时查看选定颜色的展示效果。你还可以切换黑白两色背景以预想将要发布到的网页中情境，注意此处的预览背景色不会带到你的网页中。
+The inaugural festival, held from January 10th to 15th in 2023 under the name "Chinese Film+," received overwhelming acclaim. Its events witnessed sold-out shows attended by diverse audiences, film critics, and creators from Hamburg and beyond. The festival proudly introduced several Chinese art-house films to German audiences and even hosted two global premieres.
 
-发光强度可设定15个等级，根据字体大小自行设定。字体基于访问端系统字体，不给出过多选择。由于部分网友希望使用英文发光字，所以添加有几款常见英文字体。字体大小根据需要选择，比如你要写一个标题或者一段正文。
+### Our Mission
 
-好了，发挥你的创意，制作出漂亮的发光字吧！
+This year, as the Chinese Film Festival Hamburg (CFFH), we continue our mission with pride. It's not just a festival; it's a multidimensional platform advocating and showcasing contemporary Chinese art cinema and visual arts.
+
+While industry standards matter, what we truly crave are films bursting with original “écriture” and authentic expression. And we firmly believe that the spirit of experimentation is the cornerstone of filmic art innovation. Our goal is to provide a space for filmmakers and their works, characterized by innovative and diverse filmic narratives, aesthetics, and concepts, to be shared and exchanged across time zones and cultures.
+
+While industry standards matter, what we truly crave are films bursting with original “écriture” and authentic expression.
+
+Through our festival, we endeavort to offer a realistic portrayal of contemporary Chinese cinematic art to the German audience, fostering cultural exchange and enriching Hamburg's local diversity.
+
+You can click here to download last year's film festival program booklet.
+
+Download the last year's film festival program booklet.

@@ -4,6 +4,13 @@
 @import "@fontsource/roboto/500.css";
 @import "@fontsource/roboto/700.css";
 
+@import "@fontsource/noto-sans-sc/100.css";
+@import "@fontsource/noto-sans-sc/300.css";
+@import "@fontsource/noto-sans-sc/400.css";
+@import "@fontsource/noto-sans-sc/500.css";
+@import "@fontsource/noto-sans-sc/600.css";
+@import "@fontsource/noto-sans-sc/700.css";
+
 /**
  * Font-weight
  */
@@ -18,9 +25,8 @@ $fw-bold: 700;
  * Font Mixins
  */
 @mixin f-headline-h1 {
-  font-weight: $fw-semibold;
+  font-weight: $fw-regular;
   line-height: 1.2;
-  text-transform: uppercase;
 
   @include breakpoint(xs-sm) {
     font-size: pxToRem(32px);

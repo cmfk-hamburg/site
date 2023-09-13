@@ -1,5 +1,5 @@
 ---
-headline: "数据隐私"
+headline: "Data Privacy"
 overline: ""
 imageSrc: url("/images/cinema.png")
 ---

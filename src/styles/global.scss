@@ -115,7 +115,6 @@ a {
     @include f-btn;
     margin-top: pxToRem(40px);
     text-align: right;
-    margin-left: column(2, 10);
   }
 }
 
@@ -136,9 +135,23 @@ a {
   }
 }
 
+.text-module__head--with-tab {
+  @include breakpoint(sm-md) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 .text-module__tabs {
   @include f-btn-bold;
   list-style: none;
+
+  @include breakpoint(sm-md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 0;
+  }
 
   .text-module__tab {
     margin-bottom: pxToRem(18px);

@@ -1,5 +1,5 @@
 ---
-const {headline, overline, imageSrc} = Astro.props;
+const {headline, overline, imageSrcS, imageSrcM, imageSrcL} = Astro.props;
 ---
 
 <div class="stage">
@@ -11,7 +11,7 @@ const {headline, overline, imageSrc} = Astro.props;
     </div>
 </div>
 
-<style lang="scss" define:vars={{imageSrc}}>
+<style lang="scss" define:vars={{imageSrcS, imageSrcM, imageSrcL}}>
 	@import "../styles/variables.scss";
 	@import "../styles/fonts.scss";
 	@import "../styles/utils.scss";
@@ -19,7 +19,6 @@ const {headline, overline, imageSrc} = Astro.props;
 	.stage {
 		position: relative;
 		overflow: hidden;
-        background-image: var(--imageSrc);
 		background-repeat: no-repeat;
 		background-size: cover;
 		object-fit: cover;
@@ -27,27 +26,24 @@ const {headline, overline, imageSrc} = Astro.props;
 		width: 100%;
 
         @include breakpoint(xs-sm) {
+            background-image: var(--imageSrcS);
             height: pxToRem(220px);
         }
         @include breakpoint(md) {
+            background-image: var(--imageSrcM);
             height: pxToRem(220px);
         }
         @include breakpoint(lg) {
+            background-image: var(--imageSrcL);
             height: pxToRem(300px);
         }
 	}
 
 	.stage__content-wrapper {
         position: absolute;
+        bottom: pxToRem(30px);
 		color: $c-white;
         width: 100%;
-
-        @include breakpoint(sm-md) {
-            bottom: pxToRem(28px);
-        }
-        @include breakpoint(lg) {
-            bottom: pxToRem(24px);
-        }
 	}
 
     .stage__content {
@@ -62,9 +58,4 @@ const {headline, overline, imageSrc} = Astro.props;
     .stage__overline {
         @include f-btn;
     }
-
-    // .stage__image-background {
-    //     width: 100%;
-    //     height: auto;
-    // }
 </style>

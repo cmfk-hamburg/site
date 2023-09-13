@@ -1,7 +1,9 @@
 ---
 headline: "Call For Entries"
-overline: "23-29 October 2023"
-imageSrc: url("/images/cole-parrant.jpg")
+# overline: "23-29 October 2023"
+imageSrcS: url("/images/stage/call-for-entries-s.png")
+imageSrcM: url("/images/stage/call-for-entries-m.png")
+imageSrcL: url("/images/stage/call-for-entries-l.png")
 headline2: "2nd Annual Submissions"
 buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
