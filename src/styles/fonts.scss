@@ -127,6 +127,10 @@ $fw-bold: 700;
   font-size: pxToRem(16px);
   line-height: 1.2;
   color: $c-white;
+
+  @media (width <= 400px) {
+    font-size: pxToRem(12px);
+  }
 }
 
 @mixin f-footer-2 {
@@ -134,6 +138,10 @@ $fw-bold: 700;
   font-size: pxToRem(16px);
   line-height: 1.2;
   color: $c-gray;
+
+  @media (width <= 400px) {
+    font-size: pxToRem(12px);
+  }
 }
 
 @mixin f-footer-3 {
@@ -141,12 +149,19 @@ $fw-bold: 700;
   font-size: pxToRem(16px);
   line-height: 1.2;
   color: $c-gray;
+
+  @media (width <= 400px) {
+    font-size: pxToRem(12px);
+  }
 }
 
 @mixin f-btn {
   font-weight: $fw-regular;
   line-height: 1.1;
 
+  @media (width <= 400px) {
+    font-size: pxToRem(12px);
+  }
   @include breakpoint(xs-sm) {
     font-size: pxToRem(14px);
   }
@@ -162,6 +177,9 @@ $fw-bold: 700;
   font-weight: $fw-regular-bold;
   line-height: 1.1;
 
+  @media (width <= 400px) {
+    font-size: pxToRem(12px);
+  }
   @include breakpoint(xs-sm) {
     font-size: pxToRem(14px);
   }

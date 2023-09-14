@@ -1,6 +1,6 @@
 ---
 name: "Hanqi Sheng"
 email: "film@sheng.email"
-role: "Festival Derector / Founder"
+role: "Festival Director / Founder"
 image: "/images/team/shenghanqi.png"
 ---

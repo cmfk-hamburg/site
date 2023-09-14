@@ -1,5 +1,5 @@
 ---
 name: "Biqiong Pan"
-role: "Curator / Programmer "
+role: "Head of Festival Producer"
 image: "/images/team/biqiongpan.png"
 ---

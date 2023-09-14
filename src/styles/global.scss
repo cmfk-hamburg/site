@@ -153,19 +153,24 @@ a {
     padding: 0;
   }
 
-  .text-module__tab {
-    margin-bottom: pxToRem(18px);
-    text-align: right;
-  }
-
   .text-module__tab-link {
     border-bottom: 2px solid transparent;
     padding-bottom: pxToRem(4px);
     color: $c-white;
 
-    &:hover,
-    &.is-active {
+    &:hover {
       border-bottom: 2px solid $c-white;
+    }
+  }
+
+  .text-module__tab {
+    margin-bottom: pxToRem(18px);
+    text-align: right;
+
+    &.is-active {
+      .text-module__tab-link {
+        border-bottom: 2px solid $c-white;
+      }
     }
   }
 }

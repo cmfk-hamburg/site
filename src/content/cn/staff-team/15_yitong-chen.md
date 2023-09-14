@@ -1,5 +1,5 @@
 ---
-name: "Yitong Chen"
-role: "Graphic deisgner"
+name: "陈怡彤"
+role: "平面设计"
 image: "/images/team/zhuxinchen.png"
 ---
