@@ -32,13 +32,22 @@ const t = useTranslations(lang);
 	.hero {
 		position: relative;
 		overflow: hidden;
-		background-image:  url("../images/cinestill.jpeg");
 		background-position: 50% 50%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		backface-visibility: hidden;
 		height: 100vh;
 		width: 100%;
+
+		@include breakpoint(xs-sm) {
+			background-image:  url("../images/homepage-s.png");
+		}
+		@include breakpoint(md) {
+			background-image:  url("../images/homepage-m.png");
+		}
+		@include breakpoint(lg) {
+			background-image:  url("../images/homepage-l.png");
+		}
 	}
 
 	.hero__content-wrapper {
@@ -54,6 +63,7 @@ const t = useTranslations(lang);
 		flex-wrap: wrap;
 		align-content: flex-end;
 		color: $c-white;
+		width: 100%;
 	}
 
 	.hero__text-wrapper {

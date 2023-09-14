@@ -1,35 +1,29 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
-import * as volunteer from "../../content/cn/volunteer.md";
+import * as volunteer from "../../../content/cn/volunteer.md";
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 
 const Content = volunteer.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-
-const itemClass = function (path: string) {
-	const pathname = new URL(Astro.request.url).pathname;
-
-	return pathname === path ? "text-module__tab is-active" : "text-module__tab";
-};
 ---
 
 <ArticleLayout title={volunteer.frontmatter.headline} article={volunteer}>
-	<div class="text-module__head text-module__head--with-tab">
+	<div class="text-module__head text-module__head--with-tab text-module__head--volunteer">
 		<blockquote class="text-module__headline">
 			<div>{volunteer.frontmatter.headline2}</div>
 		</blockquote>
 		<ul class="text-module__tabs">
-			<li class={itemClass(`/${lang}/join-us/`)}>
+			<li class="text-module__tab">
 				<a href={`/${lang}/join-us/`} class="text-module__tab-link" title={t("nav.sponsor")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.sponsor")}
 					</span>
 				</a>
 			</li>
-			<li class={itemClass(`/${lang}/join-us/volunteer/`)}>
-				<a href={`/${lang}join-us//volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
+			<li class="text-module__tab is-active">
+				<a href={`/${lang}/join-us/volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.volunteer")}
 					</span>
@@ -43,6 +37,7 @@ const itemClass = function (path: string) {
 </ArticleLayout>
 
 <style lang="scss">
+
 	body {
 		font-family: 'Noto Sans SC', sans-serif;
 	}

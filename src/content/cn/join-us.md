@@ -1,5 +1,5 @@
 ---
-headline: "Join Us"
+headline: "支持我们"
 overline: ""
 imageSrcS: url("/images/stage/joinus-s.png")
 imageSrcM: url("/images/stage/joinus-m.png")
@@ -9,8 +9,6 @@ buttonText: ""
 buttonLink: ""
 footer: "------ 汉堡美术学院电影系教授罗伯特·布拉姆坎普教授"
 ---
-
-成为赞助商
 
 汉堡华语电影节（CFFH）是由非营利组织 "中国传媒电影艺术协会 "主办。作为非营利性的文化活动，我们的电影节有赖于像您/您所在组织的慷慨支持。您的捐助将使我们能够继续致力于为汉堡及周边地区的观众带来无与伦比的电影体验，同时支持华语电影创作者的才华。
 

@@ -7,12 +7,6 @@ const Content = joinUs.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-
-const itemClass = function (path: string) {
-	const pathname = new URL(Astro.request.url).pathname;
-
-	return pathname === path ? "text-module__tab is-active" : "text-module__tab";
-};
 ---
 
 <ArticleLayout title={joinUs.frontmatter.headline} article={joinUs}>
@@ -22,14 +16,14 @@ const itemClass = function (path: string) {
 			<p>{joinUs.frontmatter.footer}</p>
 		</blockquote>
 		<ul class="text-module__tabs">
-			<li class={itemClass(`/${lang}/join-us/`)}>
+			<li class="text-module__tab is-active">
 				<a href={`/${lang}/join-us/`} class="text-module__tab-link" title={t("nav.sponsor")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.sponsor")}
 					</span>
 				</a>
 			</li>
-			<li class={itemClass(`/${lang}/join-us/volunteer/`)}>
+			<li class="text-module__tab">
 				<a href={`/${lang}/join-us/volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.volunteer")}

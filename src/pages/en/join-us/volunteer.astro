@@ -16,19 +16,19 @@ const itemClass = function (path: string) {
 ---
 
 <ArticleLayout title={volunteer.frontmatter.headline} article={volunteer}>
-	<div class="text-module__head text-module__head--with-tab">
+	<div class="text-module__head text-module__head--with-tab text-module__head--volunteer">
 		<blockquote class="text-module__headline">
 			<div>{volunteer.frontmatter.headline2}</div>
 		</blockquote>
 		<ul class="text-module__tabs">
-			<li class={itemClass(`/${lang}/join-us/`)}>
+			<li class="text-module__tab">
 				<a href={`/${lang}/join-us/`} class="text-module__tab-link" title={t("nav.sponsor")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.sponsor")}
 					</span>
 				</a>
 			</li>
-			<li class={itemClass(`/${lang}/join-us/volunteer/`)}>
+			<li class="text-module__tab is-active">
 				<a href={`/${lang}/join-us/volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.volunteer")}
@@ -43,7 +43,6 @@ const itemClass = function (path: string) {
 </ArticleLayout>
 
 <style lang="scss">
-
 	body {
 		font-family: "Roboto", sans-serif;
 	}
