@@ -5,7 +5,6 @@ import * as team from "../../content/en/team.md";
 const staffFounder = await Astro.glob("../../content/en/staff-founder/*.md");
 const staffTeam = await Astro.glob("../../content/en/staff-team/*.md");
 
-// const Content = about.Content;
 ---
 
 <ArticleLayout title={team.frontmatter.headline} article={team}>
