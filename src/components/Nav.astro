@@ -10,6 +10,12 @@ const itemClass = function (path: string) {
 	return pathname === path ? "nav__item is-active" : "nav__item";
 };
 
+const subItemClass = function (path: string) {
+	const pathname = new URL(Astro.request.url).pathname;
+
+	return pathname.startsWith(path) ? "nav__item is-active" : "nav__item";
+};
+
 ---
 
 <nav role="navigation" class="nav">
@@ -51,7 +57,7 @@ const itemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
-		<li class={itemClass(`/${lang}/join-us/`)}>
+		<li class={subItemClass(`/${lang}/join-us/`)}>
 			<a href={`/${lang}/join-us/`} class="nav__link" title={t("nav.joinUs")}>
 				<span class="nav__link-text">
 					{t("nav.joinUs")}

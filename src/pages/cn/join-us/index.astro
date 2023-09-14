@@ -1,9 +1,9 @@
 ---
-import ArticleLayout from "../../layouts/ArticleLayout.astro";
-import * as volunteer from "../../content/en/volunteer.md";
-import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import * as joinUs from "../../../content/cn/join-us.md";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 
-const Content = volunteer.Content;
+const Content = joinUs.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -15,10 +15,11 @@ const itemClass = function (path: string) {
 };
 ---
 
-<ArticleLayout title={volunteer.frontmatter.headline} article={volunteer}>
+<ArticleLayout title={joinUs.frontmatter.headline} article={joinUs}>
 	<div class="text-module__head text-module__head--with-tab">
 		<blockquote class="text-module__headline">
-			<div>{volunteer.frontmatter.headline2}</div>
+			<div>{joinUs.frontmatter.headline2}</div>
+			<p>{joinUs.frontmatter.footer}</p>
 		</blockquote>
 		<ul class="text-module__tabs">
 			<li class={itemClass(`/${lang}/join-us/`)}>
@@ -28,8 +29,8 @@ const itemClass = function (path: string) {
 					</span>
 				</a>
 			</li>
-			<li class={itemClass(`/${lang}/volunteer/`)}>
-				<a href={`/${lang}/volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
+			<li class={itemClass(`/${lang}/join-us/volunteer/`)}>
+				<a href={`/${lang}/join-us/volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.volunteer")}
 					</span>
@@ -43,8 +44,7 @@ const itemClass = function (path: string) {
 </ArticleLayout>
 
 <style lang="scss">
-
 	body {
-		font-family: "Roboto", sans-serif;
+		font-family: 'Noto Sans SC', sans-serif;
 	}
 </style>

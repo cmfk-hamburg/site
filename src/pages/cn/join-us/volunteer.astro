@@ -1,7 +1,7 @@
 ---
-import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import * as volunteer from "../../content/cn/volunteer.md";
-import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 
 const Content = volunteer.Content;
 
@@ -28,8 +28,8 @@ const itemClass = function (path: string) {
 					</span>
 				</a>
 			</li>
-			<li class={itemClass(`/${lang}/volunteer/`)}>
-				<a href={`/${lang}/volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
+			<li class={itemClass(`/${lang}/join-us/volunteer/`)}>
+				<a href={`/${lang}join-us//volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
 					<span class="text-module__tab-link-text">
 						{t("nav.volunteer")}
 					</span>
