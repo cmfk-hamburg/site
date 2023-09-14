@@ -10,7 +10,7 @@ export const ui = {
     "nav.home": "Home",
     "nav.callForFilm": "Call For Film",
     "nav.festival": "Festival",
-    "nav.about": "About",
+    "nav.team": "Team",
     "nav.joinUs": "Join Us",
     "nav.partner": "Partner",
     "nav.sponsor": "Sponsor",

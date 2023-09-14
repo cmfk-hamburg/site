@@ -1,14 +1,14 @@
 ---
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 import Staff from "../../components/Staff.astro";
-import * as about from "../../content/en/about.md";
+import * as team from "../../content/en/team.md";
 const staffFounder = await Astro.glob("../../content/en/staff-founder/*.md");
 const staffTeam = await Astro.glob("../../content/en/staff-team/*.md");
 
 // const Content = about.Content;
 ---
 
-<ArticleLayout title={about.frontmatter.headline} article={about}>
+<ArticleLayout title={team.frontmatter.headline} article={team}>
 	<Staff headline="Festival Derector / Founder" staffs={staffFounder} />
 	<Staff headline="Team" staffs={staffTeam} />
 </ArticleLayout>
