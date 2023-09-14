@@ -6,7 +6,17 @@ const Content = callForFilm.Content;
 ---
 
 <ArticleLayout title={callForFilm.frontmatter.headline} article={callForFilm}>
-	<Content />
+	<div class="text-module__head">
+		<h2 class="text-module__headline">
+			{callForFilm.frontmatter.headline2}
+		</h2>
+		<a class="text-module__cta" href={callForFilm.frontmatter.buttonLink} target="_blank">
+			<img src={callForFilm.frontmatter.buttonImage} alt="FilmFreeway" />
+		</a>
+	</div>
+	<div class="text-module__content">
+		<Content />
+	</div>
 </ArticleLayout>
 
 <style lang="scss">

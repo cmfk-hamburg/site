@@ -6,7 +6,17 @@ const Content = festival.Content;
 ---
 
 <ArticleLayout title={festival.frontmatter.headline} article={festival}>
-	<Content />
+	<div class="text-module__head">
+		<h2 class="text-module__headline">
+			{festival.frontmatter.headline2}
+		</h2>
+		<a class="text-module__cta btn btn--primary" href={festival.frontmatter.buttonLink} download>
+			{festival.frontmatter.buttonText}
+		</a>
+	</div>
+	<div class="text-module__content">
+		<Content />
+	</div>
 </ArticleLayout>
 
 <style lang="scss">

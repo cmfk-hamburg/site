@@ -6,8 +6,16 @@ const Content = imprint.Content;
 ---
 
 <ArticleLayout title={imprint.frontmatter.headline} article={imprint}>
-	<Content />
+	<div class="text-module__head">
+		<h2 class="text-module__headline">
+			{imprint.frontmatter.headline2}
+		</h2>
+	</div>
+	<div class="text-module__content">
+		<Content />
+	</div>
 </ArticleLayout>
+
 
 <style lang="scss">
 	body {

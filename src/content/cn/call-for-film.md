@@ -1,39 +1,42 @@
 ---
-headline: "Call For Entries"
-# overline: "23-29 October 2023"
+headline: "征片通道"
 imageSrc: url("/images/cole-parrant.jpg")
-headline2: "2nd Annual Submissions"
+headline2: "第二届年度影片征集正式启动！"
+imageSrcS: url("/images/stage/call-for-entries-s.png")
+imageSrcM: url("/images/stage/call-for-entries-m.png")
+imageSrcL: url("/images/stage/call-for-entries-l.png")
 buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
 ---
 
-From May 9th to 12th, 2024 (tentative), the second edition of the Chinese Film Festival Hamburg (CFFH) is set to take place. Starting from this edition, we welcome submissions of Chinese-language films from around the world.
+2024年5月9日到12日（暂定），即将迎来第二届德国汉堡华语电影节（CFFH）。从这届电影节开始，我们欢迎全球华语影像作品投递。
 
-The festival believes that the spirit of experimentation is the cornerstone of filmic art innovation, and is committed to providing a space for filmmakers and their works with innovative and diverse filmic narratives, aesthetics, or concepts to be presented and exchanged across time zones and cultures.
+电影节相信实验精神是影像艺术革新的基石，致力于为极具创新性和多样化影像叙事、美学或观念的华语电影作品和作者们提供一个跨时区，跨文化的展示和交流的空间。
 
-We invite submissions of all films and videos, encompassing, but not limited to, feature films, documentaries, short films, animations, and experimental works.
+我们邀请提交各种类型的电影和视频作品，包括但不限于剧情片、纪录片、短片、动画和实验作品。
 
-Emerging directors, especially those just beginning their filmmaking journey, are heartily encouraged to participate!
+特别鼓励新兴导演，尤其是那些刚刚开始电影创作之旅的创作者们积极投递！
 
-### Our Promise
-Thorough Review: We cherish and look forward to witnessing the current state of Chinese-language cinema. All submitted films will undergo a careful examination by our selection committee.
-Encourage Innovation: Groundbreaking projects will receive the spotlight  they deserve.
+### 我们提供
 
-Expert Evaluation: Renowned industry professionals choose winning films and provide insightful reviews.
+- **细致评审**：我们珍惜并期待见证华语电影当前的样貌。所有提交的影片都将由评审委员逐一观看，审慎对待。
+- **鼓励创新**：具有开创性的影像作品将获得它应有的关注与赞誉。
+- **专家评估**：获奖影片将获得来自杰出的电影导演和评论家等著名电影业内人士组成的评审团的宝贵反馈。
+- **观众互动**：入围影片将在汉堡市中心的电影院展映，促使电影制作者与来自不同文化背景的观众互动，并拓展联系。
 
-Audience Engagement: Selected films are showcased in central Hamburg cinemas, enabling filmmaker-audience interactions and fostering meaningful connections.
 
-### Deadlines
+### 截止日期
 
-- Opening Date: September 15, 2023
-- Earlybird Deadline: November 16, 2023
-- Regular Deadline: January 16, 2024
-- Final Deadline: February 8, 2024
-- Notification Date: April 15, 2024
-- Event Date: May 08.-12, 2024
+- 开放投稿日期：2023年9月15日
+- 早鸟截稿日期：2023年11月16日
+- 常规截稿日期：2024年1月16日
+- 最终截稿日期：2024年2月8日
+- 结果发布日期：2024年4月15日
+- 电影节举办日期：2024年5月9日-12日 
 
-### Award
-- Expert feedback for Jury Award
-- Association insights for Association Award
+### 奖项
 
-ALL APPLICANTS MUST SUBMIT VIA FILMFREEWAY.
+- 评审奖，将提供知名电影导演或影评人等专业人士的文字短评。
+- 协会奖，提供协会洞察。
+
+**所有申请者必须通过FilmFreeway进行提交。**

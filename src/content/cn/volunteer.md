@@ -1,18 +1,62 @@
 ---
-headline: "Be a volenteer"
+headline: "加入我们"
 overline: ""
-imageSrc: url("/images/buse-doga.jpg")
-headline2: "\"This film festival not only possesses exceptional uniqueness within the Hamburg cultural landscape but also exerts a profound and far-reaching influence.\""
+imageSrcS: url("/images/stage/joinus-s.png")
+imageSrcM: url("/images/stage/joinus-m.png")
+imageSrcL: url("/images/stage/joinus-l.png")
+headline2: "招募电影节志愿者！"
 buttonText: ""
 buttonLink: ""
 ---
 
-The Chinese Film Festival Hamburg (CFFH) is organized by the non-profit organisation "Chinese Media and Film Art Association." As a non-profit event, our festival relies on the generous support of individuals like you. Your contributions will enable us to uphold our dedication to bringing unparalleled cinematic experiences to audiences in Hamburg and the surrounding regions, all while championing the talents of Chinese-language filmmakers.
 
-Our screenings and events offer sponsorship opportunities at various levels, each with a unique set of benefits.
+第二届汉堡中国电影节诚邀像您一样充满热情的志愿者，在我们即将于 2024 年 5 月 9 日至 12 日（暂定）举办的电影节中发挥重要作用！
 
-For general sponsorship information for 2023/2024, please download the PDF here.
+![Volunteer 1](/images/volunteer-1.jpg)
 
-To become a sponsor for 2024, please send an email to info@chinesefilmfest.de.
+让自己沉浸在电影之旅中，并在这一重要的文化活动发挥重要影响。
 
-CFFH extends its heartfelt thanks to its sponsors and partners from the 1st Film Festival held in January 2023, including:
+我们为您提供：
+
+宝贵的工作经验、交流机会、身临其境的电影节体验以及我们衷心的感谢。<br>
+志愿者胸卡，用于参加电影节期间的放映、圆桌会和其他相关活动。<br>
+应要求提供参与志愿者工作的官方证明。
+
+要加入我们的团队并随时了解最新机会，请发送电子邮件至 info@chinesefilmfest.de。请在邮件中注明您的联系方式、简要自我介绍以及您希望担任的职务。
+
+![Volunteer 2](/images/volunteer-2.jpeg)
+
+电影节有以下任务，欢迎认领：）
+
+### 售票
+
+在我们的主要放映场所之一--B-Movie 电影院，协助售票，并向游客提供节目见解和建议。
+
+### 影院支持
+
+接待客人、管理票务控制、引导座位，并帮助影院为连续放映做好准备。在高峰期，协助 B-Movie 影院吧台的工作。热情好客的态度是必不可少的。
+
+### 电影放映主持
+
+介绍影片，与观众互动，并为现场或在线问答环节提供便利。必须具备流利的英语和较强的沟通能力。
+
+### 技术支持
+
+安装和拆卸电影节技术设备，包括电脑、ZOOM Meetings、音响系统等。确保在线放映后问答环节在放映前准备就绪。将电影拷贝（DCP 或数字文件）运送到放映地点，确保无瑕疵播放。并在放映之前和期间，为影院工作人员提供线上Q&A相关的技术支持。
+
+### 机动人员
+
+这是一个支持团队成员完成各种任务的多面手，您将在上岗之初了解到这些任务。职责范围涵盖上述角色。
+
+### 摄影师
+
+记录电影节的精髓，捕捉开幕式、场馆氛围、问答和其他活动的精彩瞬间。
+
+### 财务管理：
+- **费用记录**：跟踪所有电影节开支，包括场地和设备租赁费、营销材料费等。
+- **财务记录**：整理所有收据和发票，以便准确记录。
+- **编制报告**：撰写收支总结，向组织团队提供最新财务状况。
+- **沟通**：与赞助商、合作伙伴和供应商联系，及时处理付款事宜。
+- **筹款**：协助筹集资金和赞助，以支持电影节的经费需求。
+- **预算控制**：跟踪、管理电影节的预算，并制定建议的财务改进措施。
+

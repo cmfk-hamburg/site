@@ -1,9 +1,9 @@
 ---
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
-import * as joinUs from "../../content/cn/volunteer.md";
+import * as volunteer from "../../content/cn/volunteer.md";
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 
-const Content = joinUs.Content;
+const Content = volunteer.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -15,11 +15,10 @@ const itemClass = function (path: string) {
 };
 ---
 
-<ArticleLayout title={joinUs.frontmatter.headline} article={joinUs}>
+<ArticleLayout title={volunteer.frontmatter.headline} article={volunteer}>
 	<div class="text-module__head text-module__head--with-tab">
 		<blockquote class="text-module__headline">
-			<div>{joinUs.frontmatter.headline2}</div>
-			<p>------Professor Robert Bramkamp, Film Department, HFBK Hamburg.</p>
+			<div>{volunteer.frontmatter.headline2}</div>
 		</blockquote>
 		<ul class="text-module__tabs">
 			<li class={itemClass(`/${lang}/join-us/`)}>

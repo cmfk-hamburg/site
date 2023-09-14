@@ -1,10 +1,9 @@
 ---
-headline: "Call For Entries"
-# overline: "23-29 October 2023"
+headline: "Call For Film"
 imageSrcS: url("/images/stage/call-for-entries-s.png")
 imageSrcM: url("/images/stage/call-for-entries-m.png")
 imageSrcL: url("/images/stage/call-for-entries-l.png")
-headline2: "2nd Annual Submissions"
+headline2: "Second Annual Submissions"
 buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
 ---
@@ -18,12 +17,11 @@ We invite submissions of all films and videos, encompassing, but not limited to,
 Emerging directors, especially those just beginning their filmmaking journey, are heartily encouraged to participate!
 
 ### Our Promise
-Thorough Review: We cherish and look forward to witnessing the current state of Chinese-language cinema. All submitted films will undergo a careful examination by our selection committee.
-Encourage Innovation: Groundbreaking projects will receive the spotlight  they deserve.
 
-Expert Evaluation: Renowned industry professionals choose winning films and provide insightful reviews.
-
-Audience Engagement: Selected films are showcased in central Hamburg cinemas, enabling filmmaker-audience interactions and fostering meaningful connections.
+- **Thorough Review:** We cherish and look forward to witnessing the current state of Chinese-language cinema. All the submitted films will undergo a careful review by our selection committee.
+- **Encourage Innovation:** Groundbreaking projects will receive the spotlight they deserve.
+- **Expert Evaluation:** Renowned industry professionals choose winning films and provide insightful reviews.
+- **Audience Engagement:** Selected films are showcased in central Hamburg cinemas, enabling filmmaker-audience interactions and fostering meaningful connections.
 
 ### Deadlines
 
@@ -38,4 +36,4 @@ Audience Engagement: Selected films are showcased in central Hamburg cinemas, en
 - Expert feedback for Jury Award
 - Association insights for Association Award
 
-ALL APPLICANTS MUST SUBMIT VIA FILMFREEWAY.
+**ALL APPLICANTS MUST SUBMIT VIA FILMFREEWAY.**

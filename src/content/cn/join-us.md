@@ -4,18 +4,22 @@ overline: ""
 imageSrcS: url("/images/stage/joinus-s.png")
 imageSrcM: url("/images/stage/joinus-m.png")
 imageSrcL: url("/images/stage/joinus-l.png")
-headline2: "\"This film festival not only possesses exceptional uniqueness within the Hamburg cultural landscape but also exerts a profound and far-reaching influence.\""
+headline2: "\"这个电影节不仅在汉堡文化景观中独树一帜，而且影响深远\"。"
 buttonText: ""
 buttonLink: ""
-footer: "------Professor Robert Bramkamp, Film Department, HFBK Hamburg."
+footer: "------ 汉堡美术学院电影系教授罗伯特·布拉姆坎普教授"
 ---
 
-The Chinese Film Festival Hamburg (CFFH) is organized by the non-profit organisation "Chinese Media and Film Art Association." As a non-profit event, our festival relies on the generous support of individuals like you. Your contributions will enable us to uphold our dedication to bringing unparalleled cinematic experiences to audiences in Hamburg and the surrounding regions, all while championing the talents of Chinese-language filmmakers.
+成为赞助商
 
-Our screenings and events offer sponsorship opportunities at various levels, each with a unique set of benefits.
+汉堡华语电影节（CFFH）是由非营利组织 "中国传媒电影艺术协会 "主办。作为非营利性的文化活动，我们的电影节有赖于像您/您所在组织的慷慨支持。您的捐助将使我们能够继续致力于为汉堡及周边地区的观众带来无与伦比的电影体验，同时支持华语电影创作者的才华。
 
-For general sponsorship information for 2023/2024, please download the PDF here.
+我们的放映和活动提供不同级别的赞助机会，每个级别都有独特的权益。
 
-To become a sponsor for 2024, please send an email to info@chinesefilmfest.de.
+如需了解 2023/2024 年的综合赞助信息，点击下载<a href="/assets/ChineseFilmFestival Hamburg2024_Sponsorship.pdf" download>赞助商手册</a>。
 
-CFFH extends its heartfelt thanks to its sponsors and partners from the 1st Film Festival held in January 2023, including:
+如有意愿成为 2024 年电影节的赞助商，请发送电子邮件至 info@chinesefilmfest.de。
+
+汉堡华语电影节团队衷心感谢由2023 年 1 月举办的第一届电影节的赞助商和合作伙伴，包括：
+
+![Sponsor Logos](/images/sponsor.jpg)

@@ -1,31 +1,29 @@
 ---
 headline: "Festival"
-overline: ""
-imageSrc: url("/images/annie-spratt.jpg")
-headline2: "Dive into the Essence of Chinese Art-House Cinema at the 2nd \"Chinese Film Festival Hamburg\" (CFFH)"
-buttonText: "Program 2023"
+imageSrcS: url("/images/stage/festival-s.png")
+imageSrcM: url("/images/stage/festival-m.png")
+imageSrcL: url("/images/stage/festival-l.png")
+headline2: "“深入探索华语艺术电影的精髓，参加第二届汉堡华语电影节。”"
+buttonText: "2023电影节手册"
 buttonLink: "/assets/program-chinese-film-2023.pdf"
 ---
 
-From May 9th to 12th, 2024, the Chinese Film Festival Hamburg (CFFH), now in its second edition, celebrating the charm of Chinese films and offering a multilayered cinematic experience to the city. 
+2024年5月9日到12日（暂定），即将迎来第二届德国汉堡华语电影节（Chinese Film Festival Hamburg）。届时我们将为汉堡带来华语影像作品不同面向的魅力，并为德国本地观众提供多层次的电影体验。
 
-### Our Cinematic Journey
-In May 2022, the filmmakers Hanqi Sheng and the artist Zhichao Zhu initiated the Chinese-language independent film screening project "ShowcaseRiparian (河岸放映)” in Hamburg. By the end of 2022, the non-profit organization Hamburg Chinese Film and Media Art Association (Chinesische Medien- und Filmkunst e.V.) was established. As it developed, a dedicated team of film enthusiasts came together, bound by our shared passion for the project.
+### 我们的电影旅程
 
-We were also fortunate to receive significant support and encouragement from the Hamburg Academy of Fine Arts, the Department of Culture and Media in Hamburg, the iconic local cultural institutions B-Movie, and Metropolis Kino. This support led to the creation of the first edition of the film festival.
+2022年5月，电影创作者盛涵琪和艺术家朱志超在汉堡发起了华语独立影像展映项目“河岸放映”（“ShowcaseRiparian”）。2022年年底，成立了非盈利性质的汉堡华语电影与媒体艺术协会（Chinesische Medien- und Filmkunst e.V.）。
 
-The inaugural festival, held from January 10th to 15th in 2023 under the name "Chinese Film+," received overwhelming acclaim. Its events witnessed sold-out shows attended by diverse audiences, film critics, and creators from Hamburg and beyond. The festival proudly introduced several Chinese art-house films to German audiences and even hosted two global premieres.
+发展过程中，志趣相投的电影节团队逐渐形成。同时我们非常幸运地获得了汉堡美术学院，汉堡文化与媒体部，汉堡本地文化地标性单位B-Movie及Metropolis Kino的极大支持和推动，第一届电影节由此得以举办。
 
-### Our Mission
+首届电影节以“Chinese Film+”为名，于2023年1月10日至15日举行，赢得了广泛的关注与赞誉。活动吸引了不同文化背景的观众、电影评论家以及来自汉堡及欧洲其他国家的创作者，数场爆满。电影节自豪地向德国观众介展示了多部华语艺术电影，甚至还展映了两部全球首映的影片。
 
-This year, as the Chinese Film Festival Hamburg (CFFH), we continue our mission with pride. It's not just a festival; it's a multidimensional platform advocating and showcasing contemporary Chinese art cinema and visual arts.
+### 我们的使命
 
-While industry standards matter, what we truly crave are films bursting with original “écriture” and authentic expression. And we firmly believe that the spirit of experimentation is the cornerstone of filmic art innovation. Our goal is to provide a space for filmmakers and their works, characterized by innovative and diverse filmic narratives, aesthetics, and concepts, to be shared and exchanged across time zones and cultures.
+今年我们正式将电影节更名为汉堡华语电影节（CFFH），并怀着激昂的心情继续承担我们的使命。这不仅仅是一个电影节，更是一个倡导和展示当代华语艺术电影和影像艺术的多维艺术创作平台。
 
-While industry standards matter, what we truly crave are films bursting with original “écriture” and authentic expression.
+尽管行业标准很重要，但我们真正渴望的是充满原创“écriture”（写作）和真实表达的电影。同时我们坚信，实验精神是电影艺术创新的基石。我们的目标是为电影创作者及其作品提供一个空间，以创新和多样化的电影叙事、美学和概念为特点，跨越时区和文化进行分享和交流。
 
-Through our festival, we endeavort to offer a realistic portrayal of contemporary Chinese cinematic art to the German audience, fostering cultural exchange and enriching Hamburg's local diversity.
+通过我们的电影节，我们努力向德国观众呈现当代中国电影艺术的真实画卷，促进文化交流，丰富汉堡的多样性。
 
-You can click here to download last year's film festival program booklet.
-
-Download the last year's film festival program booklet.
+欢迎查看第一届2023电影节手册
