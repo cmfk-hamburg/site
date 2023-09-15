@@ -54,6 +54,18 @@ $fw-bold: 700;
   }
 }
 
+@mixin f-headline-h3 {
+  font-weight: $fw-regular;
+  line-height: 1.1;
+
+  @include breakpoint(xs-sm) {
+    font-size: pxToRem(20px);
+  }
+  @include breakpoint(md-xl) {
+    font-size: pxToRem(28px);
+  }
+}
+
 @mixin f-hero {
   font-weight: $fw-semibold;
   line-height: 1.2;
@@ -127,10 +139,6 @@ $fw-bold: 700;
   font-size: pxToRem(16px);
   line-height: 1.2;
   color: $c-white;
-
-  @media (width <= 400px) {
-    font-size: pxToRem(12px);
-  }
 }
 
 @mixin f-footer-2 {
@@ -138,10 +146,6 @@ $fw-bold: 700;
   font-size: pxToRem(16px);
   line-height: 1.2;
   color: $c-gray;
-
-  @media (width <= 400px) {
-    font-size: pxToRem(12px);
-  }
 }
 
 @mixin f-footer-3 {
@@ -149,19 +153,12 @@ $fw-bold: 700;
   font-size: pxToRem(16px);
   line-height: 1.2;
   color: $c-gray;
-
-  @media (width <= 400px) {
-    font-size: pxToRem(12px);
-  }
 }
 
 @mixin f-btn {
   font-weight: $fw-regular;
   line-height: 1.1;
 
-  @media (width <= 400px) {
-    font-size: pxToRem(12px);
-  }
   @include breakpoint(xs-sm) {
     font-size: pxToRem(14px);
   }
@@ -177,7 +174,7 @@ $fw-bold: 700;
   font-weight: $fw-regular-bold;
   line-height: 1.1;
 
-  @media (width <= 400px) {
+  @media only screen and (max-width: $break-xs-end) {
     font-size: pxToRem(12px);
   }
   @include breakpoint(xs-sm) {

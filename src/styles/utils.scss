@@ -1,6 +1,9 @@
 $break-start: 0;
-$break-mobile: 576px;
-$break-tablet: 768px;
+$break-xs-end: 400px;
+$break-sm-start: 576px;
+$break-sm-end: 767px;
+$break-md-start: 768px;
+$break-md-end: 1023px;
 $break-desktop: 1024px;
 $break-desktop-lg: 1228px;
 
@@ -10,23 +13,23 @@ $break-desktop-lg: 1228px;
  */
 @mixin breakpoint($media) {
   @if $media == xs-sm {
-    @media only screen and (width < $break-tablet) {
+    @media only screen and (max-width: $break-sm-end) {
       @content;
     }
   } @else if $media == md {
-    @media only screen and ($break-tablet <= width < $break-desktop) {
+    @media only screen and (min-width: $break-md-start) and (max-width: $break-md-end) {
       @content;
     }
   } @else if $media == lg {
-    @media print, screen and ($break-desktop < width) {
+    @media print, screen and (min-width: $break-desktop) {
       @content;
     }
   } @else if $media == sm-md {
-    @media only screen and (width < $break-desktop) {
+    @media only screen and (max-width: $break-md-end) {
       @content;
     }
   } @else if $media == md-xl {
-    @media print, screen and ($break-tablet <= width) {
+    @media print, screen and (min-width: $break-md-start) {
       @content;
     }
   }

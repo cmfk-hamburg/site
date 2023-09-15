@@ -13,8 +13,6 @@
     "@fontsource/noto-sans-sc": "^5.0.10",
     "@fontsource/roboto": "^5.0.8",
     "astro": "^3.0.7",
-    "bootstrap-icons": "^1.10.5",
-    "locomotive-scroll": "^4.1.4",
     "normalize.css": "^8.0.1",
     "sass": "^1.66.1"
   },

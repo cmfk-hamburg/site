@@ -49,7 +49,7 @@ A versatile role where you support team members across various tasks, which you'
 
 Document the festival's essence, capturing moments from opening ceremonies, venue ambience, Q&As, and other events.
 
-### Financial Management:
+### Financial Management
 
 - **Expense Recording:** Track all festival expenses, including venue and equipment rentals, marketing materials, etc.
 - **Financial Records:** Organize all receipts and invoices for accurate record-keeping.

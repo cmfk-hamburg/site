@@ -207,8 +207,9 @@ a {
   }
 
   h3 {
-    @include f-btn;
+    @include f-headline-h3;
     margin-top: pxToRem(40px);
+    margin-bottom: pxToRem(20px);
   } 
 
   a {
@@ -234,9 +235,10 @@ a {
     max-width: 100%;
   }
 
-  em {
-    display: block;
-    text-align: center;
-    font-style: normal;
+  h3 + ol,
+  h3 + ul,
+  h3 + img,
+  h3 + p {
+    margin-top: 20px;
   }
 }
