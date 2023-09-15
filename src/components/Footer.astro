@@ -1,5 +1,4 @@
 ---
-import LinkWithIcon from "./LinkWithIcon.astro";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -12,13 +11,13 @@ const t = useTranslations(lang);
 			<div class="footer__nav-headline">{t("footer.contact")}</div>
 			<ul class="footer__nav-list">
 				<li class="footer__nav-item">
-					<a class="footer__nav-link" href="mailto:info@cmfk.com">
-						<span class="footer__nav-link-text">info@cmfk.com</span>
+					<a class="footer__nav-link" href="mailto:info@chinesefilmfest.de">
+						<span class="footer__nav-link-text">info@chinesefilmfest.de</span>
 					</a>
 				</li>
 				<li class="footer__nav-item">
-					<a href="https://cmfk-hamburg.com/" class="footer__nav-link">
-						<span class="footer__nav-link-text">cmfk-hamburg.com</span>
+					<a href="https://chinesefilmfest.de" class="footer__nav-link">
+						<span class="footer__nav-link-text">chinesefilmfest.de</span>
 					</a>
 				</li>
 			</ul>
