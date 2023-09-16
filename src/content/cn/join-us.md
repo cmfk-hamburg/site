@@ -20,4 +20,4 @@ footer: "------ 汉堡美术学院电影系教授罗伯特·布拉姆坎普"
 
 汉堡华语影像展团队衷心感谢由2023 年 1 月举办的第一届电影节的赞助商和合作伙伴，包括：
 
-![Sponsor Logos](/images/sponsor.jpg)
+![Sponsor Logos](/images/sponsor-new.jpeg)

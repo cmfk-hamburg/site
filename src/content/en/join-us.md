@@ -20,4 +20,4 @@ To become a sponsor for the film festival in 2024, please send an email to info@
 
 CFFH extends its heartfelt thanks to its sponsors and partners from the 1st Film Festival held in January 2023, including:
 
-![Sponsor Logos](/images/sponsor.jpg)
+![Sponsor Logos](/images/sponsor-new.jpeg)
