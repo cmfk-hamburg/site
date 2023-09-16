@@ -9,7 +9,7 @@ buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
 ---
 
-2024年5月9日到12日（暂定），即将迎来第二届德国汉堡华语电影节（CFFH）。从这届电影节开始，我们欢迎全球华语影像作品投递。
+2024年5月9日到12日（暂定），即将迎来第二届德国华语影像展（CFFH）。从这届电影节开始，我们欢迎全球华语影像作品投递。
 
 电影节相信实验精神是影像艺术革新的基石，致力于为极具创新性和多样化影像叙事、美学或观念的华语电影作品和作者们提供一个跨时区，跨文化的展示和交流的空间。
 

@@ -47,7 +47,7 @@ export const ui = {
     "nav.imprint": "Imprint",
     "hero.overline": "2024.05.09 – 05.12",
     "hero.title1": "2024年征片开启！",
-    "hero.title2": "德国汉堡华语电影节",
+    "hero.title2": "汉堡华语影像展",
     "hero.cta": "现在投递",
     "footer.newsletter":
     "Subscribe our newsletter and never miss our latest activities",
