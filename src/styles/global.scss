@@ -100,7 +100,7 @@ a {
   margin-top: pxToRem(60px);
 
   @include breakpoint(md) {
-    grid-template-row: 1fr;
+    grid-template-rows: 1fr;
   }
   @include breakpoint(lg) {
     grid-template-columns: 9fr 3fr;

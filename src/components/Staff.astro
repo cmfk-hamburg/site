@@ -30,9 +30,8 @@ const { headline, staffs } = Astro.props;
     </div>
 </div>
 
-
 <style lang="scss">
-	@import "../styles/variables.scss";
+    @import "../styles/variables.scss";
 	@import "../styles/fonts.scss";
 	@import "../styles/utils.scss";
 
@@ -90,7 +89,7 @@ const { headline, staffs } = Astro.props;
     }
 
     .staff-collection__teaser-title {
-        @include f-btn-bold;
+        @include f-headline-h3;
         margin-bottom: pxToRem(6px);
     }
 
