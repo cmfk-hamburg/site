@@ -40,7 +40,7 @@ $break-desktop-lg: 1228px;
 }
 
 @function column($col, $base) {
-  $value: (100% / $base * $col);
+  $value: calc(100% / $base * $col);
   @return $value;
 }
 

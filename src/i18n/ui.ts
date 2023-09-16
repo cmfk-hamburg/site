@@ -38,7 +38,7 @@ export const ui = {
     "nav.home": "首页",
     "nav.callForFilm": "征片通道",
     "nav.team": "关于团队",
-    "nav.festival": "关于电影节",
+    "nav.festival": "关于影像展",
     "nav.joinUs": "支持我们",
     "nav.partner": "合作伙伴",
     "nav.volunteer": "成为志愿者",
