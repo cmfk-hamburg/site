@@ -1,5 +1,5 @@
 ---
-headline: "Festival"
+headline: "关于影像展"
 imageSrcS: url("/images/stage/festival-s.png")
 imageSrcM: url("/images/stage/festival-m.png")
 imageSrcL: url("/images/stage/festival-l.png")
