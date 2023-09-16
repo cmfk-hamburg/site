@@ -8,7 +8,7 @@ buttonText: "2023电影节手册"
 buttonLink: "/assets/program-chinese-film-2023.pdf"
 ---
 
-2024年5月9日到12日（暂定），即将迎来第二届德国汉堡华语电影节（Chinese Film Festival Hamburg）。届时我们将为汉堡带来华语影像作品不同面向的魅力，并为德国本地观众提供多层次的电影体验。
+2024年5月9日到12日（暂定），即将迎来第二届汉堡华语影像展（Chinese Film Festival Hamburg）。届时我们将为汉堡带来华语影像作品不同面向的魅力，并为德国本地观众提供多层次的电影体验。
 
 ### 我们的电影旅程
 
