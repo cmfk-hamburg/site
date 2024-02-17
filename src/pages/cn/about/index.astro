@@ -1,0 +1,42 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import * as festival from "../../../content/cn/festival.md";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const Content = festival.Content;
+---
+
+<ArticleLayout title={festival.frontmatter.headline} article={festival}>
+	<div class="text-module__head text-module__head--with-tab text-module__head--festival">
+		<blockquote class="text-module__headline">
+			<div>{festival.frontmatter.headline2}</div>
+		</blockquote>
+		<ul class="text-module__tabs">
+			<li class="text-module__tab is-active">
+				<a href={`/${lang}/about/`} class="text-module__tab-link" title={t("nav.festival")}>
+					<span class="text-module__tab-link-text">
+						{t("nav.festival")}
+					</span>
+				</a>
+			</li>
+			<li class="text-module__tab">
+				<a href={`/${lang}/about/team/`} class="text-module__tab-link" title={t("nav.team")}>
+					<span class="text-module__tab-link-text">
+						{t("nav.team")}
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="text-module__content">
+		<Content />
+	</div>
+</ArticleLayout>
+
+<style lang="scss">
+	body {
+		font-family: 'Noto Sans SC', sans-serif;
+	}
+</style>

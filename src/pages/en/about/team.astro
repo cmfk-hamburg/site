@@ -1,0 +1,46 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import Staff from "../../../components/Staff.astro";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import * as team from "../../../content/en/team.md";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const staffFounder = await Astro.glob("../../../content/en/staff-founder/*.md");
+const staffTeam = await Astro.glob("../../../content/en/staff-team/*.md");
+
+---
+
+<ArticleLayout title={team.frontmatter.headline} article={team}>
+	<div class="text-module__head text-module__head--with-tab text-module__head--team">
+		<blockquote class="text-module__headline">
+			<div>{team.frontmatter.headline2}</div>
+		</blockquote>
+		<ul class="text-module__tabs">
+			<li class="text-module__tab">
+				<a href={`/${lang}/about/`} class="text-module__tab-link" title={t("nav.festival")}>
+					<span class="text-module__tab-link-text">
+						{t("nav.festival")}
+					</span>
+				</a>
+			</li>
+			<li class="text-module__tab is-active">
+				<a href={`/${lang}/about/team/`} class="text-module__tab-link" title={t("nav.team")}>
+					<span class="text-module__tab-link-text">
+						{t("nav.team")}
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div >
+		<Staff headline="Festival Derector / Founder" staffs={staffFounder} />
+		<Staff headline="Team" staffs={staffTeam} />
+	</div>
+</ArticleLayout>
+
+<style lang="scss">
+	body {
+		font-family: "Roboto", sans-serif;
+	}
+</style>

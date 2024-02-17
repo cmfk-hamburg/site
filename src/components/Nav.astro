@@ -28,7 +28,7 @@ const subItemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
-		<li class={itemClass(`/${lang}/call-for-film/`)}>
+		<!-- <li class={itemClass(`/${lang}/call-for-film/`)}>
 			<a
 				href={`/${lang}/call-for-film/`}
 				class="nav__link"
@@ -38,22 +38,15 @@ const subItemClass = function (path: string) {
 					{t("nav.callForFilm")}
 				</span>
 			</a>
-		</li>
-		<li class={itemClass(`/${lang}/festival/`)}>
+		</li> -->
+		<li class={subItemClass(`/${lang}/about/`)}>
 			<a
-				href={`/${lang}/festival/`}
+				href={`/${lang}/about/`}
 				class="nav__link"
-				title={t("nav.festival")}
+				title={t("nav.about")}
 			>
 				<span class="nav__link-text">
-					{t("nav.festival")}
-				</span>
-			</a>
-		</li>
-		<li class={itemClass(`/${lang}/team/`)}>
-			<a href={`/${lang}/team/`} class="nav__link" title={t("nav.team")}>
-				<span class="nav__link-text">
-					{t("nav.team")}
+					{t("nav.about")}
 				</span>
 			</a>
 		</li>
