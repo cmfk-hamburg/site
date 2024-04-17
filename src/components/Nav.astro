@@ -50,6 +50,28 @@ const subItemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
+		<!-- <li class={subItemClass(`/${lang}/program/`)}>
+			<a
+				href={`/${lang}/program/`}
+				class="nav__link"
+				title={t("nav.program")}
+			>
+				<span class="nav__link-text">
+					{t("nav.program")}
+				</span>
+			</a>
+		</li> -->
+		<li class={subItemClass(`/${lang}/tickets/`)}>
+			<a
+				href={`/${lang}/tickets/`}
+				class="nav__link"
+				title={t("nav.tickets")}
+			>
+				<span class="nav__link-text">
+					{t("nav.tickets")}
+				</span>
+			</a>
+		</li>
 		<li class={subItemClass(`/${lang}/join-us/`)}>
 			<a href={`/${lang}/join-us/`} class="nav__link" title={t("nav.joinUs")}>
 				<span class="nav__link-text">
@@ -57,6 +79,17 @@ const subItemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
+		<!-- <li class={subItemClass(`/${lang}/archive/`)}>
+			<a
+				href={`/${lang}/archive/`}
+				class="nav__link"
+				title={t("nav.archive")}
+			>
+				<span class="nav__link-text">
+					{t("nav.archive")}
+				</span>
+			</a>
+		</li> -->
 	</ul>
 	<div></div>
 </nav>
@@ -114,7 +147,8 @@ const subItemClass = function (path: string) {
 
 		&.is-active {
 			@include rounded-border;
-			background-color: $c-white;;
+			background-color: $c-green;
+			color: $c-white;
 		}
 	}
 
@@ -125,11 +159,11 @@ const subItemClass = function (path: string) {
 		padding-inline: pxToRem(12px);
 		height: pxToRem(40px);
 		transition: all $d-anim ease-in-out;
-		color: $c-white;;
+		color: $c-black;
 		background-color: transparent;
 
 		.is-active & {
-			color: $c-black;
+			color: $c-white;
 		}
 
 		&:hover {

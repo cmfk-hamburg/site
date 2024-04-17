@@ -62,9 +62,9 @@ const t = useTranslations(lang);
 	.footer__container {
 		display: grid;
 		padding: pxToRem(48px) 0;
-		border-top: 1px solid $c-white;
-		background: $c-black;
-		color: $c-white;
+		border-top: 1px solid $c-lightgray;
+		background: $c-white;
+		color: $c-black;
 
 		@include breakpoint(xs-sm) {
             grid-template-columns: 1fr;
@@ -90,7 +90,7 @@ const t = useTranslations(lang);
 	.footer__nav-headline {
 		@include f-footer-2;
 		margin: 0;
-		color: $c-gray;
+		color: $c-black;
 
         @include breakpoint(xs-sm) {
             margin-top: pxToRem(24px);
@@ -106,10 +106,11 @@ const t = useTranslations(lang);
 	.footer__nav-item {
 		@include f-footer-1;
 		margin: pxToRem(8px) 0;
+		color: $c-black;
 	}
 
 	.footer__nav-link {
-		color: $c-white;
+		color: $c-green;
 
 		&:hover {
 			text-decoration: underline;

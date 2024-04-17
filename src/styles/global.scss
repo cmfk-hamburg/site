@@ -1,6 +1,6 @@
 html,
 body {
-  background: $c-lightgray;
+  background: $c-gray;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,12 +11,12 @@ main {
   position: relative;
   display: block;
   margin: 0 auto;
-  background: $c-black;
+  background: $c-white;
   overflow: hidden;
 }
 
 .page-wrapper {
-  background: $c-black;
+  background: $c-white;
   border-bottom-left-radius: pxToRem(24px);
   border-bottom-right-radius: pxToRem(24px);
   transition: transform $d-anim ease-in-out;
@@ -91,8 +91,8 @@ a {
 
 .text-module {
   margin-bottom: pxToRem(80px);
-  background-color: $c-black;
-  color: $c-white;
+  background-color: $c-white;
+  color: $c-black;
 }
 
 .text-module__head {
@@ -110,6 +110,7 @@ a {
 .text-module__headline {
   @include f-subtitle-1;
   margin: 0;
+  color: $c-green;
 
   p {
     @include f-btn;
@@ -167,10 +168,10 @@ a {
   .text-module__tab-link {
     border-bottom: 2px solid transparent;
     padding-bottom: pxToRem(4px);
-    color: $c-white;
+    color: $c-green;
 
     &:hover {
-      border-bottom: 2px solid $c-white;
+      border-bottom: 2px solid $c-green;
     }
   }
 
@@ -180,15 +181,15 @@ a {
 
     &.is-active {
       .text-module__tab-link {
-        border-bottom: 2px solid $c-white;
+        border-bottom: 2px solid $c-green;
       }
     }
   }
 }
 
 .text-module__content {
-  background-color: $c-black;
-  color: $c-white;
+  background-color: $c-white;
+  color: $c-black;
 
   @include breakpoint(xs-sm) {
     margin-top: pxToRem(40px);
@@ -204,16 +205,18 @@ a {
   h2 {
     @include f-headline-h2;
     margin-top: pxToRem(40px);
+    color: $c-green;
   }
 
   h3 {
     @include f-headline-h3;
     margin-top: pxToRem(40px);
     margin-bottom: pxToRem(20px);
+    color: $c-green;
   } 
 
   a {
-    color: $c-white;
+    color: $c-green;
     font-weight: $fw-regular-bold;
     text-decoration: underline;
 
@@ -233,6 +236,48 @@ a {
     margin-block: pxToRem(40px);
     height: auto;
     max-width: 100%;
+  }
+
+  .downloads {
+    display: flex;
+
+    a {
+      position: relative;
+      margin-right: pxToRem(40px);
+
+      img {
+        margin: 0;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: $c-green;
+      }
+
+      .text {
+        color: $c-white;
+        font-size: pxToRem(22px);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      &:hover .overlay {
+        opacity: 0.85;
+      }
+    }
   }
 
   h3 + ol,
