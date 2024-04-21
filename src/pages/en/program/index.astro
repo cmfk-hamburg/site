@@ -1,1 +1,26 @@
-<a href="/assets/program-chinese-film-2024.pdf">test</a>
+---
+import ProgramLayout from "../../../layouts/ProgramLayout.astro";
+import * as programs from "../../../content/en/programs.md";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import ProgramCollection from "../../../components/ProgramCollection.astro";
+
+const Content = programs.Content;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const program1 = await Astro.glob("../../../content/en/programs/day1/*.md");
+const program2 = await Astro.glob("../../../content/en/programs/day2/*.md");
+---
+
+<ProgramLayout title={programs.frontmatter.headline} article={programs}>
+    <div class="programs">
+        <ProgramCollection programs={program1} date="01.05.2024"/>
+        <ProgramCollection programs={program2} date="02.05.2024"/>
+    </div>
+</ProgramLayout>
+
+<style lang="scss">
+	body {
+		font-family: "Roboto", sans-serif;
+	}
+</style>

@@ -1,15 +1,15 @@
 ---
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
-import * as joinUs from "../../../content/en/tickets.md";
+import * as tickets from "../../../content/en/tickets.md";
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 
-const Content = joinUs.Content;
+const Content = tickets.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<ArticleLayout title={joinUs.frontmatter.headline} article={joinUs}>
+<ArticleLayout title={tickets.frontmatter.headline} article={tickets}>
 	<div class="text-module__content">
 		<Content />
 	</div>

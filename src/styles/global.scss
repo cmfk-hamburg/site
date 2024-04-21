@@ -37,7 +37,8 @@ a {
   @include f-btn;
   display: block;
   box-sizing: border-box;
-  border-radius: 100vmax;
+  // border-radius: 100vmax;
+  border-radius: 4px;
   transition: all $d-anim;
 
   @include breakpoint(xs-sm) {
@@ -51,24 +52,38 @@ a {
   }
 }
 
-.btn--primary {
-  background-color: transparent;
-  border: 1px solid $c-white;
-  color: $c-white;
-
-  &:hover {
-    @include blur-background;
-    color: $c-white;
+.btn--small {
+  @include f-btn-small;
+  @include breakpoint(xs-sm) {
+    padding: pxToRem(6px) pxToRem(12px);
+  }
+  @include breakpoint(md) {
+    padding: pxToRem(6px) pxToRem(12px);;
+  }
+  @include breakpoint(lg) {
+    padding: pxToRem(6px) pxToRem(12px);
   }
 }
 
-.btn--secondary {
-  @include blur-background;
+.btn--primary {
+  background-color: $c-green;
+  border: 1px solid $c-green;
   color: $c-white;
 
   &:hover {
     background-color: $c-white;
-    color: $c-black;
+    color: $c-green;
+  }
+}
+
+.btn--secondary {
+  background-color: $c-white;
+  border: 1px solid $c-green;
+  color: $c-green;
+
+  &:hover {
+    background-color: $c-green;
+    color: $c-white;
   }
 }
 
@@ -285,5 +300,72 @@ a {
   h3 + img,
   h3 + p {
     margin-top: 20px;
+  }
+}
+
+.program-body {
+  overflow: unset !important;
+
+  main {
+    overflow: unset !important;
+  }
+
+  .page-wrapper {
+    overflow: unset !important;
+  }
+}
+
+.programs {
+  margin-top: pxToRem(60px);
+}
+
+.program__links {
+  display: grid;
+  place-items: center;
+  padding: pxToRem(60px);
+
+  .program__intro {
+    color: $c-green;
+    @include f-headline-h3;
+    margin-bottom: pxToRem(36px);
+    text-align: center;
+  }
+
+  a {
+    position: relative;
+    margin-right: pxToRem(40px);
+
+    img {
+      margin: 0;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: $c-green;
+    }
+
+    .text {
+      color: $c-white;
+      font-size: pxToRem(24px);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    &:hover .overlay {
+      opacity: 0.75;
+    }
   }
 }

@@ -1,0 +1,23 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import * as film from "../../../content/en/programs/day1/file1.md";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import ProgramDetail from "../../../components/ProgramDetail.astro";
+
+const Content = film.Content;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<ArticleLayout title={film.frontmatter.headline} article={film}>
+	<ProgramDetail image={film.frontmatter.image} date={film.frontmatter.date}, cinema={film.frontmatter.cinema} language={film.frontmatter.language} length={film.frontmatter.length} director={film.frontmatter.director}>
+        <Content />
+    </ProgramDetail>
+</ArticleLayout>
+
+<style lang="scss">
+	body {
+		font-family: "Roboto", sans-serif;
+	}
+</style>

@@ -2,7 +2,6 @@
 import { getLangFromUrl } from "../i18n/utils";
 import "normalize.css/normalize.css";
 import Footer from "../components/Footer.astro";
-import LanguagePicker from "../components/LanguagePicker.astro";
 import MetaFooter from "../components/MetaFooter.astro";
 import Nav from "../components/Nav.astro";
 import Stage from "../components/Stage.astro";
@@ -27,13 +26,22 @@ const lang = getLangFromUrl(Astro.url);
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="program-body">
 		<Nav />
 	    <div class="page-wrapper">
-			<!-- <LanguagePicker /> -->
 			<Stage headline={article.frontmatter.headline} overline={article.frontmatter.overline} imageSrcS={article.frontmatter.imageSrcS} imageSrcM={article.frontmatter.imageSrcM} imageSrcL={article.frontmatter.imageSrcL}/>
-			<main>
-				
+			<main style="overflow: auto">
+				<div class="program__links">
+					<div class="program__intro">Check out the festival program and timetable in our flyer. Detailed Festival Program is on the way!</div>
+					<a href="/assets/2024CFFH_flyer.pdf" download>
+						<img src="/images/2024-cover.jpg" alt="Program-chinese-film-2024" style="max-width: 300px;"/>
+						<div class="overlay">
+							<div class="text">Click to download</div>
+						</div>
+					</a>
+					<!-- <a href="/assets/program-chinese-film-2024.pdf">test</a> -->
+				</div>
+				<!-- <slot /> -->
 			</main>
 			<Footer />
 		</div>

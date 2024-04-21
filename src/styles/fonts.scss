@@ -168,6 +168,21 @@ $fw-bold: 700;
   }
 }
 
+@mixin f-btn-small {
+  font-weight: $fw-regular;
+  line-height: 1.1;
+
+  @include breakpoint(xs-sm) {
+    font-size: pxToRem(14px);
+  }
+  @include breakpoint(md) {
+    font-size: pxToRem(18px);
+  }
+  @include breakpoint(lg) {
+    font-size: pxToRem(20px);
+  }
+}
+
 @mixin f-btn-bold {
   font-weight: $fw-regular-bold;
   line-height: 1.1;

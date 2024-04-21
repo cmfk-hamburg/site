@@ -1,0 +1,40 @@
+---
+export interface Props {
+	image: any;
+    date: string;
+    length: string;
+    director: string;
+    language: string;
+    cinema: string;
+}
+
+const { image, date, director, language, cinema, length } = Astro.props;
+---
+
+<div class="film">
+    <div class="film__image">
+        <img src={image} />
+        <div>{date} | {director} | {language} | {cinema} | {length}</div>
+    </div>
+    <div class="film__content">
+        <slot />
+    </div>
+</div>
+
+<style lang="scss">
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
+    .film {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .film__image {
+        img {
+            aspect-ratio: 16 / 9;
+            width: 100%;
+        }
+    }
+</style>
