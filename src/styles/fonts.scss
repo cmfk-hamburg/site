@@ -19,6 +19,11 @@ $fw-regular-bold: 400;
 $fw-semibold: 600;
 $fw-bold: 700;
 
+@font-face {
+  font-family: gtCinetype;
+  src: url(/fonts/gt-cinetype.ttf);
+}
+
 /**
  * Font Mixins
  */
@@ -61,6 +66,18 @@ $fw-bold: 700;
   }
   @include breakpoint(md-xl) {
     font-size: pxToRem(28px);
+  }
+}
+
+@mixin f-headline-h4 {
+  font-weight: $fw-regular;
+  line-height: 1.1;
+
+  @include breakpoint(xs-sm) {
+    font-size: pxToRem(20px);
+  }
+  @include breakpoint(md-xl) {
+    font-size: pxToRem(24px);
   }
 }
 
@@ -131,6 +148,10 @@ $fw-bold: 700;
   }
 }
 
+@mixin f-copy-4 {
+  line-height: 1.2;
+  font-size: pxToRem(16px);
+}
 
 @mixin f-footer-1 {
   font-weight: $fw-regular;

@@ -101,3 +101,12 @@ $break-desktop-lg: 1228px;
 @mixin rounded-border {
   border-radius: 100vmax;
 }
+
+@mixin image-scale-on-hover {
+  transition: all .3s ease-in-out;
+    
+  &:not([disabled]):hover {
+    cursor: pointer;
+    transform: scale(1.5); // 150%
+  }
+}

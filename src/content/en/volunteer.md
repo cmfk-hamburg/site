@@ -1,9 +1,9 @@
 ---
 headline: "Join Us"
 overline: ""
-imageSrcS: url("/images/stage/joinus-s.png")
-imageSrcM: url("/images/stage/joinus-m.png")
-imageSrcL: url("/images/stage/joinus-l.png")
+imageSrcS: url("/images/logo-white-2.svg")
+imageSrcM: url("/images/logo-white-2.svg")
+imageSrcL: url("/images/logo-white-2.svg")
 headline2: "Call for film festival volunteers!"
 buttonText: ""
 buttonLink: ""

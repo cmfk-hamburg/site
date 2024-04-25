@@ -1,24 +1,101 @@
 ---
+import FilmGallery from "./FilmGallery.astro";
+
 export interface Props {
+	title: string;
 	image: any;
-    date: string;
-    length: string;
-    director: string;
-    language: string;
-    cinema: string;
+	date: string;
+	length: string;
+	director: string;
+	language: string;
+	cinema: string;
+	time: string;
+	subtitle: string;
+	ticket: string;
+	qa: string;
+	genre: string;
+	origin: string;
+	year: string;
+	resolution: string;
+	isCollection: boolean;
+	films: any;
+	overline: string;
 }
 
-const { image, date, director, language, cinema, length } = Astro.props;
+const {
+	title,
+	image,
+	date,
+	director,
+	overline,
+	language,
+	cinema,
+	length,
+	time,
+	subtitle,
+	ticket,
+	qa,
+	genre,
+	origin,
+	year,
+	resolution,
+	films,
+	isCollection,
+} = Astro.props;
+
+const pipe = " | ";
 ---
 
 <div class="film">
-    <div class="film__image">
-        <img src={image} />
-        <div>{date} | {director} | {language} | {cinema} | {length}</div>
-    </div>
-    <div class="film__content">
-        <slot />
-    </div>
+	<span class="film__overline">{overline}</span>
+	<h1 class="film__title">{title}</h1>
+	<div class="film__wrapper">
+		<div class="film__image">
+			<img src={image} />
+			{
+				!isCollection && (
+					<div>
+						{genre} | {origin} | {year} {language && pipe}{" "}
+						{language && language} {resolution && pipe}{" "}
+						{resolution && resolution} {subtitle && pipe} {subtitle && subtitle}
+					</div>
+				)
+			}
+		</div>
+		<div class="film__content">
+			<div class="film__meta-info">
+				<span class="film__info">
+					{time}, {length},<br />
+					{date},<br />
+					{cinema}, {qa}
+				</span>
+				<div>
+					{
+						ticket && (
+							<a
+								class="btn btn--small btn--primary"
+								href={ticket}
+								target="_blank"
+							>
+								Ticket
+							</a>
+						)
+					}
+					{
+						!ticket && (
+							<span
+								class="btn btn--small btn--outline"
+							>
+								Free Entrance
+							</span>
+						)
+					}
+				</div>
+			</div>
+			<slot />
+			{films && <FilmGallery films={films} />}
+		</div>
+	</div>
 </div>
 
 <style lang="scss">
@@ -26,15 +103,61 @@ const { image, date, director, language, cinema, length } = Astro.props;
 	@import "../styles/fonts.scss";
 	@import "../styles/utils.scss";
 
-    .film {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+	.film {
+		margin-top: pxToRem(40px);
+	}
 
-    .film__image {
-        img {
-            aspect-ratio: 16 / 9;
-            width: 100%;
-        }
-    }
+	.film__overline {
+		@include f-copy-3;
+		padding: pxToRem(4px) pxToRem(10px);
+		color: $c-white;
+		background: $c-green;
+	}
+
+	.film__wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: pxToRem(40px);
+		margin-top: pxToRem(20px);
+
+		@include breakpoint(xs-sm) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.film__title {
+		@include f-headline-h3;
+		margin-top: pxToRem(12px);
+		color: $c-green;
+	}
+
+	.film__image {
+		img {
+			aspect-ratio: 16 / 9;
+			width: 100%;
+			margin-bottom: pxToRem(12px);
+		}
+	}
+
+	.film__meta-info {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: pxToRem(40px);
+
+		@include breakpoint(xs-sm) {
+			margin-top: pxToRem(40px);
+		}
+	}
+
+	.film__info {
+		color: $c-green;
+		line-height: 1.3;
+	}
+
+	.film__content {
+		p {
+			margin-top: 0;
+			margin-bottom: pxToRem(20px);
+		}
+	}
 </style>

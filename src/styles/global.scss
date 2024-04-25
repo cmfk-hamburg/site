@@ -3,6 +3,7 @@ body {
   background: $c-gray;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "gtCinetype", sans-serif;
 }
 
 main {
@@ -37,9 +38,7 @@ a {
   @include f-btn;
   display: block;
   box-sizing: border-box;
-  // border-radius: 100vmax;
-  border-radius: 4px;
-  transition: all $d-anim;
+  transition: all 0.3s ease-in-out;
 
   @include breakpoint(xs-sm) {
     padding: pxToRem(8px) pxToRem(16px);
@@ -58,7 +57,7 @@ a {
     padding: pxToRem(6px) pxToRem(12px);
   }
   @include breakpoint(md) {
-    padding: pxToRem(6px) pxToRem(12px);;
+    padding: pxToRem(6px) pxToRem(12px);
   }
   @include breakpoint(lg) {
     padding: pxToRem(6px) pxToRem(12px);
@@ -69,10 +68,11 @@ a {
   background-color: $c-green;
   border: 1px solid $c-green;
   color: $c-white;
+  box-shadow: inset 0 0 0 0 $c-white;
 
   &:hover {
-    background-color: $c-white;
     color: $c-green;
+    box-shadow: inset 400px 0 0 0 $c-white;
   }
 }
 
@@ -80,10 +80,22 @@ a {
   background-color: $c-white;
   border: 1px solid $c-green;
   color: $c-green;
+  box-shadow: inset 0 0 0 0 $c-green;
 
   &:hover {
-    background-color: $c-green;
     color: $c-white;
+    box-shadow: inset 400px 0 0 0 $c-green;
+  }
+}
+
+.btn--outline {
+  background-color: $c-green;
+  border: 1px solid $c-green;
+  color: $c-white !important;
+  text-decoration: none !important;
+
+  &:hover {
+    transition: none;
   }
 }
 
@@ -182,21 +194,23 @@ a {
 
   .text-module__tab-link {
     border-bottom: 2px solid transparent;
-    padding-bottom: pxToRem(4px);
+    padding: pxToRem(4px) pxToRem(12px);
     color: $c-green;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid $c-white;
 
     &:hover {
-      border-bottom: 2px solid $c-green;
+      border: 1px solid $c-green;
     }
   }
 
   .text-module__tab {
-    margin-bottom: pxToRem(18px);
+    margin-bottom: pxToRem(24px);
     text-align: right;
 
     &.is-active {
       .text-module__tab-link {
-        border-bottom: 2px solid $c-green;
+        @extend .btn--primary;
       }
     }
   }
@@ -228,7 +242,7 @@ a {
     margin-top: pxToRem(40px);
     margin-bottom: pxToRem(20px);
     color: $c-green;
-  } 
+  }
 
   a {
     color: $c-green;
@@ -236,7 +250,7 @@ a {
     text-decoration: underline;
 
     &:hover {
-        text-decoration: none;
+      text-decoration: none;
     }
   }
 
@@ -273,7 +287,7 @@ a {
         height: 100%;
         width: 100%;
         opacity: 0;
-        transition: .5s ease;
+        transition: 0.5s ease;
         background-color: $c-green;
       }
 
@@ -288,7 +302,7 @@ a {
         transform: translate(-50%, -50%);
         text-align: center;
       }
-      
+
       &:hover .overlay {
         opacity: 0.85;
       }
@@ -317,55 +331,38 @@ a {
 
 .programs {
   margin-top: pxToRem(60px);
+
+  @include breakpoint(xs-sm) {
+    margin-top: pxToRem(36px);
+  }
 }
 
 .program__links {
   display: grid;
-  place-items: center;
-  padding: pxToRem(60px);
+  place-items: end;
+  margin-top: pxToRem(60px);
 
-  .program__intro {
-    color: $c-green;
-    @include f-headline-h3;
-    margin-bottom: pxToRem(36px);
-    text-align: center;
+  @include breakpoint(xs-sm) {
+    margin-top: pxToRem(36px);
+  }
+}
+
+.film__content {
+  p {
+    margin-top: 0;
+    margin-bottom: pxToRem(20px);
+    line-height: 1.3;
   }
 
-  a {
-    position: relative;
-    margin-right: pxToRem(40px);
+  h3 {
+    color: $c-green;
+    font-weight: $fw-regular;
+    margin-top: pxToRem(40px);
+    margin-bottom: pxToRem(16px);
+  }
 
-    img {
-      margin: 0;
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: $c-green;
-    }
-
-    .text {
-      color: $c-white;
-      font-size: pxToRem(24px);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    &:hover .overlay {
-      opacity: 0.75;
-    }
+  a:not([class]) {
+    color: $c-green;
+    text-decoration: underline;
   }
 }

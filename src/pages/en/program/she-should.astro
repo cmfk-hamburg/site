@@ -1,0 +1,17 @@
+---
+import * as film from "../../../content/en/programs/0512/3-short-film-program-vi-reality-and-imagination/01-she-should.md";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import ProgramDetail from "../../../components/ProgramDetail.astro";
+import FilmLayout from "../../../layouts/FilmLayout.astro";
+
+const Content = film.Content;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<FilmLayout title="" article={film}>
+	<ProgramDetail title={film.frontmatter.title} image={film.frontmatter.image} date={film.frontmatter.date}, cinema={film.frontmatter.cinema} language={film.frontmatter.language} length={film.frontmatter.length} director={film.frontmatter.director} subtitle={film.frontmatter.subtitle} time={film.frontmatter.time} qa={film.frontmatter.qa} ticket={film.frontmatter.ticket} genre={film.frontmatter.genre} origin={film.frontmatter.origin} year={film.frontmatter.year} resolution={film.frontmatter.resolution} films={} isCollection={false} overline={film.frontmatter.overline}>
+        <Content />
+    </ProgramDetail>
+</FilmLayout>
