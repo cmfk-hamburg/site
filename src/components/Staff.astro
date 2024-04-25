@@ -37,7 +37,7 @@ const { headline, staffs } = Astro.props;
 
     .staff-collection__headline {
         @include f-subtitle-1;
-        margin-top: pxToRem(60px);
+        margin-top: pxToRem(40px);
     }
 
     .staff-collection__teaser-wrapper {
@@ -52,7 +52,7 @@ const { headline, staffs } = Astro.props;
         }
 
         .staff-collection:first-of-type & {
-            padding-bottom: pxToRem(60px);
+            padding-bottom: pxToRem(20px);
         }
 
         .staff-collection:last-of-type & {
@@ -89,13 +89,14 @@ const { headline, staffs } = Astro.props;
     }
 
     .staff-collection__teaser-title {
-        @include f-headline-h3;
+        @include f-headline-h4;
         margin-bottom: pxToRem(6px);
     }
 
     .staff-collection__teaser-detail {
-        @include f-copy;
+        @include f-copy-4;
         text-transform: uppercase;
+        color: $c-black;
     }
 
     .staff-collection__teaser-image {
@@ -104,15 +105,15 @@ const { headline, staffs } = Astro.props;
         object-fit: cover;
 
         @include breakpoint(xs-sm) {
-            width: column(8, 12);
+            width: column(6, 12);
         }
 
         @include breakpoint(md-xl) {
-            width: column(6, 12);
+            width: column(5, 12);
             max-width: pxToRem(180px);
         }
         @include breakpoint(lg) {
-            margin-right: pxToRem(36px);
+            margin-right: pxToRem(20px);
         }
     }
 

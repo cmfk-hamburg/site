@@ -79,19 +79,7 @@ const subItemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
-		<!-- <li class={subItemClass(`/${lang}/archive/`)}>
-			<a
-				href={`/${lang}/archive/`}
-				class="nav__link"
-				title={t("nav.archive")}
-			>
-				<span class="nav__link-text">
-					{t("nav.archive")}
-				</span>
-			</a>
-		</li> -->
 	</ul>
-	<div></div>
 </nav>
 
 <style lang="scss">
@@ -126,8 +114,8 @@ const subItemClass = function (path: string) {
 	}
 
 	.nav__list {
-		@include blur-background;
-		@include rounded-border;
+		// @include blur-background;
+		// @include rounded-border;
 		box-sizing: border-box;
 		display: inline-flex;
 		flex-wrap: nowrap;
@@ -136,6 +124,9 @@ const subItemClass = function (path: string) {
 		padding: pxToRem(4px);
 		overflow: hidden;
 		pointer-events: all;
+		background-color: $c-white;
+		box-shadow: 0 0 pxToRem(12px) 0 rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
 	}
 
 	.nav__item {
@@ -146,14 +137,15 @@ const subItemClass = function (path: string) {
 		}
 
 		&.is-active {
-			@include rounded-border;
+			// @include rounded-border;
+			border-radius: 4px;
 			background-color: $c-green;
 			color: $c-white;
 		}
 	}
 
 	.nav__link {
-		@include rounded-border;
+		// @include rounded-border;
 		display: flex;
 		align-items: center;
 		padding-inline: pxToRem(12px);
@@ -161,6 +153,7 @@ const subItemClass = function (path: string) {
 		transition: all $d-anim ease-in-out;
 		color: $c-black;
 		background-color: transparent;
+		border-radius: 4px;
 
 		.is-active & {
 			color: $c-white;
@@ -168,6 +161,7 @@ const subItemClass = function (path: string) {
 
 		&:hover {
 			cursor: pointer;
+			color: $c-green;
 		}
 	}
 </style>

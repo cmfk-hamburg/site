@@ -1,8 +1,8 @@
 ---
-headline: "Tickets"
-imageSrcS: url("/images/stage/call-for-entries-s.png")
-imageSrcM: url("/images/stage/call-for-entries-m.png")
-imageSrcL: url("/images/stage/call-for-entries-l.png")
+# headline: "Tickets"
+imageSrcS: url("/images/2024-cover.jpg")
+imageSrcM: url("/images/2024-cover.jpg")
+imageSrcL: url("/images/2024-cover.jpg")
 # headline2: ""
 # buttonImage: "/images/filmfreeway-logo-hires-white.png"
 # buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
@@ -10,7 +10,7 @@ imageSrcL: url("/images/stage/call-for-entries-l.png")
 ### Tickets
 
 **Metropolis**<br>
-Full Price 10 €  / Student  Price 8 €
+Full Price 9 €  / Student  Price 7.5 €
 
 **Lichtmess**<br>
 Full Price 8 € / Student  Price 6 € 

@@ -3,38 +3,68 @@ import { getLangFromUrl } from "../i18n/utils";
 
 export interface Props {
 	programs: any;
-    date: string;
+	date: string;
 }
 
 const lang = getLangFromUrl(Astro.url);
 const { programs, date } = Astro.props;
+const pipe = " | ";
 ---
 
 <div class="programs__unit">
-    <div class="programs__time">
-        <h2 class="programs__date">{date}</h2>
-    </div>
-    <ul class="programs__list">
-        {programs.map((p) => (
-<li class="programs__list-item">
-            <div class="programs__list-item__image">
-                <img src={p.frontmatter.image} alt="Film Pass & Lichtmess Films"/>
-            </div>
-            <div class="programs__list-item__content">
-                {p.frontmatter.overline && <div class="programs__list-item-overline">{p.frontmatter.overline}</div>}
-                
-                <h3 class="programs__list-item-headline">{p.frontmatter.title}</h3>
-            <p class="programs__list-item-text">
-                {p.frontmatter.intro}
-            </p>
-            <div class="programs__cta-wrapper">
-                <a class="programs__list-item-cta btn btn--small btn--secondary" href={`/${lang}/program/${p.frontmatter.info}`}>Info</a>
-                <a class="programs__list-item-cta btn btn--small btn--primary" href={p.frontmatter.ticket}>Ticket</a>
-            </div>
-            </div>
-        </li>
-        ))}
-    </ul>
+	<div class="programs__time">
+		<h2 class="programs__date">{date}</h2>
+	</div>
+	<ul class="programs__list">
+		{
+			programs.map((p) => (
+				<li class="programs__list-item">
+					<div class="programs__list-item__image">
+						<img src={p.frontmatter.image} alt="Film Pass & Lichtmess Films" />
+					</div>
+					<div class="programs__list-item__content">
+						{p.frontmatter.overline && (
+							<div class="programs__list-item-overline">
+								{p.frontmatter.overline}
+							</div>
+						)}
+
+						<h3 class="programs__list-item-headline">{p.frontmatter.title}</h3>
+						<p class="programs__list-item-text">{p.frontmatter.intro}</p>
+						<p class="programs__list-item-text">
+							{p.frontmatter.time} | {p.frontmatter.cinema} |{" "}
+							{p.frontmatter.length} {p.frontmatter.qa && pipe}{" "}
+							{p.frontmatter.qa && p.frontmatter.qa}
+						</p>
+						<div class="programs__cta-wrapper">
+							<a
+								class="programs__list-item-cta btn btn--small btn--secondary"
+								href={`/${lang}/program${p.frontmatter.info}`}
+							>
+								Info
+							</a>
+							{p.frontmatter.ticket && (
+								<a
+									class="programs__list-item-cta btn btn--small btn--primary"
+									target="_blank"
+									href={p.frontmatter.ticket}
+								>
+									Ticket
+								</a>
+							)}
+							{!p.frontmatter.ticket && (
+								<span
+									class="programs__list-item-cta btn btn--small btn--outline"
+								>
+								Free Entrance
+								</span>
+							)}
+						</div>
+					</div>
+				</li>
+			))
+		}
+	</ul>
 </div>
 
 <style lang="scss">
@@ -42,91 +72,107 @@ const { programs, date } = Astro.props;
 	@import "../styles/fonts.scss";
 	@import "../styles/utils.scss";
 
+	.programs__unit {
+		display: grid;
+		grid-template-columns: 2fr 10fr;
+		margin-bottom: pxToRem(120px);
 
-.programs__unit {
-  display: grid;
-  grid-template-columns: 3fr 9fr;
-  margin-bottom: pxToRem(120px);
+		@include breakpoint(xs-sm) {
+			grid-template-columns: 1fr;
+			margin-bottom: pxToRem(80px);
+		}
+	}
 
-  @include breakpoint(xs-sm) {
-    grid-template-columns: 1fr;
-  }
-}
+	.programs__time {
+		min-width: 8rem;
+	}
 
-.programs__time {
-  min-width: 8rem;
-}
+	.programs__date {
+		@include f-headline-h3;
+		position: sticky;
+		height: 50px;
+		top: 25px;
+		margin-top: 0;
+		color: $c-green;
+	}
 
-.programs__date {
-  @include f-headline-h3;
-  position: sticky;
-  height: 50px;
-  top: 25px;
-  margin-top: 0;
-  color: $c-green;
-}
+	.programs__list {
+		list-style: none;
+		margin: 0;
 
-.programs__list {
-  list-style: none;
-  margin: 0;
+		@include breakpoint(xs-sm) {
+			padding-left: 0;
+		}
+	}
 
-  @include breakpoint(xs-sm) {
-    padding-left: 0;
-  }
-}
+	.programs__list-item {
+		margin-top: pxToRem(60px);
+		display: grid;
+		grid-column-gap: pxToRem(16px);
+		grid-template-columns: 1fr 1fr;
 
-.programs__list-item {
-  margin-top: pxToRem(60px);
-  display: grid;
-  grid-column-gap: pxToRem(16px);
+		&:first-child {
+			margin-top: 0;
+		}
 
-  &:first-child {
-    margin-top: 0;
-  }
+		&:nth-child(2n + 1) {
+			grid-template-areas: "image content";
+		}
 
-  &:nth-child(2n+1) {
-    grid-template-columns: 2fr 3fr;
-    grid-template-areas: 'image content';
-  }
+		&:nth-child(2n) {
+			grid-template-areas: "content image";
+		}
 
-  &:nth-child(2n) {
-    grid-template-columns: 3fr 2fr;
-    grid-template-areas: 'content image';
-  }
-}
+		@include breakpoint(xs-sm) {
+			display: flex;
+			flex-direction: column;
+			margin-top: pxToRem(36px);
+			margin-bottom: pxToRem(36px);
+		}
+	}
 
-.programs__list-item__image {
-  grid-area: image;
+	.programs__list-item-text {
+		line-height: 1.2;
+	}
 
-  img {
-    width: 100%;
-  }
-}
+	.programs__list-item__image {
+		grid-area: image;
 
-.programs__list-item__content {
-  grid-area: content;
-}
+		img {
+			width: 100%;
+			aspect-ratio: 16 / 9;
+			margin-bottom: pxToRem(16px);
+		}
+	}
 
-.programs__list-item-overline {
-  margin-bottom: pxToRem(16px);
-  padding: pxToRem(4px) pxToRem(8px);
-  background: $c-green;
-  color: $c-white;
-  width: fit-content;
-}
+	.programs__list-item__content {
+		grid-area: content;
+	}
 
-.programs__list-item-headline {
-  @include f-headline-h3;
-  margin: 0;
-  color: $c-green;
-}
+	.programs__list-item-overline {
+		margin-bottom: pxToRem(8px);
+		padding: pxToRem(4px) pxToRem(8px);
+		background: $c-green;
+		color: $c-white;
+		width: fit-content;
+	}
 
-.programs__cta-wrapper {
-  display: flex;
+	.programs__list-item-headline {
+		@include f-headline-h3;
+		margin: 0;
+		color: $c-green;
+	}
 
-  .programs__list-item-cta {
-    cursor: pointer;
-    margin-right: pxToRem(10px);
-  }
-}
+	.programs__cta-wrapper {
+		display: flex;
+
+		.programs__list-item-cta {
+			cursor: pointer;
+			margin-right: pxToRem(10px);
+
+			&.btn--outline {
+				pointer-events: none;
+			}
+		}
+	}
 </style>

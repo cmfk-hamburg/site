@@ -8,19 +8,17 @@ const Content = programs.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const program1 = await Astro.glob("../../../content/en/programs/day1/*.md");
-const program2 = await Astro.glob("../../../content/en/programs/day2/*.md");
+const program0508 = await Astro.glob("../../../content/en/programs/0508/*.md");
+const program0510 = await Astro.glob("../../../content/en/programs/0510/*.md");
+const program0511 = await Astro.glob("../../../content/en/programs/0511/*.md");
+const program0512 = await Astro.glob("../../../content/en/programs/0512/*.md");
 ---
 
 <ProgramLayout title={programs.frontmatter.headline} article={programs}>
     <div class="programs">
-        <ProgramCollection programs={program1} date="01.05.2024"/>
-        <ProgramCollection programs={program2} date="02.05.2024"/>
+        <ProgramCollection programs={program0508} date="08.05.2024"/>
+        <ProgramCollection programs={program0510} date="10.05.2024"/>
+        <ProgramCollection programs={program0511} date="11.05.2024"/>
+        <ProgramCollection programs={program0512} date="12.05.2024"/>
     </div>
 </ProgramLayout>
-
-<style lang="scss">
-	body {
-		font-family: "Roboto", sans-serif;
-	}
-</style>

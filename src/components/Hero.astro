@@ -9,11 +9,15 @@ const t = useTranslations(lang);
 	<div class="hero__content-wrapper">
 		<div class="hero__content">
 			<div class="hero__text-wrapper">
-				<div class="hero__overline">{t("hero.overline")}</div>
+				<video autoplay muted loop controls class="hero__video">
+					<source src="/assets/video-2024.mp4" type="video/mp4" />
+					Your browser does not support HTML5 video.
+				</video>
+				<!-- <div class="hero__overline">{t("hero.overline")}</div>
 				<h1 class="hero__title">
 					<p>{t("hero.title1")}</p>
 					<p>{t("hero.title2")}</p>
-				</h1>
+				</h1> -->
 				<!-- <div class="hero__cta-wrapper">
 					<a class="btn btn--primary" href={`/${lang}/call-for-film/`}>
 						{t("hero.cta")}
@@ -25,36 +29,58 @@ const t = useTranslations(lang);
 </section>
 
 <style lang="scss">
-	@import '../styles/variables.scss';
-	@import '../styles/fonts.scss';
-	@import '../styles/utils.scss';
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
 
 	.hero {
 		position: relative;
 		overflow: hidden;
-		background-position: 50% 50%;
+		// background-position: 50% 50%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		backface-visibility: hidden;
 		height: 100vh;
 		width: 100%;
+		background-image: url("../images/2024-cover.jpg");
 
-		@include breakpoint(xs-sm) {
-			background-image:  url("../images/homepage-s.png");
-		}
+		// @include breakpoint(xs-sm) {
+		// 	margin-top: 0;
+		// 	width: 100vw;
+		// 	height: auto;
+		// 	background-position: 50% 50%;
+		// }
 		@include breakpoint(md) {
-			background-image:  url("../images/homepage-m.png");
+			background-image: url("../images/cover-16-9.jpg");
 		}
 		@include breakpoint(lg) {
-			background-image:  url("../images/homepage-l.png");
+			background-image: url("../images/cover-16-9.jpg");
 		}
 	}
+
+	// .hero__video {
+	// 	position: fixed;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	min-width: 100%;
+	// 	min-height: 100%;
+	// }
 
 	.hero__content-wrapper {
 		@include container;
 		display: flex;
-		align-items: center;
-		height: 90vh;
+		margin-top: 20vh;
+		margin-left: 5vw;
+		width: 60vw;
+		height: auto;
+
+		@include breakpoint(xs-sm) {
+			margin-top: 55vh;
+			justify-items: center;
+			width: 90vw;
+			height: auto;
+			padding: 0;
+		}
 	}
 
 	.hero__content {
@@ -81,14 +107,13 @@ const t = useTranslations(lang);
 		@include f-hero;
 		display: block;
 		margin: pxToRem(24px) 0;
-		
+
 		@include breakpoint(md) {
 			width: column(10, 12);
 		}
 		@include breakpoint(lg) {
 			width: column(9, 12);
 		}
-
 
 		p {
 			margin: 0;
@@ -99,7 +124,6 @@ const t = useTranslations(lang);
 		display: block;
 		margin-top: pxToRem(36px);
 		width: 100%;
-
 
 		@include breakpoint(md-xl) {
 			margin-top: 0;

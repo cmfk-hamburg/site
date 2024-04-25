@@ -1,0 +1,71 @@
+---
+import { getLangFromUrl } from "../i18n/utils";
+
+export interface Props {
+	films: any;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const { films } = Astro.props;
+---
+
+<ul class="film-gallery">
+	{
+		films.map((f) => (
+			<li class="film-gallery__item">
+				<a
+					class="film-gallery__link"
+					href={`/${lang}/program${f.frontmatter.info}`}
+				>
+					<figure>
+						<img src={f.frontmatter.image} alt="Film Pass & Lichtmess Films" />
+					</figure>
+					<h3 class="film-gallery__headline">{f.frontmatter.title}</h3>
+				</a>
+			</li>
+		))
+	}
+</ul>
+
+<style lang="scss">
+	@import "../styles/variables.scss";
+	@import "../styles/fonts.scss";
+	@import "../styles/utils.scss";
+
+	.film-gallery {
+		list-style: none;
+		flex-direction: row;
+		margin-top: pxToRem(60px);
+		padding: 0;
+	}
+
+	.film-gallery__link {
+		cursor: pointer;
+
+		figure {
+			overflow: hidden;
+			margin: 0;
+		}
+
+		img {
+			max-width: 100%;
+			transform: scale(1);
+			transition: 0.4s ease-in-out;
+		}
+
+		&:hover {
+			img {
+				transform: scale(1.1);
+			}
+
+			.film-gallery__headline {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.film-gallery__headline {
+		margin-top: pxToRem(10px);
+		margin-bottom: pxToRem(40px);
+	}
+</style>

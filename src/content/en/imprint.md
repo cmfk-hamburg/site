@@ -1,15 +1,13 @@
 ---
 headline: "Imprint"
 overline: ""
-imageSrcS: url("/images/stage/imprint-s.png")
-imageSrcM: url("/images/stage/imprint-m.png")
-imageSrcL: url("/images/stage/imprint-l.png")
+imageSrcS: url("/images/logo-white-2.svg")
+imageSrcM: url("/images/logo-white-2.svg")
+imageSrcL: url("/images/logo-white-2.svg")
 ---
 
 ### Chinesische Medien- und Filmkunst e.V.
 
-Böckelweg 7<br>
-22337 Hamburg<br>
 info@chinesefilmfest.de<br>
 www.chinesefilmfest.de<br>
 
