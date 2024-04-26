@@ -12,6 +12,7 @@ const program0508 = await Astro.glob("../../../content/en/programs/0508/*.md");
 const program0510 = await Astro.glob("../../../content/en/programs/0510/*.md");
 const program0511 = await Astro.glob("../../../content/en/programs/0511/*.md");
 const program0512 = await Astro.glob("../../../content/en/programs/0512/*.md");
+const program0513 = await Astro.glob("../../../content/en/programs/0513/*.md");
 ---
 
 <ProgramLayout title={programs.frontmatter.headline} article={programs}>
@@ -20,5 +21,6 @@ const program0512 = await Astro.glob("../../../content/en/programs/0512/*.md");
         <ProgramCollection programs={program0510} date="10.05.2024"/>
         <ProgramCollection programs={program0511} date="11.05.2024"/>
         <ProgramCollection programs={program0512} date="12.05.2024"/>
+        <ProgramCollection programs={program0513} date="13.05.2024"/>
     </div>
 </ProgramLayout>
