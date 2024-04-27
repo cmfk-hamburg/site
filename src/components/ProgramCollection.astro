@@ -31,6 +31,13 @@ const pipe = " | ";
 
 						<h3 class="programs__list-item-headline">{p.frontmatter.title}</h3>
 						<p class="programs__list-item-text">{p.frontmatter.intro}</p>
+						{p.frontmatter.intro2 && (
+							<p class="programs__list-item-text">
+								<strong>{p.frontmatter.intro2}</strong>
+								<br />
+								{p.frontmatter.intro3}
+							</p>
+						)}
 						<p class="programs__list-item-text">
 							{p.frontmatter.time} | {p.frontmatter.cinema} |{" "}
 							{p.frontmatter.length} {p.frontmatter.qa && pipe}{" "}
@@ -53,10 +60,8 @@ const pipe = " | ";
 								</a>
 							)}
 							{!p.frontmatter.ticket && (
-								<span
-									class="programs__list-item-cta btn btn--small btn--outline"
-								>
-								Free Entrance
+								<span class="programs__list-item-cta btn btn--small btn--outline">
+									Free Entrance
 								</span>
 							)}
 						</div>

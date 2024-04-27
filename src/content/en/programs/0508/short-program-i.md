@@ -1,7 +1,7 @@
 ---
 title: "Myriad Selves"
 overline: "Short Film Program I"
-intro: "Six short films delve into identity & self-expression. Explore female experiences, immigrant metaphors, dinosaurs vs. humanity, nature's diversity, & self-discovery through body & drag. From varied perspectives, they challenge us to find our place, value, and voice"
+intro: "Six short films delve into identity & self-expression. Explore female experiences, immigrant metaphors, dinosaurs vs. humanity, nature's diversity, & self-discovery through body & drag. From varied perspectives, they challenge us to find our place, value, and voice."
 image: "/images/film/0508/1-short-program-i.jpg"
 info: "/myriad-selves"
 ticket: "https://www.metropoliskino.de/home?film=1716"
