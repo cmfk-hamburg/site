@@ -21,8 +21,8 @@ export const ui = {
     "nav.volunteer": "Be A Volenteer",
     "nav.dataPrivacy": "Data Privacy",
     "nav.imprint": "Imprint",
-    "hero.overline": "May 09-12, 2024",
-    "hero.title1": "Open Call 2024",
+    "hero.overline": "May 07-11, 2025",
+    "hero.title1": "Open Call 2025",
     "hero.title2": "Chinese Film Festival Hamburg",
     "hero.cta": "Submit Now",
     "footer.newsletter":

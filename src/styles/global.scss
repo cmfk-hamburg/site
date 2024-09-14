@@ -120,6 +120,10 @@ a {
   margin-bottom: pxToRem(80px);
   background-color: $c-white;
   color: $c-black;
+
+  strong {
+    font-weight: 700;
+  }
 }
 
 .text-module__head {
@@ -150,6 +154,12 @@ a {
 .text-module__cta {
   height: fit-content;
   width: fit-content;
+  transition: none;
+
+  &:hover {
+    color: $c-white;
+    box-shadow: inset 400px 0 0 0 $c-green;
+  }
 
   @include breakpoint(sm-md) {
     margin-top: pxToRem(40px);
@@ -160,7 +170,7 @@ a {
   }
 
   img {
-    max-width: pxToRem(180px);
+    max-width: pxToRem(160px);
   }
 }
 

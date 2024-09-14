@@ -1,4 +1,4 @@
-<!-- ---
+---
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 import * as callForFilm from "../../content/en/call-for-film.md";
 
@@ -10,7 +10,7 @@ const Content = callForFilm.Content;
 		<h2 class="text-module__headline">
 			{callForFilm.frontmatter.headline2}
 		</h2>
-		<a class="text-module__cta" href={callForFilm.frontmatter.buttonLink} target="_blank">
+		<a class="text-module__cta btn btn--primary" href={callForFilm.frontmatter.buttonLink} target="_blank">
 			<img src={callForFilm.frontmatter.buttonImage} alt="FilmFreeway" />
 		</a>
 	</div>

@@ -9,34 +9,34 @@ const t = useTranslations(lang);
 	<div class="hero__content-wrapper">
 		<div class="hero__content">
 			<div class="hero__text-wrapper">
-				<video loop autoplay controls playsinline muted class="hero__video" id="vid">
+				<!-- <video loop autoplay controls playsinline muted class="hero__video" id="vid">
 					<source src="/assets/trailer.mp4" type="video/mp4" />
 					Your browser does not support HTML5 video.
-				</video>
-				<!-- <div class="hero__overline">{t("hero.overline")}</div>
+				</video> -->
+				<div class="hero__overline">{t("hero.overline")}</div>
 				<h1 class="hero__title">
 					<p>{t("hero.title1")}</p>
 					<p>{t("hero.title2")}</p>
-				</h1> -->
-				<!-- <div class="hero__cta-wrapper">
+				</h1>
+				<div class="hero__cta-wrapper">
 					<a class="btn btn--primary" href={`/${lang}/call-for-film/`}>
 						{t("hero.cta")}
 					</a>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</div>
 	<button hidden id="unmuteButton"></button>
 </section>
 
-<script>
+<!-- <script>
 	const unmuteButton = document.querySelector("#unmuteButton"); 
 	unmuteButton.addEventListener("click", function () {
 		document.querySelector("video").muted = false;
 	});
 
 	unmuteButton.click();
-</script>
+</script> -->
 
 <style lang="scss">
 	@import "../styles/variables.scss";
@@ -52,7 +52,7 @@ const t = useTranslations(lang);
 		backface-visibility: hidden;
 		height: 100vh;
 		width: 100%;
-		background-image: url("../images/2024-cover.jpg");
+		background-image: url("../images/hero-mobile.jpg");
 
 		// @include breakpoint(xs-sm) {
 		// 	margin-top: 0;
@@ -60,11 +60,9 @@ const t = useTranslations(lang);
 		// 	height: auto;
 		// 	background-position: 50% 50%;
 		// }
-		@include breakpoint(md) {
-			background-image: url("../images/cover-16-9.jpg");
-		}
+		
 		@include breakpoint(lg) {
-			background-image: url("../images/cover-16-9.jpg");
+			background-image: url("../images/hero.jpg");
 		}
 	}
 
@@ -141,6 +139,13 @@ const t = useTranslations(lang);
 
 		.btn {
 			display: inline-block;
+			border-radius: 4px;
+			transition: none;
+
+			&:hover {
+				color: $c-white;
+				box-shadow: inset 400px 0 0 0 $c-green;
+			}
 		}
 	}
 </style>
