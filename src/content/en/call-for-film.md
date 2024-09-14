@@ -1,8 +1,8 @@
 ---
 headline: "Call For Film"
-imageSrcS: url("/images/stage/call-for-entries-s.png")
-imageSrcM: url("/images/stage/call-for-entries-m.png")
-imageSrcL: url("/images/stage/call-for-entries-l.png")
+imageSrcS: url("/images/2024-cover.jpg")
+imageSrcM: url("/images/2024-cover.jpg")
+imageSrcL: url("/images/2024-cover.jpg")
 headline2: "Third Annual Submissions"
 buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
@@ -140,7 +140,7 @@ Filmmakers submitting their works to our festival are solely responsible for all
 - Student: €11
 - Gold Members: €11.50
 
-### Mid-length and feature films（Greater than or equal to 40 min
+### Mid-length and feature films（Greater than or equal to 40 min)
 
 **Earlybird Deadline**
 
