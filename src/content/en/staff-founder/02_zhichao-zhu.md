@@ -1,6 +1,6 @@
 ---
 name: "Zhichao Zhu"
 email: "zovx2s@gmail.com"
-role: "Festival Director / Founder"
+role: "Festival Founder"
 image: "/images/team/zhichaozhu.png"
 ---

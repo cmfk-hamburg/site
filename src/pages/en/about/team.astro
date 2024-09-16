@@ -15,7 +15,7 @@ const staffTeam = await Astro.glob("../../../content/en/staff-team/*.md");
 		class="text-module__head text-module__head--with-tab text-module__head--team"
 	>
 		<div class="text-module__headline">
-			<Staff headline="Festival Derector / Founder" staffs={staffFounder} />
+			<Staff headline="Festival Director / Founder" staffs={staffFounder} />
 			<Staff headline="Team" staffs={staffTeam} />
 		</div>
 		<ul class="text-module__tabs">
@@ -43,8 +43,4 @@ const staffTeam = await Astro.glob("../../../content/en/staff-team/*.md");
 			</li>
 		</ul>
 	</div>
-	<!-- <div >
-		<Staff headline="Festival Derector / Founder" staffs={staffFounder} />
-		<Staff headline="Team" staffs={staffTeam} />
-	</div> -->
 </ArticleLayout>
