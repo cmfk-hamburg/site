@@ -1,9 +1,6 @@
 ---
 headline: "Data Privacy"
 overline: ""
-imageSrcS: url("/images/stage/festival-s.png")
-imageSrcM: url("/images/stage/festival-m.png")
-imageSrcL: url("/images/stage/festival-l.png")
 ---
 
 ## DATENSCHUTZ AUF EINEN BLICK

@@ -1,8 +1,5 @@
 ---
 headline: "关于影像展"
-imageSrcS: url("/images/stage/festival-s.png")
-imageSrcM: url("/images/stage/festival-m.png")
-imageSrcL: url("/images/stage/festival-l.png")
 headline2: "“深入探索华语艺术电影的精髓，参加第二届汉堡华语电影节。”"
 buttonText: "2023电影节手册"
 buttonLink: "/assets/program-chinese-film-2023.pdf"
