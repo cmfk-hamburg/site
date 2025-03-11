@@ -22,8 +22,8 @@ export const ui = {
     "nav.dataPrivacy": "Data Privacy",
     "nav.imprint": "Imprint",
     "hero.overline": "May 07-11, 2025",
-    "hero.title1": "Open Call 2025",
-    "hero.title2": "Chinese Film Festival Hamburg",
+    "hero.title1": "Chinese Film Festival Hamburg",
+    "hero.title2": "Coming Up Soon!",
     "hero.cta": "Submit Now",
     "footer.newsletter":
       "Subscribe our newsletter and never miss our latest activities.",
