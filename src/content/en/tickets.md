@@ -9,24 +9,31 @@ imageSrcL: url("/images/2024-cover.jpg")
 ---
 ### Tickets
 
+
 **Metropolis**<br>
-Full Price 9 €  / Student  Price 7.5 €
+Full Price: €15 / Student Price: €12
 
 **Lichtmess**<br>
-Full Price 8 € / Student  Price 6 € 
+Full Price: €12 / Student Price: €10
 
-**Festival Pass**<br>
-Full Price 27 € / Student Price 22 €
+**Festival Pass – Limited to 80 passes**<br>
+Full Price: €65 / Student Price: €55
+Early Bird Discount: 10% off until 20th April 2025
+
+### What's included in the Festival Pass?
+- Access to the Opening Welcome Party
+- Exclusive Festival Tote Bag
+- Official Festival Brochure
+- Commemorative A3 Event Poster
+- A 2025 Festival Post Card
 
 ### Information
 
-Two Special events offer free entry, no reservation is required.<br>
-Tickets are all sold on-site.<br>
-Metropolis films are available on the cinema website: <a href="https://metropoliskino.de" target="_blank">metropoliskino.de</a>.<br>
-For the Festival Pass & Lichtmess films, please scan the QR code below:
-<div class="downloads">
-    <img src="/images/film-Pass.jpg" alt="Film Pass & Lichtmess Films" style="max-width: 250px; margin: 0;"/>
-</div>
+The video art exhibition NOSTALGIA MACHINE (9th-30th. May), offers free entry; no reservation is required.
+
+Film tickets are sold both on-site and online.<br>
+Metropolis film screenings are available on the cinema website: <a href="https://metropoliskino.de" target="_blank">metropoliskino.de</a>.<br>
+For Festival Pass & Lichtmess films, QR codes will be updated soon!
 
 
 ### Locations
@@ -38,20 +45,19 @@ Kleine Theaterstraße 10,
 **Lichtmess-Kino**<br>
 Gaußstraße 25, 22765 Hamburg
 
-**Warburg-Haus**<br>
-Heilwigstraße 116, 20249 Hamburg
+**Millerntorwache**<br>
+Millerntorplatz 20, 20359 Hamburg
 
-**Raum 120**<br>
-Edmund-Siemers-Allee 1 (West), 
-Kunstgeschichtliches Seminar, Universität Hamburg.
 
-### Contacts & Social Media：
+### Contacts & Social Media
 <a href="https://www.chinesefilmfest.de" target="_blank">chinesefilmfest.de</a><br>
 info@chinesefilmfest.de
 
-**Instagram:** chinesefilmfest_hamburg<br>
-**WeChat Account:** riparian_showcase<br>
-**Xiaohongshu:** 汉堡华语影像展CFFH
+**RedNote:** chinesefilmfest_hamburg<br>
+**WeChat:** riparian_showcase<br>
+**Instagram:** @chinesefilmfestivalhamburg
+
+
 <!-- 
 ### Program Archive
 
