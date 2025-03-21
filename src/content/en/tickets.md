@@ -18,7 +18,7 @@ Full Price: €12 / Student Price: €10
 
 **Festival Pass – Limited to 80 passes**<br>
 Full Price: €65 / Student Price: €55
-Early Bird Discount: 10% off until 20th April 2025
+Early Bird Discount: 15% off until 26th April 2025
 
 ### What's included in the Festival Pass?
 - Access to the Opening Welcome Party
