@@ -9,7 +9,7 @@ buttonText: ""
 buttonLink: ""
 ---
 
-The 2nd Chinese Film Festival Hamburg invites passionate volunteers like you to play a pivotal role in our upcoming festival, tentatively scheduled from May 9th to 12th, 2024.
+The 3rd Chinese Film Festival Hamburg invites passionate volunteers like you to play a pivotal role in our upcoming festival, tentatively scheduled from May 7th to 11th, 2025.
 
 ![Volunteer 1](/images/volunteer-1.jpg)
 
