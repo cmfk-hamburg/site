@@ -8,20 +8,20 @@ const Content = programs.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const program0507 = await Astro.glob("../../../content/en/programs/0507/*.md");
 const program0508 = await Astro.glob("../../../content/en/programs/0508/*.md");
+const program0509 = await Astro.glob("../../../content/en/programs/0509/*.md");
 const program0510 = await Astro.glob("../../../content/en/programs/0510/*.md");
 const program0511 = await Astro.glob("../../../content/en/programs/0511/*.md");
-const program0512 = await Astro.glob("../../../content/en/programs/0512/*.md");
-const program0513 = await Astro.glob("../../../content/en/programs/0513/*.md");
 ---
 
 <ProgramLayout title={programs.frontmatter.headline} article={programs}>
-    <!--{} <div class="programs">
-        <ProgramCollection programs={program0508} date="08.05.2024"/>
-        <ProgramCollection programs={program0510} date="10.05.2024"/>
-        <ProgramCollection programs={program0511} date="11.05.2024"/>
-        <ProgramCollection programs={program0512} date="12.05.2024"/>
-        <ProgramCollection programs={program0513} date="13.05.2024"/>
-    </div> -->
-    <img src="/images/coming-soon.jpg" alt="Program comming soon" style="width: 100%; margin: 36px auto 60px;"/>
+    {} <div class="programs">
+        <ProgramCollection programs={program0507} date="07.05.2025"/>
+        <ProgramCollection programs={program0508} date="08.05.2025"/>
+        <ProgramCollection programs={program0509} date="09.05.2025"/>
+        <ProgramCollection programs={program0510} date="10.05.2025"/>
+        <ProgramCollection programs={program0511} date="11.05.2025"/>
+    </div>
+    <!-- <img src="/images/coming-soon.jpg" alt="Program comming soon" style="width: 100%; margin: 36px auto 60px;"/> -->
 </ProgramLayout>
