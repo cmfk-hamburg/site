@@ -2,7 +2,7 @@
 title: "J Is for Just an Afternoon Thunderstorm"
 overline: "Feature & Short Programm: Into the Current"
 intro: "These two Taiwanese films capture silent struggles and deep emotions, reflecting the choices and conflicts of contemporary youth in a complex reality. (Run Yuan)"
-image: "/images/film/0509/1-j-is-for-just-an-afternoon-thunderstorm.jpg"
+image: "/images/film/0509/j-is-for-just-an-afternoon-thunderstorm.jpg"
 info: "/j-is-for-just-an-afternoon-thunderstorm"
 ticket: ""
 cinema: "Metropolis"

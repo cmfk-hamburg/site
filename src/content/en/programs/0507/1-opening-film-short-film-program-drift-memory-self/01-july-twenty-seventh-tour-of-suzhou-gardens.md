@@ -2,7 +2,7 @@
 title: "July Twenty-seventh, Tour of Suzhou Gardens"
 overline: "Short Film: Drift: Memory & Self"
 intro: "Drifting between media and narrative, these films intertwine history, reality, home, exile, and self, blurring boundaries and questioning identity. (Jiawen Zhang)"
-image: "/images/film/0507/01-july-twenty-seventh-tour-of-gardens.jpg"
+image: "/images/film/0507/july-twenty-seventh-tour-of-suzhou-gardens.jpg"
 info: "/july-twenty-seventh-tour-of-suzhou-gardens"
 ticket: ""
 cinema: "Metropolis"

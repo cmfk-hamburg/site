@@ -2,7 +2,7 @@
 title: "Drift: Memory & Self"
 overline: "Opening Film / Short Film Program"
 intro: "Drifting between media and narrative, these films intertwine history, reality, home, exile, and self, blurring boundaries and questioning identity. (Jiawen Zhang)"
-image: "/images/film/0507/opening-film-short-film-program.jpg"
+image: "/images/film/0507/drift-memory-self.jpg"
 info: "/drift-memory-and-self"
 ticket: ""
 cinema: "Metropolis"

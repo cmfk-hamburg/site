@@ -2,7 +2,7 @@
 title: "The Scream"
 overline: "Feature Program"
 intro: "In the age of live-streaming, two drifters chase dreams through their phones. Amidst the noise, their loneliness lingers, revealing fragile bonds of a \"built family\" on society's margins. (Jiawen Zhang)"
-image: "/images/film/0511/1-feature-program-the-scream.jpg"
+image: "/images/film/0511/the-scream.jpg"
 info: "/the-scream"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e1870fcbfd5b465b53c97c"
 cinema: "Lichtmess"

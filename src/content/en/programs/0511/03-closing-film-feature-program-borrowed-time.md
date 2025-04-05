@@ -2,7 +2,7 @@
 title: "Borrowed Time"
 overline: "Closing Film / Feature Program"
 intro: "A tale of two Cantonese cities. A melancholy odyssey. Borrowed Time explores family secrets through a dreamy Guangzhou-Hong Kong journey. This surreal sensory feast poetically mirrors the cross-border relationship while guiding audiences through memory lanes. (Pincent Liu)"
-image: "/images/film/0511/3-closing-film-feature-program-borrowed-time.jpg"
+image: "/images/film/0511/borrowed-time.png"
 info: "/borrowed-time"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e2b224bf7c9d3ccca50fc6"
 cinema: "Lichtmess"

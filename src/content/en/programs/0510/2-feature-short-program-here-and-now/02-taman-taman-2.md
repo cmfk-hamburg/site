@@ -2,7 +2,7 @@
 title: "Taman-taman / Park"
 overline: "Feature & Short Program: Here and Now"
 intro: "Through conversations, these two films reveal how people’s stories create shared narratives, connecting emotions and experiences in public spaces. (Yao Su)"
-image: "/images/film/0510/2-feature-short-program-here-and-now/2-taman-taman-park.jpg"
+image: "/images/film/0510/taman-taman-park.jpg"
 info: "/taman-taman-park"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e17d9c7f21ba51383ed1d0"
 cinema: "Lichtmess"

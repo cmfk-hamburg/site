@@ -2,7 +2,7 @@
 title: "Into the Current"
 overline: "Feature & Short Program"
 intro: "These two Taiwanese films capture silent struggles and deep emotions, reflecting the choices and conflicts of contemporary youth in a complex reality. (Run Yuan)"
-image: "/images/film/0509/1-feature-short-program-into-the-current.jpg"
+image: "/images/film/0509/into-the-current.jpg"
 info: "/into-the-current"
 ticket: ""
 cinema: "Metropolis"

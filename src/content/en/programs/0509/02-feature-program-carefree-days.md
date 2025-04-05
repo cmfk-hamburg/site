@@ -2,7 +2,7 @@
 title: "Carefree Days"
 overline: "Feature Program"
 intro: "Adapted from Ban Yu’s novel, Carefree Days captures Northeast youth in struggle, questioning whether freedom is fleeting joy or acceptance of life’s impermanence — a journey of resilience amid quiet struggles. (Jiawen Zhang)"
-image: "/images/film/0509/2-feature-program-carefree-days.jpg"
+image: "/images/film/0509/carefree-days.jpg"
 info: "/carefree-days"
 ticket: ""
 cinema: "Metropolis"

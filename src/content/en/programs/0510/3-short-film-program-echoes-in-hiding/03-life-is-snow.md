@@ -2,7 +2,7 @@
 title: "Life is Snow"
 overline: "Short Film Program: Echoes in Hiding"
 intro: "History shapes lives and buries truths. Through four films, this program unveils forgotten voices, exploring memory, politics, and the hidden echoes of the past. (Zhizhao Zhu)"
-image: "/images/film/0510/3-short-film-program-echoes-in-hiding/3-life-is-snow.jpg"
+image: "/images/film/0510/life-is-snow.jpg"
 info: "/life-is-snow"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e17f597f21ba51383ed213"
 cinema: "Lichtmess"

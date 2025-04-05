@@ -2,7 +2,7 @@
 title: "Burger Order"
 overline: "Short Film: Drift: Memory & Self"
 intro: "Drifting between media and narrative, these films intertwine history, reality, home, exile, and self, blurring boundaries and questioning identity. (Jiawen Zhang)"
-image: "/images/film/0507/03-burger-order.jpg"
+image: "/images/film/0507/burger-order.png"
 info: "/burger-order"
 ticket: ""
 cinema: "Metropolis"

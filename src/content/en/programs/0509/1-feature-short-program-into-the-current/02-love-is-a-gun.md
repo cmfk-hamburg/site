@@ -2,7 +2,7 @@
 title: "Love Is a Gun"
 overline: "Feature & Short Programm: Into the Current"
 intro: "These two Taiwanese films capture silent struggles and deep emotions, reflecting the choices and conflicts of contemporary youth in a complex reality. (Run Yuan)"
-image: "/images/film/0509/2-love-is-a-gun.jpg"
+image: "/images/film/0509/love-is-a-gun.jpg"
 info: "/love-is-a-gun"
 ticket: ""
 cinema: "Metropolis"

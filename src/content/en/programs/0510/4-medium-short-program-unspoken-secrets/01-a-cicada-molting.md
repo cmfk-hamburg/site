@@ -2,7 +2,7 @@
 title: "A Cicada Molting"
 overline: "Medium & Short Program: Unspoken Secrets"
 intro: "Secrets and lies shape our lives in unseen ways. Here, filmmakers use language as a code, inviting us into their secret havens to explore hidden emotions and seek understanding through conversation. (Zhiwen Ding)"
-image: "/images/film/0510/4-medium-short-program-unspoken-secrets/1-a-cicada-molting.jpg"
+image: "/images/film/0510/a-cicada-molting.jpg"
 info: "/a-cicada-molting"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e18467bf7c9d3ccca4f979"
 cinema: "Lichtmess"

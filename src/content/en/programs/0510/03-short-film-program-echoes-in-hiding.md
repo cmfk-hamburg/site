@@ -2,7 +2,7 @@
 title: "Echoes in Hiding"
 overline: "Short Film Program"
 intro: "History shapes lives and buries truths. Through four films, this program unveils forgotten voices, exploring memory, politics, and the hidden echoes of the past. (Zhizhao Zhu)"
-image: "/images/film/0510/3-short-film-program-echoes-in-hiding.jpg"
+image: "/images/film/0510/echoes-in-hiding.jpg"
 info: "/echoes-in-hiding"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e17f597f21ba51383ed213"
 cinema: "Lichtmess"

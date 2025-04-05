@@ -2,7 +2,7 @@
 title: "The Parisian in Bali Village"
 overline: "Short Film: Drift: Memory & Self"
 intro: "Drifting between media and narrative, these films intertwine history, reality, home, exile, and self, blurring boundaries and questioning identity. (Jiawen Zhang)"
-image: "/images/film/0507/04-the-parisian-in-bali-village.jpg"
+image: "/images/film/0507/the-parisian-in-bali-village.jpg"
 info: "/the-parisian-in-bali-village"
 ticket: ""
 cinema: "Metropolis"

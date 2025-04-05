@@ -2,7 +2,7 @@
 title: "The First Photograph"
 overline: "Short Film: Drift: Memory & Self"
 intro: "Drifting between media and narrative, these films intertwine history, reality, home, exile, and self, blurring boundaries and questioning identity. (Jiawen Zhang)"
-image: "/images/film/0507/02-the-first-photograph.jpg"
+image: "/images/film/0507/the-first-photograph.jpg"
 info: "/the-first-photograph"
 ticket: ""
 cinema: "Metropolis"

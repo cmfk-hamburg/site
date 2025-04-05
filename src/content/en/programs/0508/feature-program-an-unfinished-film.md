@@ -2,7 +2,7 @@
 title: "An Unfinished Film"
 overline: "Feature Program"
 intro: "This film reflects on traditional cinema, creatively employs vertical-screen imagery, and explores reality and fiction’s boundaries. It reveals the fragility yet resilience of images while offering an empathetic gaze on individuals in the present moment."
-image: "/images/film/0508/an-unfinished-film.jpg"
+image: "/images/film/0508/an-unfinished-film.png"
 info: "/an-unfinished-film"
 ticket: ""
 cinema: "Metropolis"

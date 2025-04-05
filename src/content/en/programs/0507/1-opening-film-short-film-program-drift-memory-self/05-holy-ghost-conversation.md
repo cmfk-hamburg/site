@@ -2,7 +2,7 @@
 title: "Holy Ghost Conversation"
 overline: "Short Film: Drift: Memory & Self"
 intro: "Drifting between media and narrative, these films intertwine history, reality, home, exile, and self, blurring boundaries and questioning identity. (Jiawen Zhang)"
-image: "/images/film/0507/05-holy-ghost-conversation.jpg"
+image: "/images/film/0507/holy-ghost-conversation.jpg"
 info: "/holy-ghost-conversation"
 ticket: ""
 cinema: "Metropolis"
