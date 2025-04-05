@@ -1,8 +1,8 @@
 ---
 # headline: "Tickets"
-imageSrcS: url("/images/2024-cover.jpg")
-imageSrcM: url("/images/2024-cover.jpg")
-imageSrcL: url("/images/2024-cover.jpg")
+imageSrcS: url("/images/2025-banner.jpg")
+imageSrcM: url("/images/2025-banner.jpg")
+imageSrcL: url("/images/2025-banner.jpg")
 # headline2: ""
 # buttonImage: "/images/filmfreeway-logo-hires-white.png"
 # buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
@@ -11,16 +11,20 @@ imageSrcL: url("/images/2024-cover.jpg")
 
 
 **Metropolis**<br>
-Full Price: €15 / Student Price: €12
+Full Price: €15 / Student Price: €12<br>
+Ticket coming soon
 
 **Lichtmess**<br>
-Full Price: €12 / Student Price: €10
+Full Price: €12 / Student Price: €10<br>
+Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537/s/67e172626c100a12f992da2d" target="_blank">Lichtmess</a>
 
 **Festival Pass – Limited to 80 passes**<br>
-Full Price: €65 / Student Price: €55
-Early Bird Discount: 15% off until 26th April 2025
+Full Price: €65 / Student Price: €55<br>
+Early Bird Discount: 15% off until 26th April 2025<br>
+Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537" target="_blank">Festival Pass</a>
 
 ### What's included in the Festival Pass?
+- Free Admission to All Film Screenings 
 - Access to the Opening Welcome Party
 - Exclusive Festival Tote Bag
 - Official Festival Brochure
@@ -63,7 +67,7 @@ info@chinesefilmfest.de
 
 <div class="downloads">
     <a href="/assets/program-chinese-film-2024.pdf" download title="Click to download the Program 2024">
-        <img src="/images/2024-cover.jpg" alt="Program-chinese-film-2024" style="max-width: 250px"/>
+        <img src="/images/2025-banner.jpg" alt="Program-chinese-film-2024" style="max-width: 250px"/>
         <div class="overlay">
             <div class="text">Download</div>
         </div>

@@ -1,5 +1,5 @@
 ---
 name: "Qifan Zhou"
-role: "Head of Graphic deisgner"
+role: "Graphic deisgner"
 image: "/images/team/qifanzhou.png"
 ---

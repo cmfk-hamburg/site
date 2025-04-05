@@ -1,0 +1,117 @@
+backend:
+  name: github
+  repo: cmfk-hamburg/site
+  branch: main
+  site_domain: chinesefilmfest.de
+
+media_folder: "src/assets/images" # Location where files will be stored in the repo
+public_folder: "src/assets/images" # The src attribute for uploaded media
+
+editor:
+  preview: true
+  preview_styles: ["/styles/global.css"]
+
+collections:
+  # Single file pages
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Call for Film (EN)"
+        name: "call-for-film-en"
+        file: "src/content/en/call-for-film.md"
+        fields:
+          - { label: "Title", name: "headline", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Festival (EN)"
+        name: "festival-en"
+        file: "src/content/en/festival.md"
+        fields:
+          - { label: "Title", name: "headline", widget: "string" }
+          - { label: "Intro", name: "headline2", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Tickets (EN)"
+        name: "tickets-en"
+        file: "src/content/en/tickets.md"
+        preview_path: "/tickets"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Join Us (EN)"
+        name: "join-us-en"
+        file: "src/content/en/join-us.md"
+        fields:
+          - { label: "Title", name: "headline", widget: "string" }
+          - { label: "Intro", name: "headline2", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Volunteer (EN)"
+        name: "volunteer-en"
+        file: "src/content/en/volunteer.md"
+        fields:
+          - { label: "Title", name: "headline", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Data Privacy (EN)"
+        name: "data-privacy-en"
+        file: "src/content/en/data-privacy.md"
+        fields:
+          - { label: "Title", name: "headline", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Imprint (EN)"
+        name: "imprint-en"
+        file: "src/content/en/imprint.md"
+        fields:
+          - { label: "Title", name: "headline", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "founder"
+    label: "Founder"
+    folder: "src/content/en/staff-founder"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+  - name: "staff"
+    label: "Staff Team"
+    folder: "src/content/en/staff-team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+  # Program entries (nested folders)
+  # - name: "programs"
+  #   label: "Programs"
+  #   folder: "src/content/en/programs"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   nested:
+  #     depth: 2
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Overline", name: "overline", widget: "string" }
+  #     - { label: "Intro", name: "intro", widget: "text" }
+  #     - { label: "Image", name: "image", widget: "image" }
+  #     - { label: "Info", name: "info", widget: "string" }
+  #     - { label: "Ticket", name: "ticket", widget: "string" }
+  #     - { label: "Cinema", name: "cinema", widget: "string" }
+  #     - { label: "Length", name: "length", widget: "string" }
+  #     - { label: "Time", name: "time", widget: "string" }
+  #     - { label: "Date", name: "date", widget: "string" }
+  #     - { label: "Language", name: "language", widget: "string" }
+  #     - { label: "Subtitle", name: "subtitle", widget: "string" }
+  #     - { label: "Origin", name: "origin", widget: "string" }
+  #     - { label: "Director", name: "director", widget: "string" }
+  #     - { label: "Genre", name: "genre", widget: "string" }
+  #     - { label: "Year", name: "year", widget: "string" }
+  #     - { label: "Resolution", name: "resolution", widget: "string" }
+  #     - { label: "QA", name: "qa", widget: "string", required: false }
+  #     - { label: "Image Small", name: "imageSrcS", widget: "image", required: false }
+  #     - { label: "Image Medium", name: "imageSrcM", widget: "image", required: false }
+  #     - { label: "Image Large", name: "imageSrcL", widget: "image", required: false }
+  #     - { label: "Body", name: "body", widget: "markdown" }

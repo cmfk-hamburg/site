@@ -1,6 +1,6 @@
 ---
 export interface Props {
-    headline: string;
+	headline: string;
 	staffs: any;
 }
 
@@ -8,113 +8,118 @@ const { headline, staffs } = Astro.props;
 ---
 
 <div class="staff-collection">
-    <h2 class="staff-collection__headline">
-        {headline}
-    </h2>
-    <div class="staff-collection__teaser-wrapper">
-        {staffs.map((s) => (
-            <div class="staff-collection__teaser">
-            <img class="staff-collection__teaser-image" src={s.frontmatter.image} />
-            <div class="staff-collection__teaser-text">
-                <div class="staff-collection__teaser-title">
-                    {s.frontmatter.name}
-                </div>
-                <div class="staff-collection__teaser-detail">
-                    {s.frontmatter.role}
-                    {s.frontmatter.role2 && <br>}
-                    {s.frontmatter.role2}
-                </div>
-            </div>
-        </div>
-          ))}
-    </div>
+	<h2 class="staff-collection__headline">
+		{headline}
+	</h2>
+	<div class="staff-collection__teaser-wrapper">
+		{
+			staffs.map((s) => (
+				<div class="staff-collection__teaser">
+					<img
+						class="staff-collection__teaser-image"
+						src={s.frontmatter.image}
+					/>
+					<div class="staff-collection__teaser-text">
+						<div class="staff-collection__teaser-title">
+							{s.frontmatter.name}
+						</div>
+						<div class="staff-collection__teaser-detail">
+							{s.frontmatter.role}
+							{s.frontmatter.role2 && <br />}
+							{s.frontmatter.role2}
+						</div>
+					</div>
+				</div>
+			))
+		}
+	</div>
 </div>
 
 <style lang="scss">
-    @import "../styles/variables.scss";
+	@import "../styles/variables.scss";
 	@import "../styles/fonts.scss";
 	@import "../styles/utils.scss";
 
-    .staff-collection__headline {
-        @include f-subtitle-1;
-        margin-top: pxToRem(40px);
-    }
+	.staff-collection__headline {
+		@include f-subtitle-1;
+		margin-top: pxToRem(40px);
+	}
 
-    .staff-collection__teaser-wrapper {
-        margin-top: pxToRem(40px);
-        margin-bottom: pxToRem(60px);
-        border-bottom: 1px solid $c-white;
+	.staff-collection__teaser-wrapper {
+		margin-top: pxToRem(40px);
+		margin-bottom: pxToRem(60px);
+		border-bottom: 1px solid $c-white;
 
-        @include breakpoint(md-xl) {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-column-gap: pxToRem(48px);
-        }
+		@include breakpoint(md-xl) {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: pxToRem(48px);
+		}
 
-        .staff-collection:first-of-type & {
-            padding-bottom: pxToRem(20px);
-        }
+		.staff-collection:first-of-type & {
+			padding-bottom: pxToRem(20px);
+		}
 
-        .staff-collection:last-of-type & {
-            border-bottom: 0;
-        }
-    }
+		.staff-collection:last-of-type & {
+			border-bottom: 0;
+		}
+	}
 
-    .staff-collection__teaser {
-        margin-bottom: pxToRem(40px);
+	.staff-collection__teaser {
+		margin-bottom: pxToRem(40px);
 
-        @include breakpoint(xs-sm) {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+		@include breakpoint(xs-sm) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
 
-        @include breakpoint(lg) {
-            display: flex;
-        }
-    }
+		@include breakpoint(lg) {
+			display: flex;
+		}
+	}
 
-    .staff-collection__teaser-text {
-        @include breakpoint(xs-sm) {
-            margin-top: pxToRem(24px);
-            align-items: center;
-        }
-        @include breakpoint(md) {
-            margin-top: pxToRem(24px);
-        }
-        @include breakpoint(lg) {
-            align-self: end;
-        }
-    }
+	.staff-collection__teaser-text {
+		@include breakpoint(xs-sm) {
+			margin-top: pxToRem(24px);
+			align-items: center;
+		}
+		@include breakpoint(md) {
+			margin-top: pxToRem(24px);
+		}
+		@include breakpoint(lg) {
+			align-self: end;
+		}
+	}
 
-    .staff-collection__teaser-title {
-        @include f-headline-h4;
-        margin-bottom: pxToRem(6px);
-    }
+	.staff-collection__teaser-title {
+		@include f-headline-h4;
+		margin-bottom: pxToRem(6px);
+	}
 
-    .staff-collection__teaser-detail {
-        @include f-copy-4;
-        text-transform: uppercase;
-        color: $c-black;
-    }
+	.staff-collection__teaser-detail {
+		@include f-copy-4;
+		text-transform: uppercase;
+		color: $c-black;
+	}
 
-    .staff-collection__teaser-image {
-        aspect-ratio: 3 / 4;
-        height: fit-content;
-        object-fit: cover;
+	.staff-collection__teaser-image {
+		aspect-ratio: 3 / 4;
+		height: fit-content;
+		object-fit: cover;
 
-        @include breakpoint(xs-sm) {
-            width: column(6, 12);
-        }
+		@include breakpoint(xs-sm) {
+			width: column(6, 12);
+		}
 
-        @include breakpoint(md-xl) {
-            width: column(5, 12);
-            max-width: pxToRem(180px);
-        }
-        @include breakpoint(lg) {
-            margin-right: pxToRem(20px);
-        }
-    }
-
+		@include breakpoint(md-xl) {
+			width: column(5, 12);
+			max-width: pxToRem(180px);
+		}
+        
+		@include breakpoint(lg) {
+			margin-right: pxToRem(20px);
+		}
+	}
 </style>

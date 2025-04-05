@@ -13,7 +13,7 @@ export const ui = {
     "nav.team": "Team",
     "nav.joinUs": "Join Us",
     "nav.about": "About",
-    "nav.program": "Program 2024",
+    "nav.program": "Program 2025",
     "nav.partner": "Partner",
     "nav.tickets": "Tickets",
     "nav.archive": "Archive",
