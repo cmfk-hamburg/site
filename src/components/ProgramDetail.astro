@@ -71,7 +71,7 @@ const pipe = " | ";
 				</span>
 				<div>
 					{
-						ticket && (
+						ticket && String(ticket) !== "Free Admission" && (
 							<a
 								class="btn btn--small btn--primary"
 								href={ticket}
@@ -86,7 +86,17 @@ const pipe = " | ";
 							<span
 								class="btn btn--small btn--outline"
 							>
-								Free Entrance
+								Coming Soon
+							</span>
+						)
+					}
+					{
+						ticket && String(ticket) === "Free Admission" && (
+							<span
+								class="btn btn--small btn--outline"
+							>
+								Free Admission
+
 							</span>
 						)
 					}
