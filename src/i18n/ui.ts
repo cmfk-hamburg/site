@@ -21,10 +21,10 @@ export const ui = {
     "nav.volunteer": "Be A Volenteer",
     "nav.dataPrivacy": "Data Privacy",
     "nav.imprint": "Imprint",
-    "hero.overline": "May 07-11, 2025",
-    "hero.title1": "Chinese Film Festival Hamburg",
+    "hero.overline": "Hamburg, May 07-11, 2025",
+    "hero.title1": "Chinese Film Festival",
     "hero.title2": "Coming Up Soon!",
-    "hero.cta": "Submit Now",
+    "hero.cta": "Get Tickets",
     "footer.newsletter":
       "Subscribe our newsletter and never miss our latest activities.",
     "footer.subscribe": "Subscribe",
