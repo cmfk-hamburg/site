@@ -2,7 +2,7 @@
 title: "Hell No"
 overline: "Short Film Program: Frames of Defiance"
 intro: "The lens as prism—refracting commodified eggs, taboo blood, and silenced desire into women’s embodied narratives. (Hanqi Sheng)"
-image: "/images/coming-soon.jpg"
+image: "/images/film/0510/hell-no.png"
 info: "/hell-no"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e17a4b6c100a12f992db47"
 cinema: "Lichtmess"
