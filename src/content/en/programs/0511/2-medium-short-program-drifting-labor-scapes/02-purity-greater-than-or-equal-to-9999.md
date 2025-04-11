@@ -1,5 +1,5 @@
 ---
-title: "Purity Greater Than or Equal to 99.99%"
+title: "Purity Greater than or Equal to 99.99%"
 overline: "Medium & Short Program: Drifting Labor-Scapes"
 intro: "These two experimental documentaries traverse China’s Gobi Desert and mining town, to frame laborers' realities in perpetual movements and shifts, mapping a mutating surreal landscape. (Pincent Liu)"
 image: "/images/film/0511/purity-greater-than-or-Equal-to-9999.png"
