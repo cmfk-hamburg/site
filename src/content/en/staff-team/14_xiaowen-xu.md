@@ -1,5 +1,5 @@
 ---
 name: "Xiaowen Xu"
-role: "Events"
+role: "Head of Event Coordination"
 image: "/images/team/xiaowenxu.png"
 ---
