@@ -12,7 +12,7 @@ imageSrcL: url("/images/2025-banner.jpg")
 
 **Metropolis**<br>
 Full Price: €15 / Student Price: €12<br>
-Ticket <a href="https://www.metropoliskino.de/kalender?film=0" target="_blank">Metropolis</a>
+Ticket <a href="https://www.metropoliskino.de/themen?theme=161&film=2647" target="_blank">Metropolis</a>
 
 **Lichtmess**<br>
 Full Price: €12 / Student Price: €10<br>
