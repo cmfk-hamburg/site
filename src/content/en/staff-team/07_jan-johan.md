@@ -1,5 +1,5 @@
 ---
-name: "Johan Jan"
+name: "Jan Johan Draaistra"
 role: "Graphic Designer"
-image: "/images/team/fallback.jpg"
+image: "/images/team/jan-johan.jpg"
 ---
