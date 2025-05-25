@@ -2,7 +2,7 @@
 title: "The Periphery of the Base"
 overline: "Medium & Short Program: Drifting Labor-Scapes"
 intro: "These two experimental documentaries traverse China’s Gobi Desert and mining town, to frame laborers' realities in perpetual movements and shifts, mapping a mutating surreal landscape. (Pincent Liu)"
-image: "/images/coming-soon.jpg"
+image: "/images/film/0511/the-periphery-of-the-base.jpg"
 info: "/the-periphery-of-the-base"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/67e2aff9bf7c9d3ccca50f91"
 cinema: "Lichtmess"
