@@ -1,6 +1,6 @@
 ---
 headline: "Call For Film"
-headline2: "Ever Becoming | Submissions Open for the 4rd Chinese Film Festival Hamburg 2026!"
+headline2: "Ever Becoming | Submissions Open for the 4th Chinese Film Festival Hamburg 2026!"
 buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
 ---
@@ -63,19 +63,19 @@ For eligibility, films submitted to CFFH must meet ONE or MORE of the following 
 ### Entry Fee
 
 **Short Films (Under 40 minutes)**<br>
-Early Bird: €11.50<br>
-Regular: €13<br>
-Final: €16
+Early Bird: €11.50 (Student €9)<br>
+Regular: €13 (Student €10)<br>
+Final: €16 (Student €14)
 
 **Feature Films (40+ minutes)**<br>
-Early Bird: €16<br>
-Regular: €19<br>
-Final: €28
+Feature Films (40+ minutes)<br>
+Regular: €19 (Student €15)<br>
+Final: €28 (Student €22)
 
 **Expanded Cinema (Under 40 minutes)**<br>
-Early Bird: €11.50<br>
-Regular: €13<br>
-Final: €16
+Early Bird: €11.50 (Student €9)<br>
+Regular: €13 (Student €10)<br>
+Final: €16 (Student €14)
 
 The entry fee is non-refundable.
 

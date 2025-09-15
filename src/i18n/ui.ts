@@ -23,7 +23,7 @@ export const ui = {
     "nav.imprint": "Imprint",
     "hero.overline": "Starts Sep 20, 2025",
     "hero.title1": "Submissions Open",
-    "hero.title2": "for the 4rd Chinese Film Festival Hamburg 2026!",
+    "hero.title2": "for the 4th Chinese Film Festival Hamburg 2026!",
     "hero.cta": "Call for Film",
     "footer.newsletter":
       "Subscribe our newsletter and never miss our latest activities.",
