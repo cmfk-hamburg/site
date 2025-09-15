@@ -21,10 +21,10 @@ export const ui = {
     "nav.volunteer": "Be A Volenteer",
     "nav.dataPrivacy": "Data Privacy",
     "nav.imprint": "Imprint",
-    "hero.overline": "Hamburg, May 07-11, 2025",
-    "hero.title1": "Chinese Film Festival",
-    "hero.title2": "Coming Up Soon!",
-    "hero.cta": "Get Tickets",
+    "hero.overline": "Starts Sep 20, 2025",
+    "hero.title1": "Submissions Open",
+    "hero.title2": "for the 4rd Chinese Film Festival Hamburg 2026!",
+    "hero.cta": "Call for Film",
     "footer.newsletter":
       "Subscribe our newsletter and never miss our latest activities.",
     "footer.subscribe": "Subscribe",
@@ -36,7 +36,7 @@ export const ui = {
     "footer.ins": "Instagram",
     "footer.wechat": "WeChat",
     "footer.volunteer": " to become a sponsor or volunteer.",
-    "footer.joinUs": "Join us"
+    "footer.joinUs": "Join us",
   },
   cn: {
     "nav.home": "首页",
@@ -56,7 +56,7 @@ export const ui = {
     "hero.title2": "汉堡华语影像展",
     "hero.cta": "现在投递",
     "footer.newsletter":
-    "Subscribe our newsletter and never miss our latest activities",
+      "Subscribe our newsletter and never miss our latest activities",
     "footer.subscribe": "Subscribe",
     "footer.sponsors": "Become a sponsor",
     "footer.menu": "Menu",
@@ -66,7 +66,6 @@ export const ui = {
     "footer.ins": "Instagram",
     "footer.wechat": "微信公众号",
     "footer.volunteer": "！成为赞助商或志愿者！",
-    "footer.joinUs": "支持我们"
-
+    "footer.joinUs": "支持我们",
   },
 } as const;

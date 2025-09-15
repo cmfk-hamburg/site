@@ -15,19 +15,16 @@ const subItemClass = function (path: string) {
 
 	return pathname.startsWith(path) ? "nav__item is-active" : "nav__item";
 };
-
 ---
 
 <nav role="navigation" class="nav">
 	<ul class="nav__list">
 		<li class={itemClass(`/${lang}/`)}>
 			<a href={`/${lang}/`} class="nav__link" title={t("nav.home")}>
-				<span class="nav__link-text">
-					#
-				</span>
+				<span class="nav__link-text"> # </span>
 			</a>
 		</li>
-		{/* <li class={itemClass(`/${lang}/call-for-film/`)}>
+		<li class={itemClass(`/${lang}/call-for-film/`)}>
 			<a
 				href={`/${lang}/call-for-film/`}
 				class="nav__link"
@@ -37,40 +34,28 @@ const subItemClass = function (path: string) {
 					{t("nav.callForFilm")}
 				</span>
 			</a>
-		</li>*/}
+		</li>
 		<li class={subItemClass(`/${lang}/about/`)}>
-			<a
-				href={`/${lang}/about/`}
-				class="nav__link"
-				title={t("nav.about")}
-			>
+			<a href={`/${lang}/about/`} class="nav__link" title={t("nav.about")}>
 				<span class="nav__link-text">
 					{t("nav.about")}
 				</span>
 			</a>
 		</li>
 		<li class={subItemClass(`/${lang}/program/`)}>
-			<a
-				href={`/${lang}/program/`}
-				class="nav__link"
-				title={t("nav.program")}
-			>
+			<a href={`/${lang}/program/`} class="nav__link" title={t("nav.program")}>
 				<span class="nav__link-text">
 					{t("nav.program")}
 				</span>
 			</a>
 		</li>
-		<li class={subItemClass(`/${lang}/tickets/`)}>
-			<a
-				href={`/${lang}/tickets/`}
-				class="nav__link"
-				title={t("nav.tickets")}
-			>
+		<!-- <li class={subItemClass(`/${lang}/tickets/`)}>
+			<a href={`/${lang}/tickets/`} class="nav__link" title={t("nav.tickets")}>
 				<span class="nav__link-text">
 					{t("nav.tickets")}
 				</span>
 			</a>
-		</li>
+		</li> -->
 		<li class={subItemClass(`/${lang}/join-us/`)}>
 			<a href={`/${lang}/join-us/`} class="nav__link" title={t("nav.joinUs")}>
 				<span class="nav__link-text">
