@@ -30,7 +30,7 @@ For eligibility, films submitted to CFFH must meet ONE or MORE of the following 
 - The film is directed by a filmmaker from regions including but not limited to Mainland China, Macau, Taiwan, Hong Kong, Malaysia, Singapore, or of Chinese descent.
 - At least 50% of the creative team members (e.g., director, screenwriter, lead actors, cinematographer, editor) should be from regions encompassing Chinese-speaking communities or of Chinese/Chinese descent.
 - Except for silent films, at least 50% of the dialogue is in Chinese or Chinese dialects, or the main characters are from Chinese-speaking communities, or the theme involves Chinese culture/identity.
-  Nationality restrictions for the director or main creative team members do not apply. To reduce the workload for the judges, please do not resubmit films that have been previously submitted to CFFH.
+- Nationality restrictions for the director or main creative team members do not apply. To reduce the workload for the judges, please do not resubmit films that have been previously submitted to CFFH.
 
 ### Acceptable Film Types
 
@@ -68,7 +68,7 @@ Regular: €13 (Student €10)<br>
 Final: €16 (Student €14)
 
 **Feature Films (40+ minutes)**<br>
-Feature Films (40+ minutes)<br>
+Early Bird: €16 (Student €13)<br>
 Regular: €19 (Student €15)<br>
 Final: €28 (Student €22)
 
