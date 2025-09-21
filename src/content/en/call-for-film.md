@@ -94,8 +94,7 @@ Upon selection for the festival, filmmakers automatically grant the festival the
 
 ### Copyright Ownership & Copyright Responsibility
 
-Only individuals or organizations holding full copyright ownership may submit. 10. Copyright Responsibility
-Submitters are solely responsible for all copyright-related matters. The festival accepts no liability for copyright disputes. Infringement or disputes may lead to disqualification.
+Only individuals or organizations holding full copyright ownership may submit. Submitters are solely responsible for all copyright-related matters. The festival accepts no liability for copyright disputes. Infringement or disputes may lead to disqualification.
 
 ## Why Submit to CFFH?
 
