@@ -1,9 +1,17 @@
 ---
-headline: "Call For Film"
+headline: "Call For Entries"
 headline2: "Ever Becoming | Submissions Open for the 4th Chinese Film Festival Hamburg 2026!"
 buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
 ---
+
+Since its inception, CFFH has emphasized the concept of “Film Plus,” aiming to continually expand the boundaries of cinema—not only as a narrative medium but also as a form of cross-media and cross-grammar visual practice. This year, we continue along this path by introducing a new Expanded Cinema section focused on works that transcend traditional cinematic forms.
+
+The theme of this edition, “未竟之境 | Ever Becoming,” conveys a state of openness and continuous emergence: film and moving image are no longer defined outcomes but ongoing processes. As Deleuze noted, becoming never refers to a fixed identity but is a constant state of relational and perceptual flow. In this sense, the moving image represents a space of transgression, reinvention, and expansion—always open, always becoming.
+
+In the Expanded Cinema section, we encourage submissions that expand the possibilities of the moving image—across media, formats, and modes of presentation. This includes works such as video art, machinima, and intermedia projects, as well as poetic or hybrid explorations that blur the boundaries between fiction, non-fiction, and other narrative forms.
+
+Whether your work embraces traditional narrative or avant-garde experimentation, profound emotional expression or bold aesthetic ventures, CFFH welcomes your submission. Join us in Hamburg to explore the boundless possibilities of cinema in the open realm of Ever Becoming.
 
 ### Key Dates
 
@@ -17,7 +25,7 @@ buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
 
 ### Submission Categories
 
-- **Long and Long Feature Film:** 40 minutes or more
+- **Mid-length & Feature Film:** 40 minutes or longer
 - **Short Film**: Less than 40 minutes
 - **Expanded Cinema**: less than 40 minutes
 
@@ -29,23 +37,23 @@ For eligibility, films submitted to CFFH must meet ONE or MORE of the following 
 
 - The film is directed by a filmmaker from regions including but not limited to Mainland China, Macau, Taiwan, Hong Kong, Malaysia, Singapore, or of Chinese descent.
 - At least 50% of the creative team members (e.g., director, screenwriter, lead actors, cinematographer, editor) should be from regions encompassing Chinese-speaking communities or of Chinese/Chinese descent.
-- Except for silent films, at least 50% of the dialogue is in Chinese or Chinese dialects, or the main characters are from Chinese-speaking communities, or the theme involves Chinese culture/identity.
+- Except for non-dialogue films, at least 50% of the dialogue is in Chinese or Chinese dialects, or the main characters are from Chinese-speaking communities, or the theme involves Chinese culture/identity.
 
 Nationality restrictions for the director or main creative team members do not apply. To reduce the workload for the judges, please do not resubmit films that have been previously submitted to CFFH.
 
 ### Acceptable Film Types
 
-- Short and feature-length films: All genres and subjects are welcome. TV series or corporate videos will not be accepted.
+- Short and Mid/Feature-length films: All genres and subjects are welcome. TV series or corporate videos will not be accepted.
 - Expanded Cinema: Must be under 40 minutes and fall outside traditional film categorization, such as video art, engine films, poetic images, or docu-fiction, etc.
 
 ### Completion Date Requirement
 
-- Feature & short films: Completed after 2023-01-01.
+- Mid-length & Feature Films: Completed after 2023-01-01.
 - Expanded Cinema submissions: Completed after 2020-01-01.
 
 ### Film Duration Requirements
 
-- Mid-Long and Long Feature Film: 40 minutes or more
+- Mid-length & Feature Film: 40 minutes or longer
 - Short Film: Less than 40 minutes
 - Expanded Cinema: less than 40 minutes
 
@@ -55,7 +63,7 @@ Nationality restrictions for the director or main creative team members do not a
 
 ### Subtitle Requirement
 
-- All films (except silent) with non-English dialogue must include embedded English subtitles. Bilingual (Chinese-English) subtitles are preferred.
+- All films (except non-dialogue) with non-English dialogue must include embedded English subtitles. Bilingual (Chinese-English) subtitles are preferred.
 
 ### Submission Links and Passwords
 
@@ -68,7 +76,7 @@ Early Bird: €11.50 (Student €9)<br>
 Regular: €13 (Student €10)<br>
 Final: €16 (Student €14)
 
-**Feature Films (40+ minutes)**<br>
+**Mid-length & Feature Films (40+ minutes)**<br>
 Early Bird: €16 (Student €13)<br>
 Regular: €19 (Student €15)<br>
 Final: €28 (Student €22)
@@ -82,7 +90,10 @@ The entry fee is non-refundable.
 
 ### Promotion Authorization
 
-Upon selection for the festival, filmmakers automatically grant the festival the right to use approximately 30 seconds of film footage, stills, posters, the director's headshot, and related materials for promotional purposes during the festival. 9. Copyright Ownership
+Upon selection for the festival, filmmakers automatically grant the festival the right to use approximately 30 seconds of film footage, stills, posters, the director's headshot, and related materials for promotional purposes during the festival.
+
+### Copyright Ownership & Copyright Responsibility
+
 Only individuals or organizations holding full copyright ownership may submit. 10. Copyright Responsibility
 Submitters are solely responsible for all copyright-related matters. The festival accepts no liability for copyright disputes. Infringement or disputes may lead to disqualification.
 
