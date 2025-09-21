@@ -8,7 +8,7 @@ export const defaultLang = "en";
 export const ui = {
   en: {
     "nav.home": "Home",
-    "nav.callForFilm": "Call For Film",
+    "nav.callForFilm": "Call For Entries",
     "nav.festival": "Festival",
     "nav.team": "Team",
     "nav.joinUs": "Join Us",
@@ -24,7 +24,7 @@ export const ui = {
     "hero.overline": "Starts Sep 20, 2025",
     "hero.title1": "Submissions Open",
     "hero.title2": "for the 4th Chinese Film Festival Hamburg 2026!",
-    "hero.cta": "Call for Film",
+    "hero.cta": "Call for Entries",
     "footer.newsletter":
       "Subscribe our newsletter and never miss our latest activities.",
     "footer.subscribe": "Subscribe",
