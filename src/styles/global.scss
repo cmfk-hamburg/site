@@ -172,6 +172,13 @@ a {
   img {
     max-width: pxToRem(160px);
   }
+
+  &:last-child {
+    align-self: center;
+    margin-top: pxToRem(20px);
+    font-weight: 600;
+    font-size: pxToRem(24px);
+  }
 }
 
 .text-module__head--with-tab {

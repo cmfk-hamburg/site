@@ -10,9 +10,22 @@ const Content = callForFilm.Content;
 		<h2 class="text-module__headline">
 			{callForFilm.frontmatter.headline2}
 		</h2>
-		<a class="text-module__cta btn btn--primary" href={callForFilm.frontmatter.buttonLink} target="_blank">
-			<img src={callForFilm.frontmatter.buttonImage} alt="FilmFreeway" />
-		</a>
+		<div class="text-module__cta-wrapper">
+			<a
+				class="text-module__cta btn btn--primary"
+				href={callForFilm.frontmatter.buttonLink}
+				target="_blank"
+			>
+				<img src={callForFilm.frontmatter.buttonImage} alt="FilmFreeway" />
+			</a>
+			<a
+				class="text-module__cta btn btn--primary"
+				href="https://www.toujiang.today/filmfest/182"
+				target="_blank"
+			>
+				Toujiang
+			</a>
+		</div>
 	</div>
 	<div class="text-module__content">
 		<Content />
