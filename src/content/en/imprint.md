@@ -4,6 +4,7 @@ overline: ""
 imageSrcS: url("/images/logo-white-2.svg")
 imageSrcM: url("/images/logo-white-2.svg")
 imageSrcL: url("/images/logo-white-2.svg")
+htmlTitle: "Imprint"
 ---
 
 ### Chinesische Medien- und Filmkunst e.V.

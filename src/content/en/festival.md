@@ -6,6 +6,7 @@ imageSrcL: url("/images/logo-white-2.svg")
 headline2: 'Dive into the Essence of Chinese Art-House Cinema at the "Chinese Film Festival Hamburg"'
 buttonText: "Program 2023"
 buttonLink: "/assets/program-chinese-film-2023.pdf"
+htmlTitle: "Festival"
 ---
 
 ### About Us

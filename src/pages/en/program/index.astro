@@ -16,14 +16,15 @@ const program0511 = await Astro.glob("../../../content/en/programs/0511/*.md");
 const specialEvent = await Astro.glob("../../../content/en/programs/*.md");
 ---
 
-<ProgramLayout title={programs.frontmatter.headline} article={programs}>
-    {} <div class="programs">
-        <ProgramCollection programs={program0507} date="07.05.2025"/>
-        <ProgramCollection programs={program0508} date="08.05.2025"/>
-        <ProgramCollection programs={program0509} date="09.05.2025"/>
-        <ProgramCollection programs={program0510} date="10.05.2025"/>
-        <ProgramCollection programs={program0511} date="11.05.2025"/>
-        <ProgramCollection programs={specialEvent} date="09.05.2025 - 22.06.2025"/>
-    </div>
-    <!-- <img src="/images/coming-soon.jpg" alt="Program comming soon" style="width: 100%; margin: 36px auto 60px;"/> -->
+<ProgramLayout title={programs.frontmatter.htmlTitle} article={programs}>
+	{}
+	<div class="programs">
+		<ProgramCollection programs={program0507} date="07.05.2025" />
+		<ProgramCollection programs={program0508} date="08.05.2025" />
+		<ProgramCollection programs={program0509} date="09.05.2025" />
+		<ProgramCollection programs={program0510} date="10.05.2025" />
+		<ProgramCollection programs={program0511} date="11.05.2025" />
+		<ProgramCollection programs={specialEvent} date="09.05.2025 - 22.06.2025" />
+	</div>
+	<!-- <img src="/images/coming-soon.jpg" alt="Program comming soon" style="width: 100%; margin: 36px auto 60px;"/> -->
 </ProgramLayout>

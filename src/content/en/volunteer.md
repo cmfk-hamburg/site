@@ -7,6 +7,7 @@ imageSrcL: url("/images/logo-white-2.svg")
 headline2: "Call for film festival volunteers!"
 buttonText: ""
 buttonLink: ""
+htmlTitle: "Join Us"
 ---
 
 The 3rd Chinese Film Festival Hamburg invites passionate volunteers like you to play a pivotal role in our upcoming festival, tentatively scheduled from May 7th to 11th, 2025.

@@ -3,6 +3,7 @@ headline: "Call For Entries"
 headline2: "Ever Becoming | Submissions Open for the 4th Chinese Film Festival Hamburg 2026!"
 buttonImage: "/images/filmfreeway-logo-hires-white.png"
 buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
+htmlTitle: "Call For Entries"
 ---
 
 Since its inception, CFFH has emphasized the concept of “Film Plus,” aiming to continually expand the boundaries of cinema—not only as a narrative medium but also as a form of cross-media and cross-grammar visual practice. This year, we continue along this path by introducing a new Expanded Cinema section focused on works that transcend traditional cinematic forms.

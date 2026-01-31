@@ -5,8 +5,7 @@ import * as imprint from "../../content/en/imprint.md";
 const Content = imprint.Content;
 ---
 
-
-<ArticleLayout title={imprint.frontmatter.headline} article={imprint}>
+<ArticleLayout title={imprint.frontmatter.htmlTitle} article={imprint}>
 	<div class="text-module__head">
 		<h2 class="text-module__headline">
 			{imprint.frontmatter.headline2}
@@ -16,4 +15,3 @@ const Content = imprint.Content;
 		<Content />
 	</div>
 </ArticleLayout>
-

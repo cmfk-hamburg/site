@@ -1,6 +1,7 @@
 ---
 headline: "Data Privacy"
 overline: ""
+htmlTitle: "Data Privacy"
 ---
 
 ## DATENSCHUTZ AUF EINEN BLICK

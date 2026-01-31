@@ -6,5 +6,7 @@ imageSrcL: url("/images/2025-banner.jpg")
 # headline2: ""
 # buttonImage: "/images/filmfreeway-logo-hires-white.png"
 # buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
+htmlTitle: "Program"
 ---
+
 ### Programs

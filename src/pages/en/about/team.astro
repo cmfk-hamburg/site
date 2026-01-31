@@ -10,7 +10,7 @@ const staffFounder = await Astro.glob("../../../content/en/staff-founder/*.md");
 const staffTeam = await Astro.glob("../../../content/en/staff-team/*.md");
 ---
 
-<ArticleLayout title={team.frontmatter.headline} article={team}>
+<ArticleLayout title={team.frontmatter.htmlTitle} article={team}>
 	<div
 		class="text-module__head text-module__head--with-tab text-module__head--team"
 	>

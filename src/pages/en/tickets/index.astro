@@ -9,7 +9,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<ArticleLayout title={tickets.frontmatter.headline} article={tickets}>
+<ArticleLayout title={tickets.frontmatter.htmlTitle} article={tickets}>
 	<div class="text-module__content">
 		<Content />
 	</div>

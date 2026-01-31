@@ -13,7 +13,7 @@ const films = await Astro.glob("../../../content/en/programs/0510/1-short-film-p
 ---
 
 <FilmLayout title={film.frontmatter.title} article={film}>
-	<ProgramDetail title={film.frontmatter.title} image={film.frontmatter.image} date={film.frontmatter.date}, cinema={film.frontmatter.cinema} language={film.frontmatter.language} length={film.frontmatter.length} director={film.frontmatter.director} subtitle={film.frontmatter.subtitle} time={film.frontmatter.time} qa={film.frontmatter.qa} ticket={film.frontmatter.ticket} genre={film.frontmatter.genre} origin={film.frontmatter.origin} year={film.frontmatter.year} resolution={film.frontmatter.resolution} films={films} isCollection={true} overline={film.frontmatter.overline}>
+	<ProgramDetail title={film.frontmatter.title} image={film.frontmatter.image} date={film.frontmatter.date} cinema={film.frontmatter.cinema} language={film.frontmatter.language} length={film.frontmatter.length} director={film.frontmatter.director} subtitle={film.frontmatter.subtitle} time={film.frontmatter.time} qa={film.frontmatter.qa} ticket={film.frontmatter.ticket} genre={film.frontmatter.genre} origin={film.frontmatter.origin} year={film.frontmatter.year} resolution={film.frontmatter.resolution} films={films} isCollection={true} overline={film.frontmatter.overline}>
         <Content />
     </ProgramDetail>
 </FilmLayout>

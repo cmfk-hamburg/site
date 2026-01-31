@@ -15,21 +15,31 @@ const itemClass = function (path: string) {
 };
 ---
 
-<ArticleLayout title={volunteer.frontmatter.headline} article={volunteer}>
-	<div class="text-module__head text-module__head--with-tab text-module__head--volunteer">
+<ArticleLayout title={volunteer.frontmatter.htmlTitle} article={volunteer}>
+	<div
+		class="text-module__head text-module__head--with-tab text-module__head--volunteer"
+	>
 		<blockquote class="text-module__headline">
 			<div>{volunteer.frontmatter.headline2}</div>
 		</blockquote>
 		<ul class="text-module__tabs">
 			<li class="text-module__tab">
-				<a href={`/${lang}/join-us/`} class="text-module__tab-link" title={t("nav.sponsor")}>
+				<a
+					href={`/${lang}/join-us/`}
+					class="text-module__tab-link"
+					title={t("nav.sponsor")}
+				>
 					<span class="text-module__tab-link-text">
 						{t("nav.sponsor")}
 					</span>
 				</a>
 			</li>
 			<li class="text-module__tab is-active">
-				<a href={`/${lang}/join-us/volunteer/`} class="text-module__tab-link" title={t("nav.volunteer")}>
+				<a
+					href={`/${lang}/join-us/volunteer/`}
+					class="text-module__tab-link"
+					title={t("nav.volunteer")}
+				>
 					<span class="text-module__tab-link-text">
 						{t("nav.volunteer")}
 					</span>
