@@ -1,0 +1,19 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+
+const article = {
+	frontmatter: {
+		headline: "Archive",
+		overline: "About",
+		imageSrcS: "url(/images/logo-white-3.svg)",
+		imageSrcM: "url(/images/logo-white-1.svg)",
+		imageSrcL: "url(/images/logo-white-2.svg)",
+	},
+};
+---
+
+<ArticleLayout title="About Sub-Nav Demo" article={article}>
+	<div class="text-module__content">
+		<p>This is a simple demo page for testing the About dropdown.</p>
+	</div>
+</ArticleLayout>
