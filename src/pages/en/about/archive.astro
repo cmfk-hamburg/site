@@ -12,8 +12,1364 @@ const article = {
 };
 ---
 
-<ArticleLayout title="About Sub-Nav Demo" article={article}>
-	<div class="text-module__content">
-		<p>This is a simple demo page for testing the About dropdown.</p>
+<ArticleLayout title="Archive" article={article}>
+	<div class="archive-page">
+		<section class="archive-hero" aria-labelledby="archive-past-editions">
+			<div class="archive-hero__banner">
+				<div class="archive-hero__intro">
+					<h2 id="archive-past-editions">Past Editions</h2>
+					<p class="archive-hero__summary">
+						Since 2023, the Chinese Film Festival Hamburg (CFFH) has successfully
+						presented three editions, showcasing independent Chinese-language
+						films from around the world. Click on a poster to explore each year’s
+						program, jury, awards, and highlights.
+					</p>
+				</div>
+			</div>
+			<div class="archive-grid">
+				<article class="archive-card">
+					<div class="archive-card__poster">
+						<img src="/images/poster/2025-poster_page-0001.jpg" alt="Festival poster 2025" loading="lazy" />
+					</div>
+					<div class="archive-card__body">
+						<h3>2025</h3>
+						<p class="archive-card__meta">4. Edition · May 7–11, 2025</p>
+						<p>Screened 26 Films · Theme: 扩延边界 | Expanding Boundaries</p>
+					</div>
+				</article>
+				<article class="archive-card">
+					<div class="archive-card__poster">
+						<img src="/images/poster/2024-poster_page-0001.jpg" alt="Festival poster 2024" loading="lazy" />
+					</div>
+					<div class="archive-card__body">
+						<h3>2024</h3>
+						<p class="archive-card__meta">2. Edition · May 8–13, 2024</p>
+						<p>Screened 35 Films · Theme: Film Plus</p>
+					</div>
+				</article>
+				<article class="archive-card">
+					<div class="archive-card__poster">
+						<img src="/images/poster/2023-poster.jpg" alt="Festival poster 2023" loading="lazy" />
+					</div>
+					<div class="archive-card__body">
+						<h3>2023</h3>
+						<p class="archive-card__meta">1. Edition · Jan 8–15, 2023</p>
+						<p>Screened 26 Films · Theme: 夜行 | Night Walk</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="archive-edition" id="edition-2025" aria-labelledby="edition-2025-title">
+			<header class="archive-edition__banner">
+				<div>
+					<p class="archive-edition__eyebrow">Edition Focus</p>
+					<h2 id="edition-2025-title">Chinese Film Festival Hamburg 2025</h2>
+					<p class="archive-edition__meta">May 7–11, 2025 · Hamburg</p>
+					<p class="archive-edition__theme">Theme: 扩延边界 | Expanding Boundaries</p>
+					<p class="archive-edition__summary">
+						A four day showcase of independent Chinese cinema featuring a
+						special focus on new voices, documentary works, and cross regional
+						co productions.
+					</p>
+				</div>
+				<div class="archive-edition__actions">
+					<a class="btn btn--secondary" href="https://chinesefilmfest.de/en/program/">View Complete Program</a>
+				</div>
+			</header>
+
+
+			<section class="archive-section" id="jury-2025">
+				<div class="archive-section__head">
+					<h3>Final jury members</h3>
+					<p>A panel of filmmakers, producers, and critics from China and Europe.</p>
+				</div>
+				<div class="archive-jury archive-jury--final">
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/final/2025-final-person1.JPG" alt="Guo Keyu" loading="lazy" />
+						<h4>Guo Keyu | 郭柯宇</h4>
+						<p>
+							Chinese actress. At 17, she became the youngest Best Actress winner
+							at China’s Hundred Flowers Awards and the first Chinese actress to
+							claim the top prize at the Shanghai International Film Festival for
+							Red Cherry (1995). Following a decade-long hiatus, her starring
+							role in Brief History of a Family (2023) screened at Berlinale and
+							the Sundance Film Festival. Nominated for Best Supporting Actress at
+							the 2024 Golden Rooster Awards for Another Day of Hope, she is widely
+							praised for her nuanced artistry.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/final/2025-final-person2.jpg" alt="Christopher Small" loading="lazy" />
+						<h4>Christopher Small</h4>
+						<p>
+							Writer living in Prague, Czech Republic. Editor of Outskirts Film
+							Magazine and part of the Locarno Film Festival’s editorial and
+							publications team. He also programs films and occasionally makes
+							them.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/final/2025-final-person3.jpg" alt="Helena Wittmann" loading="lazy" />
+						<h4>Helena Wittmann</h4>
+						<p>
+							Artist and filmmaker based in Hamburg, Germany. Her films, including
+							Human Flowers of Flesh (2022) and Drift (2017), have screened
+							internationally at film festivals and exhibitions and received
+							awards. She teaches at the Hamburg Academy of Fine Arts and Elias
+							Querejeta Zine Eskola in San Sebastian, Spain. She also creates
+							installation works and collaborates as DoP with various directors
+							and artists.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/final/2025-final-person4.JPG" alt="Zhen Zhang" loading="lazy" />
+						<h4>Zhen Zhang | 张真</h4>
+						<p>
+							Professor and director of the Asian Film and Media Initiative at New
+							York University. As curator, she has programmed film series for Reel
+							China Biennial at NYU, Film Society at the Lincoln Center for
+							Performing Arts, MoMA, and Women Make Waves International Film
+							Festival. She has also served on numerous film festival juries. Her
+							creative work ranges from poetry, experimental memoir, filmmaking,
+							and performance.
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="archive-section" id="jury-2025-second">
+				<div class="archive-section__head">
+					<h3>Second round jury</h3>
+					<p>Six jurors reviewing the second round selections.</p>
+				</div>
+				<div class="archive-jury archive-jury--second">
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/second/2025-second-person1.jpeg" alt="Ocean Chin" loading="lazy" />
+						<h4>Ocean Chin | 秦海</h4>
+						<p>
+							Taiwanese director and DP. FAMU alumnus. Directed A Year Apart
+							(2023) and worked as DP on various shorts and features. Selected for
+							Golden Horse Film Academy in 2018.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/second/2025-second-person2.jpg" alt="Qian Han" loading="lazy" />
+						<h4>Qian Han | 韩倩</h4>
+						<p>
+							Born in Wuhan, studied in Rome and Paris. Her art explores time,
+							memory, and fragile materials to link family history with collective
+							memory and space. She has exhibited internationally.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/second/2025-second-person3.jpg" alt="Mickey Lai" loading="lazy" />
+						<h4>Mickey Lai</h4>
+						<p>
+							Malaysian director. WAShhh won Locarno77 Pardino d’Oro. Alumna of
+							Golden Horse Film Academy and Locarno Spring Academy, she explores
+							identity and mortality through fiction and documentary.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/second/2025-second-person4.jpeg" alt="Faezeh Nikoozad" loading="lazy" />
+						<h4>Faezeh Nikoozad</h4>
+						<p>
+							Iranian filmmaker and video artist in Hamburg. Explores migration,
+							identity, and the intersection of the personal and political through
+							documentary and experimental visual storytelling.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/second/2025-second-person5.JPG" alt="Xun Yuan" loading="lazy" />
+						<h4>Xun Yuan | 袁勋</h4>
+						<p>
+							Award-winning documentary director and cinematographer. Blends
+							Eastern and Western cultures through a unique artistic expression.
+							His film won the CFFH Jury Award in 2024.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/second/2025-second-person6.jpg" alt="Kailuo Zhuo" loading="lazy" />
+						<h4>Kailuo Zhuo | 卓楷罗</h4>
+						<p>
+							Born in Panjin, China. Graduated from and now teaches at Lu Xun
+							Academy of Fine Arts. Works across fiction and documentary as
+							screenwriter, director, and educator.
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="archive-section" id="jury-2025-first">
+				<div class="archive-section__head">
+					<h3>First round jury</h3>
+					<p>Eleven jurors from film, research, and art.</p>
+				</div>
+				<div class="archive-jury archive-jury--first">
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person1.jpg" alt="Amarsanaa Battulga" loading="lazy" />
+						<h4>Amarsanaa Battulga</h4>
+						<p>
+							Mongolian film critic and PhD researcher. Alumnus of Berlinale
+							Talent Press. Served on juries at Locarno and Golden Ger. Published
+							in Die Welt, Cineuropa, and Documentary Magazine.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person2.jpg" alt="Zhiwen Ding" loading="lazy" />
+						<h4>Zhiwen Ding (they/them)</h4>
+						<p>
+							Studied screenwriting at Beijing Film Academy, fictional direction
+							and editing at HFF Munich, and is pursuing an MA in Film Studies at
+							FU Berlin. Explores queer-feminist views, identity, migration, and
+							family.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person3.jpg" alt="Jinhyun Kim" loading="lazy" />
+						<h4>Jinhyun Kim</h4>
+						<p>
+							Korean filmmaker studying at KHM Cologne. Explores personal and
+							collective experience under dominant narratives. Blue, Woman, Dress
+							(2023) screened at DMZ Docs, BIFF, and Hamburg SFF.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person4.jpg" alt="Pincent Liu" loading="lazy" />
+						<h4>Pincent Liu</h4>
+						<p>
+							Programmer for Wuhan Photography Art Centre and Wuhan Art Book Fair.
+							Programs, edits, and translates for Wuhan Bailin Film Festival,
+							DUFANG FILM PROGRAM, and Hainan Island IFF.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person5.jpg" alt="Tanita Olbrich" loading="lazy" />
+						<h4>Tanita Olbrich</h4>
+						<p>
+							Berlin-based artist and filmmaker. Studied at HFBK Hamburg with
+							Angela Schanelec and Jeanne Faust. Her work has shown at Grotto
+							Berlin, Kunsthaus Hamburg, Kunstverein Kassel, and festivals.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person6.jpg" alt="Hanqi Sheng" loading="lazy" />
+						<h4>Hanqi Sheng</h4>
+						<p>
+							Hamburg-based filmmaker and director of CFFH. Holds MAs from China
+							Academy of Art and HFBK Hamburg. Her award-winning works have screened
+							at Visions du Reel, DOK Leipzig, and more.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person7.jpg" alt="Yao Su" loading="lazy" />
+						<h4>Yao Su</h4>
+						<p>
+							Filmmaker and artist based in Germany. Studied directing at the
+							National Academy of Chinese Theatre Arts and is now at KHM Cologne.
+							Works with narrative and experimental films exploring memory and
+							landscape.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person8.jpg" alt="Freya Woo" loading="lazy" />
+						<h4>Freya Woo</h4>
+						<p>
+							Chinese filmmaker and lecturer at UCA London. Directed Reaction,
+							awarded in Shanghai, Tokyo, and Rome. Contributed to works such as
+							Shadow (2018, dir. Yimou Zhang), Ganapath, and others.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person9.jpg" alt="Run Yuan" loading="lazy" />
+						<h4>Run Yuan</h4>
+						<p>
+							Independent curator based in Berlin with a background in literature
+							and media. Curates interdisciplinary, experimental, and Asian-focused
+							projects exploring narrative and immersion.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person10.jpg" alt="Jiawen Zhang" loading="lazy" />
+						<h4>Jiawen Zhang</h4>
+						<p>
+							PhD candidate in Film Studies at the University of Bamberg. Founder
+							of 706 Hamburger, a space for dialogue, critical exchange, and
+							cross-cultural interaction.
+						</p>
+					</article>
+					<article class="archive-jury__card">
+						<img src="/assets/2025/jury/first/2025-first-person11.jpg" alt="Zhichao Zhu" loading="lazy" />
+						<h4>Zhichao Zhu</h4>
+						<p>
+							Visual artist based in Shanghai and Hamburg, PhD candidate at HFBK
+							Hamburg, and co-founder of CFFH. His work explores personal memory
+							amid China’s socio-political change and has been shown
+							internationally.
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="archive-section" id="awards-2025">
+				<div class="archive-section__head">
+					<h3>Award winners</h3>
+					<p>Celebrating outstanding filmmaking across categories.</p>
+				</div>
+				<div class="archive-awards-group">
+					<div class="archive-awards-group__header">
+						<div class="archive-awards-group__title">
+							<h4>Jury’s Award</h4>
+						</div>
+					</div>
+					<div class="archive-awards-group__cards">
+						<article class="archive-awards-card">
+							<img src="/assets/2025/awards/posters/2025-jury-award-1.png" alt="Life is Snow poster" loading="lazy" />
+							<div class="archive-awards-card__content">
+								<p class="archive-awards-card__eyebrow">Visual Innovation</p>
+								<h5>Life is Snow</h5>
+								<p class="archive-awards-card__body">
+									Among this year’s submissions, we were delighted to discover a film
+									that investigates the shifts between generations of migrants with
+									classical narrative precision. The film draws power from its
+									concentrated storytelling.
+								</p>
+							</div>
+						</article>
+						<article class="archive-awards-card">
+							<img src="/assets/2025/awards/posters/2025-jury-award-2.jpg" alt="The First Photograph poster" loading="lazy" />
+							<div class="archive-awards-card__content">
+								<p class="archive-awards-card__eyebrow">Narrative Depth</p>
+								<h5>The First Photograph</h5>
+								<p class="archive-awards-card__body">
+									An experimental short tracing a father’s exile and diaspora through
+									archives, maps, and family album negatives. A brave journey
+									questioning time, memory, and images.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="archive-awards-group">
+					<div class="archive-awards-group__header">
+						<div class="archive-awards-group__title">
+							<h4>Audience Choice Award</h4>
+						</div>
+					</div>
+					<div class="archive-awards-group__cards">
+						<article class="archive-awards-card">
+							<img src="/assets/2025/awards/posters/2025-audience-award.jpg" alt="An Unfinished Film poster" loading="lazy" />
+							<div class="archive-awards-card__content">
+								<p class="archive-awards-card__eyebrow">Audience Choice Award</p>
+								<h5>An Unfinished Film</h5>
+								<p class="archive-awards-card__body">Ye Lou · Singapore, Germany</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="archive-awards-group">
+					<div class="archive-awards-group__header">
+						<div class="archive-awards-group__title">
+							<h4>Special Mention</h4>
+						</div>
+					</div>
+					<div class="archive-awards-group__cards">
+						<article class="archive-awards-card">
+							<img src="/assets/2025/awards/posters/2025-special-mention1.jpg" alt="Before Then (O Ma) poster" loading="lazy" />
+							<div class="archive-awards-card__content">
+								<p class="archive-awards-card__eyebrow">Visual Innovation</p>
+								<h5>Before Then (O Ma)</h5>
+								<p class="archive-awards-card__body">
+									An intimately crafted autobiographical documentary layered with
+									fragile recollections and a profound intergenerational bond.
+								</p>
+							</div>
+						</article>
+						<article class="archive-awards-card">
+							<img src="/assets/2025/awards/posters/2025-special-mention2.jpg" alt="The Periphery of the Base poster" loading="lazy" />
+							<div class="archive-awards-card__content">
+								<p class="archive-awards-card__eyebrow">Narrative Depth</p>
+								<h5>The Periphery of the Base</h5>
+								<p class="archive-awards-card__body">
+									A cinematic eye for the tension between monumental construction,
+									harsh geography, and human fragility, pushing documentary language
+									into abstracted registers of the real.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="archive-section" id="events-2025">
+				<div class="archive-section__head">
+					<h3>Special events</h3>
+				</div>
+				<div class="archive-events">
+					<div class="archive-event">
+						<div class="archive-event__media">
+							<img src="/assets/2025/2025-event.jpg" alt="Event photo" loading="lazy" />
+						</div>
+						<div class="archive-event__content">
+							<span class="archive-event__tag">In Between And Never There - No 1. - Chinese Diaspora in St. Pauli</span>
+							<p><strong>Partner:</strong> Millerntorwache</p>
+							<p><strong>Curator:</strong> Bettina Freimann</p>
+							<p>
+								In Between And Never There is an artistic activation of the
+								Millerntorwache, curated by Bettina Freimann. The project opens with
+								Nostalgia Machines, a video work by Hong Kong-based artist duo Zheng
+								Mahler, which examines techno-orientalism, nostalgia, and speculative
+								futures through the lens of identity, belonging, and geopolitical
+								power shifts. Set within historic architecture, the immersive video
+								installation creates a dynamic tension between forgotten past and
+								speculative futures, between inside and outside.
+							</p>
+							<div class="archive-event__content-subsection">
+								<h4 class="archive-event__subtitle">About the Curator</h4>
+								<p>
+									Bettina Freimann is currently the Project Director of the 9th
+									Triennial of Photography Hamburg 2026. As an independent curator and
+									Sinologist, she focuses on contemporary art from China and Asia, with
+									a strong interest in transcultural perspectives. She has realized
+									projects for CHINA TIME 2018 and 2022, India Week, and the
+									Fotofestiwal Łódź. From 2016 to 2021, she co-curated the
+									Hamburg-based art space Âme Nue. She has also developed and led
+									cultural projects for the Confucius Institute Hamburg, the
+									Goethe-Institut Beijing, and the Hamburg Ministry of Justice.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="archive-section" id="crew-2025">
+				<div class="archive-section__head">
+					<h3>Crew members</h3>
+				</div>
+				<div class="archive-crew">
+					<div class="archive-crew__item">
+						<h4>Festival Director / Founder</h4>
+						<p>Hanqi Sheng</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Festival Founder</h4>
+						<p>Zhichao Zhu</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Programmer / Curator</h4>
+						<p>Zhiwen Ding, Jiawen Zhang, Pincent Liu, Yao Su</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Curator / Programmer Video Art</h4>
+						<p>Bettina Freimann</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Head of Festival Production</h4>
+						<p>Biqiong Pan</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Head of Press & Communication</h4>
+						<p>Run Yuan</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Head of Event Coordination</h4>
+						<p>Xiaowen Xu</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Communication & PR</h4>
+						<p>Jiayue Li</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Social Media Coordinator</h4>
+						<p>Cheng Qian, Lucián Merlín-Völckers</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Web Developer</h4>
+						<p>Fan Xu</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>UX Designer</h4>
+						<p>Di He</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Music & Technical Coordinator</h4>
+						<p>Gretchen Fan Weber</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Graphic Designer</h4>
+						<p>Jan Johan Draaistra, Qifan Zhou</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Photographer</h4>
+						<p>Mingyu Han, Wei Wang</p>
+					</div>
+					<div class="archive-crew__item">
+						<h4>Project Coordinator</h4>
+						<p>Yingzi Chen</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="archive-section" id="gallery-2025">
+				<div class="archive-section__head">
+					<h3>Photo gallery</h3>
+				</div>
+				<div class="archive-gallery-carousel" aria-label="Festival photo carousel">
+					<div class="archive-gallery__track" tabindex="0">
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-01.jpg" alt="Festival photo 01" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-02.jpg" alt="Festival photo 02" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-03.jpg" alt="Festival photo 03" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-04.jpg" alt="Festival photo 04" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-05.jpg" alt="Festival photo 05" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-06.jpg" alt="Festival photo 06" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-07.jpg" alt="Festival photo 07" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-08.jpg" alt="Festival photo 08" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-09.jpg" alt="Festival photo 09" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-10.jpg" alt="Festival photo 10" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-11.jpg" alt="Festival photo 11" loading="lazy" />
+						</div>
+						<div class="archive-gallery__item">
+							<img src="/assets/2025/gallery/2025-gallery-12.jpg" alt="Festival photo 12" loading="lazy" />
+						</div>
+					</div>
+					<div class="archive-gallery__controls" aria-label="Carousel controls">
+						<button class="archive-gallery__control" data-direction="prev" aria-label="Previous photos">
+							‹
+						</button>
+						<button class="archive-gallery__control" data-direction="next" aria-label="Next photos">
+							›
+						</button>
+					</div>
+				</div>
+			</section>
+		</section>
 	</div>
 </ArticleLayout>
+
+<style lang="scss">
+	@import "../../../styles/variables.scss";
+	@import "../../../styles/fonts.scss";
+	@import "../../../styles/utils.scss";
+
+	.archive-page {
+		--archive-radius: 0px;
+		padding: pxToRem(48px) 0 pxToRem(80px);
+	}
+
+	.archive-hero {
+		display: grid;
+		gap: pxToRem(32px);
+	}
+
+	.archive-hero__banner {
+		display: grid;
+		gap: pxToRem(12px);
+		background-color: transparent;
+		color: $c-black;
+		padding: 0;
+		border-radius: var(--archive-radius);
+
+		@include breakpoint(lg) {
+			grid-template-columns: 2.2fr 1fr;
+			align-items: center;
+		}
+	}
+
+	.archive-hero__eyebrow {
+		@include f-btn-small;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		margin: 0 0 pxToRem(12px);
+	}
+
+	.archive-hero__banner h2 {
+		@include f-headline-h2;
+		margin: pxToRem(8px) 0 pxToRem(16px);
+	}
+
+	.archive-hero__summary {
+		@include f-copy;
+		margin: 0;
+		max-width: pxToRem(540px);
+	}
+
+
+	.archive-grid {
+		display: grid;
+		gap: pxToRem(20px);
+		grid-template-columns: repeat(auto-fit, minmax(pxToRem(200px), 1fr));
+	}
+
+	.archive-card {
+		border: 1px solid $c-gray;
+		border-radius: var(--archive-radius);
+		overflow: hidden;
+		background-color: $c-white;
+	}
+
+	.archive-card__poster {
+		background-color: $c-gray;
+		aspect-ratio: 3 / 4;
+		display: grid;
+		place-items: center;
+		color: $c-lightgray;
+		font-weight: $fw-regular;
+		text-align: center;
+		text-decoration: none;
+		overflow: hidden;
+	}
+
+	.archive-card__poster img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.archive-card__poster--pdf {
+		background: linear-gradient(140deg, rgba(3, 195, 129, 0.15), rgba(255, 255, 255, 0.9));
+		color: $c-green;
+		font-weight: $fw-semibold;
+	}
+
+	.archive-card__body {
+		padding: pxToRem(16px);
+	}
+
+	.archive-card h3 {
+		margin: 0 0 pxToRem(8px);
+		@include f-headline-h4;
+		color: $c-green;
+	}
+
+	.archive-card__meta {
+		margin: 0 0 pxToRem(12px);
+		font-size: pxToRem(14px);
+		color: $c-lightgray;
+	}
+
+
+	.archive-edition {
+		margin-top: pxToRem(64px);
+		display: grid;
+		gap: pxToRem(32px);
+	}
+
+	.archive-edition__banner {
+		background-color: $c-green;
+		color: $c-white;
+		padding: pxToRem(36px) pxToRem(32px);
+		border-radius: var(--archive-radius);
+		display: grid;
+		gap: pxToRem(24px);
+
+		@include breakpoint(lg) {
+			grid-template-columns: 2fr 1fr;
+			align-items: center;
+		}
+	}
+
+	.archive-edition__eyebrow {
+		@include f-btn-small;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		margin: 0 0 pxToRem(8px);
+	}
+
+	.archive-edition__banner h2 {
+		@include f-headline-h2;
+		margin: 0 0 pxToRem(12px);
+	}
+
+	.archive-edition__meta {
+		@include f-copy;
+		margin: 0;
+	}
+
+	.archive-edition__theme {
+		@include f-copy-3;
+		margin: pxToRem(8px) 0 0;
+		color: $c-green;
+	}
+
+	.archive-edition__summary {
+		@include f-copy;
+		margin: pxToRem(16px) 0 0;
+		max-width: pxToRem(560px);
+	}
+
+	.archive-edition__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: pxToRem(12px);
+		justify-self: end;
+		align-self: end;
+	}
+
+
+	.archive-section {
+		display: grid;
+		gap: pxToRem(20px);
+		padding: pxToRem(24px) 0;
+	}
+
+	.archive-section__head h3 {
+		@include f-headline-h3;
+		margin: 0 0 pxToRem(8px);
+		color: $c-green;
+	}
+
+	.archive-section__head p {
+		@include f-copy-3;
+		margin: 0;
+		max-width: pxToRem(540px);
+	}
+
+	#awards-2025 .archive-section__head p {
+		margin-top: pxToRem(16px);
+		margin-bottom: pxToRem(16px);
+	}
+
+	.archive-awards-divider {
+		border: none;
+		border-top: 1px solid $c-gray;
+		margin: pxToRem(16px) 0 pxToRem(24px);
+	}
+
+
+	.archive-callout {
+		background-color: #fff3c5;
+		border-radius: var(--archive-radius);
+		padding: pxToRem(16px);
+		border-left: 4px solid #f5c84c;
+		max-width: pxToRem(520px);
+	}
+
+	.archive-callout strong {
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		font-size: pxToRem(12px);
+		color: $c-black;
+		display: block;
+		margin-bottom: pxToRem(6px);
+	}
+
+	.archive-callout p {
+		margin: 0;
+		@include f-copy-3;
+	}
+
+	.archive-jury {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(pxToRem(220px), 1fr));
+		gap: pxToRem(28px);
+		grid-auto-flow: dense;
+	}
+
+	.archive-jury--final {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.archive-jury--second,
+	.archive-jury--first {
+		grid-template-columns: repeat(auto-fit, minmax(pxToRem(200px), 1fr));
+	}
+
+	.archive-jury__card {
+		break-inside: avoid;
+		border: none;
+		border-radius: var(--archive-radius);
+		padding: pxToRem(28px);
+		background-color: $c-white;
+		display: grid;
+		gap: pxToRem(14px);
+	}
+
+	.archive-jury__card:nth-child(5n + 1) {
+		grid-column: span 2;
+	}
+
+	.archive-jury--final .archive-jury__card:nth-child(5n + 1) {
+		grid-column: auto;
+	}
+
+	.archive-jury__card img {
+		width: pxToRem(220px);
+		height: pxToRem(293px);
+		object-fit: cover;
+		display: block;
+		justify-self: start;
+	}
+
+	.archive-jury--final .archive-jury__card:nth-child(n + 3) img {
+		justify-self: end;
+	}
+
+	.archive-jury--final .archive-jury__card:nth-child(n + 3) h4,
+	.archive-jury--final .archive-jury__card:nth-child(n + 3) p {
+		text-align: right;
+	}
+
+	.archive-jury__card h4 {
+		margin: 0;
+		color: $c-green;
+		@include f-headline-h4;
+	}
+
+	.archive-jury__card p {
+		margin: 0;
+		font-size: pxToRem(14px);
+		line-height: 1.5;
+		color: $c-lightgray;
+	}
+
+	@include breakpoint(xs-sm) {
+		.archive-jury {
+			grid-template-columns: 1fr;
+		}
+
+		.archive-jury__card:nth-child(5n + 1) {
+			grid-column: auto;
+		}
+	}
+
+	.archive-awards {
+		display: grid;
+		gap: pxToRem(88px);
+	}
+
+	.archive-awards-group {
+		display: grid;
+		gap: pxToRem(32px);
+		grid-template-columns: pxToRem(200px) 1fr 1fr;
+		align-items: start;
+	}
+
+	.archive-awards-group + .archive-awards-group {
+		border-top: 1px solid $c-gray;
+		padding-top: pxToRem(52px);
+	}
+
+	.archive-awards-group:first-child {
+		border-top: 1px solid $c-gray;
+		padding-top: pxToRem(52px);
+		margin-top: pxToRem(28px);
+	}
+
+	.archive-awards-group:last-child {
+		border-bottom: 1px solid $c-gray;
+		padding-bottom: pxToRem(52px);
+	}
+
+
+	.archive-awards-group__head {
+		display: grid;
+		place-items: center;
+		align-self: center;
+	}
+
+	.archive-awards-group__head-inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: pxToRem(20px);
+		padding: pxToRem(20px);
+	}
+
+	.archive-awards-group__head img {
+		width: pxToRem(200px);
+		height: auto;
+	}
+
+	/* Awards layout override to match reference */
+	.archive-awards-group {
+		grid-template-columns: 1fr;
+		gap: pxToRem(24px);
+	}
+
+	.archive-awards-group__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: pxToRem(24px);
+		background-color: $c-green !important;
+		padding: pxToRem(16px) pxToRem(20px);
+		width: 100%;
+		color: $c-white;
+		box-sizing: border-box;
+	}
+
+	.archive-awards-group__title {
+		display: flex;
+		align-items: center;
+		gap: pxToRem(0px);
+	}
+
+	.archive-awards-group__title img {
+		width: pxToRem(200px);
+		height: auto;
+	}
+
+	.archive-awards-group__title h4 {
+		margin: 0;
+		color: $c-white !important;
+		@include f-headline-h4;
+	}
+
+
+	.archive-awards-group__divider {
+		border: none;
+		border-top: 1px solid $c-gray;
+		margin: 0;
+	}
+
+	.archive-awards-group__cards {
+		grid-column: auto;
+		display: grid;
+		gap: pxToRem(24px);
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.archive-awards-card {
+		display: grid;
+		grid-template-columns: minmax(pxToRem(160px), pxToRem(220px)) 1fr;
+		gap: pxToRem(24px);
+		align-items: stretch;
+		padding: pxToRem(20px);
+		border: none;
+		background-color: transparent;
+	}
+
+	.archive-awards-card img {
+		width: 100%;
+		aspect-ratio: 3 / 4;
+		object-fit: cover;
+		display: block;
+		border: none;
+	}
+
+	.archive-awards-card__content {
+		display: grid;
+		align-content: start;
+		gap: pxToRem(10px);
+		color: $c-black;
+	}
+
+	.archive-awards-card__eyebrow {
+		@include f-copy-4;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: $c-green;
+		margin: 0;
+	}
+
+	.archive-awards-card h5 {
+		@include f-headline-h4;
+		margin: 0;
+		color: $c-black;
+	}
+
+	.archive-awards-card__body {
+		@include f-copy-4;
+		color: $c-black;
+		margin: 0;
+	}
+
+	@include breakpoint(xs-sm) {
+		.archive-awards-group__header {
+			flex-direction: column;
+			align-items: flex-start;
+			padding: pxToRem(12px) pxToRem(16px);
+		}
+
+		.archive-awards-group__cards {
+			grid-template-columns: 1fr;
+		}
+
+		.archive-awards-card {
+			grid-template-columns: 1fr;
+		}
+
+		.archive-awards-card img {
+			max-width: 100%;
+		}
+	}
+
+
+	@include breakpoint(xs-sm) {
+		.archive-awards-group {
+			grid-template-columns: 1fr;
+		}
+
+		.archive-awards-group__cards {
+			grid-column: auto;
+			grid-template-columns: 1fr;
+		}
+
+		.archive-awards-card {
+			grid-template-columns: 1fr;
+		}
+	}
+
+
+
+	.archive-awards__block h4 {
+		margin: 0 0 pxToRem(8px);
+		color: $c-green;
+	}
+
+	.archive-awards__block p {
+		margin: 0;
+		@include f-copy-3;
+	}
+
+
+	.archive-events {
+		display: grid;
+		gap: pxToRem(36px);
+	}
+
+	.archive-event {
+		display: grid;
+		gap: pxToRem(28px);
+		grid-template-columns: 1fr 1fr;
+		align-items: start;
+		border: none;
+		border-radius: var(--archive-radius);
+		padding: 0;
+		background-color: transparent;
+
+		@include breakpoint(md) {
+			grid-template-columns: 1fr;
+		}
+		@include breakpoint(xs-sm) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.archive-event--about-curator {
+		grid-template-columns: 1fr;
+	}
+
+	.archive-event__media {
+		background-color: $c-gray;
+		height: 100%;
+		border-radius: var(--archive-radius);
+		display: grid;
+		place-items: center;
+		color: $c-lightgray;
+		font-size: pxToRem(14px);
+		order: 1;
+	}
+
+	.archive-event__content {
+		order: 2;
+		display: grid;
+		gap: pxToRem(12px);
+	}
+
+	.archive-event__content-subsection {
+		margin-top: pxToRem(20px);
+	}
+
+	.archive-crew {
+		columns: 2;
+		column-gap: pxToRem(32px);
+	}
+
+	.archive-crew__item {
+		break-inside: avoid;
+		margin-bottom: pxToRem(20px);
+		padding-bottom: pxToRem(16px);
+		border-bottom: 1px solid $c-gray;
+	}
+
+	.archive-crew__item h4 {
+		margin: 0 0 pxToRem(6px);
+		color: $c-green;
+		font-size: pxToRem(16px);
+	}
+
+	.archive-crew__item p {
+		margin: 0;
+		@include f-copy-4;
+	}
+
+	@include breakpoint(xs-sm) {
+		.archive-crew {
+			columns: 1;
+		}
+	}
+
+	.archive-event__media img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.archive-event h4 {
+		margin: 0 0 pxToRem(6px);
+		color: $c-green;
+		font-size: pxToRem(18px);
+	}
+
+	.archive-event p {
+		margin: 0;
+		@include f-copy-4;
+	}
+
+	.archive-event p strong {
+		font-size: pxToRem(16px);
+		font-weight: 600;
+	}
+
+	.archive-event__tag {
+		display: inline-flex;
+		width: fit-content;
+		padding: pxToRem(6px) pxToRem(12px);
+		background-color: $c-green;
+		color: $c-white;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		font-size: pxToRem(16px);
+	}
+
+	.archive-event__subtitle {
+		font-size: pxToRem(18px);
+		color: $c-green;
+		margin: 0;
+	}
+
+	.archive-gallery-carousel {
+		position: relative;
+		display: grid;
+		grid-template-columns: 1fr;
+		align-items: center;
+		gap: pxToRem(16px);
+	}
+
+	.archive-gallery__controls {
+		display: flex;
+		justify-content: flex-end;
+		gap: pxToRem(12px);
+	}
+
+	.archive-gallery__control {
+		width: pxToRem(44px);
+		height: pxToRem(44px);
+		border-radius: var(--archive-radius);
+		border: 1px solid $c-green;
+		background-color: $c-white;
+		color: $c-green;
+		font-size: pxToRem(28px);
+		line-height: 1;
+		cursor: pointer;
+		display: grid;
+		place-items: center;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.archive-gallery__control:hover {
+		background-color: $c-green;
+		color: $c-white;
+	}
+
+	.archive-gallery__track {
+		display: flex;
+		gap: pxToRem(16px);
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		scrollbar-width: none;
+		padding-bottom: pxToRem(10px);
+	}
+
+	.archive-gallery__track::-webkit-scrollbar {
+		display: none;
+	}
+
+	.archive-gallery__item {
+		flex: 0 0 clamp(pxToRem(220px), 38vw, pxToRem(360px));
+		background-color: $c-gray;
+		aspect-ratio: 16 / 10;
+		border-radius: var(--archive-radius);
+		display: grid;
+		place-items: center;
+		color: $c-lightgray;
+		overflow: hidden;
+		scroll-snap-align: start;
+	}
+
+	@include breakpoint(xs-sm) {
+		.archive-gallery-carousel {
+			grid-template-columns: 1fr;
+		}
+
+		.archive-gallery__control {
+			display: none;
+		}
+
+		.archive-gallery__item {
+			flex: 0 0 85%;
+		}
+	}
+
+	.archive-gallery__item img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	/* Awards layout overrides */
+	.archive-awards-divider,
+	.archive-awards-group__divider {
+		display: none;
+	}
+
+	.archive-awards-group + .archive-awards-group,
+	.archive-awards-group:first-child,
+	.archive-awards-group:last-child {
+		border: none;
+	}
+
+	.archive-awards-group__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: pxToRem(24px);
+		background-color: $c-white;
+		padding: pxToRem(16px) pxToRem(20px);
+	}
+
+	.archive-awards-group__title {
+		display: flex;
+		align-items: center;
+		gap: pxToRem(16px);
+	}
+
+	.archive-awards-group__title h4 {
+		color: $c-green;
+	}
+
+	.archive-awards-group__tag {
+		color: $c-lightgray;
+	}
+
+
+	@include breakpoint(xs-sm) {
+		.archive-awards-group__header {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.archive-awards-group__cards {
+			grid-template-columns: 1fr;
+		}
+
+		.archive-awards-card {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
+
+<script>
+	const carousels = document.querySelectorAll(".archive-gallery-carousel");
+
+	carousels.forEach((carousel) => {
+		const track = carousel.querySelector(".archive-gallery__track");
+		const controls = carousel.querySelectorAll(".archive-gallery__control");
+		let autoplayId = 0;
+		let isPaused = false;
+
+		if (!track) {
+			return;
+		}
+
+		const prefersReducedMotion = window.matchMedia(
+			"(prefers-reduced-motion: reduce)"
+		);
+
+		const getScrollStep = () => track.clientWidth * 0.9;
+		const getMaxScrollLeft = () => track.scrollWidth - track.clientWidth;
+		const isAtEnd = () => track.scrollLeft >= getMaxScrollLeft() - 4;
+		const scrollToStart = () => track.scrollTo({ left: 0, behavior: "smooth" });
+		const scrollNext = () => {
+			if (isAtEnd()) {
+				scrollToStart();
+				return;
+			}
+			track.scrollBy({
+				left: getScrollStep(),
+				behavior: "smooth",
+			});
+		};
+		const stopAutoplay = () => {
+			if (!autoplayId) {
+				return;
+			}
+			clearInterval(autoplayId);
+			autoplayId = 0;
+		};
+		const startAutoplay = () => {
+			if (prefersReducedMotion.matches || autoplayId) {
+				return;
+			}
+			autoplayId = window.setInterval(() => {
+				if (!isPaused) {
+					scrollNext();
+				}
+			}, 4500);
+		};
+
+		controls.forEach((button) => {
+			button.addEventListener("click", () => {
+				const direction = button.getAttribute("data-direction");
+				const offset = getScrollStep();
+				track.scrollBy({
+					left: direction === "next" ? offset : -offset,
+					behavior: "smooth",
+				});
+			});
+		});
+
+		const pause = () => {
+			isPaused = true;
+		};
+		const resume = () => {
+			isPaused = false;
+		};
+
+		carousel.addEventListener("mouseenter", pause);
+		carousel.addEventListener("mouseleave", resume);
+		carousel.addEventListener("focusin", pause);
+		carousel.addEventListener("focusout", resume);
+
+		startAutoplay();
+		window.addEventListener("beforeunload", stopAutoplay);
+	});
+</script>

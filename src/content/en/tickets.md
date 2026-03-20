@@ -12,16 +12,17 @@ htmlTitle: "Tickets"
 ### Tickets
 
 **Metropolis**<br>
-Full Price: €15 / Student Price: €12<br>
+Full Price: €11 / Student Price: €9<br>
 Ticket <a href="https://www.metropoliskino.de/themen?theme=161&film=2647" target="_blank">Metropolis</a>
 
 **Lichtmess**<br>
-Full Price: €12 / Student Price: €10<br>
+Full Price: €10 / Student Price: €8<br>
 Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537/s/67e172626c100a12f992da2d" target="_blank">Lichtmess</a>
 
-**Festival Pass – Limited to 80 passes**<br>
-Full Price: €65 / Student Price: €55<br>
-Early Bird Discount: 15% off until 26th April 2025<br>
+**Festival Pass**<br>
+Limited to 80 Passes<br>
+Full Price: €50 / Student Price: €40 / Press Price: €35<br>
+Early Bird Price: Full €40 / Student €32, until 26th April 2026<br>
 Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537" target="_blank">Festival Pass</a>
 
 ### What's included in the Festival Pass?
@@ -31,11 +32,17 @@ Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537" tar
 - Exclusive Festival Tote Bag
 - Official Festival Brochure
 - Commemorative A3 Event Poster
-- A 2025 Festival Post Card
+- A 2026 Festival Post Card
 
-### Information
+### Free Admission
 
-The video art exhibition NOSTALGIA MACHINE (9th-30th. May), offers free entry; no reservation is required.
+Free entry, No registration required.
+
+Exhibition: Inorganic Poetics<br>
+5th-10th May, MOM Art Space
+
+CAA Special Program, Screenings & Panel Discussions<br>
+Studio Kino, HfbK Kino (Filmhaus), Warburg-Haus<br>
 
 Film tickets are sold both on-site and online.<br>
 Metropolis film screenings are available on the cinema website: <a href="https://metropoliskino.de" target="_blank">metropoliskino.de</a>.<br>
@@ -50,8 +57,14 @@ Kleine Theaterstraße 10,
 **Lichtmess-Kino**<br>
 Gaußstraße 25, 22765 Hamburg
 
-**Millerntorwache**<br>
-Millerntorplatz 20, 20359 Hamburg
+**HfbK Kino (Filmhaus)**<br>
+Finkenau 42, Ground Floor, 22081 Hamburg
+
+**Studio Kino**<br>
+Bernstorffstraße 93–95, 22767 Hamburg
+
+**Warburg-Haus**<br>
+Heilwigstraße 116, 20249 Hamburg
 
 ### Contacts & Social Media
 

@@ -23,7 +23,7 @@ const subItemClass = function (path: string) {
 				<span class="nav__link-text"> # </span>
 			</a>
 		</li>
-		<li class={itemClass(`/${lang}/call-for-entries/`)}>
+		<!-- <li class={itemClass(`/${lang}/call-for-entries/`)}>
 			<a
 				href={`/${lang}/call-for-entries/`}
 				class="nav__link"
@@ -33,7 +33,7 @@ const subItemClass = function (path: string) {
 					{t("nav.callForFilm")}
 				</span>
 			</a>
-		</li>
+		</li> -->
 		<li class={`${subItemClass(`/${lang}/about/`)} nav__item--has-children`}>
 			<button
 				type="button"
@@ -46,7 +46,19 @@ const subItemClass = function (path: string) {
 				<span class="nav__link-text">
 					{t("nav.about")}
 				</span>
-				<span class="nav__indicator" aria-hidden="true"></span>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="16"
+					height="16"
+					fill="currentColor"
+					class="nav__indicator"
+					viewBox="0 0 16 16"
+					aria-hidden="true"
+				>
+					<path
+						d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"
+					></path>
+				</svg>
 			</button>
 			<ul
 				id={`about-subnav-${lang}`}
@@ -89,13 +101,13 @@ const subItemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
-		<!-- <li class={subItemClass(`/${lang}/tickets/`)}>
+		<li class={subItemClass(`/${lang}/tickets/`)}>
 			<a href={`/${lang}/tickets/`} class="nav__link" title={t("nav.tickets")}>
 				<span class="nav__link-text">
 					{t("nav.tickets")}
 				</span>
 			</a>
-		</li> -->
+		</li>
 		<li class={subItemClass(`/${lang}/join-us/`)}>
 			<a href={`/${lang}/join-us/`} class="nav__link" title={t("nav.joinUs")}>
 				<span class="nav__link-text">
@@ -198,17 +210,23 @@ const subItemClass = function (path: string) {
 	}
 
 	.nav__indicator {
-		width: pxToRem(6px);
-		height: pxToRem(6px);
+		width: pxToRem(12px);
+		height: pxToRem(12px);
 		display: inline-block;
 		flex-shrink: 0;
-		border-radius: 999px;
-		background-color: $c-green;
-		transform: translateY(-1px);
+		color: $c-green;
+		transform: translateY(-1px) rotate(180deg);
+		transition:
+			transform $d-anim ease-in-out,
+			color $d-anim ease-in-out;
 
 		.is-active & {
-			background-color: $c-white;
+			color: $c-white;
 		}
+	}
+
+	.nav__item--has-children.is-open .nav__indicator {
+		transform: translateY(-1px) rotate(0deg);
 	}
 
 	.nav__sublist {
@@ -245,7 +263,7 @@ const subItemClass = function (path: string) {
 	}
 
 	.nav__item--has-children.is-open .nav__sublist {
-		display: inline-flex;
+		display: block;
 	}
 
 	.nav__toggle {
