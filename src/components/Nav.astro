@@ -3,16 +3,15 @@ import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const subnavDemoLabel = lang === "cn" ? "子导航示例" : "Sub-Nav Demo";
+
+const pathname = new URL(Astro.request.url).pathname;
 
 const itemClass = function (path: string) {
-	const pathname = new URL(Astro.request.url).pathname;
-
 	return pathname === path ? "nav__item is-active" : "nav__item";
 };
 
 const subItemClass = function (path: string) {
-	const pathname = new URL(Astro.request.url).pathname;
-
 	return pathname.startsWith(path) ? "nav__item is-active" : "nav__item";
 };
 ---
@@ -24,7 +23,7 @@ const subItemClass = function (path: string) {
 				<span class="nav__link-text"> # </span>
 			</a>
 		</li>
-		<li class={itemClass(`/${lang}/call-for-entries/`)}>
+		<!-- <li class={itemClass(`/${lang}/call-for-entries/`)}>
 			<a
 				href={`/${lang}/call-for-entries/`}
 				class="nav__link"
@@ -34,13 +33,66 @@ const subItemClass = function (path: string) {
 					{t("nav.callForFilm")}
 				</span>
 			</a>
-		</li>
-		<li class={subItemClass(`/${lang}/about/`)}>
-			<a href={`/${lang}/about/`} class="nav__link" title={t("nav.about")}>
+		</li> -->
+		<li class={`${subItemClass(`/${lang}/about/`)} nav__item--has-children`}>
+			<button
+				type="button"
+				class="nav__link nav__toggle"
+				title={t("nav.about")}
+				aria-expanded="false"
+				aria-controls={`about-subnav-${lang}`}
+				data-nav-toggle
+			>
 				<span class="nav__link-text">
 					{t("nav.about")}
 				</span>
-			</a>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="16"
+					height="16"
+					fill="currentColor"
+					class="nav__indicator"
+					viewBox="0 0 16 16"
+					aria-hidden="true"
+				>
+					<path
+						d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"
+					></path>
+				</svg>
+			</button>
+			<ul
+				id={`about-subnav-${lang}`}
+				class="nav__sublist"
+				aria-label={t("nav.about")}
+			>
+				<li class={itemClass(`/${lang}/about/`)}>
+					<a
+						href={`/${lang}/about/`}
+						class="nav__sublink"
+						title={t("nav.festival")}
+					>
+						<span class="nav__link-text">{t("nav.festival")}</span>
+					</a>
+				</li>
+				<li class={itemClass(`/${lang}/about/team/`)}>
+					<a
+						href={`/${lang}/about/team/`}
+						class="nav__sublink"
+						title={t("nav.team")}
+					>
+						<span class="nav__link-text">{t("nav.team")}</span>
+					</a>
+				</li>
+				<li class={itemClass(`/${lang}/about/archive/`)}>
+					<a
+						href={`/${lang}/about/archive/`}
+						class="nav__sublink"
+						title={t("nav.archive")}
+					>
+						<span class="nav__link-text">{t("nav.archive")}</span>
+					</a>
+				</li>
+			</ul>
 		</li>
 		<li class={subItemClass(`/${lang}/program/`)}>
 			<a href={`/${lang}/program/`} class="nav__link" title={t("nav.program")}>
@@ -49,13 +101,13 @@ const subItemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
-		<!-- <li class={subItemClass(`/${lang}/tickets/`)}>
+		<li class={subItemClass(`/${lang}/tickets/`)}>
 			<a href={`/${lang}/tickets/`} class="nav__link" title={t("nav.tickets")}>
 				<span class="nav__link-text">
 					{t("nav.tickets")}
 				</span>
 			</a>
-		</li> -->
+		</li>
 		<li class={subItemClass(`/${lang}/join-us/`)}>
 			<a href={`/${lang}/join-us/`} class="nav__link" title={t("nav.joinUs")}>
 				<span class="nav__link-text">
@@ -77,6 +129,9 @@ const subItemClass = function (path: string) {
 		left: 0;
 		right: 0;
 		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: pxToRem(8px);
 		justify-content: center;
 		padding: pxToRem(6px);
 		height: fit-content;
@@ -106,7 +161,7 @@ const subItemClass = function (path: string) {
 		list-style: none;
 		margin: 0;
 		padding: pxToRem(4px);
-		overflow: hidden;
+		overflow: visible;
 		pointer-events: all;
 		background-color: $c-white;
 		box-shadow: 0 0 pxToRem(12px) 0 rgba(0, 0, 0, 0.2);
@@ -128,6 +183,10 @@ const subItemClass = function (path: string) {
 		}
 	}
 
+	.nav__item--has-children {
+		position: relative;
+	}
+
 	.nav__link {
 		// @include rounded-border;
 		display: flex;
@@ -138,8 +197,94 @@ const subItemClass = function (path: string) {
 		color: $c-black;
 		background-color: transparent;
 		border-radius: 4px;
+		gap: pxToRem(6px);
+
+		.is-active > & {
+			color: $c-white;
+		}
+
+		&:hover {
+			cursor: pointer;
+			color: $c-green;
+		}
+	}
+
+	.nav__indicator {
+		width: pxToRem(12px);
+		height: pxToRem(12px);
+		display: inline-block;
+		flex-shrink: 0;
+		color: $c-green;
+		transform: translateY(-1px) rotate(180deg);
+		transition:
+			transform $d-anim ease-in-out,
+			color $d-anim ease-in-out;
 
 		.is-active & {
+			color: $c-white;
+		}
+	}
+
+	.nav__item--has-children.is-open .nav__indicator {
+		transform: translateY(-1px) rotate(0deg);
+	}
+
+	.nav__sublist {
+		box-sizing: border-box;
+		display: none;
+		position: absolute;
+		left: 0;
+		transform: none;
+		bottom: calc(100% + pxToRem(8px));
+		flex-wrap: nowrap;
+		list-style: none;
+		margin: 0;
+		padding: pxToRem(2px);
+		overflow: hidden;
+		pointer-events: all;
+		background-color: $c-white;
+		box-shadow: 0 0 pxToRem(10px) 0 rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+		z-index: 1;
+		min-width: max-content;
+	}
+
+	.nav__sublist::before {
+		content: "";
+		position: absolute;
+		left: pxToRem(16px);
+		bottom: pxToRem(-6px);
+		width: 0;
+		height: 0;
+		border-left: pxToRem(6px) solid transparent;
+		border-right: pxToRem(6px) solid transparent;
+		border-top: pxToRem(6px) solid $c-white;
+		filter: drop-shadow(0 pxToRem(2px) pxToRem(2px) rgba(0, 0, 0, 0.1));
+	}
+
+	.nav__item--has-children.is-open .nav__sublist {
+		display: block;
+	}
+
+	.nav__toggle {
+		appearance: none;
+		border: 0;
+		background: transparent;
+		font: inherit;
+	}
+
+	.nav__sublink {
+		display: flex;
+		align-items: center;
+		padding-inline: pxToRem(10px);
+		height: pxToRem(34px);
+		width: max-content;
+		transition: all $d-anim ease-in-out;
+		color: $c-black;
+		background-color: transparent;
+		border-radius: 4px;
+
+		.is-active > & {
 			color: $c-white;
 		}
 
@@ -149,3 +294,55 @@ const subItemClass = function (path: string) {
 		}
 	}
 </style>
+
+<script type="text/javascript">
+	const nav = document.querySelector(".nav");
+	if (nav) {
+		const toggles = nav.querySelectorAll("[data-nav-toggle]");
+
+		const closeAll = (except) => {
+			toggles.forEach((toggle) => {
+				const item = toggle.closest(".nav__item--has-children");
+				if (!item || item === except) return;
+				item.classList.remove("is-open");
+				toggle.setAttribute("aria-expanded", "false");
+			});
+		};
+
+		toggles.forEach((toggle) => {
+			toggle.addEventListener("click", (event) => {
+				event.stopPropagation();
+				const item = toggle.closest(".nav__item--has-children");
+				if (!item) return;
+				const isOpen = item.classList.contains("is-open");
+				closeAll(item);
+				if (isOpen) {
+					item.classList.remove("is-open");
+					toggle.setAttribute("aria-expanded", "false");
+				} else {
+					item.classList.add("is-open");
+					toggle.setAttribute("aria-expanded", "true");
+				}
+			});
+		});
+
+		nav.addEventListener("click", (event) => {
+			const target = event.target;
+			if (target && target.closest && target.closest(".nav__sublink")) {
+				closeAll();
+			}
+		});
+
+		document.addEventListener("click", (event) => {
+			if (!nav.contains(event.target)) {
+				closeAll();
+			}
+		});
+
+		document.addEventListener("keydown", (event) => {
+			if (event.key === "Escape") {
+				closeAll();
+			}
+		});
+	}
+</script>
