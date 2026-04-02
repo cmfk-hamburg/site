@@ -1,0 +1,45 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+
+const page = {
+  frontmatter: {
+    headline: "Accreditation",
+    headline2: "Accreditation"
+  }
+};
+---
+
+<ArticleLayout title={page.frontmatter.headline} article={page}>
+  <div class="text-module__head">
+    <blockquote class="text-module__headline">
+      <div>{page.frontmatter.headline2}</div>
+    </blockquote>
+  </div>
+
+  <div class="text-module">
+    <h2>Application Information</h2>
+    <p>Please use this page to apply for festival accreditation. We will contact you by email after review.</p>
+
+    <h2>Who Can Apply</h2>
+    <p>Press</p>
+
+    <h2>Required Information</h2>
+    <p>Name, organisation, contact details, accreditation type, ID photo, additional notes</p>
+
+    <h2>Application</h2>
+    <p>
+      <a href="REPLACE_WITH_FORM_LINK" target="_blank" rel="noopener noreferrer">
+        Apply Now
+      </a>
+    </p>
+
+    <h2>Contact</h2>
+    <p>info@chinesefilmfest.de</p>
+  </div>
+</ArticleLayout>
+
+<style lang="scss">
+  body {
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+</style>
