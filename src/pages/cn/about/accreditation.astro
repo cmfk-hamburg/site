@@ -1,0 +1,73 @@
+---
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const page = {
+  frontmatter: {
+    headline: "证件申请",
+    headline2: "证件申请"
+  }
+};
+---
+
+<ArticleLayout title={page.frontmatter.headline} article={page}>
+  <div class="text-module__head text-module__head--with-tab text-module__head--team">
+    <blockquote class="text-module__headline">
+      <div>{page.frontmatter.headline2}</div>
+    </blockquote>
+
+    <ul class="text-module__tabs">
+      <li class="text-module__tab">
+        <a href={`/${lang}/about`} class="text-module__tab-link" title={t("nav.festival")}>
+          <span class="text-module__tab-link-text">
+            {t("nav.festival")}
+          </span>
+        </a>
+      </li>
+      <li class="text-module__tab">
+        <a href={`/${lang}/about/team`} class="text-module__tab-link" title={t("nav.team")}>
+          <span class="text-module__tab-link-text">
+            {t("nav.team")}
+          </span>
+        </a>
+      </li>
+      <li class="text-module__tab is-active">
+        <a href={`/${lang}/about/accreditation`} class="text-module__tab-link" title="证件申请">
+          <span class="text-module__tab-link-text">
+            证件申请
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="text-module">
+    <h2>申请说明</h2>
+    <p>欢迎申请本届影像展相关证件。请根据您的身份填写申请信息，我们将在审核后通过邮件联系您。</p>
+
+    <h2>申请对象</h2>
+    <p>志愿者、媒体、嘉宾、工作人员、合作伙伴</p>
+
+    <h2>申请材料</h2>
+    <p>姓名、所属机构、联系方式、申请类别、证件照、补充说明</p>
+
+    <h2>申请入口</h2>
+    <p>
+      <a href="表单链接" target="_blank" rel="noopener noreferrer">
+        立即申请
+      </a>
+    </p>
+
+    <h2>联系方式</h2>
+    <p>xxxinfo@chinesefilmfest.de</p>
+  </div>
+</ArticleLayout>
+
+<style lang="scss">
+  body {
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+</style>
