@@ -16,157 +16,52 @@ const page = {
     </blockquote>
   </div>
 
-  <div class="text-module">
+  <div class="text-module accreditation-page">
     <h2>About the Application</h2>
     <p>
       Media professionals are welcome to apply for press accreditation for this edition of the festival.
+      The application fee is 35 EUR, and the deadline is April 30.
       After submission, we will review your application and contact you by email.
     </p>
 
     <h2>Who Can Apply</h2>
     <p>Press / Media</p>
 
-    <h2>Application Form</h2>
+    <h2>Required Materials</h2>
+    <ul>
+      <li>Full Name</li>
+      <li>Name on Badge</li>
+      <li>Email</li>
+      <li>Country / City</li>
+      <li>Media Outlet</li>
+      <li>Job Title</li>
+      <li>Type of Media</li>
+      <li>Outlet Website</li>
+      <li>Editor Confirmation Letter (Attachment)</li>
+      <li>2–3 Recent Coverage Links</li>
+      <li>Planned Coverage for the Festival</li>
+      <li>Application Reason</li>
+    </ul>
 
-    <form class="accreditation-form" method="POST">
-      <fieldset class="accreditation-form__section">
-        <legend>Personal &amp; Professional Information</legend>
+    <h2>Fee and Deadline</h2>
+    <p>Application fee: 35 EUR</p>
+    <p>Application deadline: April 30</p>
 
-        <div class="form-grid">
-          <div class="form-field">
-            <label for="fullName">Full Name *</label>
-            <input id="fullName" name="fullName" type="text" required />
-          </div>
+    <h2>Application</h2>
+    <p>
+      Please complete the official application form via the button below.
+    </p>
 
-          <div class="form-field">
-            <label for="badgeName">Name on Badge *</label>
-            <input id="badgeName" name="badgeName" type="text" required />
-          </div>
-
-          <div class="form-field">
-            <label for="email">Email *</label>
-            <input id="email" name="email" type="email" required />
-          </div>
-
-          <div class="form-field">
-            <label for="phone">Phone Number</label>
-            <input id="phone" name="phone" type="tel" />
-          </div>
-
-          <div class="form-field">
-            <label for="location">Country / City *</label>
-            <input id="location" name="location" type="text" required />
-          </div>
-
-          <div class="form-field">
-            <label for="mediaOutlet">Media Outlet *</label>
-            <input id="mediaOutlet" name="mediaOutlet" type="text" required />
-          </div>
-
-          <div class="form-field">
-            <label for="jobTitle">Job Title *</label>
-            <input id="jobTitle" name="jobTitle" type="text" required />
-          </div>
-
-          <div class="form-field">
-            <label for="mediaType">Type of Media *</label>
-            <select id="mediaType" name="mediaType" required>
-              <option value="">Please select</option>
-              <option value="print">Print</option>
-              <option value="online">Online</option>
-              <option value="tv">TV</option>
-              <option value="radio">Radio</option>
-              <option value="freelance">Freelance</option>
-              <option value="photographer">Photographer</option>
-              <option value="videographer">Videographer</option>
-              <option value="blogger">Blogger / Independent Media</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-
-          <div class="form-field">
-            <label for="outletWebsite">Outlet Website *</label>
-            <input id="outletWebsite" name="outletWebsite" type="url" required />
-          </div>
-
-          <div class="form-field">
-            <label for="profileLink">Professional Profile / Portfolio</label>
-            <input id="profileLink" name="profileLink" type="url" />
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="accreditation-form__section">
-        <legend>Coverage Information</legend>
-
-        <div class="form-field">
-          <label for="recentCoverageLinks">Recent Coverage Links *</label>
-          <p class="form-help">
-            Please provide 2–3 publicly accessible recent coverage links, one per line.
-          </p>
-          <textarea
-            id="recentCoverageLinks"
-            name="recentCoverageLinks"
-            rows="6"
-            required
-          ></textarea>
-        </div>
-
-        <div class="form-field">
-          <label for="plannedCoverage">How do you plan to cover the festival? *</label>
-          <textarea
-            id="plannedCoverage"
-            name="plannedCoverage"
-            rows="4"
-            required
-          ></textarea>
-        </div>
-
-        <div class="form-field">
-          <label for="applicationReason">Why are you applying for press accreditation? *</label>
-          <textarea
-            id="applicationReason"
-            name="applicationReason"
-            rows="4"
-            required
-          ></textarea>
-        </div>
-
-        <div class="form-field">
-          <span>Have you attended our festival before?</span>
-          <div class="radio-group">
-            <label>
-              <input type="radio" name="attendedBefore" value="yes" />
-              Yes
-            </label>
-            <label>
-              <input type="radio" name="attendedBefore" value="no" />
-              No
-            </label>
-          </div>
-        </div>
-
-        <div class="form-field">
-          <label for="additionalNotes">Additional Notes</label>
-          <textarea
-            id="additionalNotes"
-            name="additionalNotes"
-            rows="4"
-          ></textarea>
-        </div>
-
-        <div class="form-field form-field--checkbox">
-          <label>
-            <input id="privacyConsent" name="privacyConsent" type="checkbox" required />
-            I have read and agree to the Privacy Policy *
-          </label>
-        </div>
-      </fieldset>
-
-      <div class="accreditation-form__actions">
-        <button type="submit">Submit Application</button>
-      </div>
-    </form>
+    <p class="accreditation-page__cta">
+      <a
+        class="accreditation-page__button"
+        href="https://wheat-cheque-816.notion.site/33da25b4e24d807ebab6c3f6ef0080a5?pvs=105"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Go to Application Form
+      </a>
+    </p>
 
     <h2>Contact</h2>
     <p>info@chinesefilmfest.de</p>
@@ -174,96 +69,34 @@ const page = {
 </ArticleLayout>
 
 <style lang="scss">
-  .accreditation-form {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .accreditation-page__cta {
     margin-top: 1.5rem;
   }
 
-  .accreditation-form__section {
-    margin: 0 0 2rem;
-    padding: 1.5rem;
-    border: 1px solid #d9d9d9;
-  }
-
-  .accreditation-form__section legend {
-    padding: 0 0.5rem;
-    font-size: 1.1rem;
-    font-weight: 700;
-  }
-
-  .form-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem 1.25rem;
-  }
-
-  .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 0.45rem;
-    margin-bottom: 1rem;
-  }
-
-  .form-field input,
-  .form-field select,
-  .form-field textarea {
-    width: 100%;
-    padding: 0.8rem 0.95rem;
-    border: 1px solid #cfcfcf;
-    border-radius: 0;
-    font: inherit;
-    background: #fff;
-    box-sizing: border-box;
-  }
-
-  .form-field textarea {
-    resize: vertical;
-  }
-
-  .form-help {
-    margin: 0;
-    font-size: 0.92rem;
-    color: #666;
-  }
-
-  .radio-group {
-    display: flex;
-    gap: 1.5rem;
-    margin-top: 0.35rem;
-  }
-
-  .radio-group label {
-    display: flex;
-    align-items: center;
-    gap: 0.45rem;
-  }
-
-  .form-field--checkbox label {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.6rem;
-  }
-
-  .form-field--checkbox input {
-    width: auto;
-    margin-top: 0.2rem;
-  }
-
-  .accreditation-form__actions {
-    margin-top: 1.5rem;
-  }
-
-  .accreditation-form__actions button {
-    padding: 0.85rem 1.4rem;
-    border: 0;
+  .accreditation-page__button {
+    display: inline-block;
+    padding: 0.9rem 1.4rem;
     background: #111;
     color: #fff;
-    font: inherit;
+    text-decoration: none;
+    border: 0;
     cursor: pointer;
   }
 
-  @media (max-width: 768px) {
-    .form-grid {
-      grid-template-columns: 1fr;
-    }
+  .accreditation-page ul {
+    padding-left: 1.2rem;
+  }
+
+  .accreditation-page li {
+    margin-bottom: 0.5rem;
   }
 </style>
