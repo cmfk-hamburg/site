@@ -1,66 +1,27 @@
 ---
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as accreditation from "../../content/en/accreditation.md";
 
-const page = {
-  frontmatter: {
-    headline: "Press Accreditation",
-    headline2: "Press Accreditation"
-  }
-};
+const Content = accreditation.Content;
 ---
 
-<ArticleLayout title={page.frontmatter.headline} article={page}>
+<ArticleLayout title={accreditation.frontmatter.htmlTitle} article={accreditation}>
   <div class="text-module__head">
     <h2 class="text-module__headline">
-      {page.frontmatter.headline2}
+      {accreditation.frontmatter.headline2}
     </h2>
+    <div class="text-module__cta-wrapper">
+      <a
+        class="text-module__cta btn btn--primary"
+        href={accreditation.frontmatter.buttonLink}
+        target="_blank"
+      >
+        {accreditation.frontmatter.buttonText}
+      </a>
+    </div>
   </div>
 
   <div class="text-module__content">
-    <h2>About the Application</h2>
-    <p>
-      Media professionals are welcome to apply for press accreditation for this edition of the festival.
-      The application fee is 35 EUR, and the deadline is April 30.
-      After submission, we will review your application and contact you by email.
-    </p>
-
-    <h2>Who Can Apply</h2>
-    <p>Press / Media</p>
-
-    <h2>Required Materials</h2>
-    <ul>
-      <li>Full Name</li>
-      <li>Name on Badge</li>
-      <li>Email</li>
-      <li>Country / City</li>
-      <li>Media Outlet</li>
-      <li>Job Title</li>
-      <li>Type of Media</li>
-      <li>Outlet Website</li>
-      <li>Editor Confirmation Letter (Attachment)</li>
-      <li>2–3 Recent Coverage Links</li>
-      <li>Planned Coverage for the Festival</li>
-      <li>Application Reason</li>
-    </ul>
-
-    <h2>Fee and Deadline</h2>
-    <p>Application fee: 35 EUR</p>
-    <p>Application deadline: April 30</p>
-
-    <h2>Application</h2>
-    <p>
-      Please complete the official application form via the link below.
-    </p>
-    <p>
-      <a
-        href="https://wheat-cheque-816.notion.site/33da25b4e24d807ebab6c3f6ef0080a5?pvs=105"
-        target="_blank"
-      >
-        Go to Application Form
-      </a>
-    </p>
-
-    <h2>Contact</h2>
-    <p>info@chinesefilmfest.de</p>
+    <Content />
   </div>
 </ArticleLayout>
