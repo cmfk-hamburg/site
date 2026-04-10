@@ -3,26 +3,17 @@ import ArticleLayout from "../../layouts/ArticleLayout.astro";
 
 const page = {
   frontmatter: {
-    htmlTitle: "Press Accreditation",
+    headline: "Press Accreditation",
     headline2: "Press Accreditation"
   }
 };
 ---
 
-<ArticleLayout title={page.frontmatter.htmlTitle} article={page}>
+<ArticleLayout title={page.frontmatter.headline} article={page}>
   <div class="text-module__head">
     <h2 class="text-module__headline">
       {page.frontmatter.headline2}
     </h2>
-    <div class="text-module__cta-wrapper">
-      <a
-        class="text-module__cta btn btn--primary"
-        href="https://wheat-cheque-816.notion.site/33da25b4e24d807ebab6c3f6ef0080a5?pvs=105"
-        target="_blank"
-      >
-        Apply Now
-      </a>
-    </div>
   </div>
 
   <div class="text-module__content">
@@ -53,14 +44,12 @@ const page = {
     </ul>
 
     <h2>Fee and Deadline</h2>
-    <ul>
-      <li><strong>Application fee:</strong> 35 EUR</li>
-      <li><strong>Application deadline:</strong> April 30</li>
-    </ul>
+    <p>Application fee: 35 EUR</p>
+    <p>Application deadline: April 30</p>
 
     <h2>Application</h2>
     <p>
-      Please complete the official application form via the button above or the link below.
+      Please complete the official application form via the link below.
     </p>
     <p>
       <a
