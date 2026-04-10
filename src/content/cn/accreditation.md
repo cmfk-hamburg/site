@@ -1,7 +1,7 @@
 ---
 headline: "媒体证件申请"
 headline2: "媒体证件申请"
-buttonLink: "这里替换成中文版 Notion 表单链接"
+buttonLink: "https://wheat-cheque-816.notion.site/33da25b4e24d807ebab6c3f6ef0080a5?pvs=105"
 buttonText: "立即申请"
 htmlTitle: "媒体证件申请"
 ---
@@ -38,7 +38,7 @@ htmlTitle: "媒体证件申请"
 
 请通过上方按钮或下方链接填写官方申请表。
 
-[前往申请表](这里替换成中文版 Notion 表单链接)
+[前往申请表](https://wheat-cheque-816.notion.site/33da25b4e24d807ebab6c3f6ef0080a5?pvs=105)
 
 ### 联系方式
 
