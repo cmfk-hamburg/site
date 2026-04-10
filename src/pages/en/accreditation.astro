@@ -11,9 +11,9 @@ const page = {
 
 <ArticleLayout title={page.frontmatter.headline} article={page}>
   <div class="text-module__head">
-    <blockquote class="text-module__headline">
-      <div>{page.frontmatter.headline2}</div>
-    </blockquote>
+    <h2 class="text-module__headline">
+      {page.frontmatter.headline2}
+    </h2>
   </div>
 
   <div class="text-module__content accreditation-page">
@@ -48,9 +48,7 @@ const page = {
     <p>Application deadline: April 30</p>
 
     <h2>Application</h2>
-    <p>
-      Please complete the official application form via the button below.
-    </p>
+    <p>Please complete the official application form via the button below.</p>
 
     <p class="accreditation-page__cta">
       <a
@@ -98,5 +96,19 @@ const page = {
 
   .accreditation-page li {
     margin-bottom: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .accreditation-page h2 {
+      font-size: 2rem !important;
+      line-height: 1.15 !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .accreditation-page p,
+    .accreditation-page li {
+      font-size: 1rem !important;
+      line-height: 1.6 !important;
+    }
   }
 </style>
