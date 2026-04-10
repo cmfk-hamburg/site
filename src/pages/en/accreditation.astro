@@ -3,20 +3,29 @@ import ArticleLayout from "../../layouts/ArticleLayout.astro";
 
 const page = {
   frontmatter: {
-    headline: "Press Accreditation",
+    htmlTitle: "Press Accreditation",
     headline2: "Press Accreditation"
   }
 };
 ---
 
-<ArticleLayout title={page.frontmatter.headline} article={page}>
+<ArticleLayout title={page.frontmatter.htmlTitle} article={page}>
   <div class="text-module__head">
     <h2 class="text-module__headline">
       {page.frontmatter.headline2}
     </h2>
+    <div class="text-module__cta-wrapper">
+      <a
+        class="text-module__cta btn btn--primary"
+        href="https://wheat-cheque-816.notion.site/33da25b4e24d807ebab6c3f6ef0080a5?pvs=105"
+        target="_blank"
+      >
+        Apply Now
+      </a>
+    </div>
   </div>
 
-  <div class="text-module__content accreditation-page">
+  <div class="text-module__content">
     <h2>About the Application</h2>
     <p>
       Media professionals are welcome to apply for press accreditation for this edition of the festival.
@@ -44,18 +53,19 @@ const page = {
     </ul>
 
     <h2>Fee and Deadline</h2>
-    <p>Application fee: 35 EUR</p>
-    <p>Application deadline: April 30</p>
+    <ul>
+      <li><strong>Application fee:</strong> 35 EUR</li>
+      <li><strong>Application deadline:</strong> April 30</li>
+    </ul>
 
     <h2>Application</h2>
-    <p>Please complete the official application form via the button below.</p>
-
-    <p class="accreditation-page__cta">
+    <p>
+      Please complete the official application form via the button above or the link below.
+    </p>
+    <p>
       <a
-        class="accreditation-page__button"
         href="https://wheat-cheque-816.notion.site/33da25b4e24d807ebab6c3f6ef0080a5?pvs=105"
         target="_blank"
-        rel="noopener noreferrer"
       >
         Go to Application Form
       </a>
@@ -65,50 +75,3 @@ const page = {
     <p>info@chinesefilmfest.de</p>
   </div>
 </ArticleLayout>
-
-<style lang="scss">
-  html {
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-  }
-
-  body {
-    -webkit-text-size-adjust: 100%;
-  }
-
-  .accreditation-page__cta {
-    margin-top: 1.5rem;
-  }
-
-  .accreditation-page__button {
-    display: inline-block;
-    padding: 0.9rem 1.4rem;
-    background: #111;
-    color: #fff;
-    text-decoration: none;
-    border: 0;
-    cursor: pointer;
-  }
-
-  .accreditation-page ul {
-    padding-left: 1.2rem;
-  }
-
-  .accreditation-page li {
-    margin-bottom: 0.5rem;
-  }
-
-  @media (max-width: 768px) {
-    .accreditation-page h2 {
-      font-size: 2rem !important;
-      line-height: 1.15 !important;
-      margin-bottom: 1rem !important;
-    }
-
-    .accreditation-page p,
-    .accreditation-page li {
-      font-size: 1rem !important;
-      line-height: 1.6 !important;
-    }
-  }
-</style>
