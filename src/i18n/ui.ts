@@ -57,7 +57,7 @@ export const ui = {
     "hero.overline": "2024.05.09 – 05.12",
     "hero.title1": "2024年征片开启！",
     "hero.title2": "汉堡华语影像展",
-    "hero.cta": "test",
+    "hero.cta": "现在投递",
     "hero.accreditationCta": "申请证件",
     "footer.newsletter":
       "Subscribe our newsletter and never miss our latest activities",
