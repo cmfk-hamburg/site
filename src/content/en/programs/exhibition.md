@@ -53,12 +53,6 @@ Valentinskamp 34A, Hamburg
 **Participating Artists**<br>
 Qian HAN, Yujue LIANG, Rhett TSAI, Mia YU, Wang-Yun YEN, Wuji YE, Tianming ZHOU
 
-## Academic Support/Guest
-
-**Dr. Stefanie Thiedig (申田)** is a Sinologist, photographer, and cultural advisor. She studied Sinology and German Literature (MA 2007, Hamburg), Photography (2011, Beijing), and earned her PhD in Sinology and Art History in Hamburg in 2023. She has traveled to China regularly since 2000, lived in Beijing from 2007 to 2017, and has been based in Hamburg since 2018. In 2009, she founded “Kulturgut 文化财产”, a cultural advisory platform for creatives in art projects, texts and photography, between academia and the public in Germany and China. On her blog (kulturgut.blogger.de), she shares her personal perspective on life between these two worlds.
-
-**Dagmar Rauwald** lives as a freelance artist in Hamburg. As a conceptual painter, she explores the spaces between painterly empathy and analytical structures in the context of changing codes, not least because of this she opens the medium to current social issues. From 1988 to 1994 Dagmar Rauwald studied fine arts at the University of Fine Arts in Hamburg with Prof. Sigmar Polke with a focus on painting. She has received national and international awards and has participated in numerous solo and group exhibitions including: 2025 'Fluid Presence' PNCA National Museum, Pakistan, 2024 'Seen In Between' Koganecho, Yokohama-Tokyo, 2020 'Dear All', Kunstverein Harburger Bahnhof; 2019 'Measuring Beauty | WabiSabi meets West', C.A.P. Conference of Art Projects, Kobe, Japan; 2018 'Ongoingness', Hamburg Museum for Arts and Crafts, Hamburg; 2017 'Donation Act', Mom art space, Hamburg; Impermanent Codes', Kunsthaus Hamburg; 2012 'Models of a Better World', Galerie vonLoeper, Hamburg; 2005 'L'Ambivalence du Blanc', Uhde Gallery, Toulouse.
-
 ## Curatorial Text
 
 Technics, mythologies, landscapes, or protocols—these heterogeneous vectors do not unfold as parallel historical trajectories. Instead, they interweave and entangle within a singular field of reality, functioning as mutual kinetic forces. Following Bruno Latour’s Actor-Network Theory, agency is no longer the exclusive domain of the human subject. Infrastructure, mineral strata, urban hydrospheres, technological acoustics, and mythic imaginaries—among other divergent formations—constitute an assemblage of seemingly silent non-human agents that exert active force within relational networks. Far from being neutral backdrops or inert containers, they are vital participants in the restless processes of linkage, differentiation, and feedback through which reality itself is folded.
@@ -71,7 +65,10 @@ In this context, the object-landscape functions as an interface for circulating 
 
 ## Works & Artists
 
-**Eme Cosmos**  
+**Eme Cosmos**
+
+<img src="/images/film/eme-cosmos.jpg" alt="Eme Cosmos" />
+
 Mia Yu
 
 Single-channel video, color, stereo sound, 23 min, 2024
@@ -80,7 +77,10 @@ Shot on Asia’s largest open-pit mine, Mia Yu’s film *Eme Cosmos* (2024) tell
 
 **Mia Yu** is an artist, art historian, and independent curator working between Paris and Beijing. Her practice is built on long-term field research at large-scale infrastructures and extractive sites, and examines the complex relationships between post-extractive nature, cosmology, and geopolitics in the Asian context. Her works have been exhibited and screened at the Centre Pompidou, Palais des Beaux-Arts de Paris, Photografiska, the Goethe-Institut, Kunstmuseum Wolfsburg, Times Museum, Kunstverein Hamburg, Harvard University, and Serendipity Arts Festival. Her writings have appeared in *Artforum*, *Oxford Art Review*, *Art Monthly*, and the *Afterall Exhibition Histories* book series. Mia Yu has taught at the China Art Academy and is currently a visiting researcher at the École normale supérieure in Paris.
 
-**Something Misplaced**  
+**Something Misplaced**
+
+<img src="/images/film/something-misplaced.jpg" alt="Something Misplaced" />
+
 Ye Wuji
 
 Single-channel video, color, sound, 37 min, 2023
@@ -89,7 +89,10 @@ Most of the footage was shot in Kazakhstan and Uzbekistan. The film is a non-lin
 
 **Ye Wuji** was born in China Proper in 1991, the year the Gulf War broke out, the construction of the Taklamakan Desert Highway began, the world’s first website was created, Saudi Arabia screened its first movie, and the KGB ceased all operations. On a Sunday in 2019, Ye Wuji became a member of the Central Asian Plov Society and firmly believed that plov is the most delicious food in the world. From 2015 to 2024, a major part of his practice has focused on the Tianshan Mountains regions and the Eurasia connected to them. Recently, he has also become a dutar apprentice. Today, Ye Wuji is one among 8 billion people.
 
-**Blue Sun**  
+**Blue Sun**
+
+<img src="/images/film/blue-sun.jpg" alt="Blue Sun" />
+
 Yen Wang-Yun
 
 Live cinema performance, color, sound, 30 min, 2025
@@ -101,7 +104,10 @@ In Taiwanese novelist Tong Wei-Ger’s short story, the narrator describes the b
 
 **Yen Wang-Yun** is a writer and artist/filmmaker based in Taipei and Amsterdam. He works with documentary, analogue film technique, and performance. He is interested in how languages and pictures mediate the experience of the world, from the personal level to the collective. He is a member of the artist-run film lab Filmwerkplaats, Rotterdam, and a PhD researcher at the Amsterdam School for Cultural Analysis (ASCA).
 
-**Gan Tang, The Lake**  
+**Gan Tang, The Lake**
+
+<img src="/images/film/gan-tang-the-lake.jpg" alt="Gan Tang, The Lake" />
+
 Tianming Zhou
 
 Single-channel video, color, sound, 14 min, 2024
@@ -110,7 +116,10 @@ In the summer of 2023, the government of Jiujiang launched the Gan Tang Lake Cle
 
 **Tianming Zhou (Alaric)** works with lens-based media, sound, and installation. He explores the in-between of physical and conceptual landscapes. His works have been exhibited at Antimatter, Mimesis, Interfilm, Wuhan Bǎilin, Rencontres Internationales Paris/Berlin, BISFF, Experiments in Cinema, Non-Syntax, Leiden Shorts, and RPM Festival, among others. He is also a recipient of the North Carolina Arts Council Artist Support Grant and the Interbay Cinema Society Lightpress Grant.
 
-**One Day Distance**  
+**One Day Distance**
+
+<img src="/images/film/one-day-distance.jpg" alt="One Day Distance" />
+
 Han Qian
 
 Video installation, single-channel 4K video, color, stereo sound, 34’01’’, 2024
@@ -123,7 +132,10 @@ This distance traveled is also the distance from the artist’s grandmother’s 
 
 In this process, her attention to individual experience extends toward broader forms of life. Through the reconfiguration of hidden clues and fragile materials, and by reorganizing residual objects, bodily gestures, and spatial relations, she attempts to bring overlooked ruptures back into visibility.
 
-**Luring Bad**  
+**Luring Bad**
+
+<img src="/images/film/luring-bad.jpg" alt="Luring Bad" />
+
 Rhett Tsai
 
 CGI short film, color, sound, 18 min, 2026
@@ -132,7 +144,8 @@ CGI short film, color, sound, 18 min, 2026
 
 **Rhett Tsai** is a Chinese artist focusing on immersive technologies, video, and experimental video game narrative practices. His work carries a strong awareness of contemporary Asian issues, directly confronting the discourses and power structures shaped by today’s technological revolution, media society, and constructions of cultural identity. He is the winner of the 2023 Lumen Prize “HUA Award.” His works have appeared at Ars Electronica Festival, the Venetian Arsenal, the National Art Museum of China, Watershed Art & Ecology, Sónar Festival, and more. He teaches at the China Academy of Art.
 
-**The Power Circulates in One to Two Seconds**  
+**The Power Circulates in One to Two Seconds**
+
 Yujue Liang
 
 2-channel video, color, sound, 4 min, 2025
@@ -140,3 +153,9 @@ Yujue Liang
 The video series documents Wang Zhengji, the sound engineer at SAIC Motor, as he narrates the process of creating AVAS for new energy vehicles in an acoustic studio. It also explores how sound engineers like him utilize AVAS to convey the speed and power of electric vehicles, while envisioning and shaping the future urban landscape. Through the use of an old DV tape camcorder and CRT television, the work adopts a mockumentary approach to present a virtual representation of the sound engineer. The hyperrealism simulated by the game engine parallels how sound engineers employ AVAS to mimic the noise of traditional combustion engines. In this simulation of reality, the real becomes lost, inevitably sliding toward an entropic dissolution of itself.
 
 **Liang Yujue’s** practice explores interactions between technology, energy, sound, and cognition, and examines the relationship between people, technology, and media through the excavation of sound and the cultural significance behind it. His works involve the historical evolution of technology, biology, environment, memory, and consciousness. He tends to introduce spatial experiences, installations, videos, images, and socio-anthropology using aural and kinesthetic methods, and to present a more communicative and inter-connective narrative by engaging with viewers and creators from diverse backgrounds.
+
+## Academic Support/Guest
+
+**Dr. Stefanie Thiedig (申田)** is a Sinologist, photographer, and cultural advisor. She studied Sinology and German Literature (MA 2007, Hamburg), Photography (2011, Beijing), and earned her PhD in Sinology and Art History in Hamburg in 2023. She has traveled to China regularly since 2000, lived in Beijing from 2007 to 2017, and has been based in Hamburg since 2018. In 2009, she founded “Kulturgut 文化财产”, a cultural advisory platform for creatives in art projects, texts and photography, between academia and the public in Germany and China. On her blog (kulturgut.blogger.de), she shares her personal perspective on life between these two worlds.
+
+**Dagmar Rauwald** lives as a freelance artist in Hamburg. As a conceptual painter, she explores the spaces between painterly empathy and analytical structures in the context of changing codes, not least because of this she opens the medium to current social issues. From 1988 to 1994 Dagmar Rauwald studied fine arts at the University of Fine Arts in Hamburg with Prof. Sigmar Polke with a focus on painting. She has received national and international awards and has participated in numerous solo and group exhibitions including: 2025 'Fluid Presence' PNCA National Museum, Pakistan; 2024 'Seen In Between' Koganecho, Yokohama-Tokyo; 2020 'Dear All', Kunstverein Harburger Bahnhof; 2019 'Measuring Beauty | WabiSabi meets West', C.A.P. Conference of Art Projects, Kobe, Japan; 2018 'Ongoingness', Hamburg Museum for Arts and Crafts, Hamburg; 2017 'Donation Act', Mom art space, Hamburg; 'Impermanent Codes', Kunsthaus Hamburg; 2012 'Models of a Better World', Galerie vonLoeper, Hamburg; 2005 'L'Ambivalence du Blanc', Uhde Gallery, Toulouse.
