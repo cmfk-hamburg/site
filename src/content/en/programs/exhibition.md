@@ -22,35 +22,32 @@ imageSrcM: url("/images/logo-white-1.svg")
 imageSrcL: url("/images/logo-white-2.svg")
 ---
 
-<em>Inorganic Poetics 无机诗学<br>
-05–10 May 2026<br><br>
-Curated by Dr. Zhichao ZHU<br>
-Curatorial Team: Zhiwen DING, Yao SU<br>
-As part of the Chinese Film Festival Hamburg 2026</em>
+*Inorganic Poetics 无机诗学*  
+*05–10 May 2026*  
 
-<br>
+*Curated by Dr. Zhichao ZHU*  
+*Curatorial Team: Zhiwen DING, Yao SU*  
+*As part of the Chinese Film Festival Hamburg 2026*
 
-**Academic Seminar:**<br>
-05 May 2026, 15:00–17:30<br>
+**Academic Seminar:**  
+05 May 2026, 15:00–17:30
 
-**Opening Reception:**<br>
-05 May 2026, 19:00<br>
+**Opening Reception:**  
+05 May 2026, 19:00
 
-**Opening Hours:**<br>
-05–10 May 2026, daily, 14:00–20:00<br>
+**Opening Hours:**  
+05–10 May 2026, daily, 14:00–20:00
 
-**Live Cinema Performance:**<br>
-08 May 2026, 18:00<br>
-*BLUE SUN* (25–30 min)<br>
+**Live Cinema Performance:**  
+08 May 2026, 18:00  
+*BLUE SUN* (25–30 min)
 
 **Free Admission**
 
-MOM ART SPACE<br>
+MOM ART SPACE  
 Valentinskamp 34A, Hamburg
 
-<br>
-
-**Participating Artists**<br>
+**Participating Artists**  
 Qian HAN, Yujue LIANG, Rhett TSAI, Mia YU, Wang-Yun YEN, Wuji YE, Tianming ZHOU
 
 ## Curatorial Text
@@ -61,13 +58,13 @@ The works gathered in this exhibition intervene precisely within this relational
 
 In this context, the object-landscape functions as an interface for circulating forces, memory and power sediment into one another, and history remains in a state of continuous revision through its friction with the contemporary. "Inorganic Poetics" is not a conclusion, but a posture held in tension with the present. It invites the viewer to linger within the interstices where latent forces intersect with human action—within a yet-to-be-fully-named middle ground, to recalibrate our perception of the very conditions under which the present takes form.
 
-<em>Curator: Zhichao Zhu</em>
+*Curator: Zhichao Zhu*
 
 ## Works & Artists
 
 **Eme Cosmos**
 
-<img src="/images/film/eme-cosmos.jpg" alt="Eme Cosmos" />
+![Eme Cosmos](/images/film/eme-cosmos.jpg)
 
 Mia Yu
 
@@ -79,7 +76,7 @@ Shot on Asia’s largest open-pit mine, Mia Yu’s film *Eme Cosmos* (2024) tell
 
 **Something Misplaced**
 
-<img src="/images/film/something-misplaced.jpg" alt="Something Misplaced" />
+![Something Misplaced](/images/film/something-misplaced.jpg)
 
 Ye Wuji
 
@@ -91,7 +88,7 @@ Most of the footage was shot in Kazakhstan and Uzbekistan. The film is a non-lin
 
 **Blue Sun**
 
-<img src="/images/film/blue-sun.jpg" alt="Blue Sun" />
+![Blue Sun](/images/film/blue-sun.jpg)
 
 Yen Wang-Yun
 
@@ -106,7 +103,7 @@ In Taiwanese novelist Tong Wei-Ger’s short story, the narrator describes the b
 
 **Gan Tang, The Lake**
 
-<img src="/images/film/gan-tang-the-lake.jpg" alt="Gan Tang, The Lake" />
+![Gan Tang, The Lake](/images/film/gan-tang-the-lake.jpg)
 
 Tianming Zhou
 
@@ -118,7 +115,7 @@ In the summer of 2023, the government of Jiujiang launched the Gan Tang Lake Cle
 
 **One Day Distance**
 
-<img src="/images/film/one-day-distance.jpg" alt="One Day Distance" />
+![One Day Distance](/images/film/one-day-distance.jpg)
 
 Han Qian
 
@@ -134,7 +131,7 @@ In this process, her attention to individual experience extends toward broader f
 
 **Luring Bad**
 
-<img src="/images/film/luring-bad.jpg" alt="Luring Bad" />
+![Luring Bad](/images/film/luring-bad.jpg)
 
 Rhett Tsai
 
