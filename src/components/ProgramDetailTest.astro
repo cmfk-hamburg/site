@@ -1,0 +1,22 @@
+---
+const {
+	title,
+	image,
+	date,
+	overline,
+	cinema,
+	length,
+	time,
+	qa,
+} = Astro.props;
+---
+
+<div>
+	<span>{overline}</span>
+	<h1>{title}</h1>
+	<img src={image} />
+	<div>
+		{time}, {length}, {date}, {cinema}, {qa}
+	</div>
+	<slot />
+</div>
