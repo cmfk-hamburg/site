@@ -1,3 +1,4 @@
+---
 import FilmGallery from "./FilmGallery.astro";
 
 export interface Props {
@@ -82,14 +83,18 @@ const pipe = " | ";
 					}
 					{
 						ticket && String(ticket) === "Free Admission" && (
-							<span class="btn btn--small btn--outline">
+							<span
+								class="btn btn--small btn--outline"
+							>
 								Free Admission
 							</span>
 						)
 					}
 					{
 						!ticket && (
-							<span class="btn btn--small btn--outline">
+							<span
+								class="btn btn--small btn--outline"
+							>
 								Coming Soon
 							</span>
 						)
