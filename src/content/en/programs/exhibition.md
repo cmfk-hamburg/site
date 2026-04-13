@@ -3,141 +3,21 @@ title: "Inorganic Poetics 无机诗学"
 overline: "Special Event: Exhibition"
 intro: "As part of the Chinese Film Festival Hamburg 2026"
 image: "/images/film/exhibition-inorganic-poetics.jpg"
+info: "/exhibition"
 ticket: "Free Admission"
-venue: "MOM ART SPACE"
-address: "Valentinskamp 34A, Hamburg"
+cinema: "MOM ART SPACE"
+length: "Valentinskamp 34A, Hamburg"
+time: ""
 date: "05–10 May 2026"
-curator: "Dr. Zhichao ZHU"
-team: "Zhiwen DING, Yao SU"
-seminar: "05 May 2026, 15:00–17:30"
-opening: "05 May 2026, 19:00"
-openingHours: "05–10 May 2026, daily, 14:00–20:00"
-performance: "08 May 2026, 18:00 — BLUE SUN (25–30 min)"
-artists:
-  - "Qian HAN"
-  - "Yujue LIANG"
-  - "Rhett TSAI"
-  - "Mia YU"
-  - "Wang-Yun YEN"
-  - "Wuji YE"
-  - "Tianming ZHOU"
-works:
-  - title: "Eme Cosmos"
-    artist: "Mia Yu"
-    image: "/images/film/eme-cosmos.jpg"
-    imageAlt: "Eme Cosmos"
-    meta: "Single-channel video, color, stereo sound, 23 min, 2024"
-    description: >-
-      Shot on Asia’s largest open-pit mine, Mia Yu’s film Eme Cosmos (2024)
-      tells a mythic tale that haunts the landscape of fossil fuel extraction
-      in Manchuria (Northeast China). By integrating mythology with documentary,
-      the film unleashes the therapeutic power of the disturbed land while
-      envisioning “energy” as an ethics of care and resonance rather than a
-      material entity to exploit.
-    bio: >-
-      Mia Yu is an artist, art historian, and independent curator working
-      between Paris and Beijing. Her practice is built on long-term field
-      research at large-scale infrastructures and extractive sites, and examines
-      the complex relationships between post-extractive nature, cosmology, and
-      geopolitics in the Asian context. Her works have been exhibited and
-      screened at the Centre Pompidou, Palais des Beaux-Arts de Paris,
-      Photografiska, the Goethe-Institut, Kunstmuseum Wolfsburg, Times Museum,
-      Kunstverein Hamburg, Harvard University, and Serendipity Arts Festival.
-
-  - title: "Something Misplaced"
-    artist: "Ye Wuji"
-    image: "/images/film/something-misplaced.jpg"
-    imageAlt: "Something Misplaced"
-    meta: "Single-channel video, color, sound, 37 min, 2023"
-    description: >-
-      Most of the footage was shot in Kazakhstan and Uzbekistan. The film is a
-      non-linear presentation of what the artist saw and thought during his
-      journey. The work explores the complexity of “Central Asia” and the
-      confusion it brings. Weaving together random footage shot during travel,
-      books, images, music, and personal experiences, the film links the
-      materials while interrupting the narrative.
-    bio: >-
-      Ye Wuji’s practice has focused on the Tianshan Mountains regions and the
-      Eurasia connected to them. His work moves across landscape, travel,
-      history, and cultural displacement.
-
-  - title: "Blue Sun"
-    artist: "Yen Wang-Yun"
-    image: "/images/film/blue-sun.jpg"
-    imageAlt: "Blue Sun"
-    meta: "Live cinema performance, color, sound, 30 min, 2025"
-    description: >-
-      Following a literary metaphor of a blue sun above post-mining villages in
-      Northern Taipei, Blue Sun translates the lingering energy of landscape
-      into film, sound, and live drawing. Each iteration proposes a different
-      sound-image conjunction and points to the instability of remembrance.
-    bio: >-
-      Yen Wang-Yun is a writer and artist/filmmaker based in Taipei and
-      Amsterdam. He works with documentary, analogue film technique, and
-      performance, and is interested in how language and images mediate the
-      experience of the world.
-
-  - title: "Gan Tang, The Lake"
-    artist: "Tianming Zhou"
-    meta: "Single-channel video, color, sound, 14 min, 2024"
-    description: >-
-      In the summer of 2023, the government of Jiujiang launched the Gan Tang
-      Lake Cleansing Project. Within weeks, this ancient lake with over two
-      millennia of history was drained. Nearby in Gan Tang Park, a boy wakes up
-      in the rain. There, the destiny of Gan Tang awaits.
-    bio: >-
-      Tianming Zhou (Alaric) works with lens-based media, sound, and
-      installation. He explores the in-between of physical and conceptual
-      landscapes.
-
-  - title: "One Day Distance"
-    artist: "Han Qian"
-    meta: "Video installation, single-channel 4K video, color, stereo sound, 34’01’’, 2024"
-    description: >-
-      In this work, the artist walks from the Houyang family to Niuzhuang,
-      wearing a pair of high heels her grandmother never wore and her most
-      commonly worn dress. This twenty-eight-kilometer journey begins at
-      sunrise and ends at sunset.
-    bio: >-
-      Han Qian’s practice spans video, installation, performance, and
-      printmaking, and often engages with time, memory, family narratives, and
-      historical residues.
-
-  - title: "Luring Bad"
-    artist: "Rhett Tsai"
-    meta: "CGI short film, color, sound, 18 min, 2026"
-    description: >-
-      Luring Bad is an experimental CGI short film set in a green-lit dreamscape
-      generated by artificial fishing lamps. It reflects on power, extraction,
-      and unresolved conditions of contemporary Asia.
-    bio: >-
-      Rhett Tsai is a Chinese artist focusing on immersive technologies, video,
-      and experimental video game narrative practices.
-
-  - title: "The Power Circulates in One to Two Seconds"
-    artist: "Yujue Liang"
-    meta: "2-channel video, color, sound, 4 min, 2025"
-    description: >-
-      The work documents the creation of AVAS sounds for new energy vehicles in
-      an acoustic studio, and examines how artificial sound constructs speed,
-      power, and future urban imagination.
-    bio: >-
-      Liang Yujue’s practice explores interactions between technology, energy,
-      sound, and cognition, and examines the relationship between people,
-      technology, and media.
+language: ""
+subtitle: ""
+origin: ""
+director: "Dr. Zhichao ZHU"
+genre: ""
+year: ""
+resolution: ""
+qa: ""
+imageSrcS: url("/images/logo-white-3.svg")
+imageSrcM: url("/images/logo-white-1.svg")
+imageSrcL: url("/images/logo-white-2.svg")
 ---
-
-## Curatorial Text
-
-Technics, mythologies, landscapes, or protocols—these heterogeneous vectors do not unfold as parallel historical trajectories. Instead, they interweave and entangle within a singular field of reality, functioning as mutual kinetic forces. Following Bruno Latour’s Actor-Network Theory, agency is no longer the exclusive domain of the human subject. Infrastructure, mineral strata, urban hydrospheres, technological acoustics, and mythic imaginaries—among other divergent formations—constitute an assemblage of seemingly silent non-human agents that exert active force within relational networks.
-
-The works gathered in this exhibition intervene precisely within this relational tension. Through the drone-eye gaze upon infrastructural ruins, trans-geopolitical sensory dislocations, the archival tracing of terrestrial and aquatic flux, and corporeal interventions within familial memory and industrial soundscapes, human agency and non-human forces are woven into a structure that resists stabilization.
-
-In this context, the object-landscape functions as an interface for circulating forces, memory and power sediment into one another, and history remains in a state of continuous revision through its friction with the contemporary. Inorganic Poetics is not a conclusion, but a posture held in tension with the present.
-
-*Curator: Zhichao Zhu*
-
-## Academic Support/Guest
-
-Dr. Stefanie Thiedig (申田)  
-Dagmar Rauwald
