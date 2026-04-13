@@ -64,8 +64,6 @@ In this context, the object-landscape functions as an interface for circulating 
 
 **Eme Cosmos**
 
-![Eme Cosmos](/images/film/eme-cosmos.jpg)
-
 Mia Yu
 
 Single-channel video, color, stereo sound, 23 min, 2024
@@ -76,8 +74,6 @@ Shot on Asia’s largest open-pit mine, Mia Yu’s film *Eme Cosmos* (2024) tell
 
 **Something Misplaced**
 
-![Something Misplaced](/images/film/something-misplaced.jpg)
-
 Ye Wuji
 
 Single-channel video, color, sound, 37 min, 2023
@@ -87,8 +83,6 @@ Most of the footage was shot in Kazakhstan and Uzbekistan. The film is a non-lin
 **Ye Wuji** was born in China Proper in 1991, the year the Gulf War broke out, the construction of the Taklamakan Desert Highway began, the world’s first website was created, Saudi Arabia screened its first movie, and the KGB ceased all operations. On a Sunday in 2019, Ye Wuji became a member of the Central Asian Plov Society and firmly believed that plov is the most delicious food in the world. From 2015 to 2024, a major part of his practice has focused on the Tianshan Mountains regions and the Eurasia connected to them. Recently, he has also become a dutar apprentice. Today, Ye Wuji is one among 8 billion people.
 
 **Blue Sun**
-
-![Blue Sun](/images/film/blue-sun.jpg)
 
 Yen Wang-Yun
 
