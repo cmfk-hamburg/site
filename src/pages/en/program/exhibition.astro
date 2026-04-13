@@ -8,7 +8,13 @@ const Content = film.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const films = await Astro.glob("../../../content/en/programs/exhibition/*.md");
+
+let films = [];
+try {
+	films = await Astro.glob("../../../content/en/programs/exhibition/*.md");
+} catch (e) {
+	films = [];
+}
 ---
 
 <FilmLayout title={film.frontmatter.title} article={film}>
