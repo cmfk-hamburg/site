@@ -1,0 +1,322 @@
+---
+export interface WorkItem {
+  title: string;
+  artist: string;
+  meta?: string;
+  description?: string;
+  bio?: string;
+  image?: string;
+  imageAlt?: string;
+}
+
+export interface Props {
+  overline: string;
+  title: string;
+  image: string;
+  date: string;
+  venue: string;
+  address: string;
+  ticket: string;
+  curator?: string;
+  team?: string;
+  intro?: string;
+  seminar?: string;
+  opening?: string;
+  openingHours?: string;
+  performance?: string;
+  artists?: string[];
+  works?: WorkItem[];
+}
+
+const {
+  overline,
+  title,
+  image,
+  date,
+  venue,
+  address,
+  ticket,
+  curator = "",
+  team = "",
+  intro = "",
+  seminar = "",
+  opening = "",
+  openingHours = "",
+  performance = "",
+  artists = [],
+  works = [],
+} = Astro.props;
+---
+
+<div class="exhibition">
+  <span class="exhibition__overline">{overline}</span>
+  <h1 class="exhibition__title">{title}</h1>
+
+  <div class="exhibition__hero">
+    <div class="exhibition__image">
+      <img src={image} alt={title} />
+    </div>
+
+    <div class="exhibition__side">
+      <div class="exhibition__meta-row">
+        <div class="exhibition__meta">
+          <div>{address}</div>
+          <div>{date}</div>
+          <div>{venue}</div>
+        </div>
+
+        <div>
+          {
+            ticket === "Free Admission" ? (
+              <span class="btn btn--small btn--outline">Free Admission</span>
+            ) : (
+              <a class="btn btn--small btn--primary" href={ticket} target="_blank">
+                Ticket
+              </a>
+            )
+          }
+        </div>
+      </div>
+
+      <div class="exhibition__summary">
+        <p><em>{title}</em></p>
+        <p><em>{date}</em></p>
+
+        {curator && <p><em>Curated by {curator}</em></p>}
+        {team && <p><em>Curatorial Team: {team}</em></p>}
+        {intro && <p>{intro}</p>}
+
+        {seminar && (
+          <p>
+            <strong>Academic Seminar:</strong><br />
+            {seminar}
+          </p>
+        )}
+
+        {opening && (
+          <p>
+            <strong>Opening Reception:</strong><br />
+            {opening}
+          </p>
+        )}
+
+        {openingHours && (
+          <p>
+            <strong>Opening Hours:</strong><br />
+            {openingHours}
+          </p>
+        )}
+
+        {performance && (
+          <p>
+            <strong>Live Cinema Performance:</strong><br />
+            {performance}
+          </p>
+        )}
+
+        <p>
+          <strong>Free Admission</strong>
+        </p>
+
+        <p>
+          {venue}<br />
+          {address}
+        </p>
+
+        {artists.length > 0 && (
+          <p>
+            <strong>Participating Artists</strong><br />
+            {artists.join(", ")}
+          </p>
+        )}
+      </div>
+    </div>
+  </div>
+
+  <div class="exhibition__body">
+    <slot />
+  </div>
+
+  {
+    works.length > 0 && (
+      <section class="exhibition__works">
+        <h2>Works & Artists</h2>
+
+        {works.map((work, index) => (
+          <article
+            class={`work-card ${index % 2 === 1 ? "work-card--reverse" : ""} ${!work.image ? "work-card--no-image" : ""}`}
+          >
+            <div class="work-card__text">
+              <div class="work-card__overline">{work.artist}</div>
+              <h3>{work.title}</h3>
+              {work.meta && <p class="work-card__meta">{work.meta}</p>}
+              {work.description && <p>{work.description}</p>}
+              {work.bio && <p>{work.bio}</p>}
+            </div>
+
+            {
+              work.image && (
+                <div class="work-card__media">
+                  <img src={work.image} alt={work.imageAlt || work.title} />
+                </div>
+              )
+            }
+          </article>
+        ))}
+      </section>
+    )
+  }
+</div>
+
+<style lang="scss">
+  @import "../styles/variables.scss";
+  @import "../styles/fonts.scss";
+  @import "../styles/utils.scss";
+
+  .exhibition {
+    margin-top: pxToRem(40px);
+  }
+
+  .exhibition__overline {
+    @include f-copy-3;
+    padding: pxToRem(4px) pxToRem(10px);
+    color: $c-white;
+    background: $c-green;
+  }
+
+  .exhibition__title {
+    @include f-headline-h3;
+    margin-top: pxToRem(12px);
+    color: $c-green;
+  }
+
+  .exhibition__hero {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-column-gap: pxToRem(40px);
+    margin-top: pxToRem(20px);
+
+    @include breakpoint(xs-sm) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .exhibition__image img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+  }
+
+  .exhibition__meta-row {
+    display: flex;
+    justify-content: space-between;
+    gap: pxToRem(24px);
+    margin-bottom: pxToRem(32px);
+
+    @include breakpoint(xs-sm) {
+      margin-top: pxToRem(32px);
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .exhibition__meta {
+    color: $c-green;
+    line-height: 1.35;
+  }
+
+  .exhibition__summary p {
+    margin-top: 0;
+    margin-bottom: pxToRem(18px);
+  }
+
+  .exhibition__body {
+    margin-top: pxToRem(36px);
+
+    p {
+      margin-top: 0;
+      margin-bottom: pxToRem(20px);
+    }
+
+    h2 {
+      margin-top: pxToRem(36px);
+      margin-bottom: pxToRem(20px);
+    }
+  }
+
+  .exhibition__works {
+    margin-top: pxToRem(56px);
+
+    h2 {
+      margin-bottom: pxToRem(28px);
+    }
+  }
+
+  .work-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: pxToRem(48px);
+    align-items: center;
+    margin-bottom: pxToRem(64px);
+
+    @include breakpoint(xs-sm) {
+      grid-template-columns: 1fr;
+      gap: pxToRem(24px);
+    }
+  }
+
+  .work-card--reverse {
+    .work-card__text {
+      order: 2;
+
+      @include breakpoint(xs-sm) {
+        order: 1;
+      }
+    }
+
+    .work-card__media {
+      order: 1;
+
+      @include breakpoint(xs-sm) {
+        order: 2;
+      }
+    }
+  }
+
+  .work-card--no-image {
+    grid-template-columns: 1fr;
+  }
+
+  .work-card__overline {
+    @include f-copy-3;
+    display: inline-block;
+    margin-bottom: pxToRem(12px);
+    padding: pxToRem(4px) pxToRem(10px);
+    color: $c-white;
+    background: $c-green;
+  }
+
+  .work-card__text h3 {
+    @include f-headline-h3;
+    margin-top: 0;
+    margin-bottom: pxToRem(16px);
+    color: $c-green;
+  }
+
+  .work-card__text p {
+    margin-top: 0;
+    margin-bottom: pxToRem(18px);
+  }
+
+  .work-card__meta {
+    font-weight: 600;
+  }
+
+  .work-card__media img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    object-fit: cover;
+  }
+</style>
