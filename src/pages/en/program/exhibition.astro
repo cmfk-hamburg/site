@@ -1,13 +1,9 @@
 ---
 import * as film from "../../../content/en/programs/exhibition.md";
-import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 import ProgramDetail from "../../../components/ProgramDetail.astro";
 import FilmLayout from "../../../layouts/FilmLayout.astro";
 
 const Content = film.Content;
-
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
 ---
 
 <FilmLayout title={film.frontmatter.title} article={film}>
