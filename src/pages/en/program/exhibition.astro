@@ -1,32 +1,31 @@
 ---
-import * as film from "../../../content/en/programs/exhibition.md";
-import ProgramDetail from "../../../components/ProgramDetail.astro";
+import * as exhibition from "../../../content/en/programs/exhibition.md";
 import FilmLayout from "../../../layouts/FilmLayout.astro";
+import ExhibitionDetail from "../../../components/ExhibitionDetail.astro";
 
-const Content = film.Content;
+const Content = exhibition.Content;
+const fm = exhibition.frontmatter;
 ---
 
-<FilmLayout title={film.frontmatter.title} article={film}>
-	<ProgramDetail
-		title={film.frontmatter.title}
-		image={film.frontmatter.image}
-		date={film.frontmatter.date}
-		cinema={film.frontmatter.cinema}
-		language={film.frontmatter.language}
-		length={film.frontmatter.length}
-		director={film.frontmatter.director}
-		subtitle={film.frontmatter.subtitle}
-		time={film.frontmatter.time}
-		qa={film.frontmatter.qa}
-		ticket={film.frontmatter.ticket}
-		genre={film.frontmatter.genre}
-		origin={film.frontmatter.origin}
-		year={film.frontmatter.year}
-		resolution={film.frontmatter.resolution}
-		films={[]}
-		isCollection={true}
-		overline={film.frontmatter.overline}
-	>
-		<Content />
-	</ProgramDetail>
+<FilmLayout title={fm.title} article={exhibition}>
+  <ExhibitionDetail
+    overline={fm.overline}
+    title={fm.title}
+    image={fm.image}
+    date={fm.date}
+    venue={fm.venue}
+    address={fm.address}
+    ticket={fm.ticket}
+    curator={fm.curator}
+    team={fm.team}
+    intro={fm.intro}
+    seminar={fm.seminar}
+    opening={fm.opening}
+    openingHours={fm.openingHours}
+    performance={fm.performance}
+    artists={fm.artists}
+    works={fm.works}
+  >
+    <Content />
+  </ExhibitionDetail>
 </FilmLayout>
