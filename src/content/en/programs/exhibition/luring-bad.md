@@ -2,7 +2,7 @@
 title: "Luring Bad"
 overline: "Works & Artists"
 intro: "Rhett Tsai"
-image: ""
+image: "/images/film/luring-bad.jpg"
 info: "/luring-bad"
 ticket: ""
 cinema: "Exhibition: Inorganic Poetics"
