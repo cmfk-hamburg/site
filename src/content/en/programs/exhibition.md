@@ -50,9 +50,9 @@ MOM ART SPACE, Valentinskamp 34A, Hamburg
 
 Qian HAN, Yujue LIANG, Rhett TSAI, Mia YU, Wang-Yun YEN, Wuji YE, Tianming ZHOU
 
-**Academic Support**
+**Academic Support / Guest**
 
-Dagmar Rauwald, Dr. Stefanie Thiedig
+Dr. Stefanie Thiedig (由甲), Dagmar Rauwald
 
 ### **Curatorial Texts**
 
@@ -64,7 +64,4 @@ In this context, the object-landscape functions as an interface for circulating 
 
 *Curator: Zhichao Zhu*
 
-### **Academic Support/Guest**
-
-Dr. Stefanie Thiedig (由甲)
-Dagmar Rauwald
+### **Works & Artists**
