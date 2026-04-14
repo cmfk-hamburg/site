@@ -2,7 +2,7 @@
 title: "Gan Tang, The Lake"
 overline: "Works & Artists"
 intro: "Tianming Zhou"
-image: ""
+image: "gan-tang-the-lake.jpg"
 info: "/gan-tang-the-lake"
 ticket: ""
 cinema: "Exhibition: Inorganic Poetics"
