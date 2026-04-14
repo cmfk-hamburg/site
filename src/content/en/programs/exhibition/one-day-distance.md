@@ -2,7 +2,7 @@
 title: "One Day Distance"
 overline: "Works & Artists"
 intro: "Han Qian"
-image: ""
+image: "/images/film/one-day-distance.jpg"
 info: "/one-day-distance"
 ticket: ""
 cinema: "Exhibition: Inorganic Poetics"
