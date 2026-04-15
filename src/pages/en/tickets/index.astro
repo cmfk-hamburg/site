@@ -11,34 +11,16 @@ const t = useTranslations(lang);
 
 <ArticleLayout title={tickets.frontmatter.htmlTitle} article={tickets}>
 	<div class="text-module__content">
-		<div class="tickets-download-wrapper">
-			<a class="flyer-download-btn" href="/assets/2026_CFFH_Flyer_Final.pdf" download>
-				Flyer ↓
+		<div class="program__links">
+			<a class="btn btn--primary" href="/assets/2026_CFFH_Flyer_Final.pdf" download>
+				2026 Flyer
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+					<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+					<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+				</svg>
 			</a>
 		</div>
 
 		<Content />
 	</div>
 </ArticleLayout>
-
-<style>
-	.tickets-download-wrapper {
-		display: flex;
-		justify-content: flex-end;
-		margin-bottom: 2.5rem;
-	}
-
-	.flyer-download-btn {
-		display: inline-block;
-		background-color: #00c389;
-		color: #fff;
-		text-decoration: none;
-		padding: 0.8rem 1.4rem;
-		font-size: 1.2rem;
-		line-height: 1.2;
-	}
-
-	.flyer-download-btn:hover {
-		opacity: 0.9;
-	}
-</style>
