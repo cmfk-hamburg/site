@@ -25,6 +25,10 @@ Full Price: €50 / Student Price: €40 / Press Price: €35<br>
 Early Bird Price: Full €40 / Student €32, until 26th April 2026<br>
 Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537" target="_blank">Festival Pass</a>
 
+Film tickets are sold both on-site and online.<br>
+Metropolis film screenings are available on the cinema website: <a href="https://metropoliskino.de" target="_blank">metropoliskino.de</a>.<br>
+For Festival Pass & Lichtmess films, QR codes will be updated soon!
+
 ### What's included in the Festival Pass?
 
 - Free Admission to All Film Screenings
@@ -36,17 +40,15 @@ Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537" tar
 
 ### Free Admission
 
+**Exhibition: Inorganic Poetics**<br>
+5th-10th May, MOM Art Space<br>
 Free entry, No registration required.
 
-Exhibition: Inorganic Poetics<br>
-5th-10th May, MOM Art Space
-
-CAA Special Program, Screenings & Panel Discussions<br>
+**CAA Special Program:**<br>
+Screenings & Panel Discussions<br>
 Studio Kino, HfbK Kino (Filmhaus), Warburg-Haus<br>
-
-Film tickets are sold both on-site and online.<br>
-Metropolis film screenings are available on the cinema website: <a href="https://metropoliskino.de" target="_blank">metropoliskino.de</a>.<br>
-For Festival Pass & Lichtmess films, QR codes will be updated soon!
+**Registration is required**
+Please register via <a href="http://www.cffh.eventbrite.de/" target="_blank">www.cffh.eventbrite.de</a>
 
 ### Locations
 
@@ -65,6 +67,9 @@ Bernstorffstraße 93–95, 22767 Hamburg
 
 **Warburg-Haus**<br>
 Heilwigstraße 116, 20249 Hamburg
+
+**MOM Art Space**<br>
+Valentinskamp 34A, 20355 Hamburg
 
 ### Contacts & Social Media
 
