@@ -11,16 +11,15 @@ const t = useTranslations(lang);
 
 <ArticleLayout title={tickets.frontmatter.htmlTitle} article={tickets}>
 	<div class="text-module__content">
-		<div class="program__links">
-			<a class="btn btn--primary" href="/assets/2026_CFFH_Flyer_Final.pdf" download>
-				2026 Flyer
+		<div class="tickets-flyer-links">
+			<a class="tickets-flyer-btn" href="/assets/2026_CFFH_Flyer_Final.pdf" download>
+				<span>2026 Flyer</span>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="20"
 					height="20"
-					fill="currentColor"
-					class="bi bi-download"
 					viewBox="0 0 16 16"
+					aria-hidden="true"
 				>
 					<path
 						d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
@@ -37,22 +36,56 @@ const t = useTranslations(lang);
 </ArticleLayout>
 
 <style>
-	.program__links .btn.btn--primary,
-	.program__links .btn.btn--primary:visited,
-	.program__links .btn.btn--primary:hover,
-	.program__links .btn.btn--primary:active,
-	.program__links .btn.btn--primary:focus {
-		background-color: #00c389 !important;
-		color: #fff !important;
-		border: 1px solid #00c389 !important;
-		opacity: 1 !important;
+	.tickets-flyer-links {
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 2.5rem;
 	}
 
-	.program__links .btn.btn--primary svg,
-	.program__links .btn.btn--primary:hover svg,
-	.program__links .btn.btn--primary:active svg,
-	.program__links .btn.btn--primary:focus svg {
-		color: #fff !important;
-		fill: currentColor !important;
+	.tickets-flyer-btn,
+	.tickets-flyer-btn:visited,
+	.tickets-flyer-btn:hover,
+	.tickets-flyer-btn:focus,
+	.tickets-flyer-btn:active {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+		padding: 0.8rem 1.25rem;
+		background-color: #00c389 !important;
+		border: 1px solid #00c389 !important;
+		color: #ffffff !important;
+		text-decoration: none !important;
+		opacity: 1 !important;
+		box-shadow: none !important;
+		outline: none !important;
+		transition: none !important;
+	}
+
+	.tickets-flyer-btn span,
+	.tickets-flyer-btn:visited span,
+	.tickets-flyer-btn:hover span,
+	.tickets-flyer-btn:focus span,
+	.tickets-flyer-btn:active span {
+		color: #ffffff !important;
+		text-decoration: none !important;
+		border-bottom: none !important;
+	}
+
+	.tickets-flyer-btn svg,
+	.tickets-flyer-btn:visited svg,
+	.tickets-flyer-btn:hover svg,
+	.tickets-flyer-btn:focus svg,
+	.tickets-flyer-btn:active svg {
+		fill: #ffffff !important;
+		color: #ffffff !important;
+		flex-shrink: 0;
+	}
+
+	.tickets-flyer-btn::after,
+	.tickets-flyer-btn:hover::after,
+	.tickets-flyer-btn:focus::after,
+	.tickets-flyer-btn:active::after {
+		display: none !important;
+		content: none !important;
 	}
 </style>
