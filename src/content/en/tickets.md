@@ -47,8 +47,7 @@ Free entry, No registration required.
 **CAA Special Program:**<br>
 Screenings & Panel Discussions<br>
 Studio Kino, HfbK Kino (Filmhaus), Warburg-Haus<br>
-**Registration is required**
-
+**Registration is required**<br>
 Please register via <a href="http://www.cffh.eventbrite.de/" target="_blank">www.cffh.eventbrite.de</a>
 
 ### Locations
