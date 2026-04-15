@@ -11,6 +11,34 @@ const t = useTranslations(lang);
 
 <ArticleLayout title={tickets.frontmatter.htmlTitle} article={tickets}>
 	<div class="text-module__content">
+		<div class="tickets-download-wrapper">
+			<a class="flyer-download-btn" href="/assets/2026_CFFH_Flyer_Final.pdf" download>
+				Flyer ↓
+			</a>
+		</div>
+
 		<Content />
 	</div>
 </ArticleLayout>
+
+<style>
+	.tickets-download-wrapper {
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 2.5rem;
+	}
+
+	.flyer-download-btn {
+		display: inline-block;
+		background-color: #00c389;
+		color: #fff;
+		text-decoration: none;
+		padding: 0.8rem 1.4rem;
+		font-size: 1.2rem;
+		line-height: 1.2;
+	}
+
+	.flyer-download-btn:hover {
+		opacity: 0.9;
+	}
+</style>
