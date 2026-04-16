@@ -1,5 +1,5 @@
 ---
-title: Test
+title: Coming Soon
 titleCn: 测试
 date: "08.05.2026"
 time: "19:00"
