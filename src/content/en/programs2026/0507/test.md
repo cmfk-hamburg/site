@@ -1,8 +1,9 @@
 ---
 title: Coming Soon
-titleCn: 占位
+titleCn: 测试
 date: "07.05.2026"
 time: "19:00"
 location: "Hamburg"
+image: "/images/coming-soon.jpg"
 ---
-Placeholder
+Test
