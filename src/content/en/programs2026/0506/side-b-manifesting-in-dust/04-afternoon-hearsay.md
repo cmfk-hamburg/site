@@ -17,9 +17,9 @@ genre: "Short"
 year: "2025"
 resolution: "DCP"
 qa: "Q&A"
-imageSrcS: url("/images/film/2026/0506/afternoon-hearsay.png")
-imageSrcM: url("/images/film/2026/0506/afternoon-hearsay.png")
-imageSrcL: url("/images/film/2026/0506/afternoon-hearsay.png")
+imageSrcS: url("/images/logo-white-3.svg")
+imageSrcM: url("/images/logo-white-1.svg")
+imageSrcL: url("/images/logo-white-2.svg")
 ---
 
 8.75mm film — a celluloid format unique to China and never circulated elsewhere — was a film format where no camera was made for. Through DIY printing and photochemical processing, images of film strips burn, blur, and tear within the chromatic space. The fleeting frames of archival films overlap with the super 8 camera footage. These interlayered images coalesce with fragments of optical sound and narratives from unnamed interlocutors, weaving together stories of an audience, a film factory and a camera inventor.
