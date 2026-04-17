@@ -14,7 +14,7 @@ export const ui = {
     "nav.subnavDemo": "Sub-Nav Demo",
     "nav.joinUs": "Join Us",
     "nav.about": "About",
-    "nav.program": "Program 2025",
+    "nav.program": "Program 2026",
     "nav.partner": "Partner",
     "nav.tickets": "Tickets",
     "nav.archive": "Archive",
