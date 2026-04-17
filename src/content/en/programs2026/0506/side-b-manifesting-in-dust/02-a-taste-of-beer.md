@@ -17,9 +17,9 @@ genre: "Short"
 year: "2025"
 resolution: "DCP"
 qa: "Q&A"
-imageSrcS: url("/images/film/2026/0506/a-taste-of-beer.jpg")
-imageSrcM: url("/images/film/2026/0506/a-taste-of-beer.jpg")
-imageSrcL: url("/images/film/2026/0506/a-taste-of-beer.jpg")
+imageSrcS: url("/images/logo-white-3.svg")
+imageSrcM: url("/images/logo-white-1.svg")
+imageSrcL: url("/images/logo-white-2.svg")
 ---
 
 A son came home and told his father that he had won the school football game, so his father wanted his son's glory to be seen by everyone.
