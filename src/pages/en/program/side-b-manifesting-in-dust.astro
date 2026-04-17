@@ -1,5 +1,5 @@
 ---
-import * as film from "../../../content/en/programs2026/side-b-manifesting-in-dust.md";
+import * as film from "../../../content/en/programs2026/0506/side-b-manifesting-in-dust.md";
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 import ProgramDetail from "../../../components/ProgramDetail.astro";
 import FilmLayout from "../../../layouts/FilmLayout.astro";
@@ -8,7 +8,7 @@ const Content = film.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const films = await Astro.glob("../../../content/en/programs2026/side-b-manifesting-in-dust/*.md");
+const films = await Astro.glob("../../../content/en/programs2026/0506/side-b-manifesting-in-dust/*.md");
 ---
 
 <FilmLayout title={film.frontmatter.title} article={film}>
