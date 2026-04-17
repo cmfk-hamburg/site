@@ -17,9 +17,9 @@ genre: "Short"
 year: "2024"
 resolution: "DCP"
 qa: ""
-imageSrcS: url("/images/film/2026/0506/side-a-a-summer-day.jpg")
-imageSrcM: url("/images/film/2026/0506/side-a-a-summer-day.jpg")
-imageSrcL: url("/images/film/2026/0506/side-a-a-summer-day.jpg")
+imageSrcS: url("/images/logo-white-3.svg")
+imageSrcM: url("/images/logo-white-1.svg")
+imageSrcL: url("/images/logo-white-2.svg")
 ---
 
 **Kin-Fai Wan**
