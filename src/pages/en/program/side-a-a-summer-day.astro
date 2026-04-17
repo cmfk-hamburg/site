@@ -1,0 +1,24 @@
+---
+import * as film from "../../../content/en/programs2026/0506/side-b-manifesting-in-dust/01-side-a-a-summer-day.md";
+import ProgramDetail from "../../../components/ProgramDetail.astro";
+import FilmLayout from "../../../layouts/FilmLayout.astro";
+
+const Content = film.Content;
+---
+
+<FilmLayout title={film.frontmatter.title} article={film}>
+	<ProgramDetail
+		title={film.frontmatter.title}
+		image={film.frontmatter.image}
+		language={film.frontmatter.language}
+		length={film.frontmatter.length}
+		director={film.frontmatter.director}
+		subtitle={film.frontmatter.subtitle}
+		genre={film.frontmatter.genre}
+		origin={film.frontmatter.origin}
+		year={film.frontmatter.year}
+		resolution={film.frontmatter.resolution}
+	>
+		<Content />
+	</ProgramDetail>
+</FilmLayout>
