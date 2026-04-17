@@ -17,9 +17,9 @@ genre: "Short"
 year: "2026"
 resolution: "DCP"
 qa: "Q&A"
-imageSrcS: url("/images/film/2026/0506/thick-sweet.jpg")
-imageSrcM: url("/images/film/2026/0506/thick-sweet.jpg")
-imageSrcL: url("/images/film/2026/0506/thick-sweet.jpg")
+imageSrcS: url("/images/logo-white-3.svg")
+imageSrcM: url("/images/logo-white-1.svg")
+imageSrcL: url("/images/logo-white-2.svg")
 ---
 
 The uprooted, the American dreams, the thick and sweet sauce, and an empty dining hall—too much for one to face and survive. It is far easier to demolish a closed restaurant. Composed of cutouts, reenactments, found footage, and fragments of earlier films, the work attempts to rebuild personal and collective memory while probing the flattened representations of Asian American portrayals.
