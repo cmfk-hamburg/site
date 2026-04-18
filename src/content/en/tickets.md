@@ -1,8 +1,8 @@
 ---
 # headline: "Tickets"
-imageSrcS: url("/images/2025-banner.jpg")
-imageSrcM: url("/images/2025-banner.jpg")
-imageSrcL: url("/images/2025-banner.jpg")
+imageSrcS: url("/images/2026-banner.jpg")
+imageSrcM: url("/images/2026-banner.jpg")
+imageSrcL: url("/images/2026-banner.jpg")
 # headline2: ""
 # buttonImage: "/images/filmfreeway-logo-hires-white.png"
 # buttonLink: "https://filmfreeway.com/ChineseFilmFestivalHamburg"
