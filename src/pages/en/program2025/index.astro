@@ -2,7 +2,7 @@
 import ProgramLayout from "../../../layouts/ProgramLayout.astro";
 import * as programs from "../../../content/en/programs.md";
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
-import ProgramCollection from "../../../components/ProgramCollection.astro";
+import ProgramCollectionArchive from "../../../components/ProgramCollectionArchive.astro";
 
 const Content = programs.Content;
 
@@ -20,11 +20,11 @@ const specialEvent = (
 
 <ProgramLayout title={programs.frontmatter.htmlTitle} article={programs}>
 	<div class="programs">
-		<ProgramCollection programs={program0507} date="07.05.2025" />
-		<ProgramCollection programs={program0508} date="08.05.2025" />
-		<ProgramCollection programs={program0509} date="09.05.2025" />
-		<ProgramCollection programs={program0510} date="10.05.2025" />
-		<ProgramCollection programs={program0511} date="11.05.2025" />
-		<ProgramCollection programs={specialEvent} date="09.05.2025 - 22.06.2025" />
+		<ProgramCollectionArchive programs={program0507} date="07.05.2025" />
+		<ProgramCollectionArchive programs={program0508} date="08.05.2025" />
+		<ProgramCollectionArchive programs={program0509} date="09.05.2025" />
+		<ProgramCollectionArchive programs={program0510} date="10.05.2025" />
+		<ProgramCollectionArchive programs={program0511} date="11.05.2025" />
+		<ProgramCollectionArchive programs={specialEvent} date="09.05.2025 - 22.06.2025" />
 	</div>
 </ProgramLayout>
