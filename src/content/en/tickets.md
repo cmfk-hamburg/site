@@ -13,11 +13,11 @@ htmlTitle: "Tickets"
 
 **Metropolis**<br>
 Full Price: €11 / Student Price: €9<br>
-Ticket <a href="https://www.metropoliskino.de/themen?theme=161&film=2647" target="_blank">Metropolis</a>
+Ticket <a href="https://www.metropoliskino.de/themen?theme=211" target="_blank">Metropolis</a>
 
 **Lichtmess**<br>
 Full Price: €10 / Student Price: €8<br>
-Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537/s/67e172626c100a12f992da2d" target="_blank">Lichtmess</a>
+Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537/" target="_blank">Lichtmess</a>
 
 **Festival Pass**<br>
 Limited to 80 Passes<br>
