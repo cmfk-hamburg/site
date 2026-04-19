@@ -2,7 +2,7 @@
 title: "Side B: Manifesting in Dust"
 overline: "Opening Film / Short Film Program"
 intro: "Beneath the surface, these films reveal hidden facets. From maternal tapes to patriarchal undercurrents, they unearth immigrant struggles and cinematic ruins — manifesting forgotten voices and whispers."
-image: "/images/film/2026/0506/thick-sweet.jpg"
+image: "/images/film/2026/0506/afternoon-hearsay.png"
 info: "/side-b-manifesting-in-dust"
 ticket: ""
 cinema: "Metropolis"
