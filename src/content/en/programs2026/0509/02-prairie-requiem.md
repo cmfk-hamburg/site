@@ -16,7 +16,7 @@ director: "Qingren WANG"
 genre: "Documentary"
 year: "2024"
 resolution: "MP4"
-qa: "On-site Q&A"
+qa: "Q&A"
 imageSrcS: url("/images/logo-white-3.svg")
 imageSrcM: url("/images/logo-white-1.svg")
 imageSrcL: url("/images/logo-white-2.svg")
