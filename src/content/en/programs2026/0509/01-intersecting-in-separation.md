@@ -16,7 +16,7 @@ director: ""
 genre: "Mid-length Film Program"
 year: ""
 resolution: ""
-qa: "Online Q&A"
+qa: "Q&A"
 imageSrcS: url("/images/logo-white-3.svg")
 imageSrcM: url("/images/logo-white-1.svg")
 imageSrcL: url("/images/logo-white-2.svg")
