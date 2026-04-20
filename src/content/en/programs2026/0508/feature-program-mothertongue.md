@@ -2,7 +2,7 @@
 title: "Mothertongue"
 overline: "Feature Program"
 intro: "An actress, having lost her mother tongue, returns from the capital Beijing to her hometown Chengdu, rediscovering it with a lingering taste of estrangement, accompanied by a Shanghainese Dongdong. In a deserted, once state-owned film studio, wandering souls are entangling… (Yuchen ZHAO)"
-image: "/images/film/2026/0508/mothertongue.JPG"
+image: "/images/film/2026/0508/mothertongue.jpg"
 info: "/mothertongue"
 ticket: "https://www.metropoliskino.de/themen?theme=211&film=3574"
 cinema: "Metropolis"
