@@ -1,22 +1,22 @@
 ---
-import ProgramLayout from "../../../../layouts/ProgramLayout.astro";
-import * as programs from "../../../../content/en/programs2026.md";
-import { getLangFromUrl, useTranslations } from "../../../../i18n/utils";
-import ProgramCollection from "../../../../components/ProgramCollection.astro";
+import ProgramLayout from "../../../layouts/ProgramLayout.astro";
+import * as programs from "../../../content/en/programs2026.md";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import ProgramCollection from "../../../components/ProgramCollection.astro";
 
 const Content = programs.Content;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-const program0506 = await Astro.glob("../../../../content/en/programs2026/0506/*.md");
-const program0507 = await Astro.glob("../../../../content/en/programs2026/0507/*.md");
-const program0508 = await Astro.glob("../../../../content/en/programs2026/0508/*.md");
-const program0509 = await Astro.glob("../../../../content/en/programs2026/0509/*.md");
-const program0510 = await Astro.glob("../../../../content/en/programs2026/0510/*.md");
+const program0506 = await Astro.glob("../../../content/en/programs2026/0506/*.md");
+const program0507 = await Astro.glob("../../../content/en/programs2026/0507/*.md");
+const program0508 = await Astro.glob("../../../content/en/programs2026/0508/*.md");
+const program0509 = await Astro.glob("../../../content/en/programs2026/0509/*.md");
+const program0510 = await Astro.glob("../../../content/en/programs2026/0510/*.md");
 
-const exhibition = await Astro.glob("../../../../content/en/programs2026/exhibition.md");
-const caaSpecial = await Astro.glob("../../../../content/en/programs2026/special-event.md");
+const exhibition = await Astro.glob("../../../content/en/programs2026/exhibition.md");
+const caaSpecial = await Astro.glob("../../../content/en/programs2026/special-event.md");
 ---
 
 <ProgramLayout title={programs.frontmatter.htmlTitle} article={programs}>
