@@ -2,7 +2,7 @@
 title: "Knocking"
 overline: "Short Film Program: Near Yet Apart"
 intro: "People try to meet somewhere in between. Words arrive unevenly, experiences remain partly their own — something is shared, but never completely. (Jiawen ZHANG)"
-image: "/images/film/2026/0510/knocking.JPG"
+image: "/images/film/2026/0510/knocking.jpg"
 info: "/knocking"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/69d389bebca63b1486826535"
 cinema: "Lichtmeß"
