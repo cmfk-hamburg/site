@@ -2,7 +2,7 @@
 title: "CFFH × Contemporary Poetic Moving Visuals Festival - China Academy of Art · 2026"
 overline: "CAA Special Program"
 intro: "School of Film Art in CAA collaborates with Chinese Film Festival Hamburg to present contemporary Chinese-language visual arts and films, conduct academic dialogues, and foster cultural exchange."
-image: "/images/film/2026/CAA/raindrops-on-a-roof.jpg"
+image: "/images/film/2026/CAA/raindrops-on-a-roof.png"
 info: "/special-event"
 ticket: "Reservation required"
 cinema: "Studio Kino | HfbK Kino | Warburg-Haus"
