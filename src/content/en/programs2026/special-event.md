@@ -2,7 +2,7 @@
 title: "CFFH × Contemporary Poetic Moving Visuals Festival - China Academy of Art · 2026"
 overline: "CAA Special Program"
 intro: "School of Film Art in CAA collaborates with Chinese Film Festival Hamburg to present contemporary Chinese-language visual arts and films, conduct academic dialogues, and foster cultural exchange."
-image: "/images/film/2026/CAA/raindrops-on-a-roof.png"
+image: "/images/film/2026/CAA/01-caa-special-program.jpg"
 info: "/special-event"
 ticket: "Reservation required"
 cinema: "Studio Kino | HfbK Kino | Warburg-Haus"
@@ -43,10 +43,12 @@ Lin Yi — Staff
 
 ## Reservation
 
-Scan QR code to reserve tickets:  
-https://drive.google.com/file/d/17xMAQY9ndrEkCC56o-uEsbWVxEvgW8lj/view?usp=drivesdk
+Scan QR code to reserve tickets:
+
+![](/images/film/2026/CAA/eventbriteCAA.png)
 
 ## Flyer
 
-Download the flyer:  
-https://drive.google.com/file/d/1nY7UE22Lzyf_RRuVWejhTXrjikfbjY67/view?usp=drivesdk
+Download the flyer:
+
+/assets/2026_CFFHxCAA_flyer.pdf
