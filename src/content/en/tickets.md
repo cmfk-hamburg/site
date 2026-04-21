@@ -23,7 +23,7 @@ Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537/" ta
 Limited to 80 Passes<br>
 Full Price: €50 / Student Price: €40 / Press Price: €35<br>
 Early Bird Price: Full €40 / Student €32, until 26th April 2026<br>
-Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537" target="_blank">Festival Pass</a>
+Ticket <a href="https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/69c833176dd76c0e3911f232" target="_blank">Festival Pass</a>
 
 Film tickets are sold both on-site and online.<br>
 Metropolis film screenings are available on the cinema website: <a href="https://metropoliskino.de" target="_blank">metropoliskino.de</a>.<br>
