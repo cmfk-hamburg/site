@@ -2,7 +2,7 @@
 title: "Inorganic Poetics 无机诗学"
 overline: "Special Event: Exhibition"
 intro: "As part of the Chinese Film Festival Hamburg 2026"
-image: "/images/film/exhibition-inorganic-poetics.jpg"
+image: "/images/film/inorganic-poetics.jpg"
 info: "/exhibition"
 ticket: "Free Admission"
 cinema: "MOM ART SPACE"
