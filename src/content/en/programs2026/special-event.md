@@ -43,12 +43,8 @@ Lin Yi — Staff
 
 ## Reservation
 
-Scan QR code to reserve tickets:
-
-![](/images/film/2026/CAA/eventbriteCAA.png)
+[Reserve tickets on Eventbrite](https://www.eventbrite.de/o/chinese-film-festival-hamburg-121210817680)
 
 ## Flyer
 
-Download the flyer:
-
-/assets/2026_CFFHxCAA_flyer.pdf
+<a href="/assets/2026_CFFHxCAA_flyer.pdf" download>Download the flyer</a>
