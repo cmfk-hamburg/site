@@ -2,7 +2,7 @@
 title: "Bodies in Becoming"
 overline: "Feature & Short Program"
 intro: "Becoming unfolds through rupture and bodily experience, where identities are continuously reshaped, unsettled, and lived beyond stability and fixed meanings. (Run YUAN)"
-image: "/images/film/0509/3-feature-short-program-trans.jpg"
+image: "/images/film/2026/0509/trans.png"
 info: "/bodies-in-becoming"
 ticket: "https://www.eventim-light.com/de/a/6609653825becd31e4790537/e/69d3858abca63b148682607d"
 cinema: "Lichtmeß"
