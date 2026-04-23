@@ -52,14 +52,16 @@ const hasTicketLink =
 	ticket &&
 	String(ticket) !== "Free Admission" &&
 	String(ticket).trim() !== "";
+
+const imageClass = detailImage ? "film__image--full" : "";
 ---
 
 <div class="film">
 	<span class="film__overline">{overline}</span>
 	<h1 class="film__title">{title}</h1>
 	<div class="film__wrapper">
-		<div class="film__image">
-            <img src={(detailImage || image) + "?v=3"} />
+		<div class={`film__image ${imageClass}`}>
+			<img src={detailImage || image} />
 			{
 				!isCollection && (
 					<div>
@@ -102,18 +104,14 @@ const hasTicketLink =
 					}
 					{
 						isFreeAdmission && (
-							<span
-								class="btn btn--small btn--outline"
-							>
+							<span class="btn btn--small btn--outline">
 								Free Admission
 							</span>
 						)
 					}
 					{
 						!ticket && (
-							<span
-								class="btn btn--small btn--outline"
-							>
+							<span class="btn btn--small btn--outline">
 								Coming Soon
 							</span>
 						)
@@ -165,6 +163,14 @@ const hasTicketLink =
 			width: 100%;
 			margin-bottom: pxToRem(12px);
 			object-fit: cover;
+		}
+
+		&.film__image--full {
+			img {
+				aspect-ratio: auto;
+				height: auto;
+				object-fit: contain;
+			}
 		}
 	}
 
