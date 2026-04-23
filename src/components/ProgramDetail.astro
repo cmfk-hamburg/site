@@ -4,6 +4,7 @@ import FilmGallery from "./FilmGallery.astro";
 export interface Props {
 	title: string;
 	image: any;
+	detailImage?: string;
 	date: string;
 	length: string;
 	director: string;
@@ -25,6 +26,7 @@ export interface Props {
 const {
 	title,
 	image,
+	detailImage,
 	date,
 	director,
 	overline,
@@ -57,7 +59,7 @@ const hasTicketLink =
 	<h1 class="film__title">{title}</h1>
 	<div class="film__wrapper">
 		<div class="film__image">
-			<img src={image} />
+			<img src={detailImage || image} />
 			{
 				!isCollection && (
 					<div>
