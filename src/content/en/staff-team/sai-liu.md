@@ -1,5 +1,5 @@
 ---
 name: "Sai Liu"
 role: "Web & Content management"
-image: "/images/team/SaiLiu.jpg"
+image: "/images/team/sai-liu.jpg"
 ---
