@@ -1,5 +1,4 @@
 ---
-import { string } from "astro:schema";
 import { getLangFromUrl } from "../i18n/utils";
 
 export interface Props {
@@ -10,6 +9,17 @@ export interface Props {
 const lang = getLangFromUrl(Astro.url);
 const { programs, date } = Astro.props;
 const pipe = " | ";
+
+const isFreeAdmission = (ticket: string) =>
+	ticket && String(ticket) === "Free Admission";
+
+const isCAAProgram = (overline: string) =>
+	overline && String(overline).includes("CAA Special");
+
+const hasTicketLink = (ticket: string) =>
+	ticket &&
+	String(ticket) !== "Free Admission" &&
+	String(ticket).trim() !== "";
 ---
 
 <div class="programs__unit">
@@ -51,21 +61,38 @@ const pipe = " | ";
 							>
 								Info
 							</a>
-							{p.frontmatter.ticket && p.frontmatter.ticket !== "Free Admission" && (
-								<a
-									class="programs__list-item-cta btn btn--small btn--primary"
-									target="_blank"
-									href={p.frontmatter.ticket}
-								>
-									Ticket
-								</a>
-							)}
+
+							{hasTicketLink(p.frontmatter.ticket) &&
+								!isCAAProgram(p.frontmatter.overline) && (
+									<a
+										class="programs__list-item-cta btn btn--small btn--primary"
+										target="_blank"
+										rel="noreferrer"
+										href={p.frontmatter.ticket}
+									>
+										Ticket
+									</a>
+								)}
+
+							{hasTicketLink(p.frontmatter.ticket) &&
+								isCAAProgram(p.frontmatter.overline) && (
+									<a
+										class="programs__list-item-cta btn btn--small btn--primary"
+										target="_blank"
+										rel="noreferrer"
+										href={p.frontmatter.ticket}
+									>
+										Reservation
+									</a>
+								)}
+
 							{!p.frontmatter.ticket && (
 								<span class="programs__list-item-cta btn btn--small btn--outline">
 									Coming Soon
 								</span>
 							)}
-							{p.frontmatter.ticket && String(p.frontmatter.ticket) === "Free Admission" && (
+
+							{isFreeAdmission(p.frontmatter.ticket) && (
 								<span class="programs__list-item-cta btn btn--small btn--outline">
 									Free Admission
 								</span>
