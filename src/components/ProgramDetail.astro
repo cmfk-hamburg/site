@@ -44,6 +44,12 @@ const {
 } = Astro.props;
 
 const pipe = " | ";
+const isFreeAdmission = ticket && String(ticket) === "Free Admission";
+const isCAAProgram = overline && String(overline).includes("CAA Special");
+const hasTicketLink =
+	ticket &&
+	String(ticket) !== "Free Admission" &&
+	String(ticket).trim() !== "";
 ---
 
 <div class="film">
@@ -71,7 +77,7 @@ const pipe = " | ";
 				</span>
 				<div>
 					{
-						ticket && String(ticket) !== "Free Admission" && (
+						hasTicketLink && !isCAAProgram && (
 							<a
 								class="btn btn--small btn--primary"
 								href={ticket}
@@ -82,7 +88,18 @@ const pipe = " | ";
 						)
 					}
 					{
-						ticket && String(ticket) === "Free Admission" && (
+						hasTicketLink && isCAAProgram && (
+							<a
+								class="btn btn--small btn--primary"
+								href={ticket}
+								target="_blank"
+							>
+								Reservation
+							</a>
+						)
+					}
+					{
+						isFreeAdmission && (
 							<span
 								class="btn btn--small btn--outline"
 							>
