@@ -17,15 +17,30 @@ const program0510 = await Astro.glob("../../../content/en/programs2026/0510/*.md
 
 const exhibition = await Astro.glob("../../../content/en/programs2026/exhibition.md");
 const caaSpecial = await Astro.glob("../../../content/en/programs2026/special-event.md");
+
+const caa0506 = await Astro.glob("../../../content/en/programs2026/special-event/01-all-quiet-at-sunrise.md");
+const caa0507 = await Astro.glob("../../../content/en/programs2026/special-event/02-snow-leopard.md");
+const caa0507b = await Astro.glob("../../../content/en/programs2026/special-event/03-closer-to-me.md");
+const caa0508 = await Astro.glob("../../../content/en/programs2026/special-event/04-raindrops-on-a-roof.md");
+const caa0511 = await Astro.glob("../../../content/en/programs2026/special-event/05-beyond-the-sky.md");
+const caa0511b = await Astro.glob("../../../content/en/programs2026/special-event/06-walking-past-the-future.md");
+
+const day0506 = [...program0506, ...caa0506];
+const day0507 = [...program0507, ...caa0507, ...caa0507b];
+const day0508 = [...program0508, ...caa0508];
+const day0509 = [...program0509];
+const day0510 = [...program0510];
+const day0511 = [...caa0511, ...caa0511b];
 ---
 
 <ProgramLayout title={programs.frontmatter.htmlTitle} article={programs}>
 	<div class="programs">
-		<ProgramCollection programs={program0506} date="06.05.2026" />
-		<ProgramCollection programs={program0507} date="07.05.2026" />
-		<ProgramCollection programs={program0508} date="08.05.2026" />
-		<ProgramCollection programs={program0509} date="09.05.2026" />
-		<ProgramCollection programs={program0510} date="10.05.2026" />
+		<ProgramCollection programs={day0506} date="06.05.2026" />
+		<ProgramCollection programs={day0507} date="07.05.2026" />
+		<ProgramCollection programs={day0508} date="08.05.2026" />
+		<ProgramCollection programs={day0509} date="09.05.2026" />
+		<ProgramCollection programs={day0510} date="10.05.2026" />
+		<ProgramCollection programs={day0511} date="11.05.2026" />
 		<ProgramCollection programs={exhibition} date="05.05.2026 - 10.05.2026" />
 		<ProgramCollection programs={caaSpecial} date="06.05.2026 - 11.05.2026" />
 	</div>
