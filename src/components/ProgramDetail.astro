@@ -59,7 +59,7 @@ const hasTicketLink =
 	<h1 class="film__title">{title}</h1>
 	<div class="film__wrapper">
 		<div class="film__image">
-			<img src={detailImage || image} />
+            <img src={(detailImage || image) + "?v=3"} />
 			{
 				!isCollection && (
 					<div>
