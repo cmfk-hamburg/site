@@ -2,7 +2,7 @@
 title: "The Power Circulates in One to Two Seconds"
 overline: "Works & Artists"
 intro: "Yujue Liang"
-image: "/images/film.jpg"
+image: "/images/film/The Power Circulates in One to Two Seconds.png"
 info: "/the-power-circulates-in-one-to-two-seconds"
 ticket: "Free Admission"
 cinema: "Exhibition: Inorganic Poetics"
