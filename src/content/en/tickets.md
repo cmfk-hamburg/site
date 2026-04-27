@@ -48,7 +48,7 @@ Free entry, No registration required.
 Screenings & Panel Discussions<br>
 Studio Kino, HfbK Kino (Filmhaus), Warburg-Haus<br>
 **Registration is required**<br>
-Please register via <a href="http://www.cffh.eventbrite.de/" target="_blank">www.cffh.eventbrite.de</a>
+Please register via <a href="https://www.eventbrite.de/o/chinese-film-festival-hamburg-121210817680" target="_blank">www.cffh.eventbrite.de</a>
 
 ### Locations
 
