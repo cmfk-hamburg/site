@@ -22,7 +22,7 @@ export const ui = {
     "nav.volunteer": "Be A Volenteer",
     "nav.dataPrivacy": "Data Privacy",
     "nav.imprint": "Imprint",
-    "hero.overline": "Starts Sep 20, 2025",
+    "hero.overline": "5.5-5.11, 2026",
     "hero.title1": "Submissions Open",
     "hero.title2": "for the 4th Chinese Film Festival Hamburg 2026!",
     "hero.cta": "Call for Entries",
