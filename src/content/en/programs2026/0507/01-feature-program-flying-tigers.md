@@ -1,7 +1,7 @@
 ---
 title: "Flying Tigers"
 overline: "Feature Program"
-intro: "Madhushree Dutta"
+intro: "From her mother’s fractured memories, Madhusree Dutta revisits the Flying Tigers’ route between Assam and Kunming. Family history, archives, and borderlands entwine in a journey through war, memory, and connection. (Zhiwen DING)"
 image: "/images/film/2026/0507/flying-tigers.jpg"
 info: "/flying-tigers"
 ticket: "https://www.metropoliskino.de/themen?theme=211&film=3573"
