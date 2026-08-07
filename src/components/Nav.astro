@@ -101,6 +101,19 @@ const subItemClass = function (path: string) {
 				</span>
 			</a>
 		</li>
+        {lang === "en" && (
+         <li class={subItemClass(`/en/soda-masterclass/`)}>
+          <a
+           href="/en/soda-masterclass/"
+           class="nav__link"
+           title="MasterClass"
+          >
+           <span class="nav__link-text">
+            MasterClass
+           </span>
+        </a>
+       </li>
+       )}
 		<li class={subItemClass(`/${lang}/tickets/`)}>
 			<a href={`/${lang}/tickets/`} class="nav__link" title={t("nav.tickets")}>
 				<span class="nav__link-text">
