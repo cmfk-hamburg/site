@@ -3,7 +3,7 @@ headline: "Relearning to Observe in an Age of Acceleration"
 overline: "Interview with Kazuhiro Soda"
 htmlTitle: "Interview with Kazuhiro Soda: Relearning to Observe in an Age of Acceleration | Chinese Film Festival Hamburg"
 headline2: 'Kazuhiro Soda "Observational Cinema" Workshop - Hamburg, October 8-11, 2026'
-buttonLink: "REPLACE_WITH_REGISTRATION_URL"
+buttonLink: "https://wheat-cheque-816.notion.site/34aa25b4e24d8083ae32fe1d13a7a8ed?pvs=105"
 buttonText: "Register now"
 imageSrcS: "/images/kazuhiro-soda-interview/hero-gokogu-S.jpg"
 imageSrcM: "/images/kazuhiro-soda-interview/hero-gokogu-M.jpg"
