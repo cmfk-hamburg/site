@@ -1,1 +1,27 @@
-test
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import * as sodaInterview from "../../content/en/soda-interview.md";
+
+const Content = sodaInterview.Content;
+---
+
+<ArticleLayout title={sodaInterview.frontmatter.htmlTitle} article={sodaInterview}>
+  <div class="text-module__head">
+    <h2 class="text-module__headline">
+      {sodaInterview.frontmatter.headline2}
+    </h2>
+    <div class="text-module__cta-wrapper">
+      <a
+        class="text-module__cta btn btn--primary"
+        href={sodaInterview.frontmatter.buttonLink}
+        target="_blank"
+      >
+        {sodaInterview.frontmatter.buttonText}
+      </a>
+    </div>
+  </div>
+
+  <div class="text-module__content">
+    <Content />
+  </div>
+</ArticleLayout>
