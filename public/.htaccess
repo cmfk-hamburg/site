@@ -1,1 +1,2 @@
 RedirectMatch 301 ^/cn/?$ https://chinesefilmfest.de/
+RedirectMatch 301 ^/cn/about/?$ https://chinesefilmfest.de/en/about/
