@@ -25,7 +25,8 @@ const Content = sodaInterview.Content;
     </div>
   </div>
 
-  <div class="soda-video-section">
+  <div class="text-module__content">
+
     <div class="soda-video-player">
       <video controls playsinline preload="metadata">
         <source
@@ -35,27 +36,18 @@ const Content = sodaInterview.Content;
         Your browser does not support the video tag.
       </video>
     </div>
-  </div>
 
-  <div class="text-module__content">
     <Content />
+
   </div>
 </ArticleLayout>
 
 <style>
-  .soda-video-section {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 680px;
-    max-width: calc(100vw - 40px);
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
-
   .soda-video-player {
-    width: 100%;
+    width: 680px;
+    max-width: 100%;
     aspect-ratio: 16 / 9;
+    margin: 30px auto 50px;
     background: #000;
   }
 
