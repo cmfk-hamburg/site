@@ -37,6 +37,10 @@ const Content = sodaInterview.Content;
       </video>
     </div>
 
+    <p class="soda-video-caption">
+      A quick hello from Kazuhiro Soda — join us for “Observational Cinema” in Hamburg this October!
+    </p>
+
     <Content />
 
   </div>
@@ -47,7 +51,7 @@ const Content = sodaInterview.Content;
     width: 900px;
     max-width: 100%;
     aspect-ratio: 16 / 9;
-    margin: 30px auto 50px;
+    margin: 30px auto 0;
     background: #000;
   }
 
@@ -57,5 +61,12 @@ const Content = sodaInterview.Content;
     height: 100%;
     object-fit: contain;
     background: #000;
+  }
+
+  .soda-video-caption {
+    margin: 12px auto 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
   }
 </style>
