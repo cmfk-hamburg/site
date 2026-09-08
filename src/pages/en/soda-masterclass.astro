@@ -5,18 +5,10 @@ import * as sodaInterview from "../../content/en/soda-interview.md";
 const Content = sodaInterview.Content;
 ---
 
-<ArticleLayout title={sodaInterview.frontmatter.htmlTitle} article={sodaInterview}>
-
-  <div class="soda-masterclass-video">
-    <video controls playsinline preload="metadata">
-      <source
-        src="/videos/soda-promotion-video-CN.mp4"
-        type="video/mp4"
-      />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
+<ArticleLayout
+  title={sodaInterview.frontmatter.htmlTitle}
+  article={sodaInterview}
+>
   <div class="text-module__head">
     <h2 class="text-module__headline">
       {sodaInterview.frontmatter.headline2}
@@ -33,16 +25,26 @@ const Content = sodaInterview.Content;
     </div>
   </div>
 
+  <div class="soda-masterclass-video">
+    <video controls playsinline preload="metadata">
+      <source
+        src="/videos/soda-promotion-video-CN.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
   <div class="text-module__content">
     <Content />
   </div>
-
 </ArticleLayout>
 
 <style>
   .soda-masterclass-video {
     width: 100%;
-    margin-bottom: 40px;
+    max-width: 450px;
+    margin: 30px auto 40px;
   }
 
   .soda-masterclass-video video {
