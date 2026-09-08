@@ -25,14 +25,16 @@ const Content = sodaInterview.Content;
     </div>
   </div>
 
-  <div class="soda-masterclass-video">
-    <video controls playsinline preload="metadata">
-      <source
-        src="/videos/soda-promotion-video-CN.mp4"
-        type="video/mp4"
-      />
-      Your browser does not support the video tag.
-    </video>
+  <div class="soda-video-section">
+    <div class="soda-video-player">
+      <video controls playsinline preload="metadata">
+        <source
+          src="/videos/soda-promotion-video-CN.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </div>
 
   <div class="text-module__content">
@@ -41,20 +43,27 @@ const Content = sodaInterview.Content;
 </ArticleLayout>
 
 <style>
-  .soda-masterclass-video {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-top: 30px;
-    margin-bottom: 50px;
-
-    display: flex;
-    justify-content: center;
-  }
-
-  .soda-masterclass-video video {
-    display: block;
+  .soda-video-section {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     width: 680px;
     max-width: calc(100vw - 40px);
-    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .soda-video-player {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+  }
+
+  .soda-video-player video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #000;
   }
 </style>
