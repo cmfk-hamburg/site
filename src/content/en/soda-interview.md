@@ -91,8 +91,17 @@ imageSrcL: "/images/kazuhiro-soda-interview/hero-gokogu-L.jpg"
      <a href="mailto:cffhmasterclass@gmail.com">cffhmasterclass@gmail.com</a>
      — happy to work something out together!
   </div>
-  <img src="/images/kazuhiro-soda-interview/workshop-qr-code.png" alt="Workshop registration QR code" style="width:160px;height:160px;">
-  <div class="cta">Scan the QR code or click "Register now" to register</div>
+<div style="text-align:center; margin-top:40px;">
+  <img
+    src="/images/kazuhiro-soda-interview/workshop-qr-code.png"
+    alt="Workshop registration QR code"
+    style="width:160px;height:160px;display:block;margin:0 auto;"
+  >
+
+  <div class="cta" style="margin-top:20px;">
+    Scan the QR code or click "Register now" to register
+  </div>
+</div>
 </div>
 
 <figure>
@@ -218,8 +227,17 @@ imageSrcL: "/images/kazuhiro-soda-interview/hero-gokogu-L.jpg"
      <a href="mailto:cffhmasterclass@gmail.com">cffhmasterclass@gmail.com</a>
      — happy to work something out together!
   </div>
-  <img src="/images/kazuhiro-soda-interview/workshop-qr-code.png" alt="Workshop registration QR code" style="width:160px;height:160px;">
-  <div class="cta">Scan the QR code or click "Register now" to register</div>
+<div style="text-align:center; margin-top:40px;">
+  <img
+    src="/images/kazuhiro-soda-interview/workshop-qr-code.png"
+    alt="Workshop registration QR code"
+    style="width:160px;height:160px;display:block;margin:0 auto;"
+  >
+
+  <div class="cta" style="margin-top:20px;">
+    Scan the QR code or click "Register now" to register
+  </div>
+</div>
 </div>
 
 <div class="signoff">
