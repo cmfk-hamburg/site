@@ -44,7 +44,7 @@ const Content = sodaInterview.Content;
     <div class="soda-schedule-download">
       <a
         href="/assets/Kazuhiro_Soda_Workshop_Full_Schedule.pdf"
-        class="btn btn--primary"
+        class="text-module__cta btn btn--primary"
         target="_blank"
       >
         Download Full Workshop Schedule
@@ -81,7 +81,13 @@ const Content = sodaInterview.Content;
   }
 
   .soda-schedule-download {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 0 auto 50px;
+  }
+
+  .soda-schedule-download .text-module__cta {
+    width: auto;
+    flex: 0 0 auto;
   }
 </style>
