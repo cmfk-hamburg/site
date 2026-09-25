@@ -84,8 +84,8 @@ imageSrcL: "/images/kazuhiro-soda-interview/hero-gokogu-L.jpg"
     <div><b>Language</b>&nbsp;|&nbsp; English</div>
     <div><b>Group size</b>&nbsp;|&nbsp; Limited to 15</div>
     <div><b>Who it's for</b>&nbsp;|&nbsp; Anyone interested in documentary, moving images, and observation</div>
-    <div><b>Price</b>&nbsp;|&nbsp; Early bird €777, regular €888 (€100 off per person when registering as a pair)</div>
-    <div><b>Discounted rate</b>&nbsp;|&nbsp; Directors &amp; artists €599</div>
+    <div><b>Price</b>&nbsp;|&nbsp; Early bird €777, regular €888 (€50 off per person when registering as a pair)</div>
+    <div><b>Discounted rate</b>&nbsp;|&nbsp; Directors &amp; artists €699</div>
     <div style="margin-top:12px;">
      If cost is a concern, feel free to send an email to
      <a href="mailto:cffhmasterclass@gmail.com">cffhmasterclass@gmail.com</a>
@@ -220,8 +220,8 @@ imageSrcL: "/images/kazuhiro-soda-interview/hero-gokogu-L.jpg"
   <div class="info-list">
     <div><b>Dates</b>&nbsp;|&nbsp; October 8–11, 2026</div>
     <div><b>Location</b>&nbsp;|&nbsp; Hamburg, Germany</div>
-    <div><b>Price</b>&nbsp;|&nbsp; Early bird €777, regular €888 (€100 off per person when registering as a pair)</div>
-    <div><b>Discounted rate</b>&nbsp;|&nbsp; Directors &amp; artists €599</div>
+    <div><b>Price</b>&nbsp;|&nbsp; Early bird €777, regular €888 (€50 off per person when registering as a pair)</div>
+    <div><b>Discounted rate</b>&nbsp;|&nbsp; Directors &amp; artists €699</div>
     <div style="margin-top:12px;">
      If cost is a concern, feel free to send an email to
      <a href="mailto:cffhmasterclass@gmail.com">cffhmasterclass@gmail.com</a>
