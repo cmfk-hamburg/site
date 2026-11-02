@@ -25,8 +25,8 @@ export const ui = {
     "hero.overline": "5–9 May 2027",
     "hero.title1": "Submissions Open",
     "hero.title2": "for the 5th Chinese Film Festival Hamburg 2027!",
-    "hero.title1": "Chinese Film Festival",
-    "hero.title2": "Hamburg 2026",
+    //"hero.title1": "Chinese Film Festival",
+    //"hero.title2": "Hamburg 2026",
     "hero.cta": "Call for Entries",
     "hero.accreditationCta": "Apply for Accreditation",
     "footer.newsletter":
