@@ -1,3 +1,4 @@
+
 ---
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
@@ -9,42 +10,41 @@ const t = useTranslations(lang);
 	<div class="hero__content-wrapper">
 		<div class="hero__content">
 			<div class="hero__text-wrapper">
-				<!-- <video loop autoplay controls playsinline muted class="hero__video" id="vid">
+				<!--
+				<video loop autoplay controls playsinline muted class="hero__video" id="vid">
 					<source src="/assets/trailer.mp4" type="video/mp4" />
 					Your browser does not support HTML5 video.
-				</video> -->
+				</video>
+				-->
+
 				<div class="hero__overline">{t("hero.overline")}</div>
+
 				<h1 class="hero__title">
 					<p>{t("hero.title1")}</p>
 					<p>{t("hero.title2")}</p>
 				</h1>
-                <div class="hero__cta-wrapper">
-	                <!--
-	                <a class="btn btn--primary" href={`/${lang}/call-for-entries/`}>
-		                {t("hero.cta")}
-	                </a>
-	                -->
-                    <!--
-	                <a class="btn btn--primary" href={`/${lang}/accreditation/`}>
-		                {t("hero.accreditationCta")}
-	                </a>
-                    -->
-                    <!-- homepage updated after festival -->
-               </div>
+
+				<div class="hero__cta-wrapper">
+					<a
+						class="btn btn--primary"
+						href={`/${lang}/call-for-entries/`}
+					>
+						{t("hero.cta")}
+					</a>
+
+					<!--
+					<a
+						class="btn btn--primary"
+						href={`/${lang}/accreditation/`}
+					>
+						{t("hero.accreditationCta")}
+					</a>
+					-->
+				</div>
 			</div>
 		</div>
 	</div>
-	<button hidden id="unmuteButton"></button>
 </section>
-
-<script>
-	const unmuteButton = document.querySelector("#unmuteButton");
-	unmuteButton.addEventListener("click", function () {
-		document.querySelector("video").muted = false;
-	});
-
-	unmuteButton.click();
-</script>
 
 <style lang="scss">
 	@import "../styles/variables.scss";
@@ -127,6 +127,7 @@ const t = useTranslations(lang);
 		@include breakpoint(md) {
 			width: column(10, 12);
 		}
+
 		@include breakpoint(lg) {
 			width: column(9, 12);
 		}
