@@ -1,4 +1,3 @@
-
 ---
 headline: "Call For Entries"
 headline2: "Submissions Open for the 5th Chinese Film Festival Hamburg 2027!"
