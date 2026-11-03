@@ -14,6 +14,14 @@ htmlTitle: "Call For Entries"
 
 ## Submissions Open for the 5th Chinese Film Festival Hamburg 2027!
 
+<div style="padding: 16px 20px; background: #e5f8f0; border-left: 4px solid #00bf85; margin: 24px 0;">
+
+<strong>Submission Platforms</strong>
+
+<p>Please submit your film primarily through <a href="https://filmfreeway.com/ChineseFilmFestivalHamburg">FilmFreeway</a>. Films from Mainland China may also be submitted via <a href="https://www.toujiang.today/filmfest/1178">Toujiang (投奖)</a>.</p>
+
+</div>
+
 The 5th Chinese Film Festival Hamburg (CFFH) is now open for submissions. The festival is expected to take place between **May 5 and 9, 2027**, in Hamburg, Germany.
 
 CFFH is committed to providing a diverse, innovative, and artistically expressive international platform for films from and related to Sinophone communities. We warmly invite filmmakers worldwide to submit their works and share their unique perspectives with an international audience in Hamburg. Since its inception, CFFH has emphasized the concept of “Film Plus,” aiming to continually expand the boundaries of cinema—not only as a narrative medium but also as a form of cross-media and cross-grammar visual practice.
@@ -42,11 +50,11 @@ Here are just a few reasons to submit your film:
 
 ## Key Dates
 
-| Stage | Deadline (23:59 CET) |
-|---|---|
-| Submission Opens | October 28, 2026 |
-| Early Bird Deadline | November 20, 2026 |
-| Final Deadline | December 20, 2026 |
+| Stage | Date | Time |
+|---|---|---|
+| Submission Opens | October 28, 2026 | — |
+| Early Bird Deadline | November 20, 2026 | 23:59 CET |
+| Final Deadline | December 20, 2026 | 23:59 CET |
 
 **Festival Dates:** May 5–9, 2027 (expected)
 
@@ -105,11 +113,34 @@ Submitters must ensure their preview links and passwords remain valid and access
 
 All entry fees are non-refundable.
 
-| Category | Early Bird | Final |
-|---|---|---|
-| Short Film (under 40 min) | €11.50 (Student €9) | €14.50 (Student €12) |
-| Mid-length & Feature (40+ min) | €16 (Student €13) | €28 (Student €22) |
-| Expanded Cinema (under 40 min) | €11.50 (Student €9) | €14.50 (Student €12) |
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">Category</th>
+      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">Early Bird</th>
+      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">Final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Short Film (under 40 min)</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50 (Student €9)</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50 (Student €12)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Mid-length &amp; Feature (40+ min)</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€16 (Student €13)</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€28 (Student €22)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Expanded Cinema (under 40 min)</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50 (Student €9)</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50 (Student €12)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ### 9. Promotion Authorization
 
@@ -147,6 +178,14 @@ For more details, visit [chinesefilmfest.de](https://chinesefilmfest.de) or cont
 
 ## 第五届汉堡华语影像展征片开启
 
+<div style="padding: 16px 20px; background: #e5f8f0; border-left: 4px solid #00bf85; margin: 24px 0;">
+
+<strong>投稿平台</strong>
+
+<p>影片投稿主要通过 <a href="https://filmfreeway.com/ChineseFilmFestivalHamburg">FilmFreeway</a> 进行。中国大陆地区的影片也可选择通过 <a href="https://www.toujiang.today/filmfest/1178">Toujiang（投奖）</a> 投稿。</p>
+
+</div>
+
 第五届汉堡华语影像展（CFFH）现已开放征片。影展预计于 **2027 年 5 月 5 日至 9 日** 期间在德国汉堡举行。
 
 CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新与艺术表达的国际平台，诚挚邀请全球影像创作者投稿，将你们独特的视角与作品带给汉堡的国际观众。自创办以来，CFFH 始终强调“Film Plus”的理念，旨在不断拓展影像的边界：不仅关注电影作为叙事载体的艺术潜力，也鼓励跨媒介、跨语法的视觉实践。
@@ -175,11 +214,11 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 ## 截止日期
 
-| 档位 | 截止日期（23:59 CET） |
-|---|---|
-| 征片开启 | 2026 年 10 月 28 日 |
-| 早鸟 | 2026 年 11 月 20 日 |
-| 最终 | 2026 年 12 月 20 日 |
+| 档位 | 日期 | 时间 |
+|---|---|---|
+| 征片开启 | 2026 年 10 月 28 日 | — |
+| 早鸟截止 | 2026 年 11 月 20 日 | 23:59 CET |
+| 最终截止 | 2026 年 12 月 20 日 | 23:59 CET |
 
 **影展预计举办日期：** 2027 年 5 月 5 日至 9 日
 
@@ -238,11 +277,34 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 所有报名费用一经支付概不退还。
 
-| 类别 | 早鸟 | 最终 |
-|---|---|---|
-| 短片（少于 40 分钟） | €11.50（学生 €9） | €14.50（学生 €12） |
-| 中长片 / 长片（40 分钟及以上） | €16（学生 €13） | €28（学生 €22） |
-| 延展电影（少于 40 分钟） | €11.50（学生 €9） | €14.50（学生 €12） |
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">类别</th>
+      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">早鸟</th>
+      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">最终</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">短片（少于 40 分钟）</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50（学生 €9）</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50（学生 €12）</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">中长片 / 长片（40 分钟及以上）</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€16（学生 €13）</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€28（学生 €22）</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">延展电影（少于 40 分钟）</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50（学生 €9）</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50（学生 €12）</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ### 9. 推广授权
 
