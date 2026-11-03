@@ -15,11 +15,8 @@ htmlTitle: "Call For Entries"
 ## Submissions Open for the 5th Chinese Film Festival Hamburg 2027!
 
 <div style="padding: 16px 20px; background: #e5f8f0; border-left: 4px solid #00bf85; margin: 24px 0;">
-
 <strong>Submission Platforms</strong>
-
 <p>Please submit your film primarily through <a href="https://filmfreeway.com/ChineseFilmFestivalHamburg">FilmFreeway</a>. Films from Mainland China may also be submitted via <a href="https://www.toujiang.today/filmfest/1178">Toujiang (投奖)</a>.</p>
-
 </div>
 
 The 5th Chinese Film Festival Hamburg (CFFH) is now open for submissions. The festival is expected to take place between **May 5 and 9, 2027**, in Hamburg, Germany.
@@ -50,11 +47,34 @@ Here are just a few reasons to submit your film:
 
 ## Key Dates
 
-| Stage | Date | Time |
-|---|---|---|
-| Submission Opens | October 28, 2026 | — |
-| Early Bird Deadline | November 20, 2026 | 23:59 CET |
-| Final Deadline | December 20, 2026 | 23:59 CET |
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; table-layout: auto;">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Stage</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Date</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Submission Opens</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">October 28, 2026</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">—</td>
+    </tr>
+    <tr>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Early Bird Deadline</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">November 20, 2026</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
+    </tr>
+    <tr>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Final Deadline</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">December 20, 2026</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 **Festival Dates:** May 5–9, 2027 (expected)
 
@@ -113,30 +133,30 @@ Submitters must ensure their preview links and passwords remain valid and access
 
 All entry fees are non-refundable.
 
-<div style="overflow-x: auto;">
-<table style="width: 100%; border-collapse: collapse;">
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; table-layout: auto;">
   <thead>
     <tr>
-      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">Category</th>
-      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">Early Bird</th>
-      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">Final</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Category</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Early Bird</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Final</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Short Film (under 40 min)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50 (Student €9)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50 (Student €12)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Short Film (under 40 min)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€11.50 (Student €9)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€14.50 (Student €12)</td>
     </tr>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Mid-length &amp; Feature (40+ min)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€16 (Student €13)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€28 (Student €22)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Mid-length &amp; Feature (40+ min)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€16 (Student €13)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€28 (Student €22)</td>
     </tr>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Expanded Cinema (under 40 min)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50 (Student €9)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50 (Student €12)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Expanded Cinema (under 40 min)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€11.50 (Student €9)</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€14.50 (Student €12)</td>
     </tr>
   </tbody>
 </table>
@@ -179,11 +199,8 @@ For more details, visit [chinesefilmfest.de](https://chinesefilmfest.de) or cont
 ## 第五届汉堡华语影像展征片开启
 
 <div style="padding: 16px 20px; background: #e5f8f0; border-left: 4px solid #00bf85; margin: 24px 0;">
-
 <strong>投稿平台</strong>
-
 <p>影片投稿主要通过 <a href="https://filmfreeway.com/ChineseFilmFestivalHamburg">FilmFreeway</a> 进行。中国大陆地区的影片也可选择通过 <a href="https://www.toujiang.today/filmfest/1178">Toujiang（投奖）</a> 投稿。</p>
-
 </div>
 
 第五届汉堡华语影像展（CFFH）现已开放征片。影展预计于 **2027 年 5 月 5 日至 9 日** 期间在德国汉堡举行。
@@ -214,11 +231,34 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 ## 截止日期
 
-| 档位 | 日期 | 时间 |
-|---|---|---|
-| 征片开启 | 2026 年 10 月 28 日 | — |
-| 早鸟截止 | 2026 年 11 月 20 日 | 23:59 CET |
-| 最终截止 | 2026 年 12 月 20 日 | 23:59 CET |
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; table-layout: auto;">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">档位</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">日期</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">时间</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">征片开启</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">2026 年 10 月 28 日</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">—</td>
+    </tr>
+    <tr>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">早鸟截止</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">2026 年 11 月 20 日</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
+    </tr>
+    <tr>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">最终截止</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">2026 年 12 月 20 日</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 **影展预计举办日期：** 2027 年 5 月 5 日至 9 日
 
@@ -277,30 +317,30 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 所有报名费用一经支付概不退还。
 
-<div style="overflow-x: auto;">
-<table style="width: 100%; border-collapse: collapse;">
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; table-layout: auto;">
   <thead>
     <tr>
-      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">类别</th>
-      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">早鸟</th>
-      <th style="text-align: left; padding: 12px; border-bottom: 2px solid #00bf85;">最终</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">类别</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">早鸟</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">最终</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">短片（少于 40 分钟）</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50（学生 €9）</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50（学生 €12）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">短片（少于 40 分钟）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€11.50（学生 €9）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€14.50（学生 €12）</td>
     </tr>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">中长片 / 长片（40 分钟及以上）</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€16（学生 €13）</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€28（学生 €22）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">中长片 / 长片（40 分钟及以上）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€16（学生 €13）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€28（学生 €22）</td>
     </tr>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">延展电影（少于 40 分钟）</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€11.50（学生 €9）</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">€14.50（学生 €12）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">延展电影（少于 40 分钟）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€11.50（学生 €9）</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">€14.50（学生 €12）</td>
     </tr>
   </tbody>
 </table>
