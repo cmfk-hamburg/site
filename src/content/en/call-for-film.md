@@ -10,10 +10,6 @@ htmlTitle: "Call For Entries"
 
 ---
 
-# Call for Entries 2027
-
-## Submissions Open for the 5th Chinese Film Festival Hamburg 2027!
-
 <div style="padding: 16px 20px; background: #e5f8f0; border-left: 4px solid #00bf85; margin: 24px 0;">
 <strong>Submission Platforms</strong>
 <p>Please submit your film primarily through <a href="https://filmfreeway.com/ChineseFilmFestivalHamburg">FilmFreeway</a>. Films from Mainland China may also be submitted via <a href="https://www.toujiang.today/filmfest/1178">Toujiang (投奖)</a>.</p>
