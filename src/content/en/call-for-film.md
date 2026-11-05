@@ -32,11 +32,8 @@ Whether your work embraces traditional narrative or avant-garde experimentation,
 Here are just a few reasons to submit your film:
 
 1. **Platform for Innovation:** We highlight innovative films that challenge conventional boundaries and storytelling methods, allowing groundbreaking projects to be recognized.
-
 2. **Expert Evaluation:** Renowned filmmakers, critics, and industry professionals will be part of our jury, offering insightful feedback and opportunities for professional growth.
-
 3. **International Exposure:** Selected films will be showcased to a diverse audience in Hamburg, expanding visibility for filmmakers beyond their local markets.
-
 4. **Networking Opportunities:** Filmmakers will have the opportunity to connect with industry professionals, other filmmakers, and audience members through screenings, Q&A sessions, and special events.
 
 ## Awards
@@ -52,25 +49,21 @@ Here are just a few reasons to submit your film:
   <thead>
     <tr>
       <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Stage</th>
-      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Date</th>
-      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Time</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">Deadline (23:59 CET)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Submission Opens</td>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">October 28, 2026</td>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">—</td>
     </tr>
     <tr>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Early Bird Deadline</td>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">November 20, 2026</td>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
     </tr>
     <tr>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">Final Deadline</td>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">December 20, 2026</td>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
     </tr>
   </tbody>
 </table>
@@ -91,9 +84,7 @@ Here are just a few reasons to submit your film:
 Films submitted to CFFH must meet **ONE or MORE** of the following criteria:
 
 - **A.** The film is directed by a filmmaker from regions including but not limited to Mainland China, Macau, Taiwan, Hong Kong, Malaysia, Singapore, or of Chinese descent.
-
 - **B.** At least 50% of the creative team members (e.g., director, screenwriter, lead actors, cinematographer, editor) are from Sinophone communities or of Chinese descent.
-
 - **C.** Except for non-dialogue films, at least 50% of the dialogue is in Chinese or Chinese dialects, or the main characters are from Sinophone communities, or the theme involves Chinese culture/identity.
 
 Nationality restrictions for the director or main creative team members do not apply.
@@ -103,7 +94,6 @@ To reduce the workload for the judges, please do not resubmit films that have be
 ### 2. Acceptable Film Types
 
 - **Short and Mid/Feature-length Films:** All genres and subjects are welcome. TV series or corporate videos will not be accepted.
-
 - **Expanded Cinema:** Must be under 40 minutes and fall outside traditional film categorization, such as video art, machinima, poetic images, or docu-fiction. Where a work fits, the festival will work with the exhibition curator to present it in the exhibition space, in a form agreed with the artist.
 
 ### 3. Completion Date Requirement
@@ -196,7 +186,7 @@ For more details, visit [chinesefilmfest.de](https://chinesefilmfest.de) or cont
 
 # 第五届汉堡华语影像展｜2027 征片规则
 
-## 第五届汉堡华语影像展征片开启
+<h2 style="font-weight: 700;">第五届汉堡华语影像展征片开启</h2>
 
 <div style="padding: 16px 20px; background: #e5f8f0; border-left: 4px solid #00bf85; margin: 24px 0;">
 <strong>投稿平台</strong>
@@ -211,50 +201,43 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 无论是传统叙事还是前卫实验，深刻的情感表达还是大胆的美学冒险，CFFH 都欢迎你的作品加入。
 
-## 为何选择 CFFH？
+<h2 style="font-weight: 700;">为何选择 CFFH？</h2>
 
 以下是选择参加 CFFH 的几个理由：
 
 1. **创新平台：** 我们重视那些挑战传统边界与叙事方法的创新作品，为前沿项目提供展示的舞台。
-
 2. **专家评审：** 著名电影导演、影评人及业界专家将作为评审团成员，提供宝贵的反馈与专业成长机会。
-
 3. **国际曝光：** 入选影片将在汉堡面向多元文化背景的观众放映，让作品在更广阔的语境中被观看与讨论。
-
 4. **交流机会：** 通过放映、问答环节和特别活动，电影创作者可以与业界专业人士、其他创作者和观众互动交流。
 
-## 奖项
+<h2 style="font-weight: 700;">奖项</h2>
 
 - **评审团大奖 / 评审团特别提及奖**
 - **协会奖**
 - **观众选择奖**
 
-## 截止日期
+<h2 style="font-weight: 700;">截止日期</h2>
 
 <div style="overflow-x: auto; margin: 24px 0;">
 <table style="width: 100%; border-collapse: collapse; table-layout: auto;">
   <thead>
     <tr>
       <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">档位</th>
-      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">日期</th>
-      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">时间</th>
+      <th style="text-align: left; padding: 14px 16px; border-bottom: 2px solid #00bf85;">截止日期（23:59 CET）</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">征片开启</td>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">2026 年 10 月 28 日</td>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">—</td>
     </tr>
     <tr>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">早鸟截止</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">早鸟</td>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">2026 年 11 月 20 日</td>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
     </tr>
     <tr>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">最终截止</td>
+      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">最终</td>
       <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">2026 年 12 月 20 日</td>
-      <td style="padding: 14px 16px; border-bottom: 1px solid #ddd;">23:59 CET</td>
     </tr>
   </tbody>
 </table>
@@ -262,22 +245,20 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 **影展预计举办日期：** 2027 年 5 月 5 日至 9 日
 
-## 投稿类别
+<h2 style="font-weight: 700;">投稿类别</h2>
 
 - **短片：** 少于 40 分钟
 - **中长片 / 长片：** 40 分钟及以上
 - **延展电影：** 少于 40 分钟
 
-## 规则
+<h2 style="font-weight: 700;">规则</h2>
 
 ### 1. 报名资格
 
 提交作品需满足以下任一条件：
 
 - **A.** 由来自中国大陆、澳门、台湾、香港、马来西亚、新加坡等华语地区或华裔创作者执导。
-
 - **B.** 主创团队（如导演、编剧、主演、摄影或剪辑）中至少 50% 为华人或华裔成员。
-
 - **C.** 除无对白影片外，影片中至少 50% 对白为华语或华语方言，或主要角色为华语社群背景，或作品内容涉及华人/华裔主题。
 
 导演及主创团队成员无国籍限制。
@@ -287,7 +268,6 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 ### 2. 可接受的影像类型
 
 - **短片 / 中长片：** 鼓励提交各类题材与形式的作品，不接受电视剧、企业宣传片等非电影性质影像。
-
 - **延展电影：** 总时长少于 40 分钟，且不适用于传统电影类型划分的作品，如录像、引擎电影、诗影像或 docu-fiction 等。如作品合适，影展将与展览策展人合作，在展览空间呈现，具体形式与创作者商定。
 
 ### 3. 完成日期要求
@@ -362,7 +342,7 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 报名者须对提交作品的所有版权问题承担全部责任。影展对任何版权争议不承担责任，如有侵权或纠纷将取消参展资格。
 
-## 关于我们
+<h2 style="font-weight: 700;">关于我们</h2>
 
 汉堡华语影像展（CFFH）起源于 2022 年由电影导演盛涵琪和艺术家朱志超发起的“河岸放映：华语独立电影展”。至 2022 年底，我们正式注册成立非营利组织汉堡华语电影与媒体艺术协会（Chinesische Medien- und Filmkunst e.V.），负责影展的运营和发展。
 
