@@ -94,8 +94,8 @@ To reduce the workload for the judges, please do not resubmit films that have be
 
 ### 3. Completion Date Requirement
 
-- **Mid-length & Feature Films and Short Films:** Completed after January 1, 2024.
-- **Expanded Cinema:** Completed after January 1, 2021.
+- **Mid-length & Feature Films and Short Films:** Completed after January 1, 2025.
+- **Expanded Cinema:** Completed after January 1, 2023.
 
 ### 4. Film Duration Requirements
 
@@ -268,8 +268,8 @@ CFFH 致力于为华语及相关社群的影像创作提供一个多元、创新
 
 ### 3. 完成日期要求
 
-- **中长片 / 短片：** 须为 2024 年 1 月 1 日以后完成的作品。
-- **延展电影：** 须为 2021 年 1 月 1 日以后完成的作品。
+- **中长片 / 短片：** 须为 2025 年 1 月 1 日以后完成的作品。
+- **延展电影：** 须为 2023 年 1 月 1 日以后完成的作品。
 
 ### 4. 影片时长要求
 
